@@ -268,9 +268,11 @@ func framed_portrait(id: String,minimum: Vector2,compact: bool=false) -> Control
 func texture_for_path(path: String) -> Texture2D:
 	if path.is_empty(): return null
 	if texture_cache.has(path): return texture_cache[path]
-	if not FileAccess.file_exists(path):return null
+	# Exported built-in images are imported resources; their original files may be absent.
+	var builtin_available=path.begins_with("res://") and ResourceLoader.exists(path,"Texture2D")
+	if not builtin_available and not FileAccess.file_exists(path):return null
 	var texture: Texture2D=null
-	if FileAccess.file_exists(path+".import"): texture=load(path)
+	if builtin_available or FileAccess.file_exists(path+".import"): texture=load(path)
 	else:
 		var image=Image.new()
 		if image.load(path)==OK: texture=ImageTexture.create_from_image(image)

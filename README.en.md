@@ -8,9 +8,13 @@ The maintainer shares this project free of charge. It is not affiliated with, pa
 
 ## Download for Windows
 
-Download the [v14.5.0 Windows x64 release](https://github.com/ctyyytc/battlegrounds-open/releases/tag/v14.5.0), extract the entire ZIP, and run `battlegrounds-open.exe`. Keep the adjacent `.pck` file. No Godot installation is required. Resource packs are not included; install or uninstall a separately obtained pack from the in-game resource-pack menu.
+Download the [v14.5.0-r2 Windows x64 release](https://github.com/ctyyytc/battlegrounds-open/releases/tag/v14.5.0-r2), extract the entire ZIP, and run `battlegrounds-open.exe`. Keep the adjacent `.pck` file. No Godot installation is required. Resource packs are not included; install or uninstall a separately obtained pack from the in-game resource-pack menu.
 
 The actual Windows release has been checked for resource-pack installation and persistence across restarts, buying and playing minions, manual saving, loading and continuing in a new process, uninstalling without deleting the source pack or saves, and restoring an existing save after reinstalling its matching pack. The final ZIP was also extracted and tested for starting and saving/loading without a pack. Rejecting a save whose numeric profile does not match is intentional compatibility protection. Other hardware, full natural matches, and all content combinations have not been validated.
+
+r2 is a packaging revision of 14.5.0. It fixes built-in texture loading in exported builds, restoring keyword effects and the Yogg fate wheel, and adds 53 editable SVG sources for the current UI. The game version remains 14.5.0.
+
+r2 additionally checks all 205 consumed effect frames, nine wheel images, trinket reminder pulsing on turns 6/9, removal after purchase, and static reduced-motion reminders. The actual executable extracted from the final ZIP was checked for representative keyword visuals, the wheel, manual saving, and loading in a new process. Production APIs in the exported PCK were also checked for installing/uninstalling/reinstalling pack A and saving/loading across processes; all 922 images matched their source hashes and decoded successfully. These checks use isolated constructed saves; full natural matches and all combinations were not rerun.
 
 ## Run from source
 

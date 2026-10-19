@@ -17,8 +17,8 @@
     },
     {
       "path": "ASSET_LICENSES.md",
-      "bytes": 954,
-      "sha256": "534a0bcac7d39e9c09997f4fe63b76cead5f17eb946b48fa1b76efe4261e3021"
+      "bytes": 983,
+      "sha256": "4be10965aa496263990249ef818923a4797b9dc7b1057dab741a186005abb012"
     },
     {
       "path": "LICENSE",
@@ -27,13 +27,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 5205,
-      "sha256": "3ea17ef69244e7018ef2ccd692cd22f03c6f2372f0ebb5d6f883509d7337aad9"
+      "bytes": 6086,
+      "sha256": "a6234d43666652c78e2fbef88ffd8c4ad5c373bc7b8cfac6f80b533ef3395c26"
     },
     {
       "path": "README.md",
-      "bytes": 3979,
-      "sha256": "dc634b10d24854c83e8f7c3b9f094a3d5328dadcee8aef97425237c544c995ee"
+      "bytes": 4641,
+      "sha256": "f5fe439d9fd85905927559a6138b1c8925293d4f268b75a3e07c29f51c61c67e"
     },
     {
       "path": "RESOURCE_PACKS.md",
@@ -689,6 +689,271 @@
       "path": "assets/ui/round142_b/assets/png/tier_star.png.import",
       "bytes": 963,
       "sha256": "9db9b8346f6b97c65391aaa27bdfd029b8f24885505e1f250a50550de1acab59"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/armor.svg",
+      "bytes": 870,
+      "sha256": "c2941d7b04c0cbdda3b8e1fb64d5ea1c8f3241d918c608ac10476e08bdd06ded"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/armor_compact.svg",
+      "bytes": 827,
+      "sha256": "bad832d65b85f5177d8accee4ae401d334658b118f73378119554259880f1d10"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/attack.svg",
+      "bytes": 867,
+      "sha256": "53ed206934c138b1649317240e2d89706d04ca1aebafc6bd79c1eeab86cf5207"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/available_glow_circle.svg",
+      "bytes": 976,
+      "sha256": "40c7e4fe33b780f242ff2f79f25b09cf6a9f3a2d2df065749bf9f0d0e0f6fcf1"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/available_glow_shield.svg",
+      "bytes": 1003,
+      "sha256": "da385917b63ef4447974946b368f07fbd707d1a3a4f6b74b327008eb93cb9e62"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/available_glow_square.svg",
+      "bytes": 1027,
+      "sha256": "bba1901fee4f08922536c2a7ecaf3d5c0ea2536af75d88198162a0fd66aed1eb"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/button_base.svg",
+      "bytes": 957,
+      "sha256": "ac19de2f848fac693b0cb9d46d70bff0642bf77738cc5c8268e4176ff85dc4da"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/button_dark_gift.svg",
+      "bytes": 858,
+      "sha256": "1f49b77a976cc807f5c615a10831a0d45d2ad33751f8dbc4aecd55dc65112896"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/button_end_turn.svg",
+      "bytes": 852,
+      "sha256": "4c59dbb6ace206d17d2b56b45e75a4b70eac93f5991f4dfe15e22c93cdcca72e"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/button_freeze.svg",
+      "bytes": 930,
+      "sha256": "7badabca1d12327639ec3d46e4c7d121ff9b84964c738be05976cc3c9c10e36d"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/button_greater_trinket.svg",
+      "bytes": 858,
+      "sha256": "e0407b4a544757bb58f4c6d97e32ea7a8bc3652a936faccac26d816f496f4874"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/button_later.svg",
+      "bytes": 851,
+      "sha256": "29bd29b5fd27c120f81333739d012cfb979fe1f9ed75b7f20e2fef904e77e876"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/button_lesser_trinket.svg",
+      "bytes": 855,
+      "sha256": "d99cb54bdc07b1552a7b19245e67b29a1c8214f0248b5f34171b45d6ac465121"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/button_pause.svg",
+      "bytes": 841,
+      "sha256": "03a230e45210ba956a8ff3249dd817903a60d4ef11622fe473d91006e23c2972"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/button_primary.svg",
+      "bytes": 953,
+      "sha256": "d39f487420883f126f246e1ea2b84900929dd8d9d094044d51a4af694290c239"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/button_refresh.svg",
+      "bytes": 884,
+      "sha256": "49e7ef06bb15f7ba8b45f70716c9465df4fee0a7aa0468c340b25418833709cc"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/button_sell.svg",
+      "bytes": 857,
+      "sha256": "75f03b7692e5d5a7870bb0d12ba4c51cbdb74dc69141045908ec1d41f04e9a4b"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/button_upgrade.svg",
+      "bytes": 833,
+      "sha256": "6e5266d2b4be41a2271d437360f8313a1a6bf8f0a3f107ae09c16dc9cfbc0c1d"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/coin.svg",
+      "bytes": 892,
+      "sha256": "80344b0399b85d9c7a5bfe0e7a309435fcfc145ae8bb8d06d7787ae3c0100f28"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/deathrattle_compact.svg",
+      "bytes": 882,
+      "sha256": "cb5c2f4297d75b1100477fc891a2c5ae79c975826fd28573e06495e1e991f611"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/detail_panel.svg",
+      "bytes": 962,
+      "sha256": "03382a652c5d048e84b6829d6a97cc0aac2f38c2b3e545a1baad504a3a4353d0"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/golden_nameplate.svg",
+      "bytes": 846,
+      "sha256": "882258eee0d50cf72197ccb22c55e54e3a3852bf28ce4bd7edd5a4916c8374bb"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/health.svg",
+      "bytes": 884,
+      "sha256": "849d3d95acd8f1f5b9ea35dc14f43e353b5146aa3b2e2b980d69b6763f89d25f"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/hero_frame.svg",
+      "bytes": 1031,
+      "sha256": "7813ad1cd3d4fdf88d62b40f18275f069c3aba6a8e8f9319ff69db27491861f9"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/hero_power_frame.svg",
+      "bytes": 926,
+      "sha256": "1a9710fecaa607c45882093d92a312b2d11ff3ac16732f2944d02bb964a5b4b8"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/hero_power_passive_frame.svg",
+      "bytes": 869,
+      "sha256": "26fb82a1b68707bfa865c2b4e6b85b95145d487d143dd852ec6916a594fc271b"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/hero_power_unavailable_overlay.svg",
+      "bytes": 985,
+      "sha256": "17738194607a867eefb4a825dc98bf404c537063faaa9830f30f54385202c3a9"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/hero_power_used_overlay.svg",
+      "bytes": 934,
+      "sha256": "89fa01fc2c987af380298da802b5733c3898130dbce304fc1b2f34bae8cf1b11"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/keyword_activate.svg",
+      "bytes": 836,
+      "sha256": "60b6ab090dbd3d5a62e33809c5075297addb85e2983c6653fa8ac6a33975736c"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/keyword_avenge.svg",
+      "bytes": 880,
+      "sha256": "59659428f77d13ca47d1f2aaf9180d3c98bdf6c4a6ab7f92d28f72cd3f1db7e0"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/keyword_battlecry.svg",
+      "bytes": 861,
+      "sha256": "df7c510813192cb9196228e95d0788f511125ca5c7635f70822f36b8233274ad"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/keyword_choose_one.svg",
+      "bytes": 862,
+      "sha256": "50955672cc0efe6a6e28ab18ed12d96c79f09b6a18c065324d7b92f1fefb176b"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/keyword_divine_shield.svg",
+      "bytes": 865,
+      "sha256": "b0ccbc55f1fd7d3ef3212bcd3e57bc8bf7faff6723e305dbbc962823113ee5ab"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/keyword_feed.svg",
+      "bytes": 867,
+      "sha256": "6cd14b1f141c6151b1556aa68885e478f39cd062c4f988eb31705dccdcd0bec6"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/keyword_magnetic.svg",
+      "bytes": 878,
+      "sha256": "528f53648dd493e96e96cafd5ad0097ce727a877c5d49162cccb44cbb7aa7a0e"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/keyword_rally.svg",
+      "bytes": 839,
+      "sha256": "76f56c434ff185d58615a043457fd544ad63a3d7a52fd26e0c2b389a52af7777"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/keyword_reborn.svg",
+      "bytes": 874,
+      "sha256": "540393d938af1df0e283c5702a699ed52ff325ce677c640b8504aae9c91fc2fb"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/keyword_spellcraft.svg",
+      "bytes": 880,
+      "sha256": "75b2e6fec5e2bc7aa424c76315a3af7057bfa05e02db94ce33483731af149db0"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/keyword_taunt.svg",
+      "bytes": 867,
+      "sha256": "05c662b4a3cbb5e9dd8fcf37f7dda73ead00eae98b27b000ad74066fb420948e"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/keyword_venomous.svg",
+      "bytes": 887,
+      "sha256": "ab80d1c4b003d89ec456bfce6dd25dab5f5c9383ad34d2e39e00d5af61a95e14"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/keyword_windfury.svg",
+      "bytes": 862,
+      "sha256": "7e207c10cda95c94a5ad17363540caeb0472d6f8fd2a7b2734d5af9fb16862c5"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/minion_card_frame.svg",
+      "bytes": 1104,
+      "sha256": "901e725480606d46767f53bb298c6463fda8e235d8daf496de9b970d56b4fce2"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/minion_card_frame_golden.svg",
+      "bytes": 1583,
+      "sha256": "d5f2f03fd7d5a219fcd4f9ca948653517b2444f262b0996ac342f96ac41e30c3"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/minion_frame.svg",
+      "bytes": 1108,
+      "sha256": "deed971c04095a61d178da06eea673496e767e70a587b0c36a5c5686d3861a5e"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/minion_frame_golden.svg",
+      "bytes": 1583,
+      "sha256": "df8667eee2bdf2c44137a8d7250895caaa26fee3fc0cff1fc61da1cd701ff17b"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/panel_base.svg",
+      "bytes": 962,
+      "sha256": "c11b2bfae22e22ebeb567f8d129335ad5c3dc5fda647f7a05dd3bfa3e7395c89"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/r133_keyword_poisonous.svg",
+      "bytes": 887,
+      "sha256": "1b83375dece5f51dfea15055c8099546ac5a9e1cbebb1335dbdf12c6245ec479"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/spell_card_frame.svg",
+      "bytes": 1104,
+      "sha256": "901e725480606d46767f53bb298c6463fda8e235d8daf496de9b970d56b4fce2"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/spell_card_frame_golden.svg",
+      "bytes": 1583,
+      "sha256": "d5f2f03fd7d5a219fcd4f9ca948653517b2444f262b0996ac342f96ac41e30c3"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/state_hover.svg",
+      "bytes": 769,
+      "sha256": "20e73159ca30b2f52d64a882831bcee19626fbd407b71b3d3b98e09e6db0ab39"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/state_selected.svg",
+      "bytes": 843,
+      "sha256": "4577ea9273d607161e60571823ccd95023456133653cf485423f04525cf668c6"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/status_frozen.svg",
+      "bytes": 916,
+      "sha256": "f5a4652ad94412a9aa8de0a3f8fa3010a0837dbbcb26815d93a18b3c0d800cc3"
+    },
+    {
+      "path": "assets/ui/round142_b/assets/svg/tier_star.svg",
+      "bytes": 867,
+      "sha256": "43bead86f662ca00f0c3afd4890480792e375a82227ccb4b0668df425442e4eb"
     },
     {
       "path": "assets/ui/round143_icons/ASSET_MANIFEST.json",
@@ -6302,8 +6567,8 @@
     },
     {
       "path": "ui/tavern_screen.gd",
-      "bytes": 97567,
-      "sha256": "31fbdc832ea83e39e3b7ecbfac7682ffccbc24210b652368e7cdb46f1f8ecb26"
+      "bytes": 97798,
+      "sha256": "e963b39244dc5ae60891daae6a52a115e79fb367585fa43be0e32ccf97fe82e5"
     },
     {
       "path": "ui/tavern_screen.gd.uid",
