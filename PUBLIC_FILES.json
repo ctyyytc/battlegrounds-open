@@ -16,14 +16,39 @@
       "sha256": "e444b52426b0a20501b589470c7f9cfa09f1bbf1ab4c2aee362a38e8a089bc1a"
     },
     {
-      "path": "app/main.tscn",
-      "bytes": 227,
-      "sha256": "cb06da52401f80f77cc8b5131ee223125cc7e26a36e44eebb6201911b1ee3782"
-    },
-    {
       "path": "ASSET_LICENSES.md",
       "bytes": 954,
       "sha256": "534a0bcac7d39e9c09997f4fe63b76cead5f17eb946b48fa1b76efe4261e3021"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1064,
+      "sha256": "082d7aeb8c5937a64a154f7fa07ce88e0726e6d5842c82ff26c1c7b8505afc6c"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 5205,
+      "sha256": "3ea17ef69244e7018ef2ccd692cd22f03c6f2372f0ebb5d6f883509d7337aad9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3979,
+      "sha256": "dc634b10d24854c83e8f7c3b9f094a3d5328dadcee8aef97425237c544c995ee"
+    },
+    {
+      "path": "RESOURCE_PACKS.md",
+      "bytes": 6565,
+      "sha256": "04db878f9963bd21ebd37ea78e5d7f566d810618b993db25d0f64530c797e9ca"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1170,
+      "sha256": "835536f08b7d2cc73c473478cfdfa662477e11e3f34e8a9064fb498bcb2b9ba3"
+    },
+    {
+      "path": "app/main.tscn",
+      "bytes": 227,
+      "sha256": "cb06da52401f80f77cc8b5131ee223125cc7e26a36e44eebb6201911b1ee3782"
     },
     {
       "path": "assets/placeholder.svg",
@@ -5921,19 +5946,9 @@
       "sha256": "4b8f0f083edb167cf52a533f3c355475f235a734c31992b4ab72896efa05ae8e"
     },
     {
-      "path": "LICENSE",
-      "bytes": 1064,
-      "sha256": "082d7aeb8c5937a64a154f7fa07ce88e0726e6d5842c82ff26c1c7b8505afc6c"
-    },
-    {
       "path": "project.godot",
       "bytes": 917,
       "sha256": "2379cf26a467b96221c141608b4ef91935b9e977642be83263bd037ce4e2dd51"
-    },
-    {
-      "path": "README.md",
-      "bytes": 3844,
-      "sha256": "dd88a708e95a5f7a6734edb178b2c290eda1cf1c14378d19d9126440ee8c3588"
     },
     {
       "path": "resource_contract/fields.json",
@@ -5954,16 +5969,6 @@
       "path": "resource_contract/texts.json",
       "bytes": 201839,
       "sha256": "87a3ba1d2ad210f7f7c270e152cd5023b783ff3e318540057cfbca69cf362aeb"
-    },
-    {
-      "path": "RESOURCE_PACKS.md",
-      "bytes": 6565,
-      "sha256": "04db878f9963bd21ebd37ea78e5d7f566d810618b993db25d0f64530c797e9ca"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 1170,
-      "sha256": "835536f08b7d2cc73c473478cfdfa662477e11e3f34e8a9064fb498bcb2b9ba3"
     },
     {
       "path": "tools/public_copy.py",
