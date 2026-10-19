@@ -1,0 +1,3156 @@
+{
+  "rows": [
+    {
+      "content_id": "BG30_MagicItem_416",
+      "asset_key": "BG30_MagicItem_416:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_420",
+      "asset_key": "BG30_MagicItem_420:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_423",
+      "asset_key": "BG30_MagicItem_423:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_425",
+      "asset_key": "BG30_MagicItem_425:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_426",
+      "asset_key": "BG30_MagicItem_426:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_430",
+      "asset_key": "BG30_MagicItem_430:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_434",
+      "asset_key": "BG30_MagicItem_434:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_435",
+      "asset_key": "BG30_MagicItem_435:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_703",
+      "asset_key": "BG30_MagicItem_703:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_705",
+      "asset_key": "BG30_MagicItem_705:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_706",
+      "asset_key": "BG30_MagicItem_706:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_707",
+      "asset_key": "BG30_MagicItem_707:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_847",
+      "asset_key": "BG30_MagicItem_847:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_888",
+      "asset_key": "BG30_MagicItem_888:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_891",
+      "asset_key": "BG30_MagicItem_891:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_973",
+      "asset_key": "BG30_MagicItem_973:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_994",
+      "asset_key": "BG30_MagicItem_994:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_998",
+      "asset_key": "BG30_MagicItem_998:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_271",
+      "asset_key": "BG32_MagicItem_271:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_361",
+      "asset_key": "BG32_MagicItem_361:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_428",
+      "asset_key": "BG32_MagicItem_428:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_817",
+      "asset_key": "BG32_MagicItem_817:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_858",
+      "asset_key": "BG32_MagicItem_858:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_814",
+      "asset_key": "BG35_MagicItem_814:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_815",
+      "asset_key": "BG35_MagicItem_815:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_816",
+      "asset_key": "BG35_MagicItem_816:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_817",
+      "asset_key": "BG35_MagicItem_817:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_818",
+      "asset_key": "BG35_MagicItem_818:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_821",
+      "asset_key": "BG35_MagicItem_821:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_931",
+      "asset_key": "BG35_MagicItem_931:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_206",
+      "asset_key": "BG36_MagicItem_206:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_208",
+      "asset_key": "BG36_MagicItem_208:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_211",
+      "asset_key": "BG36_MagicItem_211:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_301",
+      "asset_key": "BG30_MagicItem_301:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_547",
+      "asset_key": "BG30_MagicItem_547:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_713",
+      "asset_key": "BG30_MagicItem_713:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_276",
+      "asset_key": "BG32_MagicItem_276:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_306",
+      "asset_key": "BG35_MagicItem_306:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_544",
+      "asset_key": "BG30_MagicItem_544:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_831",
+      "asset_key": "BG32_MagicItem_831:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_851",
+      "asset_key": "BG35_MagicItem_851:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_300",
+      "asset_key": "BG36_MagicItem_300:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_390",
+      "asset_key": "BG36_MagicItem_390:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_841",
+      "asset_key": "BG30_MagicItem_841:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_868",
+      "asset_key": "BG30_MagicItem_868:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_821",
+      "asset_key": "BG32_MagicItem_821:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_822",
+      "asset_key": "BG32_MagicItem_822:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_800",
+      "asset_key": "BG36_MagicItem_800:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_801",
+      "asset_key": "BG36_MagicItem_801:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_303",
+      "asset_key": "BG30_MagicItem_303:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_170",
+      "asset_key": "BG32_MagicItem_170:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_301",
+      "asset_key": "BG35_MagicItem_301:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_302",
+      "asset_key": "BG35_MagicItem_302:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_810",
+      "asset_key": "BG36_MagicItem_810:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_812",
+      "asset_key": "BG36_MagicItem_812:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_924",
+      "asset_key": "BG30_MagicItem_924:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_350",
+      "asset_key": "BG32_MagicItem_350:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_951",
+      "asset_key": "BG32_MagicItem_951:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_957",
+      "asset_key": "BG32_MagicItem_957:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_890",
+      "asset_key": "BG35_MagicItem_890:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_301",
+      "asset_key": "BG36_MagicItem_301:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_302",
+      "asset_key": "BG36_MagicItem_302:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_422",
+      "asset_key": "BG30_MagicItem_422:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_917",
+      "asset_key": "BG30_MagicItem_917:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_930",
+      "asset_key": "BG32_MagicItem_930:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_931",
+      "asset_key": "BG32_MagicItem_931:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_920",
+      "asset_key": "BG35_MagicItem_920:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_305",
+      "asset_key": "BG36_MagicItem_305:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_931",
+      "asset_key": "BG30_MagicItem_931:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_860",
+      "asset_key": "BG32_MagicItem_860:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_872",
+      "asset_key": "BG35_MagicItem_872:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_200",
+      "asset_key": "BG36_MagicItem_200:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_201",
+      "asset_key": "BG36_MagicItem_201:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_700",
+      "asset_key": "BG30_MagicItem_700:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_411",
+      "asset_key": "BG30_MagicItem_411:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_988",
+      "asset_key": "BG30_MagicItem_988:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_808",
+      "asset_key": "BG32_MagicItem_808:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_303",
+      "asset_key": "BG36_MagicItem_303:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_307",
+      "asset_key": "BG36_MagicItem_307:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_914",
+      "asset_key": "BG30_MagicItem_914:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_893",
+      "asset_key": "BG32_MagicItem_893:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_894",
+      "asset_key": "BG32_MagicItem_894:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_305",
+      "asset_key": "BG35_MagicItem_305:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_900",
+      "asset_key": "BG30_MagicItem_900:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_902",
+      "asset_key": "BG30_MagicItem_902:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_962",
+      "asset_key": "BG30_MagicItem_962:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_416",
+      "asset_key": "BG32_MagicItem_416:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_840",
+      "asset_key": "BG35_MagicItem_840:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_203",
+      "asset_key": "BG36_MagicItem_203:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_202",
+      "asset_key": "BG36_MagicItem_202:icon:normal:neutral",
+      "category": "lesser_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_420t",
+      "asset_key": "BG30_MagicItem_420t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_426t",
+      "asset_key": "BG30_MagicItem_426t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_801",
+      "asset_key": "BG30_MagicItem_801:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_876",
+      "asset_key": "BG30_MagicItem_876:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_993",
+      "asset_key": "BG30_MagicItem_993:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_996",
+      "asset_key": "BG30_MagicItem_996:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_361t",
+      "asset_key": "BG32_MagicItem_361t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_362t",
+      "asset_key": "BG32_MagicItem_362t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_366",
+      "asset_key": "BG32_MagicItem_366:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_367",
+      "asset_key": "BG32_MagicItem_367:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_807",
+      "asset_key": "BG32_MagicItem_807:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_901",
+      "asset_key": "BG32_MagicItem_901:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_812",
+      "asset_key": "BG35_MagicItem_812:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_816t",
+      "asset_key": "BG35_MagicItem_816t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_820",
+      "asset_key": "BG35_MagicItem_820:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_821t",
+      "asset_key": "BG35_MagicItem_821t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_930",
+      "asset_key": "BG35_MagicItem_930:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_931t",
+      "asset_key": "BG35_MagicItem_931t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_309",
+      "asset_key": "BG36_MagicItem_309:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_370",
+      "asset_key": "BG36_MagicItem_370:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_371",
+      "asset_key": "BG36_MagicItem_371:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_372",
+      "asset_key": "BG36_MagicItem_372:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        101,
+        81
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_406",
+      "asset_key": "BG30_MagicItem_406:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_547t",
+      "asset_key": "BG30_MagicItem_547t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_886",
+      "asset_key": "BG30_MagicItem_886:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_989t",
+      "asset_key": "BG30_MagicItem_989t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_205",
+      "asset_key": "BG32_MagicItem_205:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_270t",
+      "asset_key": "BG32_MagicItem_270t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_732",
+      "asset_key": "BG35_MagicItem_732:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_733",
+      "asset_key": "BG35_MagicItem_733:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_204",
+      "asset_key": "BG36_MagicItem_204:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_216",
+      "asset_key": "BG36_MagicItem_216:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_217",
+      "asset_key": "BG36_MagicItem_217:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_544t",
+      "asset_key": "BG30_MagicItem_544t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_951",
+      "asset_key": "BG30_MagicItem_951:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_952",
+      "asset_key": "BG30_MagicItem_952:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_888",
+      "asset_key": "BG32_MagicItem_888:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_850t",
+      "asset_key": "BG35_MagicItem_850t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_861",
+      "asset_key": "BG35_MagicItem_861:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_862",
+      "asset_key": "BG35_MagicItem_862:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_863",
+      "asset_key": "BG35_MagicItem_863:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_541",
+      "asset_key": "BG30_MagicItem_541:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_701",
+      "asset_key": "BG30_MagicItem_701:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_879t",
+      "asset_key": "BG30_MagicItem_879t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_154",
+      "asset_key": "BG35_MagicItem_154:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_830",
+      "asset_key": "BG36_MagicItem_830:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_156",
+      "asset_key": "BG35_MagicItem_156:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_942",
+      "asset_key": "BG30_MagicItem_942:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_831",
+      "asset_key": "BG36_MagicItem_831:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_545",
+      "asset_key": "BG30_MagicItem_545:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_172",
+      "asset_key": "BG32_MagicItem_172:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_283",
+      "asset_key": "BG32_MagicItem_283:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_300t",
+      "asset_key": "BG35_MagicItem_300t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_740",
+      "asset_key": "BG35_MagicItem_740:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_741",
+      "asset_key": "BG35_MagicItem_741:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_742",
+      "asset_key": "BG35_MagicItem_742:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_743",
+      "asset_key": "BG35_MagicItem_743:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_810t",
+      "asset_key": "BG36_MagicItem_810t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_840",
+      "asset_key": "BG36_MagicItem_840:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_841",
+      "asset_key": "BG36_MagicItem_841:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_439",
+      "asset_key": "BG30_MagicItem_439:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_924t",
+      "asset_key": "BG30_MagicItem_924t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_710",
+      "asset_key": "BG35_MagicItem_710:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_711",
+      "asset_key": "BG35_MagicItem_711:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_712",
+      "asset_key": "BG35_MagicItem_712:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_713",
+      "asset_key": "BG35_MagicItem_713:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_302t",
+      "asset_key": "BG36_MagicItem_302t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_363",
+      "asset_key": "BG36_MagicItem_363:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_801t",
+      "asset_key": "BG32_MagicItem_801t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_422t",
+      "asset_key": "BG30_MagicItem_422t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_919",
+      "asset_key": "BG30_MagicItem_919:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_920",
+      "asset_key": "BG30_MagicItem_920:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_999",
+      "asset_key": "BG30_MagicItem_999:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_920",
+      "asset_key": "BG32_MagicItem_920:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_922",
+      "asset_key": "BG32_MagicItem_922:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_923",
+      "asset_key": "BG35_MagicItem_923:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_924",
+      "asset_key": "BG35_MagicItem_924:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_361",
+      "asset_key": "BG36_MagicItem_361:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_362",
+      "asset_key": "BG36_MagicItem_362:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_310",
+      "asset_key": "BG30_MagicItem_310:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_540",
+      "asset_key": "BG30_MagicItem_540:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_200",
+      "asset_key": "BG32_MagicItem_200:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_306",
+      "asset_key": "BG32_MagicItem_306:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_860t",
+      "asset_key": "BG32_MagicItem_860t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_700",
+      "asset_key": "BG35_MagicItem_700:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_701",
+      "asset_key": "BG35_MagicItem_701:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_212",
+      "asset_key": "BG36_MagicItem_212:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_410t2",
+      "asset_key": "BG30_MagicItem_410t2:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_442",
+      "asset_key": "BG30_MagicItem_442:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_546",
+      "asset_key": "BG30_MagicItem_546:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_988t",
+      "asset_key": "BG30_MagicItem_988t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_808t",
+      "asset_key": "BG32_MagicItem_808t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_303t",
+      "asset_key": "BG36_MagicItem_303t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_308",
+      "asset_key": "BG36_MagicItem_308:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_914t",
+      "asset_key": "BG30_MagicItem_914t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_926",
+      "asset_key": "BG32_MagicItem_926:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_309",
+      "asset_key": "BG35_MagicItem_309:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_750",
+      "asset_key": "BG35_MagicItem_750:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_753",
+      "asset_key": "BG35_MagicItem_753:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_850",
+      "asset_key": "BG36_MagicItem_850:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_995",
+      "asset_key": "BG30_MagicItem_995:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG32_MagicItem_363",
+      "asset_key": "BG32_MagicItem_363:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_840t",
+      "asset_key": "BG35_MagicItem_840t:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_215",
+      "asset_key": "BG36_MagicItem_215:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG36_MagicItem_214",
+      "asset_key": "BG36_MagicItem_214:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG30_MagicItem_418",
+      "asset_key": "BG30_MagicItem_418:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
+      "content_id": "BG35_MagicItem_755",
+      "asset_key": "BG35_MagicItem_755:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    }
+  ]
+}

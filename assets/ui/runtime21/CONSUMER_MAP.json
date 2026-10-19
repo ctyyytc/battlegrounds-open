@@ -1,0 +1,4527 @@
+{
+  "revision": "runtime21-r1",
+  "manifest_sha256": "2a365f063595238490a93b144ff12343f18b2a6dcbde5a53dce926a5b900d741",
+  "records": {
+    "fx.shared.backplate": {
+      "asset_key": "fx.shared.backplate",
+      "content_id": "KEYWORD_SHARED",
+      "category": "keyword_effect",
+      "role": "backplate",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "source_url": null,
+      "source_size": [
+        28,
+        28
+      ],
+      "display_size": [
+        28,
+        28
+      ],
+      "anchor": "attachment",
+      "offset": [
+        0,
+        0
+      ],
+      "z_index": 35,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "playback_mode": "static",
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "frame_count": 1,
+      "loop": false,
+      "frames": [
+        {
+          "path": "textures/shared/backplate.png",
+          "local_path": "textures/shared/backplate.png",
+          "sha256": "0f6620f523ee9cc92a2123fedc4d7f512016a4b148ec615f9d0c1e9b90b7c24f",
+          "width": 28,
+          "height": 28,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.shared.backplate.00:texture:normal:neutral"
+        }
+      ]
+    },
+    "fx.taunt.physical_frame.active": {
+      "asset_key": "fx.taunt.physical_frame.active",
+      "content_id": "TAUNT",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "physical_frame",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        256,
+        256
+      ],
+      "display_size": [
+        256,
+        256
+      ],
+      "anchor": "body",
+      "z_index": 5,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/taunt/physical_frame__active__00.png",
+          "local_path": "textures/taunt/physical_frame__active__00.png",
+          "sha256": "5ac823fa17385e79ee36815d63e8812b1972438ec8bf7db4c08587e4b2236d1b",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.taunt.physical_frame.active.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "active",
+      "atlas": {
+        "path": "textures/taunt/physical_frame__active__atlas.png",
+        "local_path": "textures/taunt/physical_frame__active__atlas.png",
+        "sha256": "5ac823fa17385e79ee36815d63e8812b1972438ec8bf7db4c08587e4b2236d1b",
+        "width": 256,
+        "height": 256,
+        "mime_type": "image/png",
+        "columns": 1,
+        "rows": 1,
+        "cell_size": [
+          256,
+          256
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            256,
+            256
+          ]
+        ]
+      }
+    },
+    "fx.divine_shield.energy_shell.active": {
+      "asset_key": "fx.divine_shield.energy_shell.active",
+      "content_id": "DIVINE_SHIELD",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "energy_shell",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        256,
+        256
+      ],
+      "display_size": [
+        256,
+        256
+      ],
+      "anchor": "body",
+      "z_index": 25,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/divine_shield/energy_shell__active__00.png",
+          "local_path": "textures/divine_shield/energy_shell__active__00.png",
+          "sha256": "33b82752e9c21d59a25fad3ced70f3b36a15a6eee85a69bd06f96142548382a4",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.energy_shell.active.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/energy_shell__active__01.png",
+          "local_path": "textures/divine_shield/energy_shell__active__01.png",
+          "sha256": "72a964dac6a1286f4088487375d7a2bba2cb46143df078ce22923d689ea25fb6",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.energy_shell.active.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/energy_shell__active__02.png",
+          "local_path": "textures/divine_shield/energy_shell__active__02.png",
+          "sha256": "9ad82c190ae7fe93deafcbdd848ff18c8b708575fee777a10d68aa09a6b48142",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.energy_shell.active.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/energy_shell__active__03.png",
+          "local_path": "textures/divine_shield/energy_shell__active__03.png",
+          "sha256": "6b86fcf1563bb90c9c29e662f6230bbbc277ccff1e0c07380e20b18153006bd1",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.energy_shell.active.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/energy_shell__active__04.png",
+          "local_path": "textures/divine_shield/energy_shell__active__04.png",
+          "sha256": "9ad82c190ae7fe93deafcbdd848ff18c8b708575fee777a10d68aa09a6b48142",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.energy_shell.active.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/energy_shell__active__05.png",
+          "local_path": "textures/divine_shield/energy_shell__active__05.png",
+          "sha256": "72a964dac6a1286f4088487375d7a2bba2cb46143df078ce22923d689ea25fb6",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.energy_shell.active.05:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/energy_shell__active__06.png",
+          "local_path": "textures/divine_shield/energy_shell__active__06.png",
+          "sha256": "33b82752e9c21d59a25fad3ced70f3b36a15a6eee85a69bd06f96142548382a4",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.energy_shell.active.06:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/energy_shell__active__07.png",
+          "local_path": "textures/divine_shield/energy_shell__active__07.png",
+          "sha256": "5be7da4ad03ab4f35f21d470b07a071f7cbff6fa206b4720c16134ff0c649c47",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.energy_shell.active.07:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/energy_shell__active__08.png",
+          "local_path": "textures/divine_shield/energy_shell__active__08.png",
+          "sha256": "03445a2981ed815673f712c8a0be0d5cd2661556dcaa20a5bc2d62f3d9ba17a3",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.energy_shell.active.08:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/energy_shell__active__09.png",
+          "local_path": "textures/divine_shield/energy_shell__active__09.png",
+          "sha256": "749fde1574bf15083441d1e66691e3a60f74bf49b4db4ea2cfaa243acddcbbb3",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.energy_shell.active.09:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/energy_shell__active__10.png",
+          "local_path": "textures/divine_shield/energy_shell__active__10.png",
+          "sha256": "03445a2981ed815673f712c8a0be0d5cd2661556dcaa20a5bc2d62f3d9ba17a3",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.energy_shell.active.10:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/energy_shell__active__11.png",
+          "local_path": "textures/divine_shield/energy_shell__active__11.png",
+          "sha256": "1aeeb200234276d96ad5dfcbcba65a279fbf87ebefadbc24eafe902d0a306451",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.energy_shell.active.11:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 12,
+      "duration_ms": 1600,
+      "frame_duration_ms": 133.33333333333334,
+      "loop": true,
+      "playback_mode": "loop",
+      "state": "active",
+      "atlas": {
+        "path": "textures/divine_shield/energy_shell__active__atlas.png",
+        "local_path": "textures/divine_shield/energy_shell__active__atlas.png",
+        "sha256": "1c219bd4cd769ad6102808e1f90d928d9bf605de95e03e4e0e411cfa830639ed",
+        "width": 1536,
+        "height": 512,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 2,
+        "cell_size": [
+          256,
+          256
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            256,
+            256
+          ],
+          [
+            256,
+            0,
+            256,
+            256
+          ],
+          [
+            512,
+            0,
+            256,
+            256
+          ],
+          [
+            768,
+            0,
+            256,
+            256
+          ],
+          [
+            1024,
+            0,
+            256,
+            256
+          ],
+          [
+            1280,
+            0,
+            256,
+            256
+          ],
+          [
+            0,
+            256,
+            256,
+            256
+          ],
+          [
+            256,
+            256,
+            256,
+            256
+          ],
+          [
+            512,
+            256,
+            256,
+            256
+          ],
+          [
+            768,
+            256,
+            256,
+            256
+          ],
+          [
+            1024,
+            256,
+            256,
+            256
+          ],
+          [
+            1280,
+            256,
+            256,
+            256
+          ]
+        ]
+      }
+    },
+    "fx.divine_shield.consume_event.consumed": {
+      "asset_key": "fx.divine_shield.consume_event.consumed",
+      "content_id": "DIVINE_SHIELD",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "consume_event",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        256,
+        256
+      ],
+      "display_size": [
+        256,
+        256
+      ],
+      "anchor": "body",
+      "z_index": 28,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/divine_shield/consume_event__consumed__00.png",
+          "local_path": "textures/divine_shield/consume_event__consumed__00.png",
+          "sha256": "9a6f08f7a1f781b1bee125a00ab1440ba58fba574b00b487d1f8dec837f9d8e5",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.consume_event.consumed.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/consume_event__consumed__01.png",
+          "local_path": "textures/divine_shield/consume_event__consumed__01.png",
+          "sha256": "615e3a138aa476c37b949db9a738284bbcc3591dec6b585f5f53eeb6e0804d9b",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.consume_event.consumed.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/consume_event__consumed__02.png",
+          "local_path": "textures/divine_shield/consume_event__consumed__02.png",
+          "sha256": "80220788cf539d0ccc5cbc63d25310bd216478153a8f49cb68427d4c7e9ff4f3",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.consume_event.consumed.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/consume_event__consumed__03.png",
+          "local_path": "textures/divine_shield/consume_event__consumed__03.png",
+          "sha256": "4e9343fdac9f6c7fccea01b48947faea5ea4272582604473a58582e57b9395d7",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.consume_event.consumed.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/consume_event__consumed__04.png",
+          "local_path": "textures/divine_shield/consume_event__consumed__04.png",
+          "sha256": "71dc2d359a5675ba62b9c26160247fc4acdef9888c4d9eee8ad13251ec7a036e",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.consume_event.consumed.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/divine_shield/consume_event__consumed__05.png",
+          "local_path": "textures/divine_shield/consume_event__consumed__05.png",
+          "sha256": "aebc86755d7beb8b01bcd992ab44e1133afcb473511b7832eb82228be275473f",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.divine_shield.consume_event.consumed.05:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 6,
+      "duration_ms": 360,
+      "frame_duration_ms": 60,
+      "loop": false,
+      "playback_mode": "one_shot",
+      "state": "consumed",
+      "atlas": {
+        "path": "textures/divine_shield/consume_event__consumed__atlas.png",
+        "local_path": "textures/divine_shield/consume_event__consumed__atlas.png",
+        "sha256": "3560d9e6d71bb030fc3dda01e691ddf612068ac927ba94e2236303181b8d4319",
+        "width": 1536,
+        "height": 256,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 1,
+        "cell_size": [
+          256,
+          256
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            256,
+            256
+          ],
+          [
+            256,
+            0,
+            256,
+            256
+          ],
+          [
+            512,
+            0,
+            256,
+            256
+          ],
+          [
+            768,
+            0,
+            256,
+            256
+          ],
+          [
+            1024,
+            0,
+            256,
+            256
+          ],
+          [
+            1280,
+            0,
+            256,
+            256
+          ]
+        ]
+      }
+    },
+    "fx.reborn.fractured_shell.active": {
+      "asset_key": "fx.reborn.fractured_shell.active",
+      "content_id": "REBORN",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "fractured_shell",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        256,
+        256
+      ],
+      "display_size": [
+        256,
+        256
+      ],
+      "anchor": "body",
+      "z_index": 20,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/reborn/fractured_shell__active__00.png",
+          "local_path": "textures/reborn/fractured_shell__active__00.png",
+          "sha256": "8084bde5b5166aaad7852cf13019fa446494b5d297268543aa4ef909c9359eed",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.fractured_shell.active.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/fractured_shell__active__01.png",
+          "local_path": "textures/reborn/fractured_shell__active__01.png",
+          "sha256": "3f4c4767e25f3c14dc41d14b8363a18122eed1ab594deea4a1da62e99690b14c",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.fractured_shell.active.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/fractured_shell__active__02.png",
+          "local_path": "textures/reborn/fractured_shell__active__02.png",
+          "sha256": "487fe6490b3899cd1d0d51db465c5e25f6ac71ca9c6afb5f7daf09852cecaa9a",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.fractured_shell.active.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/fractured_shell__active__03.png",
+          "local_path": "textures/reborn/fractured_shell__active__03.png",
+          "sha256": "7edbb87c6af8b58b7353e0d7d908f0975954a99bece34ee848f8f901fa0f8bc4",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.fractured_shell.active.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/fractured_shell__active__04.png",
+          "local_path": "textures/reborn/fractured_shell__active__04.png",
+          "sha256": "487fe6490b3899cd1d0d51db465c5e25f6ac71ca9c6afb5f7daf09852cecaa9a",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.fractured_shell.active.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/fractured_shell__active__05.png",
+          "local_path": "textures/reborn/fractured_shell__active__05.png",
+          "sha256": "3f4c4767e25f3c14dc41d14b8363a18122eed1ab594deea4a1da62e99690b14c",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.fractured_shell.active.05:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/fractured_shell__active__06.png",
+          "local_path": "textures/reborn/fractured_shell__active__06.png",
+          "sha256": "8084bde5b5166aaad7852cf13019fa446494b5d297268543aa4ef909c9359eed",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.fractured_shell.active.06:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/fractured_shell__active__07.png",
+          "local_path": "textures/reborn/fractured_shell__active__07.png",
+          "sha256": "07c115c1a0057ac91ece3683a9a323d9dd31c5919247d678e457a43e6b7012eb",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.fractured_shell.active.07:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/fractured_shell__active__08.png",
+          "local_path": "textures/reborn/fractured_shell__active__08.png",
+          "sha256": "056fbbebaac448cc9a53709417e3752d81ecaee947d4624a4e7c8ac7121f424b",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.fractured_shell.active.08:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/fractured_shell__active__09.png",
+          "local_path": "textures/reborn/fractured_shell__active__09.png",
+          "sha256": "56763319842375d5361dfb0d084fe5bdf015125a7acc0af25fc88007b8c7f212",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.fractured_shell.active.09:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/fractured_shell__active__10.png",
+          "local_path": "textures/reborn/fractured_shell__active__10.png",
+          "sha256": "056fbbebaac448cc9a53709417e3752d81ecaee947d4624a4e7c8ac7121f424b",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.fractured_shell.active.10:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/fractured_shell__active__11.png",
+          "local_path": "textures/reborn/fractured_shell__active__11.png",
+          "sha256": "07c115c1a0057ac91ece3683a9a323d9dd31c5919247d678e457a43e6b7012eb",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.fractured_shell.active.11:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 12,
+      "duration_ms": 1600,
+      "frame_duration_ms": 133.33333333333334,
+      "loop": true,
+      "playback_mode": "loop",
+      "state": "active",
+      "atlas": {
+        "path": "textures/reborn/fractured_shell__active__atlas.png",
+        "local_path": "textures/reborn/fractured_shell__active__atlas.png",
+        "sha256": "1109f63f22e4b2ab8f4673b235f7a45f820392ffc4f461dad306bcfdffab8a95",
+        "width": 1536,
+        "height": 512,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 2,
+        "cell_size": [
+          256,
+          256
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            256,
+            256
+          ],
+          [
+            256,
+            0,
+            256,
+            256
+          ],
+          [
+            512,
+            0,
+            256,
+            256
+          ],
+          [
+            768,
+            0,
+            256,
+            256
+          ],
+          [
+            1024,
+            0,
+            256,
+            256
+          ],
+          [
+            1280,
+            0,
+            256,
+            256
+          ],
+          [
+            0,
+            256,
+            256,
+            256
+          ],
+          [
+            256,
+            256,
+            256,
+            256
+          ],
+          [
+            512,
+            256,
+            256,
+            256
+          ],
+          [
+            768,
+            256,
+            256,
+            256
+          ],
+          [
+            1024,
+            256,
+            256,
+            256
+          ],
+          [
+            1280,
+            256,
+            256,
+            256
+          ]
+        ]
+      }
+    },
+    "fx.reborn.consume_event.consumed": {
+      "asset_key": "fx.reborn.consume_event.consumed",
+      "content_id": "REBORN",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "consume_event",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        256,
+        256
+      ],
+      "display_size": [
+        256,
+        256
+      ],
+      "anchor": "body",
+      "z_index": 28,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/reborn/consume_event__consumed__00.png",
+          "local_path": "textures/reborn/consume_event__consumed__00.png",
+          "sha256": "3537e91c11bee837babe2f18bbf279cde40b6bbdaf40410a713741da959a217b",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.consume_event.consumed.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/consume_event__consumed__01.png",
+          "local_path": "textures/reborn/consume_event__consumed__01.png",
+          "sha256": "b3896908423e36052b733f7882ccbaf9ac2f8e21e8cb273e20047098d49858e7",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.consume_event.consumed.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/consume_event__consumed__02.png",
+          "local_path": "textures/reborn/consume_event__consumed__02.png",
+          "sha256": "4d410c2078afe09f02749191d77e208b3b2eafbd5bf144732ac6f452ac75ba3a",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.consume_event.consumed.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/consume_event__consumed__03.png",
+          "local_path": "textures/reborn/consume_event__consumed__03.png",
+          "sha256": "574d0647f3cf864d5dc23b2d781112fc747f66656ef5319590c7d8133f92f0af",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.consume_event.consumed.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/consume_event__consumed__04.png",
+          "local_path": "textures/reborn/consume_event__consumed__04.png",
+          "sha256": "c10a96302d9c952cb229f3f964f3d4f6e66f8fdb7d82cb5600da1e9941bd1a59",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.consume_event.consumed.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/reborn/consume_event__consumed__05.png",
+          "local_path": "textures/reborn/consume_event__consumed__05.png",
+          "sha256": "aebc86755d7beb8b01bcd992ab44e1133afcb473511b7832eb82228be275473f",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.reborn.consume_event.consumed.05:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 6,
+      "duration_ms": 360,
+      "frame_duration_ms": 60,
+      "loop": false,
+      "playback_mode": "one_shot",
+      "state": "consumed",
+      "atlas": {
+        "path": "textures/reborn/consume_event__consumed__atlas.png",
+        "local_path": "textures/reborn/consume_event__consumed__atlas.png",
+        "sha256": "132b772f9484ebb6248c5db0428b19d84e62df68aeabdbcfc8cd502670f1f5bb",
+        "width": 1536,
+        "height": 256,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 1,
+        "cell_size": [
+          256,
+          256
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            256,
+            256
+          ],
+          [
+            256,
+            0,
+            256,
+            256
+          ],
+          [
+            512,
+            0,
+            256,
+            256
+          ],
+          [
+            768,
+            0,
+            256,
+            256
+          ],
+          [
+            1024,
+            0,
+            256,
+            256
+          ],
+          [
+            1280,
+            0,
+            256,
+            256
+          ]
+        ]
+      }
+    },
+    "fx.windfury.wind_back.active": {
+      "asset_key": "fx.windfury.wind_back.active",
+      "content_id": "WINDFURY",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "wind_back",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        256,
+        256
+      ],
+      "display_size": [
+        256,
+        256
+      ],
+      "anchor": "body",
+      "z_index": 2,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/windfury/wind_back__active__00.png",
+          "local_path": "textures/windfury/wind_back__active__00.png",
+          "sha256": "80f8acfd5cda110d34d1ef191490ceb4160c54ed4ca7ed63500be80ad3fd5e64",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_back.active.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_back__active__01.png",
+          "local_path": "textures/windfury/wind_back__active__01.png",
+          "sha256": "8995a6107774e4fbbe7130033ad805a70f30fa70970759e51afe7caad854e534",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_back.active.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_back__active__02.png",
+          "local_path": "textures/windfury/wind_back__active__02.png",
+          "sha256": "f529866863ef48fb4b452a21b8d57d18198846cb698a5b65d2738c7c6946c4f4",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_back.active.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_back__active__03.png",
+          "local_path": "textures/windfury/wind_back__active__03.png",
+          "sha256": "0867def22f41e92c16b167a5e9ca6a6b89395c48deeb38f2145a68997ace2a0c",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_back.active.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_back__active__04.png",
+          "local_path": "textures/windfury/wind_back__active__04.png",
+          "sha256": "46d6303f6d7a319849921a5e37c6ece4f2dc3331d0bfbd9ce0bbb6f620018d2c",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_back.active.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_back__active__05.png",
+          "local_path": "textures/windfury/wind_back__active__05.png",
+          "sha256": "d2f2e16f100101f53d941208bbe29d9e8b5451f80907fbb8ff25628134e3d0eb",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_back.active.05:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_back__active__06.png",
+          "local_path": "textures/windfury/wind_back__active__06.png",
+          "sha256": "ad4a0d9b80589e498a2ca90cde564eae60a356afbe1d130c09b95257bbf6315d",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_back.active.06:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_back__active__07.png",
+          "local_path": "textures/windfury/wind_back__active__07.png",
+          "sha256": "a5189faa64605064913556f8efb9ace22a9753f209ec1d26191e1c2b5f4040f1",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_back.active.07:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_back__active__08.png",
+          "local_path": "textures/windfury/wind_back__active__08.png",
+          "sha256": "0375ca465500994e47d37e2a5dda0f9a04396a8ed7545d3710e3cad3c92c4c2d",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_back.active.08:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_back__active__09.png",
+          "local_path": "textures/windfury/wind_back__active__09.png",
+          "sha256": "92ede1bbb8a90d0620f05f446cd8aaaf71c77ba673b8d26df619f0cee90ecfa0",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_back.active.09:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_back__active__10.png",
+          "local_path": "textures/windfury/wind_back__active__10.png",
+          "sha256": "3b9fbbc354f9052c8019da916e7c807d7d894a89e55ea3f9c53ccce6259ac656",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_back.active.10:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_back__active__11.png",
+          "local_path": "textures/windfury/wind_back__active__11.png",
+          "sha256": "8ae33df7528cd922135c37f848e9a34b754a96f5aae0bc628ce26f9c3f8ac43c",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_back.active.11:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 12,
+      "duration_ms": 1200,
+      "frame_duration_ms": 100,
+      "loop": true,
+      "playback_mode": "loop",
+      "state": "active",
+      "atlas": {
+        "path": "textures/windfury/wind_back__active__atlas.png",
+        "local_path": "textures/windfury/wind_back__active__atlas.png",
+        "sha256": "fb4349b0ab4d781affc3342d9f3924bc9f64a124627c667d9e7e0a417c2976b4",
+        "width": 1536,
+        "height": 512,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 2,
+        "cell_size": [
+          256,
+          256
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            256,
+            256
+          ],
+          [
+            256,
+            0,
+            256,
+            256
+          ],
+          [
+            512,
+            0,
+            256,
+            256
+          ],
+          [
+            768,
+            0,
+            256,
+            256
+          ],
+          [
+            1024,
+            0,
+            256,
+            256
+          ],
+          [
+            1280,
+            0,
+            256,
+            256
+          ],
+          [
+            0,
+            256,
+            256,
+            256
+          ],
+          [
+            256,
+            256,
+            256,
+            256
+          ],
+          [
+            512,
+            256,
+            256,
+            256
+          ],
+          [
+            768,
+            256,
+            256,
+            256
+          ],
+          [
+            1024,
+            256,
+            256,
+            256
+          ],
+          [
+            1280,
+            256,
+            256,
+            256
+          ]
+        ]
+      }
+    },
+    "fx.windfury.wind_front.active": {
+      "asset_key": "fx.windfury.wind_front.active",
+      "content_id": "WINDFURY",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "wind_front",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        256,
+        256
+      ],
+      "display_size": [
+        256,
+        256
+      ],
+      "anchor": "body",
+      "z_index": 30,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/windfury/wind_front__active__00.png",
+          "local_path": "textures/windfury/wind_front__active__00.png",
+          "sha256": "c05692f45c9989dac11aa6c682c6cb14a76c3b0e1078b85024e5a88a460352a0",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_front.active.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_front__active__01.png",
+          "local_path": "textures/windfury/wind_front__active__01.png",
+          "sha256": "fa1a1496acf12e507a909e7957be18e2c0b25c63e19ff4321c583a14511d43cc",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_front.active.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_front__active__02.png",
+          "local_path": "textures/windfury/wind_front__active__02.png",
+          "sha256": "96e82f4f93fb05c8c5e7ca3f456eb3b3adc36137edc56116ccf42ffb802548d1",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_front.active.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_front__active__03.png",
+          "local_path": "textures/windfury/wind_front__active__03.png",
+          "sha256": "5842d5ca4e0c3c08a6f09c888c0e808229760400d6316dda6d6f6dcfd2d7920e",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_front.active.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_front__active__04.png",
+          "local_path": "textures/windfury/wind_front__active__04.png",
+          "sha256": "c70e3df86865973a98c0946a5e1d364fd73bb8f2b86958ffea7322f2ffad7c26",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_front.active.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_front__active__05.png",
+          "local_path": "textures/windfury/wind_front__active__05.png",
+          "sha256": "fa136b8f912b034e5aee56f9f58191cf18f059986a9b26358281de682cc9d395",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_front.active.05:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_front__active__06.png",
+          "local_path": "textures/windfury/wind_front__active__06.png",
+          "sha256": "49ecb310400be74b1f2d25ce0eea3a03ba7088118ac5f1aad14148029342cdef",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_front.active.06:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_front__active__07.png",
+          "local_path": "textures/windfury/wind_front__active__07.png",
+          "sha256": "b3e81737b508c7c61755101078fe721a0bc8553784b2fd9da12a9f5c9e9e6fd0",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_front.active.07:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_front__active__08.png",
+          "local_path": "textures/windfury/wind_front__active__08.png",
+          "sha256": "4cc5134ac8511f8f2cc1c4a84092b728a25615ff223c9ab9e7f54141976fb33e",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_front.active.08:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_front__active__09.png",
+          "local_path": "textures/windfury/wind_front__active__09.png",
+          "sha256": "a8b1379c47a84064468528dbe785a916b461143225ff3f483e57efa8c4a8f957",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_front.active.09:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_front__active__10.png",
+          "local_path": "textures/windfury/wind_front__active__10.png",
+          "sha256": "65020e00cb338342bd4caea50e4ee449048de3a3d0836974c77929a9d0588c0e",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_front.active.10:texture:normal:neutral"
+        },
+        {
+          "path": "textures/windfury/wind_front__active__11.png",
+          "local_path": "textures/windfury/wind_front__active__11.png",
+          "sha256": "47398deedacd748938d1503360447421445908bee9fe77fa1351963c70272b2c",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.windfury.wind_front.active.11:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 12,
+      "duration_ms": 1200,
+      "frame_duration_ms": 100,
+      "loop": true,
+      "playback_mode": "loop",
+      "state": "active",
+      "atlas": {
+        "path": "textures/windfury/wind_front__active__atlas.png",
+        "local_path": "textures/windfury/wind_front__active__atlas.png",
+        "sha256": "fe2ea56059006d30edaf74b02234d763a40dcdd951113e1a89a67814137ff483",
+        "width": 1536,
+        "height": 512,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 2,
+        "cell_size": [
+          256,
+          256
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            256,
+            256
+          ],
+          [
+            256,
+            0,
+            256,
+            256
+          ],
+          [
+            512,
+            0,
+            256,
+            256
+          ],
+          [
+            768,
+            0,
+            256,
+            256
+          ],
+          [
+            1024,
+            0,
+            256,
+            256
+          ],
+          [
+            1280,
+            0,
+            256,
+            256
+          ],
+          [
+            0,
+            256,
+            256,
+            256
+          ],
+          [
+            256,
+            256,
+            256,
+            256
+          ],
+          [
+            512,
+            256,
+            256,
+            256
+          ],
+          [
+            768,
+            256,
+            256,
+            256
+          ],
+          [
+            1024,
+            256,
+            256,
+            256
+          ],
+          [
+            1280,
+            256,
+            256,
+            256
+          ]
+        ]
+      }
+    },
+    "fx.deathrattle.symbol.active": {
+      "asset_key": "fx.deathrattle.symbol.active",
+      "content_id": "DEATHRATTLE",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "symbol",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        64,
+        64
+      ],
+      "display_size": [
+        18,
+        18
+      ],
+      "anchor": "attachment",
+      "z_index": 37,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/deathrattle/symbol__active__00.png",
+          "local_path": "textures/deathrattle/symbol__active__00.png",
+          "sha256": "330dd932caaf39a78cb7cb3100270b7389a74b93813f688ae453075dd96c7153",
+          "width": 64,
+          "height": 64,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.deathrattle.symbol.active.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "active",
+      "offset_from_backplate": [
+        5,
+        4
+      ]
+    },
+    "fx.activate.symbol.active": {
+      "asset_key": "fx.activate.symbol.active",
+      "content_id": "ACTIVATE",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "symbol",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        18,
+        18
+      ],
+      "display_size": [
+        18,
+        18
+      ],
+      "anchor": "attachment",
+      "z_index": 37,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/activate/symbol__active__00.png",
+          "local_path": "textures/activate/symbol__active__00.png",
+          "sha256": "2186d70c5ae3e5355518fcc672348792894ad615517e2add0ccdac2dbc21cbf8",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.activate.symbol.active.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "active",
+      "offset_from_backplate": [
+        5,
+        4
+      ]
+    },
+    "fx.activate.available.available": {
+      "asset_key": "fx.activate.available.available",
+      "content_id": "ACTIVATE",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "available",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        28,
+        28
+      ],
+      "display_size": [
+        28,
+        28
+      ],
+      "anchor": "attachment",
+      "z_index": 36,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/activate/available__available__00.png",
+          "local_path": "textures/activate/available__available__00.png",
+          "sha256": "75caa79fae0fddeed8a99e1140a2109163cd61d811cd52e60c5b096c794f0bcd",
+          "width": 28,
+          "height": 28,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.activate.available.available.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "available",
+      "offset_from_backplate": [
+        0,
+        0
+      ]
+    },
+    "fx.activate.used.used": {
+      "asset_key": "fx.activate.used.used",
+      "content_id": "ACTIVATE",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "used",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        28,
+        28
+      ],
+      "display_size": [
+        28,
+        28
+      ],
+      "anchor": "attachment",
+      "z_index": 36,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/activate/used__used__00.png",
+          "local_path": "textures/activate/used__used__00.png",
+          "sha256": "59c20a1bf1548bc4ebb48e20581264b3edc3000006e8f961b405abe04688ebae",
+          "width": 28,
+          "height": 28,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.activate.used.used.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "used",
+      "offset_from_backplate": [
+        0,
+        0
+      ]
+    },
+    "fx.activate.used_badge.used_badge": {
+      "asset_key": "fx.activate.used_badge.used_badge",
+      "content_id": "ACTIVATE",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "used_badge",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        21,
+        12
+      ],
+      "display_size": [
+        21,
+        12
+      ],
+      "anchor": "attachment",
+      "z_index": 38,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/activate/used_badge__used_badge__00.png",
+          "local_path": "textures/activate/used_badge__used_badge__00.png",
+          "sha256": "63963d2272b022f7b66f9e47813d7e5d026f0cea37d311d84d01b041695d629d",
+          "width": 21,
+          "height": 12,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.activate.used_badge.used_badge.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "used_badge",
+      "offset_from_backplate": [
+        8,
+        16
+      ]
+    },
+    "fx.activate.unavailable_badge.unavailable_badge": {
+      "asset_key": "fx.activate.unavailable_badge.unavailable_badge",
+      "content_id": "ACTIVATE",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "unavailable_badge",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        12,
+        12
+      ],
+      "display_size": [
+        12,
+        12
+      ],
+      "anchor": "attachment",
+      "z_index": 38,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/activate/unavailable_badge__unavailable_badge__00.png",
+          "local_path": "textures/activate/unavailable_badge__unavailable_badge__00.png",
+          "sha256": "5cad312be4587f32a67333af55508a02ff3941d4b892b7c6064c16eae919ff47",
+          "width": 12,
+          "height": 12,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.activate.unavailable_badge.unavailable_badge.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "unavailable_badge",
+      "offset_from_backplate": [
+        16,
+        16
+      ]
+    },
+    "fx.turn_start.symbol.active": {
+      "asset_key": "fx.turn_start.symbol.active",
+      "content_id": "TURN_START",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "symbol",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        18,
+        18
+      ],
+      "display_size": [
+        18,
+        18
+      ],
+      "anchor": "attachment",
+      "z_index": 37,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/turn_start/symbol__active__00.png",
+          "local_path": "textures/turn_start/symbol__active__00.png",
+          "sha256": "7affa6f87685d301d1cfb7ecfdc063df13f1c9ecdb9dc55a17fd139eab093012",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_start.symbol.active.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "active",
+      "offset_from_backplate": [
+        5,
+        5
+      ]
+    },
+    "fx.turn_end.symbol.active": {
+      "asset_key": "fx.turn_end.symbol.active",
+      "content_id": "TURN_END",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "symbol",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        18,
+        18
+      ],
+      "display_size": [
+        18,
+        18
+      ],
+      "anchor": "attachment",
+      "z_index": 37,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/turn_end/symbol__active__00.png",
+          "local_path": "textures/turn_end/symbol__active__00.png",
+          "sha256": "ffab37c3618638bc36b70cf5df56a97a06ab1ab4641b2e2944b4d4f23cd9cdf1",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.symbol.active.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "active",
+      "offset_from_backplate": [
+        5,
+        5
+      ]
+    },
+    "fx.turn_end.conditional_glow.highlight": {
+      "asset_key": "fx.turn_end.conditional_glow.highlight",
+      "content_id": "TURN_END",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "conditional_glow",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        40,
+        40
+      ],
+      "display_size": [
+        40,
+        40
+      ],
+      "anchor": "attachment",
+      "z_index": 36,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__00.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__00.png",
+          "sha256": "39519877120dfb07ad14b01e2f864f75dc4da57f27bdec6a452e2d9c8cdce638",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__01.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__01.png",
+          "sha256": "afc2a9389be26314c7f89946e2285419ed4813a2ffdd408b4fc40800d7eb7275",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__02.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__02.png",
+          "sha256": "f05f52743c6ad453be967e3acd4b1e246764395549c1148fc6a538ec0515b659",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__03.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__03.png",
+          "sha256": "e1aec7b6d1e69306d9a14f150ce38ecf69377ffd9fac1ecfe558accb27a72423",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__04.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__04.png",
+          "sha256": "d67bb7913903dd6fc62c332e9e8fbc3fc7cd4617a7962d67a5404309b7298e7f",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__05.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__05.png",
+          "sha256": "4522280058233bfd23d5525a8ee2a9a3d62bf2a66f71ba65dd4fabfa7b27bf82",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.05:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__06.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__06.png",
+          "sha256": "e29e82050e037653ebd2af85b27f3f32703ddd82df29f69e1fa5fa199ff244fc",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.06:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__07.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__07.png",
+          "sha256": "3529b215fa7389ff0fba3aa10bd736bbbe6a8ae7675eef6ae2a8aae2769c425d",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.07:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__08.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__08.png",
+          "sha256": "43b7178031c1214ccbc54ec1362a647610e400a6057832c566a1f08278ef1b80",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.08:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__09.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__09.png",
+          "sha256": "14cbd95ade08134e5af69ba67da5d3aca1b82755fc4096f6ef0caf3177d29d21",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.09:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__10.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__10.png",
+          "sha256": "a12f580a6dadf7e3ebbbe8de1ea2efea7d97a26d4e6b0ae7b8bb0d05491da1af",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.10:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__11.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__11.png",
+          "sha256": "8a155d0fb2253e09e2c31c37afd925df28960d56302ff4b029c6b754879415e7",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.11:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__12.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__12.png",
+          "sha256": "9c99c706ae0cb8651341c84a0555f2e48b6b562388bae9746a36bf88c1034cf5",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.12:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__13.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__13.png",
+          "sha256": "3f1670828eceda312bfe20c318e0bc77fa62fca4068b32a2360586552bced0ff",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.13:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__14.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__14.png",
+          "sha256": "55aedd06e70749155b1c6c010d55bf318521869ca9e56e1f9b20db93f2598035",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.14:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__15.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__15.png",
+          "sha256": "98d0e3c09a1a5a583f04045685b41e1eb526eb30ed80d2e6e665859ad59ef9b2",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.15:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__16.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__16.png",
+          "sha256": "cca5f4f1a5df3dd8c95ccd068e76b4f96c83f44f14d4e8463db0562e860209be",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.16:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__17.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__17.png",
+          "sha256": "d09f0173ef04f837b6d01cee0d9f69a96fd8e9c648c28b326a751130b497e275",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.17:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__18.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__18.png",
+          "sha256": "3d08b53ae29404089c12705a4c5bccb3cdb359beeed71bbfe80c6e59beec58dd",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.18:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__19.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__19.png",
+          "sha256": "88196943c4d1c9842142b85fa94e45987c313bf126bf89011494701ad3a2215b",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.19:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__20.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__20.png",
+          "sha256": "cb45aacce5b403f25400a8fb39c9e50875400e53fcecfba02ca8d96d8b7938a4",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.20:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__21.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__21.png",
+          "sha256": "bc4bea182d742932f28102aa6749f42fb36eca7673d9ff9f025f3e9c32fd8043",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.21:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__22.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__22.png",
+          "sha256": "e261feb5cbaa4af117ea473248170148837daafb30e48b6f2d6a8822fed5415e",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.22:texture:normal:neutral"
+        },
+        {
+          "path": "textures/turn_end/conditional_glow__highlight__23.png",
+          "local_path": "textures/turn_end/conditional_glow__highlight__23.png",
+          "sha256": "73ea1f4059040628547bffa632bc805dddb51d94c9e2c949529a40158b762e62",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.23:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 24,
+      "duration_ms": 1600,
+      "frame_duration_ms": 66.66666666666667,
+      "loop": true,
+      "playback_mode": "conditional_loop",
+      "state": "highlight",
+      "atlas": {
+        "path": "textures/turn_end/conditional_glow__highlight__atlas.png",
+        "local_path": "textures/turn_end/conditional_glow__highlight__atlas.png",
+        "sha256": "0ee2c44b0c67083b3d4f76dd5fc2d2cf1f28a3b5e9195375639ae1883186984e",
+        "width": 240,
+        "height": 160,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 4,
+        "cell_size": [
+          40,
+          40
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            40,
+            40
+          ],
+          [
+            40,
+            0,
+            40,
+            40
+          ],
+          [
+            80,
+            0,
+            40,
+            40
+          ],
+          [
+            120,
+            0,
+            40,
+            40
+          ],
+          [
+            160,
+            0,
+            40,
+            40
+          ],
+          [
+            200,
+            0,
+            40,
+            40
+          ],
+          [
+            0,
+            40,
+            40,
+            40
+          ],
+          [
+            40,
+            40,
+            40,
+            40
+          ],
+          [
+            80,
+            40,
+            40,
+            40
+          ],
+          [
+            120,
+            40,
+            40,
+            40
+          ],
+          [
+            160,
+            40,
+            40,
+            40
+          ],
+          [
+            200,
+            40,
+            40,
+            40
+          ],
+          [
+            0,
+            80,
+            40,
+            40
+          ],
+          [
+            40,
+            80,
+            40,
+            40
+          ],
+          [
+            80,
+            80,
+            40,
+            40
+          ],
+          [
+            120,
+            80,
+            40,
+            40
+          ],
+          [
+            160,
+            80,
+            40,
+            40
+          ],
+          [
+            200,
+            80,
+            40,
+            40
+          ],
+          [
+            0,
+            120,
+            40,
+            40
+          ],
+          [
+            40,
+            120,
+            40,
+            40
+          ],
+          [
+            80,
+            120,
+            40,
+            40
+          ],
+          [
+            120,
+            120,
+            40,
+            40
+          ],
+          [
+            160,
+            120,
+            40,
+            40
+          ],
+          [
+            200,
+            120,
+            40,
+            40
+          ]
+        ]
+      },
+      "offset_from_backplate": [
+        -6,
+        -6
+      ]
+    },
+    "fx.avenge.symbol.active": {
+      "asset_key": "fx.avenge.symbol.active",
+      "content_id": "AVENGE",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "symbol",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        18,
+        18
+      ],
+      "display_size": [
+        18,
+        18
+      ],
+      "anchor": "attachment",
+      "z_index": 37,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/avenge/symbol__active__00.png",
+          "local_path": "textures/avenge/symbol__active__00.png",
+          "sha256": "fa0a237fd82f5ec80590bd4baacbd1cbe241606d55ad24acca956ca2097b907c",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.symbol.active.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "active",
+      "offset_from_backplate": [
+        5,
+        5
+      ]
+    },
+    "fx.avenge.conditional_glow.highlight": {
+      "asset_key": "fx.avenge.conditional_glow.highlight",
+      "content_id": "AVENGE",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "conditional_glow",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        40,
+        40
+      ],
+      "display_size": [
+        40,
+        40
+      ],
+      "anchor": "attachment",
+      "z_index": 36,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/avenge/conditional_glow__highlight__00.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__00.png",
+          "sha256": "d4a15d2f14af7c9b13272df88d0e337779da3d6e23a6bdc3c9bbf7a8bb1009e0",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__01.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__01.png",
+          "sha256": "a68d8d6d029222e930b056871d9e84cbb8727e59b11ca755226f061754c9bbd6",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__02.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__02.png",
+          "sha256": "0fc639a5f12bf54eb0d6807241bcb54daf192547de88d05fca954bb34f03cf9e",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__03.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__03.png",
+          "sha256": "1d22f140323053eeb1ad4f0c8e249aa9697ff70e4df1187973ce30b5ba666b8a",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__04.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__04.png",
+          "sha256": "ffc072dc7947aa5bfcbc7c6f351adf7f77476f9cf00c8bb0666c1fae2c7787de",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__05.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__05.png",
+          "sha256": "7bfa4a5d36ce485054e92424721cd1311a3db3433b0b172d3fe0737d400d9170",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.05:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__06.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__06.png",
+          "sha256": "b2317ce92bf290e768e39bb6646f468a867e576b744296b192ec42255e0be510",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.06:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__07.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__07.png",
+          "sha256": "5e781a76a0d3be2f976e1846cc70f0361eff8b8ef02d59b4e9fe169c260d5cba",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.07:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__08.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__08.png",
+          "sha256": "0cd7a90310126e7333dd01f8b4b40c1d1a5053e892ed93a065331f4b0d9384e3",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.08:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__09.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__09.png",
+          "sha256": "bee500b9edecf972b37db9bb43a6cad0098718e956ffe3e5b8f83b76162c0207",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.09:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__10.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__10.png",
+          "sha256": "eb4e92b39a8fdba4ef7e8270af28c01870d5132b69c6a771d18cd6b98f6c64fe",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.10:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__11.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__11.png",
+          "sha256": "cd3e1df6e7f5393d782b4256d354a53bbd477016c851c7037548d5a7060d054c",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.11:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__12.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__12.png",
+          "sha256": "5d1bc3bd313e14f85348f5a7281fde456cc3eb1398eab65de002e9fa309b0d98",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.12:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__13.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__13.png",
+          "sha256": "a87001716e1c4be958e95467ed0e2a9cd5b433247e2bf7c63547c75f9ba6c357",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.13:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__14.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__14.png",
+          "sha256": "18db3b4f6496def6d16ad58e971d1dc5246c023d506fe293f5224db175b1c42d",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.14:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__15.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__15.png",
+          "sha256": "7a07a447a7c4e1eda0d5146790fa3684495ae463388024980417df06ca4451ff",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.15:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__16.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__16.png",
+          "sha256": "38bbf25898b7ce5b5597221195d71d08ff3ba1525be973474bc4b6230df052de",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.16:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__17.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__17.png",
+          "sha256": "91c29c04d0084d55186e2ee8697cb38d7dbe7d70ea52db7eb880c80eda7d8eb9",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.17:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__18.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__18.png",
+          "sha256": "83a4d95fb8b2bb030abe26efaa0228a154ff4c5a042ebaccd2824fc8ddf36220",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.18:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__19.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__19.png",
+          "sha256": "c98016ae02a7caa860d14612e2a63234c0fde1f489f1a44823d71b7bfd4106af",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.19:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__20.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__20.png",
+          "sha256": "428c133d5ff66804a43981e6ee6fc840108e476f551647e0f23bd16072221e0c",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.20:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__21.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__21.png",
+          "sha256": "39ec63a1eb4b52ce7966b65a7a57df14f69dc4101a643582f24bfffc6166e8fc",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.21:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__22.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__22.png",
+          "sha256": "3b39124dbaa39d86b7f281da1ecf963ea58fdfd42d67bed5922e31ba42d8feda",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.22:texture:normal:neutral"
+        },
+        {
+          "path": "textures/avenge/conditional_glow__highlight__23.png",
+          "local_path": "textures/avenge/conditional_glow__highlight__23.png",
+          "sha256": "8d450f57016c2426951b750535770ab1d75e5952e6d20d37110ac8766ea6cb2d",
+          "width": 40,
+          "height": 40,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.23:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 24,
+      "duration_ms": 1600,
+      "frame_duration_ms": 66.66666666666667,
+      "loop": true,
+      "playback_mode": "conditional_loop",
+      "state": "highlight",
+      "atlas": {
+        "path": "textures/avenge/conditional_glow__highlight__atlas.png",
+        "local_path": "textures/avenge/conditional_glow__highlight__atlas.png",
+        "sha256": "1ccbe63a4c9ab92aa741c25a7a17e95aa2386d1c177e37acede4f9df1089bb16",
+        "width": 240,
+        "height": 160,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 4,
+        "cell_size": [
+          40,
+          40
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            40,
+            40
+          ],
+          [
+            40,
+            0,
+            40,
+            40
+          ],
+          [
+            80,
+            0,
+            40,
+            40
+          ],
+          [
+            120,
+            0,
+            40,
+            40
+          ],
+          [
+            160,
+            0,
+            40,
+            40
+          ],
+          [
+            200,
+            0,
+            40,
+            40
+          ],
+          [
+            0,
+            40,
+            40,
+            40
+          ],
+          [
+            40,
+            40,
+            40,
+            40
+          ],
+          [
+            80,
+            40,
+            40,
+            40
+          ],
+          [
+            120,
+            40,
+            40,
+            40
+          ],
+          [
+            160,
+            40,
+            40,
+            40
+          ],
+          [
+            200,
+            40,
+            40,
+            40
+          ],
+          [
+            0,
+            80,
+            40,
+            40
+          ],
+          [
+            40,
+            80,
+            40,
+            40
+          ],
+          [
+            80,
+            80,
+            40,
+            40
+          ],
+          [
+            120,
+            80,
+            40,
+            40
+          ],
+          [
+            160,
+            80,
+            40,
+            40
+          ],
+          [
+            200,
+            80,
+            40,
+            40
+          ],
+          [
+            0,
+            120,
+            40,
+            40
+          ],
+          [
+            40,
+            120,
+            40,
+            40
+          ],
+          [
+            80,
+            120,
+            40,
+            40
+          ],
+          [
+            120,
+            120,
+            40,
+            40
+          ],
+          [
+            160,
+            120,
+            40,
+            40
+          ],
+          [
+            200,
+            120,
+            40,
+            40
+          ]
+        ]
+      },
+      "offset_from_backplate": [
+        -6,
+        -6
+      ]
+    },
+    "fx.venomous.active.active": {
+      "asset_key": "fx.venomous.active.active",
+      "content_id": "VENOMOUS",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "active",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        18,
+        18
+      ],
+      "display_size": [
+        18,
+        18
+      ],
+      "anchor": "attachment",
+      "z_index": 37,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/venomous/active__active__00.png",
+          "local_path": "textures/venomous/active__active__00.png",
+          "sha256": "4d4868916bee27d0da3d32a5bb2cc60990899042232eb970b394f5750a3777a4",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.venomous.active.active.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "active",
+      "atlas": {
+        "path": "textures/venomous/active__active__atlas.png",
+        "local_path": "textures/venomous/active__active__atlas.png",
+        "sha256": "4aa48c3785a01c513b389ba3ac36e2895a5b0d56789e7b58a517cd8f7cb193f9",
+        "width": 18,
+        "height": 18,
+        "mime_type": "image/png",
+        "columns": 1,
+        "rows": 1,
+        "cell_size": [
+          18,
+          18
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            18,
+            18
+          ]
+        ]
+      },
+      "offset_from_backplate": [
+        5,
+        5
+      ]
+    },
+    "fx.venomous.consumed.active": {
+      "asset_key": "fx.venomous.consumed.active",
+      "content_id": "VENOMOUS",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "consumed",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        18,
+        18
+      ],
+      "display_size": [
+        18,
+        18
+      ],
+      "anchor": "attachment",
+      "z_index": 37,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/venomous/consumed__active__00.png",
+          "local_path": "textures/venomous/consumed__active__00.png",
+          "sha256": "4d4868916bee27d0da3d32a5bb2cc60990899042232eb970b394f5750a3777a4",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.venomous.consumed.active.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/venomous/consumed__active__01.png",
+          "local_path": "textures/venomous/consumed__active__01.png",
+          "sha256": "f9342003c67e1dbc43bcb3b38a54d640add577431e34bb8f847526fabad5b991",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.venomous.consumed.active.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/venomous/consumed__active__02.png",
+          "local_path": "textures/venomous/consumed__active__02.png",
+          "sha256": "0202fce0b95f0f5108b169f684205b5382ad7911dcbbe16ca5098a5b9f06f4d6",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.venomous.consumed.active.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/venomous/consumed__active__03.png",
+          "local_path": "textures/venomous/consumed__active__03.png",
+          "sha256": "57ace6da971d94ba5e631be6a10e66039fdb31497ad87283a30708937a9a56dc",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.venomous.consumed.active.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/venomous/consumed__active__04.png",
+          "local_path": "textures/venomous/consumed__active__04.png",
+          "sha256": "19679edaaec48d1706e4f472146f8a50fa808a21d3ca99eee7b5594bd11548e5",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.venomous.consumed.active.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/venomous/consumed__active__05.png",
+          "local_path": "textures/venomous/consumed__active__05.png",
+          "sha256": "4d5968043eaa05bdb85fad0dcb23392ac14a73dd80e1b74cfa7528f9fb469aa5",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.venomous.consumed.active.05:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 6,
+      "duration_ms": 360,
+      "frame_duration_ms": 60,
+      "loop": false,
+      "playback_mode": "one_shot",
+      "state": "active",
+      "atlas": {
+        "path": "textures/venomous/consumed__active__atlas.png",
+        "local_path": "textures/venomous/consumed__active__atlas.png",
+        "sha256": "ea1415c0a6b6fde3d1028ff4f3c469ccc3c8e2b123041440ee65a38a364e16c6",
+        "width": 108,
+        "height": 18,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 1,
+        "cell_size": [
+          18,
+          18
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            18,
+            18
+          ],
+          [
+            18,
+            0,
+            18,
+            18
+          ],
+          [
+            36,
+            0,
+            18,
+            18
+          ],
+          [
+            54,
+            0,
+            18,
+            18
+          ],
+          [
+            72,
+            0,
+            18,
+            18
+          ],
+          [
+            90,
+            0,
+            18,
+            18
+          ]
+        ]
+      },
+      "offset_from_backplate": [
+        5,
+        5
+      ]
+    },
+    "fx.poisonous.active.active": {
+      "asset_key": "fx.poisonous.active.active",
+      "content_id": "POISONOUS",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "active",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        18,
+        18
+      ],
+      "display_size": [
+        18,
+        18
+      ],
+      "anchor": "attachment",
+      "z_index": 37,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/poisonous/active__active__00.png",
+          "local_path": "textures/poisonous/active__active__00.png",
+          "sha256": "71e09f197439cd789567bffa1b98f10b90de122efb3a3a09ee34e75b25472543",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.poisonous.active.active.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/poisonous/active__active__01.png",
+          "local_path": "textures/poisonous/active__active__01.png",
+          "sha256": "f28e1c90ee505402b2657b905e3e7b04115adb1c3375caed58357effd29678ee",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.poisonous.active.active.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/poisonous/active__active__02.png",
+          "local_path": "textures/poisonous/active__active__02.png",
+          "sha256": "dea5a896876812644a853f1b72897ead8908b576a75829d97fe785f896da53ff",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.poisonous.active.active.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/poisonous/active__active__03.png",
+          "local_path": "textures/poisonous/active__active__03.png",
+          "sha256": "ecba43dd96ea6ce3204b84419ff20e42ac25d7ae8b100c086f3c0e80388ff7e9",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.poisonous.active.active.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/poisonous/active__active__04.png",
+          "local_path": "textures/poisonous/active__active__04.png",
+          "sha256": "fbb62079b4b4ca0463207e22e879c2106612f2f29aaf9b70390a3e3635b29539",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.poisonous.active.active.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/poisonous/active__active__05.png",
+          "local_path": "textures/poisonous/active__active__05.png",
+          "sha256": "a5e2450f2c8c8f7bcff5b24dcbbac9db97f68005fa52d8eabfd1ae7d7332d698",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.poisonous.active.active.05:texture:normal:neutral"
+        },
+        {
+          "path": "textures/poisonous/active__active__06.png",
+          "local_path": "textures/poisonous/active__active__06.png",
+          "sha256": "9bfffc060d953d0a42a587f53b92b8356eb6dd88eaec810301d0e122eac1ccc8",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.poisonous.active.active.06:texture:normal:neutral"
+        },
+        {
+          "path": "textures/poisonous/active__active__07.png",
+          "local_path": "textures/poisonous/active__active__07.png",
+          "sha256": "5827041d558ac79c1e1c16e6e6c2eb2beb5d3ebf26dae994110292df29ab662d",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.poisonous.active.active.07:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 8,
+      "duration_ms": 1200,
+      "frame_duration_ms": 150,
+      "loop": true,
+      "playback_mode": "loop",
+      "state": "active",
+      "atlas": {
+        "path": "textures/poisonous/active__active__atlas.png",
+        "local_path": "textures/poisonous/active__active__atlas.png",
+        "sha256": "0c3e1693f37f6db81174d1f2585c18d6f53a68e372180cb185bec98f266011f5",
+        "width": 108,
+        "height": 36,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 2,
+        "cell_size": [
+          18,
+          18
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            18,
+            18
+          ],
+          [
+            18,
+            0,
+            18,
+            18
+          ],
+          [
+            36,
+            0,
+            18,
+            18
+          ],
+          [
+            54,
+            0,
+            18,
+            18
+          ],
+          [
+            72,
+            0,
+            18,
+            18
+          ],
+          [
+            90,
+            0,
+            18,
+            18
+          ],
+          [
+            0,
+            18,
+            18,
+            18
+          ],
+          [
+            18,
+            18,
+            18,
+            18
+          ]
+        ]
+      },
+      "offset_from_backplate": [
+        5,
+        5
+      ]
+    },
+    "fx.stealth.smoke.active": {
+      "asset_key": "fx.stealth.smoke.active",
+      "content_id": "STEALTH",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "smoke",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        256,
+        256
+      ],
+      "display_size": [
+        256,
+        256
+      ],
+      "anchor": "body",
+      "z_index": 27,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/stealth/smoke__active__00.png",
+          "local_path": "textures/stealth/smoke__active__00.png",
+          "sha256": "0e0b33fbffb7dbfacbf39a931aabe61441b2f8127b302d70aa52812f4ca00cc0",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.smoke.active.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/smoke__active__01.png",
+          "local_path": "textures/stealth/smoke__active__01.png",
+          "sha256": "57aa628a630ac2f1b486aa87f5d0cbaccd95a556d03536fd11fe45fe235b59dd",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.smoke.active.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/smoke__active__02.png",
+          "local_path": "textures/stealth/smoke__active__02.png",
+          "sha256": "b9853eb91eeee05f1dbb610d6329bc9da9d55b22d305e3f861854610a954efae",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.smoke.active.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/smoke__active__03.png",
+          "local_path": "textures/stealth/smoke__active__03.png",
+          "sha256": "6a2c7231ec74f87e27600b95079dae0e59296812c4280e7fa83f2c4c7a61abf4",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.smoke.active.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/smoke__active__04.png",
+          "local_path": "textures/stealth/smoke__active__04.png",
+          "sha256": "eb478851e2207442be34ab5de08f43a72a25ec198e95f3ff80b9e18c64e6ba06",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.smoke.active.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/smoke__active__05.png",
+          "local_path": "textures/stealth/smoke__active__05.png",
+          "sha256": "18cd2fed30585c1fe4934d2561ce920a549936da1b7b5f40ab4584f1c61ee413",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.smoke.active.05:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/smoke__active__06.png",
+          "local_path": "textures/stealth/smoke__active__06.png",
+          "sha256": "60a27b74646ac1c3e9851a0344804d8f9ca298432f7cfb9102f433f816c17c6e",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.smoke.active.06:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/smoke__active__07.png",
+          "local_path": "textures/stealth/smoke__active__07.png",
+          "sha256": "95cd22cf3831adb19b61a7142f146d7599d7d76860d94ce13561a650800c52c1",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.smoke.active.07:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/smoke__active__08.png",
+          "local_path": "textures/stealth/smoke__active__08.png",
+          "sha256": "7871c031124133a55e9bb2f31ff73845f886b6717c2777086940a064876fc30e",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.smoke.active.08:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/smoke__active__09.png",
+          "local_path": "textures/stealth/smoke__active__09.png",
+          "sha256": "635ecd096fbd57734f0804be6bee6507afd9a9b75d280615c14bb5a3cc5f203a",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.smoke.active.09:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/smoke__active__10.png",
+          "local_path": "textures/stealth/smoke__active__10.png",
+          "sha256": "e267432a5f634c8d3de41de1c4a574097b2ad0b1aefbff5639695c05064defa5",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.smoke.active.10:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/smoke__active__11.png",
+          "local_path": "textures/stealth/smoke__active__11.png",
+          "sha256": "ffbb116f2d22fbdb076c55c1cd09df3ce688d53d36e6abeed49057c7b8a38b43",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.smoke.active.11:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 12,
+      "duration_ms": 1600,
+      "frame_duration_ms": 133.33333333333334,
+      "loop": true,
+      "playback_mode": "loop",
+      "state": "active",
+      "atlas": {
+        "path": "textures/stealth/smoke__active__atlas.png",
+        "local_path": "textures/stealth/smoke__active__atlas.png",
+        "sha256": "46f6ec87c1e5d18947e4f83db48b1bbbbc2d7f77513dc826b1ebb0ec7dc9e00b",
+        "width": 1536,
+        "height": 512,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 2,
+        "cell_size": [
+          256,
+          256
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            256,
+            256
+          ],
+          [
+            256,
+            0,
+            256,
+            256
+          ],
+          [
+            512,
+            0,
+            256,
+            256
+          ],
+          [
+            768,
+            0,
+            256,
+            256
+          ],
+          [
+            1024,
+            0,
+            256,
+            256
+          ],
+          [
+            1280,
+            0,
+            256,
+            256
+          ],
+          [
+            0,
+            256,
+            256,
+            256
+          ],
+          [
+            256,
+            256,
+            256,
+            256
+          ],
+          [
+            512,
+            256,
+            256,
+            256
+          ],
+          [
+            768,
+            256,
+            256,
+            256
+          ],
+          [
+            1024,
+            256,
+            256,
+            256
+          ],
+          [
+            1280,
+            256,
+            256,
+            256
+          ]
+        ]
+      }
+    },
+    "fx.stealth.reveal.active": {
+      "asset_key": "fx.stealth.reveal.active",
+      "content_id": "STEALTH",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "reveal",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        256,
+        256
+      ],
+      "display_size": [
+        256,
+        256
+      ],
+      "anchor": "body",
+      "z_index": 28,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/stealth/reveal__active__00.png",
+          "local_path": "textures/stealth/reveal__active__00.png",
+          "sha256": "0e0b33fbffb7dbfacbf39a931aabe61441b2f8127b302d70aa52812f4ca00cc0",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.reveal.active.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/reveal__active__01.png",
+          "local_path": "textures/stealth/reveal__active__01.png",
+          "sha256": "1d127b819845f4a455a70c3ab40a5bd239d764b0102663ef496518be5491aacf",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.reveal.active.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/reveal__active__02.png",
+          "local_path": "textures/stealth/reveal__active__02.png",
+          "sha256": "7b077f6d62259ba3f28ce51b8b772865fd3d1b39afbf77662d152aa94c1be6e8",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.reveal.active.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/reveal__active__03.png",
+          "local_path": "textures/stealth/reveal__active__03.png",
+          "sha256": "6ccfd116a9d9e9372e5396a870591e75eca871105edb0867f04da545453930ae",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.reveal.active.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/reveal__active__04.png",
+          "local_path": "textures/stealth/reveal__active__04.png",
+          "sha256": "e71c1ad054856d9af0fae48aac6f901997051c8f7ca91ac4ada014d4556a851e",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.reveal.active.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/stealth/reveal__active__05.png",
+          "local_path": "textures/stealth/reveal__active__05.png",
+          "sha256": "aebc86755d7beb8b01bcd992ab44e1133afcb473511b7832eb82228be275473f",
+          "width": 256,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.stealth.reveal.active.05:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 6,
+      "duration_ms": 360,
+      "frame_duration_ms": 60,
+      "loop": false,
+      "playback_mode": "one_shot",
+      "state": "active",
+      "atlas": {
+        "path": "textures/stealth/reveal__active__atlas.png",
+        "local_path": "textures/stealth/reveal__active__atlas.png",
+        "sha256": "cc6f5f6a5f46de4b8c6f249bed749f750e5f8e5ab45ac1197f83f9d624c8259e",
+        "width": 1536,
+        "height": 256,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 1,
+        "cell_size": [
+          256,
+          256
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            256,
+            256
+          ],
+          [
+            256,
+            0,
+            256,
+            256
+          ],
+          [
+            512,
+            0,
+            256,
+            256
+          ],
+          [
+            768,
+            0,
+            256,
+            256
+          ],
+          [
+            1024,
+            0,
+            256,
+            256
+          ],
+          [
+            1280,
+            0,
+            256,
+            256
+          ]
+        ]
+      }
+    },
+    "fx.magnetic.event.active": {
+      "asset_key": "fx.magnetic.event.active",
+      "content_id": "MAGNETIC",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "event",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        512,
+        256
+      ],
+      "display_size": [
+        512,
+        256
+      ],
+      "anchor": "event",
+      "z_index": 40,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/magnetic/event__active__00.png",
+          "local_path": "textures/magnetic/event__active__00.png",
+          "sha256": "23d6660127ab6cd635b5d315fd89ec33292da758babb0f46c2ff2fa60e2759a5",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.magnetic.event.active.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/magnetic/event__active__01.png",
+          "local_path": "textures/magnetic/event__active__01.png",
+          "sha256": "e14c3b8fa261ded6cbf8b4fc6ef01b5efbc0994b177be0925992b3be60e022ae",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.magnetic.event.active.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/magnetic/event__active__02.png",
+          "local_path": "textures/magnetic/event__active__02.png",
+          "sha256": "2ca04e1169764075d8643137bdd81971b7a25bb9655c12fcf5d8cb5502c13587",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.magnetic.event.active.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/magnetic/event__active__03.png",
+          "local_path": "textures/magnetic/event__active__03.png",
+          "sha256": "edeb2ab127eeef51808abcb839e17c97dd16ef034fb5db57270b6ca1d7b1f451",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.magnetic.event.active.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/magnetic/event__active__04.png",
+          "local_path": "textures/magnetic/event__active__04.png",
+          "sha256": "6f5b3b3268bd5f601c8d26e56da986280217519963f9d38696fafd9db6e53496",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.magnetic.event.active.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/magnetic/event__active__05.png",
+          "local_path": "textures/magnetic/event__active__05.png",
+          "sha256": "1c1932ee621b297f253f353ef24be953561e2f9a348c87d2e0931a05643b8da9",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.magnetic.event.active.05:texture:normal:neutral"
+        },
+        {
+          "path": "textures/magnetic/event__active__06.png",
+          "local_path": "textures/magnetic/event__active__06.png",
+          "sha256": "9555bbbd875c7a5b8506f27211695a3f4dc2b19806dc51c31bcde48b348918c2",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.magnetic.event.active.06:texture:normal:neutral"
+        },
+        {
+          "path": "textures/magnetic/event__active__07.png",
+          "local_path": "textures/magnetic/event__active__07.png",
+          "sha256": "c0be0a2861059acb070e1fe36a0d6feb0d47aea49c5b0fd6a734b8fb472c6bf2",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.magnetic.event.active.07:texture:normal:neutral"
+        },
+        {
+          "path": "textures/magnetic/event__active__08.png",
+          "local_path": "textures/magnetic/event__active__08.png",
+          "sha256": "d49c23478cd0977e713f31fde78cee0af118dbcf70c06cde1c56141534156102",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.magnetic.event.active.08:texture:normal:neutral"
+        },
+        {
+          "path": "textures/magnetic/event__active__09.png",
+          "local_path": "textures/magnetic/event__active__09.png",
+          "sha256": "425d2e0efeebf0b67d7355856fbadea239e80e1fa6304f96477681ad2c3c71f7",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.magnetic.event.active.09:texture:normal:neutral"
+        },
+        {
+          "path": "textures/magnetic/event__active__10.png",
+          "local_path": "textures/magnetic/event__active__10.png",
+          "sha256": "4d76c38d3bb32150a18d48162db447f25bfe1db54277e5890b2f74a531f10be1",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.magnetic.event.active.10:texture:normal:neutral"
+        },
+        {
+          "path": "textures/magnetic/event__active__11.png",
+          "local_path": "textures/magnetic/event__active__11.png",
+          "sha256": "23d6660127ab6cd635b5d315fd89ec33292da758babb0f46c2ff2fa60e2759a5",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.magnetic.event.active.11:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 12,
+      "duration_ms": 720,
+      "frame_duration_ms": 60,
+      "loop": false,
+      "playback_mode": "one_shot",
+      "state": "active",
+      "atlas": {
+        "path": "textures/magnetic/event__active__atlas.png",
+        "local_path": "textures/magnetic/event__active__atlas.png",
+        "sha256": "b03970afc100f925e36e067e1db96d7dae32b3bdec0ce163278278237f9e95ae",
+        "width": 3072,
+        "height": 512,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 2,
+        "cell_size": [
+          512,
+          256
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            512,
+            256
+          ],
+          [
+            512,
+            0,
+            512,
+            256
+          ],
+          [
+            1024,
+            0,
+            512,
+            256
+          ],
+          [
+            1536,
+            0,
+            512,
+            256
+          ],
+          [
+            2048,
+            0,
+            512,
+            256
+          ],
+          [
+            2560,
+            0,
+            512,
+            256
+          ],
+          [
+            0,
+            256,
+            512,
+            256
+          ],
+          [
+            512,
+            256,
+            512,
+            256
+          ],
+          [
+            1024,
+            256,
+            512,
+            256
+          ],
+          [
+            1536,
+            256,
+            512,
+            256
+          ],
+          [
+            2048,
+            256,
+            512,
+            256
+          ],
+          [
+            2560,
+            256,
+            512,
+            256
+          ]
+        ]
+      }
+    },
+    "fx.spellcraft.event.active": {
+      "asset_key": "fx.spellcraft.event.active",
+      "content_id": "SPELLCRAFT",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "event",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        512,
+        256
+      ],
+      "display_size": [
+        512,
+        256
+      ],
+      "anchor": "event",
+      "z_index": 40,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/spellcraft/event__active__00.png",
+          "local_path": "textures/spellcraft/event__active__00.png",
+          "sha256": "23d6660127ab6cd635b5d315fd89ec33292da758babb0f46c2ff2fa60e2759a5",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.spellcraft.event.active.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/spellcraft/event__active__01.png",
+          "local_path": "textures/spellcraft/event__active__01.png",
+          "sha256": "72611c92a81c70a0ebd5c053d1c2a2da667c3023588508e99d35ca86789bdfab",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.spellcraft.event.active.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/spellcraft/event__active__02.png",
+          "local_path": "textures/spellcraft/event__active__02.png",
+          "sha256": "fbb560ce4951e644f8983413ae6c6fedd3709e1fa436bc12f0acd3727f7219e9",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.spellcraft.event.active.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/spellcraft/event__active__03.png",
+          "local_path": "textures/spellcraft/event__active__03.png",
+          "sha256": "d8cd46ed28d2a538414170d76b6a649ef46020b5b789689afb7dd0da805f4d1e",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.spellcraft.event.active.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/spellcraft/event__active__04.png",
+          "local_path": "textures/spellcraft/event__active__04.png",
+          "sha256": "c5d27ad62ada194d18c2aa62283d45629d6758b1a64e29a782d2c6fab27e3eff",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.spellcraft.event.active.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/spellcraft/event__active__05.png",
+          "local_path": "textures/spellcraft/event__active__05.png",
+          "sha256": "ae8c4b4bdbf25bd4f942a10b8e81f77339557d7e7a9fc0f27f5a93fe1253dbde",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.spellcraft.event.active.05:texture:normal:neutral"
+        },
+        {
+          "path": "textures/spellcraft/event__active__06.png",
+          "local_path": "textures/spellcraft/event__active__06.png",
+          "sha256": "42a4f47c01e5a2a676ba585e02688dd876d0523b02b2eb67f8f5d1374e7ae7ba",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.spellcraft.event.active.06:texture:normal:neutral"
+        },
+        {
+          "path": "textures/spellcraft/event__active__07.png",
+          "local_path": "textures/spellcraft/event__active__07.png",
+          "sha256": "6f9600301a0a8c7f4b86ff18bb4f3974dc54a40f901b9bf1218c1b105fade4cf",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.spellcraft.event.active.07:texture:normal:neutral"
+        },
+        {
+          "path": "textures/spellcraft/event__active__08.png",
+          "local_path": "textures/spellcraft/event__active__08.png",
+          "sha256": "3b0f93c5af8891b1c6a19ec0cfe6ad955c99afeed427bad4f4984a1d785cb673",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.spellcraft.event.active.08:texture:normal:neutral"
+        },
+        {
+          "path": "textures/spellcraft/event__active__09.png",
+          "local_path": "textures/spellcraft/event__active__09.png",
+          "sha256": "f42f23f513721e8b2371a8bcf794bf41543a5308a72849cdd3675a4a18cc7805",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.spellcraft.event.active.09:texture:normal:neutral"
+        },
+        {
+          "path": "textures/spellcraft/event__active__10.png",
+          "local_path": "textures/spellcraft/event__active__10.png",
+          "sha256": "9f16847fe736e4f66022caddd8a5439e2b32b13ef1408cd970cc897c247a0989",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.spellcraft.event.active.10:texture:normal:neutral"
+        },
+        {
+          "path": "textures/spellcraft/event__active__11.png",
+          "local_path": "textures/spellcraft/event__active__11.png",
+          "sha256": "23d6660127ab6cd635b5d315fd89ec33292da758babb0f46c2ff2fa60e2759a5",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.spellcraft.event.active.11:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 12,
+      "duration_ms": 720,
+      "frame_duration_ms": 60,
+      "loop": false,
+      "playback_mode": "one_shot",
+      "state": "active",
+      "atlas": {
+        "path": "textures/spellcraft/event__active__atlas.png",
+        "local_path": "textures/spellcraft/event__active__atlas.png",
+        "sha256": "f1e257f8a6b27a5a1d475b196d555b44ba1c279303392afa2e41bfd54cbd60e0",
+        "width": 3072,
+        "height": 512,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 2,
+        "cell_size": [
+          512,
+          256
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            512,
+            256
+          ],
+          [
+            512,
+            0,
+            512,
+            256
+          ],
+          [
+            1024,
+            0,
+            512,
+            256
+          ],
+          [
+            1536,
+            0,
+            512,
+            256
+          ],
+          [
+            2048,
+            0,
+            512,
+            256
+          ],
+          [
+            2560,
+            0,
+            512,
+            256
+          ],
+          [
+            0,
+            256,
+            512,
+            256
+          ],
+          [
+            512,
+            256,
+            512,
+            256
+          ],
+          [
+            1024,
+            256,
+            512,
+            256
+          ],
+          [
+            1536,
+            256,
+            512,
+            256
+          ],
+          [
+            2048,
+            256,
+            512,
+            256
+          ],
+          [
+            2560,
+            256,
+            512,
+            256
+          ]
+        ]
+      }
+    },
+    "fx.choose_one.event.active": {
+      "asset_key": "fx.choose_one.event.active",
+      "content_id": "CHOOSE_ONE",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "event",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        512,
+        256
+      ],
+      "display_size": [
+        512,
+        256
+      ],
+      "anchor": "event",
+      "z_index": 40,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/choose_one/event__active__00.png",
+          "local_path": "textures/choose_one/event__active__00.png",
+          "sha256": "23d6660127ab6cd635b5d315fd89ec33292da758babb0f46c2ff2fa60e2759a5",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.choose_one.event.active.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/choose_one/event__active__01.png",
+          "local_path": "textures/choose_one/event__active__01.png",
+          "sha256": "c891d436219aad8c6c9932a2304b55b013d5306bab0b3fd7e849eca5ec32d073",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.choose_one.event.active.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/choose_one/event__active__02.png",
+          "local_path": "textures/choose_one/event__active__02.png",
+          "sha256": "ed2a2bae4ac68a72518583f8355b537ef64e1690ae62ba8144b5c8a9bdc77dea",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.choose_one.event.active.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/choose_one/event__active__03.png",
+          "local_path": "textures/choose_one/event__active__03.png",
+          "sha256": "8c90ce3fcb8faf005ed1ba0d91ba5e855910d148d52e6cd109059868c29ffec6",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.choose_one.event.active.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/choose_one/event__active__04.png",
+          "local_path": "textures/choose_one/event__active__04.png",
+          "sha256": "fe21b3a457bb00e4044aad4b90b42c7a85d40610979384c1f692433756940c29",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.choose_one.event.active.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/choose_one/event__active__05.png",
+          "local_path": "textures/choose_one/event__active__05.png",
+          "sha256": "1ed5cd288122b34cfabbee725f4391bbe15ff39e21a0ab73351e0f3152d85e2d",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.choose_one.event.active.05:texture:normal:neutral"
+        },
+        {
+          "path": "textures/choose_one/event__active__06.png",
+          "local_path": "textures/choose_one/event__active__06.png",
+          "sha256": "1ed5cd288122b34cfabbee725f4391bbe15ff39e21a0ab73351e0f3152d85e2d",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.choose_one.event.active.06:texture:normal:neutral"
+        },
+        {
+          "path": "textures/choose_one/event__active__07.png",
+          "local_path": "textures/choose_one/event__active__07.png",
+          "sha256": "9f53276312aa283db77170f86fd7f9606a225140ee6a118fa283e7611b8e04a4",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.choose_one.event.active.07:texture:normal:neutral"
+        },
+        {
+          "path": "textures/choose_one/event__active__08.png",
+          "local_path": "textures/choose_one/event__active__08.png",
+          "sha256": "b87b25f3ec2e69d7294c518362f3494f4b306d687347b516cec10ea30fead6c4",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.choose_one.event.active.08:texture:normal:neutral"
+        },
+        {
+          "path": "textures/choose_one/event__active__09.png",
+          "local_path": "textures/choose_one/event__active__09.png",
+          "sha256": "a35a5414808440cac3dbc4eebb476f51873da6d0591a42feee7ea84754492a9a",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.choose_one.event.active.09:texture:normal:neutral"
+        },
+        {
+          "path": "textures/choose_one/event__active__10.png",
+          "local_path": "textures/choose_one/event__active__10.png",
+          "sha256": "e53ef70db811975553efbaf16baf69d141c7a90c1fe9f8d0985d0413852279e1",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.choose_one.event.active.10:texture:normal:neutral"
+        },
+        {
+          "path": "textures/choose_one/event__active__11.png",
+          "local_path": "textures/choose_one/event__active__11.png",
+          "sha256": "23d6660127ab6cd635b5d315fd89ec33292da758babb0f46c2ff2fa60e2759a5",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.choose_one.event.active.11:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 12,
+      "duration_ms": 600,
+      "frame_duration_ms": 50,
+      "loop": false,
+      "playback_mode": "one_shot",
+      "state": "active",
+      "atlas": {
+        "path": "textures/choose_one/event__active__atlas.png",
+        "local_path": "textures/choose_one/event__active__atlas.png",
+        "sha256": "11d41ac8334bcac356d1c0d77ebf1d7c4846b9ea19c4d636fa302ca72056ea63",
+        "width": 3072,
+        "height": 512,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 2,
+        "cell_size": [
+          512,
+          256
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            512,
+            256
+          ],
+          [
+            512,
+            0,
+            512,
+            256
+          ],
+          [
+            1024,
+            0,
+            512,
+            256
+          ],
+          [
+            1536,
+            0,
+            512,
+            256
+          ],
+          [
+            2048,
+            0,
+            512,
+            256
+          ],
+          [
+            2560,
+            0,
+            512,
+            256
+          ],
+          [
+            0,
+            256,
+            512,
+            256
+          ],
+          [
+            512,
+            256,
+            512,
+            256
+          ],
+          [
+            1024,
+            256,
+            512,
+            256
+          ],
+          [
+            1536,
+            256,
+            512,
+            256
+          ],
+          [
+            2048,
+            256,
+            512,
+            256
+          ],
+          [
+            2560,
+            256,
+            512,
+            256
+          ]
+        ]
+      }
+    },
+    "fx.cleave.event.active": {
+      "asset_key": "fx.cleave.event.active",
+      "content_id": "CLEAVE",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "event",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        512,
+        256
+      ],
+      "display_size": [
+        512,
+        256
+      ],
+      "anchor": "event",
+      "z_index": 40,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/cleave/event__active__00.png",
+          "local_path": "textures/cleave/event__active__00.png",
+          "sha256": "23d6660127ab6cd635b5d315fd89ec33292da758babb0f46c2ff2fa60e2759a5",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.cleave.event.active.00:texture:normal:neutral"
+        },
+        {
+          "path": "textures/cleave/event__active__01.png",
+          "local_path": "textures/cleave/event__active__01.png",
+          "sha256": "bc17858e6fd2f2912527b14bbc9541e14cd2309c01c10296253dd2d4946b22df",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.cleave.event.active.01:texture:normal:neutral"
+        },
+        {
+          "path": "textures/cleave/event__active__02.png",
+          "local_path": "textures/cleave/event__active__02.png",
+          "sha256": "151b279c3fd6ccd4a668d4669f9e5539e121f6dbd587ba3df7d6a34e72730fea",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.cleave.event.active.02:texture:normal:neutral"
+        },
+        {
+          "path": "textures/cleave/event__active__03.png",
+          "local_path": "textures/cleave/event__active__03.png",
+          "sha256": "53d09fee3bfd76af13f6e360551b8bafeb82cc26fd5e06554d3a6ef09af8d66f",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.cleave.event.active.03:texture:normal:neutral"
+        },
+        {
+          "path": "textures/cleave/event__active__04.png",
+          "local_path": "textures/cleave/event__active__04.png",
+          "sha256": "96ec85e07fa9746d456282a7aaa5bcf64ec992448b842c134d112a756ca74bff",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.cleave.event.active.04:texture:normal:neutral"
+        },
+        {
+          "path": "textures/cleave/event__active__05.png",
+          "local_path": "textures/cleave/event__active__05.png",
+          "sha256": "6aff452ced836150235703ea852e69302e9edbbb8773e6be8989e158a5d07fb2",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.cleave.event.active.05:texture:normal:neutral"
+        },
+        {
+          "path": "textures/cleave/event__active__06.png",
+          "local_path": "textures/cleave/event__active__06.png",
+          "sha256": "e4636f20aa770217f712d24ef48221be66382eb7686b77edb95552982876ec8f",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.cleave.event.active.06:texture:normal:neutral"
+        },
+        {
+          "path": "textures/cleave/event__active__07.png",
+          "local_path": "textures/cleave/event__active__07.png",
+          "sha256": "8f1a7205239717bc3d78018efdf0e9e47c9898fd0d409e1c206c584259b0d0af",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.cleave.event.active.07:texture:normal:neutral"
+        },
+        {
+          "path": "textures/cleave/event__active__08.png",
+          "local_path": "textures/cleave/event__active__08.png",
+          "sha256": "38bcaefee5b121dcc1f38de1f0b15d3fe7f2d978c73f0898f1df5493c1e782da",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.cleave.event.active.08:texture:normal:neutral"
+        },
+        {
+          "path": "textures/cleave/event__active__09.png",
+          "local_path": "textures/cleave/event__active__09.png",
+          "sha256": "3df6c2806a5940a689310dee240bc95d7168421cdfabe270885f6b0984475708",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.cleave.event.active.09:texture:normal:neutral"
+        },
+        {
+          "path": "textures/cleave/event__active__10.png",
+          "local_path": "textures/cleave/event__active__10.png",
+          "sha256": "d215d9026b63dc30efa8d9406fb9451c25e575e11c143e4af41d34e779ef70a1",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.cleave.event.active.10:texture:normal:neutral"
+        },
+        {
+          "path": "textures/cleave/event__active__11.png",
+          "local_path": "textures/cleave/event__active__11.png",
+          "sha256": "23d6660127ab6cd635b5d315fd89ec33292da758babb0f46c2ff2fa60e2759a5",
+          "width": 512,
+          "height": 256,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.cleave.event.active.11:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 12,
+      "duration_ms": 600,
+      "frame_duration_ms": 50,
+      "loop": false,
+      "playback_mode": "one_shot",
+      "state": "active",
+      "atlas": {
+        "path": "textures/cleave/event__active__atlas.png",
+        "local_path": "textures/cleave/event__active__atlas.png",
+        "sha256": "7e0e34dd7bde9e61bab2586a8318dc6a867e3a3d5639a995dba209d0541983f9",
+        "width": 3072,
+        "height": 512,
+        "mime_type": "image/png",
+        "columns": 6,
+        "rows": 2,
+        "cell_size": [
+          512,
+          256
+        ],
+        "padding": 0,
+        "rects": [
+          [
+            0,
+            0,
+            512,
+            256
+          ],
+          [
+            512,
+            0,
+            512,
+            256
+          ],
+          [
+            1024,
+            0,
+            512,
+            256
+          ],
+          [
+            1536,
+            0,
+            512,
+            256
+          ],
+          [
+            2048,
+            0,
+            512,
+            256
+          ],
+          [
+            2560,
+            0,
+            512,
+            256
+          ],
+          [
+            0,
+            256,
+            512,
+            256
+          ],
+          [
+            512,
+            256,
+            512,
+            256
+          ],
+          [
+            1024,
+            256,
+            512,
+            256
+          ],
+          [
+            1536,
+            256,
+            512,
+            256
+          ],
+          [
+            2048,
+            256,
+            512,
+            256
+          ],
+          [
+            2560,
+            256,
+            512,
+            256
+          ]
+        ]
+      }
+    },
+    "fx.battlecry.symbol.active": {
+      "asset_key": "fx.battlecry.symbol.active",
+      "content_id": "BATTLECRY",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "symbol",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        18,
+        18
+      ],
+      "display_size": [
+        18,
+        18
+      ],
+      "anchor": "attachment",
+      "z_index": 37,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/battlecry/symbol__active__00.png",
+          "local_path": "textures/battlecry/symbol__active__00.png",
+          "sha256": "8338fb09dd318eea30c9b584869edada47a93526ede6ca872e7741f79500dc5f",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.battlecry.symbol.active.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "active",
+      "offset_from_backplate": [
+        5,
+        5
+      ]
+    },
+    "fx.rally.symbol.active": {
+      "asset_key": "fx.rally.symbol.active",
+      "content_id": "RALLY",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "symbol",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        18,
+        18
+      ],
+      "display_size": [
+        18,
+        18
+      ],
+      "anchor": "attachment",
+      "z_index": 37,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/rally/symbol__active__00.png",
+          "local_path": "textures/rally/symbol__active__00.png",
+          "sha256": "e5e883842aa7e9a027b31afbd06c8c3c3a16075160a54d77281091cfbb8b08e8",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.rally.symbol.active.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "active",
+      "offset_from_backplate": [
+        5,
+        5
+      ]
+    },
+    "fx.sell_trigger.symbol.active": {
+      "asset_key": "fx.sell_trigger.symbol.active",
+      "content_id": "SELL_TRIGGER",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "symbol",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        18,
+        18
+      ],
+      "display_size": [
+        18,
+        18
+      ],
+      "anchor": "attachment",
+      "z_index": 37,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/sell_trigger/symbol__active__00.png",
+          "local_path": "textures/sell_trigger/symbol__active__00.png",
+          "sha256": "d37d8ea23b170aff824b8131698d83f2a54adf91425d95a3963783ee304dbe14",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.sell_trigger.symbol.active.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "active",
+      "offset_from_backplate": [
+        5,
+        5
+      ]
+    },
+    "fx.combat_start.symbol.active": {
+      "asset_key": "fx.combat_start.symbol.active",
+      "content_id": "COMBAT_START",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "symbol",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        18,
+        18
+      ],
+      "display_size": [
+        18,
+        18
+      ],
+      "anchor": "attachment",
+      "z_index": 37,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/combat_start/symbol__active__00.png",
+          "local_path": "textures/combat_start/symbol__active__00.png",
+          "sha256": "96f9efae56c28fff98bca034ae6044bbef387d7a86466c0ea192ac5e88862ead",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.combat_start.symbol.active.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "active",
+      "offset_from_backplate": [
+        5,
+        5
+      ]
+    },
+    "fx.immune_attack.symbol.active": {
+      "asset_key": "fx.immune_attack.symbol.active",
+      "content_id": "IMMUNE_ATTACK",
+      "source_card_id": null,
+      "dbf_id": null,
+      "category": "keyword_effect",
+      "role": "symbol",
+      "variant": "shared_normal_golden",
+      "locale": "und",
+      "source_url": null,
+      "acquisition_date": "2026-10-18",
+      "status": "FROZEN_RUNTIME_READY",
+      "origin": "original_authored",
+      "usage_notes": "Use with existing actual capability/state queries; all input events ignored.",
+      "source_size": [
+        18,
+        18
+      ],
+      "display_size": [
+        18,
+        18
+      ],
+      "anchor": "attachment",
+      "z_index": 37,
+      "blend": "normal_alpha",
+      "mouse_filter": "ignore",
+      "frames": [
+        {
+          "path": "textures/immune_attack/symbol__active__00.png",
+          "local_path": "textures/immune_attack/symbol__active__00.png",
+          "sha256": "7d07f7370e71f8831b97f3bf76fdb57a96b16cb1971ddb77660a4b62464a955e",
+          "width": 18,
+          "height": 18,
+          "mime_type": "image/png",
+          "consumer_key": "ui:runtime21.fx.immune_attack.symbol.active.00:texture:normal:neutral"
+        }
+      ],
+      "frame_count": 1,
+      "duration_ms": 0,
+      "frame_duration_ms": 0,
+      "loop": false,
+      "playback_mode": "static",
+      "state": "active",
+      "offset_from_backplate": [
+        5,
+        5
+      ]
+    }
+  }
+}

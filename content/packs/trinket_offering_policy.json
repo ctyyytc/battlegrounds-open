@@ -1,0 +1,1539 @@
+{
+  "schema_version": 1,
+  "policy_revision": "14.4.1",
+  "membership_threshold": {
+    "lesser": 2,
+    "greater": 3
+  },
+  "pivot_discount": 2,
+  "min_price": 0,
+  "sampling": "Constraint-first, weighted random order then deterministic backtracking; weights are project approximations, never card-count linear weights",
+  "default_classification": "Conservative project tags; exact hidden official item table is unavailable. Rows explicitly distinguish adopted examples and project choices. No effect/base cost/full-pool update.",
+  "hero_types": {
+    "BG22_HERO_007": [
+      "纳迦"
+    ],
+    "TB_BaconShop_HERO_37": [
+      "恶魔"
+    ],
+    "TB_BaconShop_HERO_55": [
+      "鱼人"
+    ],
+    "TB_BaconShop_HERO_56": [
+      "龙"
+    ],
+    "TB_BaconShop_HERO_78": [
+      "元素"
+    ]
+  },
+  "rows": {
+    "BG30_MagicItem_416": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_420": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_423": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_425": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_426": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 4,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "weight_source": "Project 2x approximation for designer-named more-frequent neutral items; exact official weight unavailable"
+    },
+    "BG30_MagicItem_430": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_434": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_435": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 4,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "weight_source": "Project 2x approximation for designer-named more-frequent neutral items; exact official weight unavailable"
+    },
+    "BG30_MagicItem_703": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_705": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_706": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 4,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "weight_source": "Project 2x approximation for designer-named more-frequent neutral items; exact official weight unavailable"
+    },
+    "BG30_MagicItem_707": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_847": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_888": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 4,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "exclusive_group": "opportunity",
+      "weight_source": "Project 2x approximation for designer-named more-frequent neutral items; exact official weight unavailable"
+    },
+    "BG30_MagicItem_891": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 4,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "exclusive_group": "opportunity",
+      "weight_source": "Project 2x approximation for designer-named more-frequent neutral items; exact official weight unavailable"
+    },
+    "BG30_MagicItem_973": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_994": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_998": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "condition": "no_demon_lobby",
+      "condition_source": "Official 2026-04-06 named item rule, mapped by existing stable ID and local identity"
+    },
+    "BG32_MagicItem_271": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "exclusive_group": "opportunity"
+    },
+    "BG32_MagicItem_361": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_428": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_817": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_858": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_814": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_815": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "condition": "under_five_minions",
+      "condition_source": "Official 2026-04-06 named item rule, mapped by existing stable ID and local identity"
+    },
+    "BG35_MagicItem_816": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_817": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "condition": "board_tier_three",
+      "condition_source": "Official 2026-04-06 named item rule, mapped by existing stable ID and local identity"
+    },
+    "BG35_MagicItem_818": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_821": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_931": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 4,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "weight_source": "Project 2x approximation for designer-named more-frequent neutral items; exact official weight unavailable"
+    },
+    "BG36_MagicItem_206": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_208": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_211": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_301": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_547": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_713": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_276": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_306": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_544": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "pivot",
+      "sample_weight": 2,
+      "classification_source": "Project adaptation: named cross-board starter/economy/generation pivot, reviewed individually; not official hidden tag claim"
+    },
+    "BG32_MagicItem_831": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "pivot",
+      "sample_weight": 2,
+      "classification_source": "Project adaptation: named cross-board starter/economy/generation pivot, reviewed individually; not official hidden tag claim"
+    },
+    "BG35_MagicItem_851": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_300": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_390": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "condition": "baller_sold",
+      "condition_source": "Official 2026-04-06 named item rule, mapped by existing stable ID and local identity"
+    },
+    "BG30_MagicItem_841": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "pivot",
+      "sample_weight": 2,
+      "classification_source": "Explicit designer example (Gauntlet 2024 / Chromatic Tear 2026)",
+      "type_source": "Official 32.2.4 supplemental type adjustment: Elemental, not Mech; overrides legacy catalog affinity for offers only"
+    },
+    "BG30_MagicItem_868": {
+      "types": [
+        "恶魔"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_821": {
+      "types": [
+        "恶魔"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_822": {
+      "types": [
+        "恶魔"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_800": {
+      "types": [
+        "恶魔"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_801": {
+      "types": [
+        "恶魔"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_303": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Explicit official 32.2.4 non-pivot list; no later applicable override found"
+    },
+    "BG32_MagicItem_170": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_301": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_302": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_810": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_812": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_924": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_350": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_951": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_957": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_890": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_301": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_302": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_422": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_917": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_930": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_931": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_920": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_305": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_931": {
+      "types": [
+        "野兽"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_860": {
+      "types": [
+        "野兽"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_872": {
+      "types": [
+        "野兽"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_200": {
+      "types": [
+        "野兽"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_201": {
+      "types": [
+        "野兽"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_700": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "type_source": "Official 32.2.4 supplemental Rockin Music Box neutral tag; effects unchanged"
+    },
+    "BG30_MagicItem_411": {
+      "types": [
+        "野猪人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_988": {
+      "types": [
+        "野猪人"
+      ],
+      "offer_mode": "pivot",
+      "sample_weight": 2,
+      "classification_source": "Project adaptation: named cross-board starter/economy/generation pivot, reviewed individually; not official hidden tag claim"
+    },
+    "BG32_MagicItem_808": {
+      "types": [
+        "野猪人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_303": {
+      "types": [
+        "野猪人"
+      ],
+      "offer_mode": "pivot",
+      "sample_weight": 2,
+      "classification_source": "Project adaptation: named cross-board starter/economy/generation pivot, reviewed individually; not official hidden tag claim"
+    },
+    "BG36_MagicItem_307": {
+      "types": [
+        "野猪人",
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_914": {
+      "types": [
+        "鱼人"
+      ],
+      "offer_mode": "pivot",
+      "sample_weight": 2,
+      "classification_source": "Project adaptation: named cross-board starter/economy/generation pivot, reviewed individually; not official hidden tag claim"
+    },
+    "BG32_MagicItem_893": {
+      "types": [
+        "鱼人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_894": {
+      "types": [
+        "鱼人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_305": {
+      "types": [
+        "鱼人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_900": {
+      "types": [
+        "龙"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_902": {
+      "types": [
+        "龙"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Explicit official 32.2.4 non-pivot list; no later applicable override found"
+    },
+    "BG30_MagicItem_962": {
+      "types": [
+        "龙"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_416": {
+      "types": [
+        "龙"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_840": {
+      "types": [
+        "龙"
+      ],
+      "offer_mode": "pivot",
+      "sample_weight": 2,
+      "classification_source": "Explicit designer example (Gauntlet 2024 / Chromatic Tear 2026)"
+    },
+    "BG36_MagicItem_203": {
+      "types": [
+        "龙"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_202": {
+      "types": [
+        "龙",
+        "鱼人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_420t": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_426t": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 4,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "weight_source": "Project 2x approximation for designer-named more-frequent neutral items; exact official weight unavailable"
+    },
+    "BG30_MagicItem_801": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_876": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 4,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "weight_source": "Project 2x approximation for designer-named more-frequent neutral items; exact official weight unavailable"
+    },
+    "BG30_MagicItem_993": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_996": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_361t": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_362t": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_366": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_367": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_807": {
+      "types": [
+        "MENAGERIE"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project adaptation of explicit menagerie/minion-type-variety identity; no association inferred from a multi-type lobby tag"
+    },
+    "BG32_MagicItem_901": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 4,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "weight_source": "Project 2x approximation for designer-named more-frequent neutral items; exact official weight unavailable"
+    },
+    "BG35_MagicItem_812": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_816t": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_820": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "condition": "health_under_sixteen",
+      "condition_source": "Official 2026-04-06 named item rule, mapped by existing stable ID and local identity"
+    },
+    "BG35_MagicItem_821t": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_930": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 4,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "weight_source": "Project 2x approximation for designer-named more-frequent neutral items; exact official weight unavailable"
+    },
+    "BG35_MagicItem_931t": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 4,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "weight_source": "Project 2x approximation for designer-named more-frequent neutral items; exact official weight unavailable"
+    },
+    "BG36_MagicItem_309": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_370": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 1,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "weight_source": "Project 0.5x approximation for 36.2.2 less-frequent dagger; exact official weight unavailable"
+    },
+    "BG36_MagicItem_371": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_372": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_406": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_547t": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_886": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_989t": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_205": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_270t": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_732": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_733": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_204": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_216": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_217": {
+      "types": [
+        "亡灵"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_544t": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "pivot",
+      "sample_weight": 2,
+      "classification_source": "Project adaptation: named cross-board starter/economy/generation pivot, reviewed individually; not official hidden tag claim"
+    },
+    "BG30_MagicItem_951": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_952": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_888": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_850t": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_861": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_862": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_863": {
+      "types": [
+        "元素"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_541": {
+      "types": [
+        "恶魔"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "condition": "health_rewinder",
+      "condition_source": "Official 2026-04-06 named item rule, mapped by existing stable ID and local identity"
+    },
+    "BG30_MagicItem_701": {
+      "types": [
+        "恶魔"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "condition": "health_rewinder",
+      "condition_source": "Official 2026-04-06 named item rule, mapped by existing stable ID and local identity"
+    },
+    "BG30_MagicItem_879t": {
+      "types": [
+        "恶魔"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_154": {
+      "types": [
+        "恶魔"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_830": {
+      "types": [
+        "恶魔"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_156": {
+      "types": [
+        "恶魔",
+        "元素"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_942": {
+      "types": [
+        "恶魔",
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_831": {
+      "types": [
+        "恶魔",
+        "野猪人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_545": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_172": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_283": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_300t": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_740": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_741": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_742": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_743": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_810t": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_840": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_841": {
+      "types": [
+        "机械"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_439": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_924t": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_710": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_711": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_712": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_713": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_302t": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_363": {
+      "types": [
+        "海盗"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_801t": {
+      "types": [
+        "海盗",
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_422t": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_919": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_920": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_999": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_920": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_922": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_923": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_924": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_361": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_362": {
+      "types": [
+        "纳迦"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_310": {
+      "types": [
+        "野兽"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_540": {
+      "types": [
+        "野兽"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_200": {
+      "types": [
+        "野兽"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_306": {
+      "types": [
+        "野兽"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_860t": {
+      "types": [
+        "野兽"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_700": {
+      "types": [
+        "野兽"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_701": {
+      "types": [
+        "野兽"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_212": {
+      "types": [
+        "野兽"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_410t2": {
+      "types": [
+        "野猪人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_442": {
+      "types": [
+        "野猪人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_546": {
+      "types": [
+        "野猪人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_988t": {
+      "types": [
+        "野猪人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_808t": {
+      "types": [
+        "野猪人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_303t": {
+      "types": [
+        "野猪人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_308": {
+      "types": [
+        "野猪人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_914t": {
+      "types": [
+        "鱼人"
+      ],
+      "offer_mode": "pivot",
+      "sample_weight": 2,
+      "classification_source": "Project adaptation: named cross-board starter/economy/generation pivot, reviewed individually; not official hidden tag claim"
+    },
+    "BG32_MagicItem_926": {
+      "types": [
+        "鱼人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_309": {
+      "types": [
+        "鱼人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_750": {
+      "types": [
+        "鱼人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_753": {
+      "types": [
+        "鱼人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table.",
+      "condition": "multiple_battlecries",
+      "condition_source": "Official 2026-04-06 named item rule, mapped by existing stable ID and local identity"
+    },
+    "BG36_MagicItem_850": {
+      "types": [
+        "鱼人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_995": {
+      "types": [
+        "龙"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG32_MagicItem_363": {
+      "types": [
+        "龙"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_840t": {
+      "types": [
+        "龙"
+      ],
+      "offer_mode": "pivot",
+      "sample_weight": 2,
+      "classification_source": "Explicit designer example (Gauntlet 2024 / Chromatic Tear 2026)"
+    },
+    "BG36_MagicItem_215": {
+      "types": [
+        "龙"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG36_MagicItem_214": {
+      "types": [
+        "龙",
+        "野猪人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG30_MagicItem_418": {
+      "types": [
+        "龙",
+        "鱼人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "BG35_MagicItem_755": {
+      "types": [
+        "龙",
+        "鱼人"
+      ],
+      "offer_mode": "requires_in",
+      "sample_weight": 2,
+      "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    }
+  }
+}

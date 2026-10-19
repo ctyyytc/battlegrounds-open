@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://ui/tavern_screen.gd" id="1_yblnd"]
+
+[node name="Main" type="Control" unique_id=1980617923]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_yblnd")

@@ -1,0 +1,2051 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "asset_key": "ui:hero_frame:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:hero_power_frame:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:hero_power_exhausted:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:card_back:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:minion_frame:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:minion_frame_golden:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:minion_card_frame:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:minion_card_frame_golden:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:spell_card_frame:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:spell_card_frame_golden:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_taunt:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_divine_shield:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_deathrattle:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_trigger:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_immune:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:status_frozen:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:damage:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:healing:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:armor:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:attack:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:status_sleep:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:health:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_banner:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_banner_golden:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:tier_star:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:tavern_background_reference:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:tavern_board:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:battle_board:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:coin:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_reborn:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_windfury:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_venomous:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_magnetic:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_spellcraft:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_battlecry:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_rally:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_choose_one:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_activate:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_avenge:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_feed:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_beast:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_mechanical:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_demon:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_dragon:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_pirate:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_murloc:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_undead:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_quilboar:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_elemental:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_naga:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_all:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:race_none:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_refresh:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_freeze:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_upgrade:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_end_turn:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_recruit:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_combat:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_pause:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_speed:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_lesser_trinket:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_greater_trinket:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_dark_gift:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_later:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_confirm:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:button_sell:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:armor_compact:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:deathrattle_compact:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:trigger_compact:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:available_glow_circle:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:available_glow_square:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:available_glow_shield:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:trinket_slot_lesser:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:trinket_slot_greater:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:trinket_hover_frame:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:keyword_poisonous_reference:texture:normal:neutral",
+      "content_id": "ui",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sigil_t2:vector:normal:neutral",
+      "content_id": "ui:r134_sigil_t2",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sigil_t3:vector:normal:neutral",
+      "content_id": "ui:r134_sigil_t3",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sigil_t5:vector:normal:neutral",
+      "content_id": "ui:r134_sigil_t5",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sigil_t6:vector:normal:neutral",
+      "content_id": "ui:r134_sigil_t6",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sigil_t7:vector:normal:neutral",
+      "content_id": "ui:r134_sigil_t7",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sigil_t8:vector:normal:neutral",
+      "content_id": "ui:r134_sigil_t8",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_wheel_base:vector:normal:neutral",
+      "content_id": "ui:r134_wheel_base",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sector_t2:vector:normal:neutral",
+      "content_id": "ui:r134_sector_t2",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_selected_t2:vector:normal:neutral",
+      "content_id": "ui:r134_selected_t2",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sector_t3:vector:normal:neutral",
+      "content_id": "ui:r134_sector_t3",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_selected_t3:vector:normal:neutral",
+      "content_id": "ui:r134_selected_t3",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sector_t5:vector:normal:neutral",
+      "content_id": "ui:r134_sector_t5",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_selected_t5:vector:normal:neutral",
+      "content_id": "ui:r134_selected_t5",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sector_t6:vector:normal:neutral",
+      "content_id": "ui:r134_sector_t6",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_selected_t6:vector:normal:neutral",
+      "content_id": "ui:r134_selected_t6",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sector_t7:vector:normal:neutral",
+      "content_id": "ui:r134_sector_t7",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_selected_t7:vector:normal:neutral",
+      "content_id": "ui:r134_selected_t7",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sector_t8:vector:normal:neutral",
+      "content_id": "ui:r134_sector_t8",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_selected_t8:vector:normal:neutral",
+      "content_id": "ui:r134_selected_t8",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_wheel_disk:vector:normal:neutral",
+      "content_id": "ui:r134_wheel_disk",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_wheel_separators:vector:normal:neutral",
+      "content_id": "ui:r134_wheel_separators",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_wheel_hub:vector:normal:neutral",
+      "content_id": "ui:r134_wheel_hub",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_wheel_pointer:vector:normal:neutral",
+      "content_id": "ui:r134_wheel_pointer",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_result_frame:vector:normal:neutral",
+      "content_id": "ui:r134_result_frame",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_gold_frame:vector:normal:neutral",
+      "content_id": "ui:r134_gold_frame",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r133_progress_track:texture:normal:neutral",
+      "content_id": "ui:r133_progress_track",
+      "path": "res://assets/ui/project_feedback/r133_progress_track.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r133_collect_ring:texture:normal:neutral",
+      "content_id": "ui:r133_collect_ring",
+      "path": "res://assets/ui/project_feedback/r133_collect_ring.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r133_collect_spark:texture:normal:neutral",
+      "content_id": "ui:r133_collect_spark",
+      "path": "res://assets/ui/project_feedback/r133_collect_spark.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r133_ticket_badge:texture:normal:neutral",
+      "content_id": "ui:r133_ticket_badge",
+      "path": "res://assets/ui/project_feedback/r133_ticket_badge.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r133_exception_mark:texture:normal:neutral",
+      "content_id": "ui:r133_exception_mark",
+      "path": "res://assets/ui/project_feedback/r133_exception_mark.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r134_sigil_t2:texture:normal:neutral",
+      "content_id": "ui:r134_sigil_t2",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sigil_t3:texture:normal:neutral",
+      "content_id": "ui:r134_sigil_t3",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sigil_t5:texture:normal:neutral",
+      "content_id": "ui:r134_sigil_t5",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sigil_t6:texture:normal:neutral",
+      "content_id": "ui:r134_sigil_t6",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sigil_t7:texture:normal:neutral",
+      "content_id": "ui:r134_sigil_t7",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sigil_t8:texture:normal:neutral",
+      "content_id": "ui:r134_sigil_t8",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_wheel_base:texture:normal:neutral",
+      "content_id": "ui:r134_wheel_base",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_sector_t2:texture:normal:neutral",
+      "content_id": "ui:r134_sector_t2",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_selected_t2:texture:normal:neutral",
+      "content_id": "ui:r134_selected_t2",
+      "path": "res://assets/ui/project_feedback/r134_selected_t2.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r134_sector_t3:texture:normal:neutral",
+      "content_id": "ui:r134_sector_t3",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_selected_t3:texture:normal:neutral",
+      "content_id": "ui:r134_selected_t3",
+      "path": "res://assets/ui/project_feedback/r134_selected_t3.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r134_sector_t5:texture:normal:neutral",
+      "content_id": "ui:r134_sector_t5",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_selected_t5:texture:normal:neutral",
+      "content_id": "ui:r134_selected_t5",
+      "path": "res://assets/ui/project_feedback/r134_selected_t5.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r134_sector_t6:texture:normal:neutral",
+      "content_id": "ui:r134_sector_t6",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_selected_t6:texture:normal:neutral",
+      "content_id": "ui:r134_selected_t6",
+      "path": "res://assets/ui/project_feedback/r134_selected_t6.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r134_sector_t7:texture:normal:neutral",
+      "content_id": "ui:r134_sector_t7",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_selected_t7:texture:normal:neutral",
+      "content_id": "ui:r134_selected_t7",
+      "path": "res://assets/ui/project_feedback/r134_selected_t7.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r134_sector_t8:texture:normal:neutral",
+      "content_id": "ui:r134_sector_t8",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_selected_t8:texture:normal:neutral",
+      "content_id": "ui:r134_selected_t8",
+      "path": "res://assets/ui/project_feedback/r134_selected_t8.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r134_wheel_disk:texture:normal:neutral",
+      "content_id": "ui:r134_wheel_disk",
+      "path": "res://assets/ui/project_feedback/r134_wheel_disk.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r134_wheel_separators:texture:normal:neutral",
+      "content_id": "ui:r134_wheel_separators",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_wheel_hub:texture:normal:neutral",
+      "content_id": "ui:r134_wheel_hub",
+      "path": "res://assets/ui/project_feedback/r134_wheel_hub.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r134_wheel_pointer:texture:normal:neutral",
+      "content_id": "ui:r134_wheel_pointer",
+      "path": "res://assets/ui/project_feedback/r134_wheel_pointer.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r134_result_frame:texture:normal:neutral",
+      "content_id": "ui:r134_result_frame",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:r134_gold_frame:texture:normal:neutral",
+      "content_id": "ui:r134_gold_frame",
+      "path": "",
+      "status": "optional_external"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.shared.backplate.00:texture:normal:neutral",
+      "content_id": "KEYWORD_SHARED",
+      "path": "res://assets/ui/runtime21/textures/shared/backplate.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.taunt.physical_frame.active.00:texture:normal:neutral",
+      "content_id": "TAUNT",
+      "path": "res://assets/ui/runtime21/textures/taunt/physical_frame__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.energy_shell.active.00:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/energy_shell__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.energy_shell.active.01:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/energy_shell__active__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.energy_shell.active.02:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/energy_shell__active__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.energy_shell.active.03:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/energy_shell__active__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.energy_shell.active.04:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/energy_shell__active__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.energy_shell.active.05:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/energy_shell__active__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.energy_shell.active.06:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/energy_shell__active__06.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.energy_shell.active.07:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/energy_shell__active__07.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.energy_shell.active.08:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/energy_shell__active__08.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.energy_shell.active.09:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/energy_shell__active__09.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.energy_shell.active.10:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/energy_shell__active__10.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.energy_shell.active.11:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/energy_shell__active__11.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.consume_event.consumed.00:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/consume_event__consumed__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.consume_event.consumed.01:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/consume_event__consumed__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.consume_event.consumed.02:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/consume_event__consumed__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.consume_event.consumed.03:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/consume_event__consumed__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.consume_event.consumed.04:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/consume_event__consumed__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.divine_shield.consume_event.consumed.05:texture:normal:neutral",
+      "content_id": "DIVINE_SHIELD",
+      "path": "res://assets/ui/runtime21/textures/divine_shield/consume_event__consumed__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.fractured_shell.active.00:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/fractured_shell__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.fractured_shell.active.01:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/fractured_shell__active__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.fractured_shell.active.02:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/fractured_shell__active__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.fractured_shell.active.03:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/fractured_shell__active__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.fractured_shell.active.04:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/fractured_shell__active__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.fractured_shell.active.05:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/fractured_shell__active__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.fractured_shell.active.06:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/fractured_shell__active__06.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.fractured_shell.active.07:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/fractured_shell__active__07.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.fractured_shell.active.08:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/fractured_shell__active__08.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.fractured_shell.active.09:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/fractured_shell__active__09.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.fractured_shell.active.10:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/fractured_shell__active__10.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.fractured_shell.active.11:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/fractured_shell__active__11.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.consume_event.consumed.00:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/consume_event__consumed__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.consume_event.consumed.01:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/consume_event__consumed__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.consume_event.consumed.02:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/consume_event__consumed__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.consume_event.consumed.03:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/consume_event__consumed__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.consume_event.consumed.04:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/consume_event__consumed__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.reborn.consume_event.consumed.05:texture:normal:neutral",
+      "content_id": "REBORN",
+      "path": "res://assets/ui/runtime21/textures/reborn/consume_event__consumed__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_back.active.00:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_back__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_back.active.01:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_back__active__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_back.active.02:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_back__active__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_back.active.03:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_back__active__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_back.active.04:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_back__active__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_back.active.05:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_back__active__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_back.active.06:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_back__active__06.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_back.active.07:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_back__active__07.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_back.active.08:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_back__active__08.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_back.active.09:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_back__active__09.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_back.active.10:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_back__active__10.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_back.active.11:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_back__active__11.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_front.active.00:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_front__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_front.active.01:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_front__active__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_front.active.02:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_front__active__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_front.active.03:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_front__active__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_front.active.04:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_front__active__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_front.active.05:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_front__active__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_front.active.06:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_front__active__06.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_front.active.07:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_front__active__07.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_front.active.08:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_front__active__08.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_front.active.09:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_front__active__09.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_front.active.10:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_front__active__10.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.windfury.wind_front.active.11:texture:normal:neutral",
+      "content_id": "WINDFURY",
+      "path": "res://assets/ui/runtime21/textures/windfury/wind_front__active__11.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.deathrattle.symbol.active.00:texture:normal:neutral",
+      "content_id": "DEATHRATTLE",
+      "path": "res://assets/ui/runtime21/textures/deathrattle/symbol__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.activate.symbol.active.00:texture:normal:neutral",
+      "content_id": "ACTIVATE",
+      "path": "res://assets/ui/runtime21/textures/activate/symbol__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.activate.available.available.00:texture:normal:neutral",
+      "content_id": "ACTIVATE",
+      "path": "res://assets/ui/runtime21/textures/activate/available__available__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.activate.used.used.00:texture:normal:neutral",
+      "content_id": "ACTIVATE",
+      "path": "res://assets/ui/runtime21/textures/activate/used__used__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.activate.used_badge.used_badge.00:texture:normal:neutral",
+      "content_id": "ACTIVATE",
+      "path": "res://assets/ui/runtime21/textures/activate/used_badge__used_badge__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.activate.unavailable_badge.unavailable_badge.00:texture:normal:neutral",
+      "content_id": "ACTIVATE",
+      "path": "res://assets/ui/runtime21/textures/activate/unavailable_badge__unavailable_badge__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_start.symbol.active.00:texture:normal:neutral",
+      "content_id": "TURN_START",
+      "path": "res://assets/ui/runtime21/textures/turn_start/symbol__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.symbol.active.00:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/symbol__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.00:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.01:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.02:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.03:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.04:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.05:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.06:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__06.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.07:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__07.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.08:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__08.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.09:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__09.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.10:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__10.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.11:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__11.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.12:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__12.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.13:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__13.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.14:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__14.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.15:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__15.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.16:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__16.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.17:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__17.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.18:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__18.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.19:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__19.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.20:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__20.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.21:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__21.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.22:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__22.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.turn_end.conditional_glow.highlight.23:texture:normal:neutral",
+      "content_id": "TURN_END",
+      "path": "res://assets/ui/runtime21/textures/turn_end/conditional_glow__highlight__23.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.symbol.active.00:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/symbol__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.00:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.01:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.02:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.03:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.04:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.05:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.06:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__06.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.07:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__07.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.08:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__08.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.09:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__09.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.10:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__10.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.11:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__11.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.12:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__12.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.13:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__13.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.14:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__14.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.15:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__15.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.16:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__16.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.17:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__17.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.18:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__18.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.19:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__19.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.20:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__20.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.21:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__21.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.22:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__22.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.avenge.conditional_glow.highlight.23:texture:normal:neutral",
+      "content_id": "AVENGE",
+      "path": "res://assets/ui/runtime21/textures/avenge/conditional_glow__highlight__23.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.venomous.active.active.00:texture:normal:neutral",
+      "content_id": "VENOMOUS",
+      "path": "res://assets/ui/runtime21/textures/venomous/active__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.venomous.consumed.active.00:texture:normal:neutral",
+      "content_id": "VENOMOUS",
+      "path": "res://assets/ui/runtime21/textures/venomous/consumed__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.venomous.consumed.active.01:texture:normal:neutral",
+      "content_id": "VENOMOUS",
+      "path": "res://assets/ui/runtime21/textures/venomous/consumed__active__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.venomous.consumed.active.02:texture:normal:neutral",
+      "content_id": "VENOMOUS",
+      "path": "res://assets/ui/runtime21/textures/venomous/consumed__active__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.venomous.consumed.active.03:texture:normal:neutral",
+      "content_id": "VENOMOUS",
+      "path": "res://assets/ui/runtime21/textures/venomous/consumed__active__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.venomous.consumed.active.04:texture:normal:neutral",
+      "content_id": "VENOMOUS",
+      "path": "res://assets/ui/runtime21/textures/venomous/consumed__active__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.venomous.consumed.active.05:texture:normal:neutral",
+      "content_id": "VENOMOUS",
+      "path": "res://assets/ui/runtime21/textures/venomous/consumed__active__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.poisonous.active.active.00:texture:normal:neutral",
+      "content_id": "POISONOUS",
+      "path": "res://assets/ui/runtime21/textures/poisonous/active__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.poisonous.active.active.01:texture:normal:neutral",
+      "content_id": "POISONOUS",
+      "path": "res://assets/ui/runtime21/textures/poisonous/active__active__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.poisonous.active.active.02:texture:normal:neutral",
+      "content_id": "POISONOUS",
+      "path": "res://assets/ui/runtime21/textures/poisonous/active__active__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.poisonous.active.active.03:texture:normal:neutral",
+      "content_id": "POISONOUS",
+      "path": "res://assets/ui/runtime21/textures/poisonous/active__active__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.poisonous.active.active.04:texture:normal:neutral",
+      "content_id": "POISONOUS",
+      "path": "res://assets/ui/runtime21/textures/poisonous/active__active__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.poisonous.active.active.05:texture:normal:neutral",
+      "content_id": "POISONOUS",
+      "path": "res://assets/ui/runtime21/textures/poisonous/active__active__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.poisonous.active.active.06:texture:normal:neutral",
+      "content_id": "POISONOUS",
+      "path": "res://assets/ui/runtime21/textures/poisonous/active__active__06.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.poisonous.active.active.07:texture:normal:neutral",
+      "content_id": "POISONOUS",
+      "path": "res://assets/ui/runtime21/textures/poisonous/active__active__07.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.smoke.active.00:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/smoke__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.smoke.active.01:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/smoke__active__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.smoke.active.02:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/smoke__active__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.smoke.active.03:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/smoke__active__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.smoke.active.04:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/smoke__active__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.smoke.active.05:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/smoke__active__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.smoke.active.06:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/smoke__active__06.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.smoke.active.07:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/smoke__active__07.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.smoke.active.08:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/smoke__active__08.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.smoke.active.09:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/smoke__active__09.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.smoke.active.10:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/smoke__active__10.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.smoke.active.11:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/smoke__active__11.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.reveal.active.00:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/reveal__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.reveal.active.01:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/reveal__active__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.reveal.active.02:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/reveal__active__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.reveal.active.03:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/reveal__active__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.reveal.active.04:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/reveal__active__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.stealth.reveal.active.05:texture:normal:neutral",
+      "content_id": "STEALTH",
+      "path": "res://assets/ui/runtime21/textures/stealth/reveal__active__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.magnetic.event.active.00:texture:normal:neutral",
+      "content_id": "MAGNETIC",
+      "path": "res://assets/ui/runtime21/textures/magnetic/event__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.magnetic.event.active.01:texture:normal:neutral",
+      "content_id": "MAGNETIC",
+      "path": "res://assets/ui/runtime21/textures/magnetic/event__active__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.magnetic.event.active.02:texture:normal:neutral",
+      "content_id": "MAGNETIC",
+      "path": "res://assets/ui/runtime21/textures/magnetic/event__active__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.magnetic.event.active.03:texture:normal:neutral",
+      "content_id": "MAGNETIC",
+      "path": "res://assets/ui/runtime21/textures/magnetic/event__active__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.magnetic.event.active.04:texture:normal:neutral",
+      "content_id": "MAGNETIC",
+      "path": "res://assets/ui/runtime21/textures/magnetic/event__active__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.magnetic.event.active.05:texture:normal:neutral",
+      "content_id": "MAGNETIC",
+      "path": "res://assets/ui/runtime21/textures/magnetic/event__active__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.magnetic.event.active.06:texture:normal:neutral",
+      "content_id": "MAGNETIC",
+      "path": "res://assets/ui/runtime21/textures/magnetic/event__active__06.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.magnetic.event.active.07:texture:normal:neutral",
+      "content_id": "MAGNETIC",
+      "path": "res://assets/ui/runtime21/textures/magnetic/event__active__07.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.magnetic.event.active.08:texture:normal:neutral",
+      "content_id": "MAGNETIC",
+      "path": "res://assets/ui/runtime21/textures/magnetic/event__active__08.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.magnetic.event.active.09:texture:normal:neutral",
+      "content_id": "MAGNETIC",
+      "path": "res://assets/ui/runtime21/textures/magnetic/event__active__09.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.magnetic.event.active.10:texture:normal:neutral",
+      "content_id": "MAGNETIC",
+      "path": "res://assets/ui/runtime21/textures/magnetic/event__active__10.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.magnetic.event.active.11:texture:normal:neutral",
+      "content_id": "MAGNETIC",
+      "path": "res://assets/ui/runtime21/textures/magnetic/event__active__11.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.spellcraft.event.active.00:texture:normal:neutral",
+      "content_id": "SPELLCRAFT",
+      "path": "res://assets/ui/runtime21/textures/spellcraft/event__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.spellcraft.event.active.01:texture:normal:neutral",
+      "content_id": "SPELLCRAFT",
+      "path": "res://assets/ui/runtime21/textures/spellcraft/event__active__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.spellcraft.event.active.02:texture:normal:neutral",
+      "content_id": "SPELLCRAFT",
+      "path": "res://assets/ui/runtime21/textures/spellcraft/event__active__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.spellcraft.event.active.03:texture:normal:neutral",
+      "content_id": "SPELLCRAFT",
+      "path": "res://assets/ui/runtime21/textures/spellcraft/event__active__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.spellcraft.event.active.04:texture:normal:neutral",
+      "content_id": "SPELLCRAFT",
+      "path": "res://assets/ui/runtime21/textures/spellcraft/event__active__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.spellcraft.event.active.05:texture:normal:neutral",
+      "content_id": "SPELLCRAFT",
+      "path": "res://assets/ui/runtime21/textures/spellcraft/event__active__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.spellcraft.event.active.06:texture:normal:neutral",
+      "content_id": "SPELLCRAFT",
+      "path": "res://assets/ui/runtime21/textures/spellcraft/event__active__06.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.spellcraft.event.active.07:texture:normal:neutral",
+      "content_id": "SPELLCRAFT",
+      "path": "res://assets/ui/runtime21/textures/spellcraft/event__active__07.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.spellcraft.event.active.08:texture:normal:neutral",
+      "content_id": "SPELLCRAFT",
+      "path": "res://assets/ui/runtime21/textures/spellcraft/event__active__08.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.spellcraft.event.active.09:texture:normal:neutral",
+      "content_id": "SPELLCRAFT",
+      "path": "res://assets/ui/runtime21/textures/spellcraft/event__active__09.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.spellcraft.event.active.10:texture:normal:neutral",
+      "content_id": "SPELLCRAFT",
+      "path": "res://assets/ui/runtime21/textures/spellcraft/event__active__10.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.spellcraft.event.active.11:texture:normal:neutral",
+      "content_id": "SPELLCRAFT",
+      "path": "res://assets/ui/runtime21/textures/spellcraft/event__active__11.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.choose_one.event.active.00:texture:normal:neutral",
+      "content_id": "CHOOSE_ONE",
+      "path": "res://assets/ui/runtime21/textures/choose_one/event__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.choose_one.event.active.01:texture:normal:neutral",
+      "content_id": "CHOOSE_ONE",
+      "path": "res://assets/ui/runtime21/textures/choose_one/event__active__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.choose_one.event.active.02:texture:normal:neutral",
+      "content_id": "CHOOSE_ONE",
+      "path": "res://assets/ui/runtime21/textures/choose_one/event__active__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.choose_one.event.active.03:texture:normal:neutral",
+      "content_id": "CHOOSE_ONE",
+      "path": "res://assets/ui/runtime21/textures/choose_one/event__active__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.choose_one.event.active.04:texture:normal:neutral",
+      "content_id": "CHOOSE_ONE",
+      "path": "res://assets/ui/runtime21/textures/choose_one/event__active__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.choose_one.event.active.05:texture:normal:neutral",
+      "content_id": "CHOOSE_ONE",
+      "path": "res://assets/ui/runtime21/textures/choose_one/event__active__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.choose_one.event.active.06:texture:normal:neutral",
+      "content_id": "CHOOSE_ONE",
+      "path": "res://assets/ui/runtime21/textures/choose_one/event__active__06.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.choose_one.event.active.07:texture:normal:neutral",
+      "content_id": "CHOOSE_ONE",
+      "path": "res://assets/ui/runtime21/textures/choose_one/event__active__07.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.choose_one.event.active.08:texture:normal:neutral",
+      "content_id": "CHOOSE_ONE",
+      "path": "res://assets/ui/runtime21/textures/choose_one/event__active__08.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.choose_one.event.active.09:texture:normal:neutral",
+      "content_id": "CHOOSE_ONE",
+      "path": "res://assets/ui/runtime21/textures/choose_one/event__active__09.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.choose_one.event.active.10:texture:normal:neutral",
+      "content_id": "CHOOSE_ONE",
+      "path": "res://assets/ui/runtime21/textures/choose_one/event__active__10.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.choose_one.event.active.11:texture:normal:neutral",
+      "content_id": "CHOOSE_ONE",
+      "path": "res://assets/ui/runtime21/textures/choose_one/event__active__11.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.cleave.event.active.00:texture:normal:neutral",
+      "content_id": "CLEAVE",
+      "path": "res://assets/ui/runtime21/textures/cleave/event__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.cleave.event.active.01:texture:normal:neutral",
+      "content_id": "CLEAVE",
+      "path": "res://assets/ui/runtime21/textures/cleave/event__active__01.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.cleave.event.active.02:texture:normal:neutral",
+      "content_id": "CLEAVE",
+      "path": "res://assets/ui/runtime21/textures/cleave/event__active__02.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.cleave.event.active.03:texture:normal:neutral",
+      "content_id": "CLEAVE",
+      "path": "res://assets/ui/runtime21/textures/cleave/event__active__03.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.cleave.event.active.04:texture:normal:neutral",
+      "content_id": "CLEAVE",
+      "path": "res://assets/ui/runtime21/textures/cleave/event__active__04.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.cleave.event.active.05:texture:normal:neutral",
+      "content_id": "CLEAVE",
+      "path": "res://assets/ui/runtime21/textures/cleave/event__active__05.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.cleave.event.active.06:texture:normal:neutral",
+      "content_id": "CLEAVE",
+      "path": "res://assets/ui/runtime21/textures/cleave/event__active__06.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.cleave.event.active.07:texture:normal:neutral",
+      "content_id": "CLEAVE",
+      "path": "res://assets/ui/runtime21/textures/cleave/event__active__07.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.cleave.event.active.08:texture:normal:neutral",
+      "content_id": "CLEAVE",
+      "path": "res://assets/ui/runtime21/textures/cleave/event__active__08.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.cleave.event.active.09:texture:normal:neutral",
+      "content_id": "CLEAVE",
+      "path": "res://assets/ui/runtime21/textures/cleave/event__active__09.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.cleave.event.active.10:texture:normal:neutral",
+      "content_id": "CLEAVE",
+      "path": "res://assets/ui/runtime21/textures/cleave/event__active__10.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.cleave.event.active.11:texture:normal:neutral",
+      "content_id": "CLEAVE",
+      "path": "res://assets/ui/runtime21/textures/cleave/event__active__11.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.battlecry.symbol.active.00:texture:normal:neutral",
+      "content_id": "BATTLECRY",
+      "path": "res://assets/ui/runtime21/textures/battlecry/symbol__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.rally.symbol.active.00:texture:normal:neutral",
+      "content_id": "RALLY",
+      "path": "res://assets/ui/runtime21/textures/rally/symbol__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.sell_trigger.symbol.active.00:texture:normal:neutral",
+      "content_id": "SELL_TRIGGER",
+      "path": "res://assets/ui/runtime21/textures/sell_trigger/symbol__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.combat_start.symbol.active.00:texture:normal:neutral",
+      "content_id": "COMBAT_START",
+      "path": "res://assets/ui/runtime21/textures/combat_start/symbol__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:runtime21.fx.immune_attack.symbol.active.00:texture:normal:neutral",
+      "content_id": "IMMUNE_ATTACK",
+      "path": "res://assets/ui/runtime21/textures/immune_attack/symbol__active__00.png",
+      "status": "original_runtime21"
+    },
+    {
+      "asset_key": "ui:r133_route_frame:texture:normal:neutral",
+      "content_id": "ui:r133_route_frame",
+      "path": "res://assets/ui/project_feedback/r133_route_frame.png",
+      "status": "project_authored_builtin"
+    },
+    {
+      "asset_key": "ui:r133_secret_mount:texture:normal:neutral",
+      "content_id": "ui:r133_secret_mount",
+      "path": "res://assets/ui/project_feedback/r133_secret_mount.png",
+      "status": "project_authored_builtin"
+    }
+  ]
+}

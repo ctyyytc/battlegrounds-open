@@ -1,0 +1,2935 @@
+{
+  "schema_version": 2,
+  "phrases": [
+    {
+      "key": "beast_presentation.8d7353a2124e",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "beast_presentation.781174a29874",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "beast_presentation.deed0c6a781c",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "beast_presentation.fe91001a5e34",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "beast_presentation.2992c9c3ed4e",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "beast_presentation.db3a5180c89c",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "beast_presentation.1659c910d224",
+      "format_tokens": [
+        "%d",
+        "%s"
+      ],
+      "fallback": "说明待补充 · %d / %s"
+    },
+    {
+      "key": "beast_presentation.d4e9e342a062",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "beast_presentation.0d4809ed771e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "beast_presentation.290c9eaead51",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "card_presentation.109944448a1f",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "demon_presentation.8d42ba84255e",
+      "format_tokens": [
+        "%d",
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d / %d"
+    },
+    {
+      "key": "demon_presentation.9d1ebfe663a6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "dynamic_state_presentation.85fa06a7451b",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "dynamic_state_presentation.265c626d0c3d",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "dynamic_state_presentation.f47dfe722a69",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "dynamic_state_presentation.c70f46fae73e",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "effect_progress_presentation.4e60ca4c330c",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "effect_progress_presentation.bb2b3aafe435",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "elemental_presentation.8bee2df0f2fa",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "elemental_presentation.a9679a73087d",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "elemental_presentation.9259724f3ee0",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "elemental_presentation.00a0baba6bc1",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "elemental_presentation.17e9da14c268",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "elemental_presentation.c087356ad364",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "elemental_presentation.94520d665323",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "elemental_presentation.d03886bc33d3",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.206f925ff1a0",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.5471fb7bf51f",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.3972ea1fdb05",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.949895d3e679",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.845575856148",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.db1ff8d4a537",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.019509a9a337",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.a77e3de0a836",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.3114d517efa6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.c2b139bf0106",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.5c64f87e9afe",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.6dd3f9371548",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.cc4fb7585817",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.93cc0f90eaa9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "golden_ability_text.613b1d5fbef3",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "life_payment_presentation.d58f6c10dbf5",
+      "format_tokens": [
+        "%d",
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d / %d"
+    },
+    {
+      "key": "life_payment_presentation.58e8671ae0c8",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "life_payment_presentation.388f8ca6147c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "life_payment_presentation.4c8477e464b9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "life_payment_presentation.a0633135bbaa",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "life_payment_presentation.69476da31161",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "life_payment_presentation.ca697b795a08",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "life_payment_presentation.fb89f2a407eb",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "murloc_presentation.45234d9d1aee",
+      "format_tokens": [
+        "%d",
+        "%s",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %s / %d"
+    },
+    {
+      "key": "murloc_presentation.200d3aec00b4",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "murloc_presentation.0dcb6dd9a7be",
+      "format_tokens": [
+        "%d",
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d / %d"
+    },
+    {
+      "key": "murloc_presentation.5c8e9bcf514d",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "murloc_presentation.5766c54f5703",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "murloc_presentation.a4ecb1b45548",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "murloc_presentation.cc017a3c9662",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "murloc_presentation.930bb93ecda0",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "murloc_presentation.d7246e947490",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "murloc_presentation.426bbcf16c64",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "murloc_presentation.3a553ebeef4a",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "murloc_presentation.e9d2f7952c57",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "murloc_presentation.5c00f101432a",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "murloc_presentation.a8bcca8c8451",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "naga_presentation.00f249bed105",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "naga_presentation.0e5d8c33dbe7",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "naga_presentation.7e494e2b9318",
+      "format_tokens": [
+        "%s",
+        "%s",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %s / %s / %d"
+    },
+    {
+      "key": "naga_presentation.ec1f12263a75",
+      "format_tokens": [
+        "%s",
+        "%s",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %s / %s / %d"
+    },
+    {
+      "key": "naga_presentation.133ec83408c7",
+      "format_tokens": [
+        "%s",
+        "%s",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %s / %s / %d"
+    },
+    {
+      "key": "naga_presentation.5b9006d3f6d1",
+      "format_tokens": [
+        "%d",
+        "%d",
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d / %d / %d"
+    },
+    {
+      "key": "naga_presentation.8d31f638db2e",
+      "format_tokens": [
+        "%s",
+        "%s",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %s / %s / %d"
+    },
+    {
+      "key": "naga_presentation.76fbe68311a6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "naga_presentation.ab64869dedfd",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "naga_presentation.716d558ef8ad",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "naga_presentation.2b47ef7824cf",
+      "format_tokens": [
+        "%d",
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d / %d"
+    },
+    {
+      "key": "naga_presentation.424923e00384",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "naga_presentation.acec5310ffc0",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "naga_presentation.813a832ec430",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "naga_presentation.2a6abd0091b1",
+      "format_tokens": [
+        "%d",
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d / %d"
+    },
+    {
+      "key": "pirate_presentation.d3f57e9473e7",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "pirate_presentation.8608572a7261",
+      "format_tokens": [
+        "%d",
+        "%s"
+      ],
+      "fallback": "说明待补充 · %d / %s"
+    },
+    {
+      "key": "pirate_presentation.7e4327f24c79",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "pirate_presentation.1fc6345be562",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "pirate_presentation.9a04ce5db204",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "pirate_presentation.e70dedf594df",
+      "format_tokens": [
+        "%d",
+        "%s"
+      ],
+      "fallback": "说明待补充 · %d / %s"
+    },
+    {
+      "key": "pirate_presentation.beb822ab7c73",
+      "format_tokens": [
+        "%d",
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d / %d"
+    },
+    {
+      "key": "pirate_presentation.3edd305f76d1",
+      "format_tokens": [
+        "%d",
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d / %d"
+    },
+    {
+      "key": "pirate_presentation.d49972f245a2",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "pirate_presentation.6923a84f1dda",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "pirate_presentation.6bf8ad057990",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "pirate_presentation.4251bd7420bd",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "pirate_presentation.36060a5516b0",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "pirate_presentation.85bd049b32ac",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "pirate_presentation.1dbbc29acf39",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "quilboar_presentation.16990bc8947f",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "quilboar_presentation.c5b853f977c4",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "quilboar_presentation.708238ecef04",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "quilboar_presentation.fdf94b5398f0",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "quilboar_presentation.f8cb97858158",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "quilboar_presentation.8f786b854b29",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "quilboar_presentation.0a3dfb75e8e7",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "quilboar_presentation.c611fd7c97b9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "quilboar_presentation.e64aae102a8e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "quilboar_presentation.b789ac718c3d",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "quilboar_presentation.71c65f14410d",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "quilboar_presentation.e80935781a06",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "quilboar_presentation.b94e2e2a7e0c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round133_presentation.9e05ae5e1bc2",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round133_presentation.316474af8e2b",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round134_wheel.3a19b2c87e11",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round134_wheel.c166a1bfe8c2",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round134_wheel.6903311ccbf9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round134_wheel.63132759ad36",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round135_presentation.3df8c5eec087",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round135_presentation.7f24453261eb",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "round135_presentation.2d80ce1bea90",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "round135_presentation.a0ffc4ecd1d8",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "round135_presentation.4645b4411fbd",
+      "format_tokens": [
+        "%s"
+      ],
+      "fallback": "说明待补充 · %s"
+    },
+    {
+      "key": "round135_presentation.c21081bb3fe2",
+      "format_tokens": [
+        "%s"
+      ],
+      "fallback": "说明待补充 · %s"
+    },
+    {
+      "key": "round135_presentation.b1f61c6eeec3",
+      "format_tokens": [
+        "%s"
+      ],
+      "fallback": "说明待补充 · %s"
+    },
+    {
+      "key": "round135_presentation.6d7fdcd90b69",
+      "format_tokens": [
+        "%s"
+      ],
+      "fallback": "说明待补充 · %s"
+    },
+    {
+      "key": "round135_presentation.a15c4f419824",
+      "format_tokens": [
+        "%s"
+      ],
+      "fallback": "说明待补充 · %s"
+    },
+    {
+      "key": "round135_presentation.2d09e6a6f535",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "round135_presentation.7ee1232a76b1",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "round135_presentation.280ece55dc87",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round135_presentation.6b4466b48ddf",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round135_presentation.e6a6ec3bb59d",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round135_presentation.6f4358e08d23",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round135_presentation.9f284f66315a",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round135_presentation.e700780cc7a6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round135_presentation.ab9e5e50c6cf",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round135_presentation.81701b2d6fd9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round135_presentation.1d216f7840eb",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round135_presentation.ce2c89f5b566",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round135_presentation.f3287735296c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round136_presentation.d35982dc9b64",
+      "format_tokens": [
+        "%s"
+      ],
+      "fallback": "说明待补充 · %s"
+    },
+    {
+      "key": "round136_presentation.a246b84e5129",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "round136_presentation.b18fe9f20e16",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round136_presentation.47e79986fbbc",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round136_presentation.0d35c89656b1",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round136_presentation.850ef5b3408c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round136_presentation.cbdb70e1484a",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round136_presentation.e92f8d927dc5",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round136_presentation.2efc7bc05cd3",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round136_presentation.abf5f0ff146b",
+      "format_tokens": [
+        "%d",
+        "%d",
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d / %d / %d"
+    },
+    {
+      "key": "round136_presentation.5ea9fb1cbdc7",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round136_presentation.0d2679fc2121",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round136_presentation.28cdc73b0df9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round136_presentation.f6735d8e2cee",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round136_presentation.34871176b2b7",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round136_presentation.9da1dcd04e4c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round13_presentation.b9c3c7aa9a96",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round13_presentation.3ac94541ba74",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "round13_presentation.13d192e0ddba",
+      "format_tokens": [
+        "%s",
+        "%s",
+        "%s"
+      ],
+      "fallback": "说明待补充 · %s / %s / %s"
+    },
+    {
+      "key": "round13_presentation.610ee3b1697d",
+      "format_tokens": [
+        "%s",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %s / %d"
+    },
+    {
+      "key": "spell_presentation.55598ce80b65",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "spell_presentation.063939e2f608",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "spell_presentation.d1c21e65bcf9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "spell_presentation.1330ba95309a",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_card_lock.description.5a1886c04742",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_card_lock.description.cc8d880f9e06",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_card_lock.description.db9bb3427a2b",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_combat_service.fight.e52d47819a7b",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "domain_rules_combat_service.fight.57f47d9107e9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_core_protection.inspect.1e8cf972303b",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_core_protection.inspect.8591bea09e0f",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_core_protection.inspect.efe3a524f992",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_core_protection.inspect.5e3c7b2d9c7b",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_fast_action_policy.exception.f46a0ad83f84",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_fast_action_policy.exception.7edf732c4cbe",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_fast_action_policy.exception.71f9b125dff7",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_match_engine.start.7239450b723d",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_match_engine.start.2bb5b7aadde5",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_pirate_rules.hero_description.abdfd1ffec87",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_quilboar_rules.gold.f37ad568947c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_quilboar_rules.gold.2566707888fe",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.212a1a859cb7",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "\n说明待补充 · %d / %d"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.ba641bb3b266",
+      "format_tokens": [
+        "%d",
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d / %d"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.4e48b2a54fc6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.e71cf0b58dc2",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.89f1110ecbb0",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.a3da95a2ebc3",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.1f847dcda572",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.c4bb2b3991f7",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.6f02cb63a8a8",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.7aa9ae0a8e16",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.50b425574a4a",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.449e98eb98ee",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.db3519b0f3bf",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.5c9680e626fa",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.a615b1b72fd5",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.e5cb0338129b",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.aaab0a99f01d",
+      "format_tokens": [
+        "%s"
+      ],
+      "fallback": "说明待补充 · %s"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.a16454078535",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.c9e642a680f4",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.e6411cc205af",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.290048ce7fcf",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.5927fcdd3c78",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_round132_powers.slot_description.592f091121bb",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round13_trinkets.power_description.f1caa26bec23",
+      "format_tokens": [
+        "%s"
+      ],
+      "fallback": "说明待补充 · %s"
+    },
+    {
+      "key": "domain_rules_round13_trinkets.power_description.cd008a306777",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round13_trinkets.power_description.c1ca94e48e1c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round13_trinkets.power_description.7bd736c78358",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_round7_heroes.description.cca929ffaef9",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_round7_heroes.description.d91d201e7eb1",
+      "format_tokens": [
+        "%d",
+        "%s"
+      ],
+      "fallback": "说明待补充 · %d / %s"
+    },
+    {
+      "key": "domain_rules_round7_heroes.description.581b75460faf",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round7_heroes.description.ef4cc9f80ae8",
+      "format_tokens": [
+        "%d",
+        "%s",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %s / %d"
+    },
+    {
+      "key": "domain_rules_round7_heroes.description.0ec278d99e98",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round7_heroes.description.7b600c5288e6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round7_heroes.description.0ebf4cd36f6d",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_round7_heroes.description.ae3bc7ddf185",
+      "format_tokens": [
+        "%s"
+      ],
+      "fallback": "说明待补充 · %s"
+    },
+    {
+      "key": "domain_rules_round7_heroes.description.630a2ff51ba5",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_round7_heroes.description.68455820c60e",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "domain_rules_round7_heroes.description.8f4b8b12a4e7",
+      "format_tokens": [
+        "%s"
+      ],
+      "fallback": "说明待补充 · %s"
+    },
+    {
+      "key": "domain_rules_round7_heroes.description.a0a94199bfd5",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_spell_history.actor.6fb6e25be395",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_spell_history.context.3852b6b88666",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_spell_history.context.0773fffafe7e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_spell_history.project.fa49c7aeee2e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "domain_rules_spell_history.project.24183b8b6b7e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_beast_presentation.summon_body.0a41e50ac33a",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_beast_presentation.summon_body.fe8af5c7b12e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_beast_presentation.summon_body.e9c752722972",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_beast_presentation.summon_body.f28b4901b3b4",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_beast_presentation.summon_body.6ef00df0e273",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_beast_presentation.summon_body.4b3f18830c51",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_beast_presentation.body.dca970e72b7e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_beast_presentation.body.97fe8e74af3c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_beast_presentation.body.f7cf7091423c",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "\n说明待补充 · %d / %d"
+    },
+    {
+      "key": "ui_beast_presentation.item.76aa9fe9aba6",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "\n说明待补充 · %d"
+    },
+    {
+      "key": "ui_beast_presentation.item.3621eecd55ee",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "\n说明待补充 · %d"
+    },
+    {
+      "key": "ui_beast_presentation.item.fa4ad8ca87d2",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "\n说明待补充 · %d"
+    },
+    {
+      "key": "ui_beast_presentation.hero.fef48d91645c",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_beast_presentation.hero.2234564e1be4",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "\n说明待补充 · %d"
+    },
+    {
+      "key": "ui_demon_presentation.progress.7f9a7a556ef8",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_demon_presentation.progress.518c6b47cf35",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_demon_presentation.progress.52bb3884e61f",
+      "format_tokens": [
+        "%d",
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d / %d"
+    },
+    {
+      "key": "ui_demon_presentation.progress.5e9ee9edb79a",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_demon_presentation.progress.c4842051c19c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_demon_presentation.progress.6798e9bb07fd",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_demon_presentation.progress.d8c5f8fa85f5",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_demon_presentation.progress.2480aceb6197",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_demon_presentation.progress.3f1b9a6ede98",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_demon_presentation.progress.da20a7681a55",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_demon_presentation.progress.d9ba59869acc",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "ui_demon_presentation.progress.2205dd252637",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_demon_presentation.progress.db46287288ab",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_demon_presentation.body.3c95fa4e7a78",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_body.5e7b2f6eb0b0",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_body.3b3599bd2e58",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_body.2e8a4f0f1def",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_body.694c087be978",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_body.b19c1277a132",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_body.c0b219a46ae9",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_body.edc179c9b3d7",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_summary.af029d73541b",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_summary.251068b91e21",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_summary.a5edb8ead6b5",
+      "format_tokens": [
+        "%d",
+        "%s"
+      ],
+      "fallback": "说明待补充 · %d / %s"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_summary.fd1aea69e3fd",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_summary.a2ca9cddb0b2",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_summary.43b8a3892fff",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_summary.3b3599bd2e58",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_summary.694c087be978",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_summary.b19c1277a132",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.trinket_summary.e34ebe8b9b81",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.gifts.7abe8d60fb3e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.gifts.52d27ebf0238",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.gifts.2aa5e4e4ae91",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.gifts.0ed13f74bb0c",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.gifts.af1598374e71",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "ui_dynamic_state_presentation.gifts.232c28c3737a",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_elemental_presentation.stats.7b600c5288e6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.stats.0ec278d99e98",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.compact.7b600c5288e6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.compact.6ceeb08af252",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.compact.0ec278d99e98",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.compact.a82fe99a04a5",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.card_body.dd4504e4a70c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.card_body.90d4dcce0f3e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.card_body.428612a6429d",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.card_body.172c4d258f28",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.card_body.1a6a149a6907",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.card_body.aa4caf1c9b7c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.card_body.456cae36bacf",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.card_body.4174e453cb84",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.card_body.f0c913b4634d",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.card_body.e704bafd933f",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.legacy_card_body.0851a14a2151",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.legacy_card_body.04823235356b",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.legacy_card_body.8e9e803ee19c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.body.f12bbc0238c9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.body.106292927d3e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.body.dcbe4e35c51e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.body.eafeefa58409",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.body.31c7fddde4de",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.body.824b3716fd6b",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.body.003e34d96fcb",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.growth_trigger.185c27f9606f",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.growth_trigger.9d729a08ba26",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.growth_trigger.4c7bfb18d5da",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.growth_trigger.639ae3ac17b3",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.growth_trigger.31fbfe9741f8",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.growth_trigger.8129448685e1",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.growth_trigger.2a857118bfae",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_elemental_presentation.growth_trigger.6c641cf8f1df",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_golden_ability_text.<module>.6096cdd96142",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_golden_ability_text.describe.00478f051209",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_golden_ability_text.badge.f61d4d996335",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_golden_ability_text.badge.ff0e0e470257",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_golden_ability_text.badge.c6ec2c40dc18",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_murloc_presentation.body.7b600c5288e6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_murloc_presentation.body.0ec278d99e98",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_murloc_presentation.body.97267d1d93d4",
+      "format_tokens": [
+        "%s",
+        "%s"
+      ],
+      "fallback": "说明待补充 · %s / %s"
+    },
+    {
+      "key": "ui_murloc_presentation.body.cfdec5af480f",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_murloc_presentation.trinket.d54d06d12eb4",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_naga_presentation.gains.ab962f82e917",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_naga_presentation.gains.2ae654064e55",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_naga_presentation.body.c60ba46cbebe",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_naga_presentation.body.35db9fd7b9e3",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_naga_presentation.body.f9659c3b3d5a",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "ui_naga_presentation.body.60bb67facf9e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_naga_presentation.body.685f1f483a55",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_naga_presentation.body.5637a054a1ec",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_naga_presentation.body.adbfc7d23573",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_naga_presentation.item.5098fec04d9d",
+      "format_tokens": [
+        "%d",
+        "%s"
+      ],
+      "fallback": "说明待补充 · %d / %s"
+    },
+    {
+      "key": "ui_naga_presentation.item.6b2abf981966",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_naga_presentation.item.e97e2d9cfb73",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_naga_presentation.item.f9b8399e9afc",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_naga_presentation.item.d7567c5bc296",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_pirate_presentation.body.cf108347052c",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_pirate_presentation.body.a1a35d834457",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_pirate_presentation.body.cd008a306777",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_pirate_presentation.body.f347c6c86822",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_pirate_presentation.body.28478c0b891e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_pirate_presentation.body.106292927d3e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_pirate_presentation.body.630a2ff51ba5",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_pirate_presentation.body.6b4ed351c2a1",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_pirate_presentation.body.60bb67facf9e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_pirate_presentation.body.be7f405829a4",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_pirate_presentation.body.ac72af063e3e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_pirate_presentation.body.685f1f483a55",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_quilboar_presentation.gains.ab962f82e917",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_quilboar_presentation.gains.2ae654064e55",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_quilboar_presentation.body.60bb67facf9e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_quilboar_presentation.body.23a08ff3a050",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_quilboar_presentation.body.685f1f483a55",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_quilboar_presentation.body.adbfc7d23573",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_quilboar_presentation.body.18384b71b5f3",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_quilboar_presentation.body.00f476e6331e",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_quilboar_presentation.body.957e2ff3448c",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_quilboar_presentation.body.e452ff98ee7d",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_quilboar_presentation.body.ef4567b0b986",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_quilboar_presentation.body.5a1886c04742",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_quilboar_presentation.body.cc8d880f9e06",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_quilboar_presentation.body.45bb55bd4f3e",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "ui_round133_presentation._draw.652d1fc1e00c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round133_presentation.build.9442cf93a0ad",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round133_presentation.build.e713985bdc5a",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round133_presentation.build.84ebdaab7a7d",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round133_presentation.build.b44c0a50b7f1",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round133_presentation.build.5fa191008131",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round133_presentation.build.29be7825b906",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round133_presentation.choice.05cc9d570f90",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round133_presentation.choice.21470c53da65",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round133_presentation.choice.f82ebcdc81e6",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel._ready.e82086847d77",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel._ready.83b207df60fb",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel._ready.47869f3c3571",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel._ready.6562592434ee",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel._process.cb933cc59399",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel._process.70a2aa04960e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel._process.2347146851d6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel._process.7e5b70c14a87",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel._process.83b207df60fb",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel._process.a7a41f68a3d8",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel.feedback.a7647824a68d",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel.feedback.bf61c604fd6c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel.feedback.e2c1ca02fafe",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel.feedback.13440ea33375",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel.feedback.db1d475801e8",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel.feedback.5c3059a331a1",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel.feedback.fd3844aa0bd6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel.feedback.bc458cd26158",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel.feedback.c4ec0058ea7a",
+      "format_tokens": [
+        "%d",
+        "%s"
+      ],
+      "fallback": "说明待补充 · %d / %s"
+    },
+    {
+      "key": "ui_round134_wheel.feedback.586644adfbad",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round134_wheel.build.320eae254511",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "ui_round134_wheel.build.b2ca34beaad2",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round135_presentation.condition.042e2afeda0a",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round135_presentation.condition.6ffa9159c7a9",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round135_presentation.condition.37f93974ef6b",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round135_presentation.condition.06bfc33313fd",
+      "format_tokens": [
+        "%d",
+        "%s",
+        "%s"
+      ],
+      "fallback": "说明待补充 · %d / %s / %s"
+    },
+    {
+      "key": "ui_round135_presentation.condition.782e3fa34e32",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round135_presentation.condition.544d56433c6c",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round135_presentation.condition.523fd7378808",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round135_presentation.condition.23a3f666e84b",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round135_presentation.condition.d8740a9e261f",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round135_presentation.summary.ba3cf6d86081",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round135_presentation.summary.4fa8a06f5464",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round135_presentation.summary.b83964524492",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "ui_round135_presentation.summary.1427a663fe7b",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round135_presentation.description.63b47aadd569",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_round135_presentation.choice.71d49bd8faaf",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round135_presentation.choice.2c169b7c7ded",
+      "format_tokens": [
+        "%s",
+        "%d",
+        "%s"
+      ],
+      "fallback": "说明待补充 · %s / %d / %s"
+    },
+    {
+      "key": "ui_round135_presentation.choice.a193d8fabee9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round135_presentation.choice.14b6595cd7e9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round136_presentation.reward.293f501a8739",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round136_presentation.summary.e4224a8dcf2b",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round136_presentation.summary.eefc4b8edc74",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round136_presentation.summary.c96764a70de8",
+      "format_tokens": [
+        "%d",
+        "%d",
+        "%d",
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d / %d / %d / %d"
+    },
+    {
+      "key": "ui_round136_presentation.description.6e51d293d110",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_round136_presentation.description.87d55bdb191e",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_round136_presentation.description.d9f28f91cc59",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round136_presentation.description.fb17a31001aa",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round136_presentation.description.341d66ef068b",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round136_presentation.description.1287deeb6109",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round136_presentation.description.5a1886c04742",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round136_presentation.session_status.1427a663fe7b",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round136_presentation.session_status.87d55bdb191e",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_round136_presentation.session_status.8ff01df5152a",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round136_presentation.evidence_choice.494102092f78",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round136_presentation.teaching_choice.845c4fe19b37",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round13_presentation.summary.9af3cb4cfc7c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round13_presentation.summary.71e9ebae56b5",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round13_presentation.summary.7bd736c78358",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round13_presentation.summary.2e8a4f0f1def",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_round13_presentation.summary.7bae3f54bc28",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round13_presentation.summary.e0f6e3dc9036",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round13_presentation.summary.5f4525665971",
+      "format_tokens": [
+        "%d",
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d / %d"
+    },
+    {
+      "key": "ui_round13_presentation.summary.80897fd1c8a4",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round13_presentation.summary.be7a95c8bb97",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round13_presentation.summary.d254a1530208",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round13_presentation.summary.c1e5fb0479c7",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round13_presentation.summary.8c7f2dc9417c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round13_presentation.minion.b080bfcb0d4e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round13_presentation.minion.ae0e48c82139",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_round13_presentation.minion.3ab6d1e7df40",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_round13_presentation.minion.35db9fd7b9e3",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_spell_presentation.stats.7b600c5288e6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_spell_presentation.stats.0ec278d99e98",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_spell_presentation.body.bf6388997251",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_spell_presentation.body.0238d1e3da2c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_spell_presentation.body.364ecf3c3959",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_spell_presentation.body.b5a9c20568b6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_spell_presentation.body.bc1cb4e341a4",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_spell_presentation.body.60bb67facf9e",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_spell_presentation.body.d3658c5031dc",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.spell_description.915fd634b008",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_screen.gift_readiness_text.562b155678a8",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_screen.gift_readiness_text.7cb3f7a15ef9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.gift_readiness_text.6efd6f428db0",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.gift_readiness_text.fbc78eba83e9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.gift_readiness_text.d3a871bd1dee",
+      "format_tokens": [
+        "%d",
+        "%s",
+        "%d",
+        "%s",
+        "%s"
+      ],
+      "fallback": "说明待补充 · %d / %s / %d / %s / %s"
+    },
+    {
+      "key": "ui_tavern_screen.gift_readiness_text.4872d213aefe",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.trinket_tooltip.edc179c9b3d7",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.trinket_tooltip.dc93ae057ec1",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_screen.trinket_tooltip.b119ab5f1a9a",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_screen.trinket_tooltip.ddbcc9d710c7",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_screen.trinket_tooltip.61c2edef6538",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_screen.trinket_tooltip.f93c684bfea7",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_screen.trinket_tooltip.efd652845e86",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_screen.render_match.05c1ab510a31",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_match.1c050e066f89",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_match.34dd27d31117",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.card_button.a80a9437e4bd",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_screen.card_button.bd5cda029c79",
+      "format_tokens": [
+        "%d",
+        "%s"
+      ],
+      "fallback": "说明待补充 · %d / %s"
+    },
+    {
+      "key": "ui_tavern_screen.card_button.7b6e54ac41a3",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.card_button.3ebb80ebb72c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.request_activate.8538cda86b71",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_screen.request_activate.c271e2e4f096",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_screen.request_activate.883eefd7369c",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.request_activate.a1c7c01023a2",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_power_choice.d22eafede613",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_power_choice.039dc0f6c33f",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_power_choice.4021d2d4fc84",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_choice.6694198016d1",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_choice.7f26d28bcc9f",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_screen.render_choice.99a3e19f6d71",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_choice.45e99ddb4d6b",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_choice.8e2133b40a5b",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_choice.077507190051",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_choice.e4d2bdef85e0",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_choice.3bf0f4f28da9",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_choice.5da062598b2d",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_selection.8921e8b69e51",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_selection.18d805e02a79",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_selection.29f996f31d64",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.render_selection.493191676e1a",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_screen.render_selection.5e7b2f6eb0b0",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.card_description.31c6b63fc6d7",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.card_description.8e23e6477c89",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.card_description.bd778b1b416f",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.card_description.a15c110aa250",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.card_description.6f7adc61ecf5",
+      "format_tokens": [],
+      "fallback": "\n说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.card_description.7bae3f54bc28",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_screen.card_description.e545d85465bf",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_table.build.ad4ae507c4bc",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_table.build.e0405f6092d6",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_table.build.74d9deb19c30",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "ui_tavern_table.build.68e1daf3338e",
+      "format_tokens": [
+        "%d"
+      ],
+      "fallback": "\n说明待补充 · %d"
+    },
+    {
+      "key": "ui_tavern_table.build.4f26879127b5",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "quilboar.choice_gems",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    },
+    {
+      "key": "quilboar.choice_stats",
+      "format_tokens": [],
+      "fallback": "说明待补充"
+    }
+  ]
+}

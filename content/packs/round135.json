@@ -1,0 +1,566 @@
+{
+  "quests": {
+    "BG24_Quest_114": {
+      "low": 12,
+      "medium": 16,
+      "high": 20,
+      "fact": "successful_summon"
+    },
+    "BG24_Quest_123": {
+      "low": 12,
+      "medium": 17,
+      "high": 22,
+      "fact": "successful_positive_stat_gain"
+    },
+    "BG24_Quest_124": {
+      "low": 12,
+      "medium": 18,
+      "high": 24,
+      "fact": "friendly_actual_death"
+    },
+    "BG24_Quest_126": {
+      "low": 24,
+      "medium": 30,
+      "high": 36,
+      "fact": "actual_coin_spend"
+    },
+    "BG24_Quest_151": {
+      "low": 10,
+      "medium": 14,
+      "high": 18,
+      "fact": "bound_tribe_purchase"
+    },
+    "BG24_Quest_311": {
+      "low": 2,
+      "medium": 3,
+      "high": 4,
+      "fact": "played_battlecry_minion"
+    },
+    "BG24_Quest_313": {
+      "low": 4,
+      "medium": 6,
+      "high": 8,
+      "fact": "minion_purchase"
+    },
+    "BG24_Quest_314": {
+      "low": 16,
+      "medium": 22,
+      "high": 28,
+      "fact": "actual_hand_entry"
+    },
+    "BG24_Quest_352": {
+      "low": 10,
+      "medium": 15,
+      "high": 20,
+      "fact": "successful_attack"
+    },
+    "BG27_Quest_801": {
+      "low": 21,
+      "medium": 28,
+      "high": 35,
+      "fact": "board_attack_gauge"
+    },
+    "BG27_Quest_802": {
+      "low": 12,
+      "medium": 18,
+      "high": 24,
+      "fact": "enemy_actual_death"
+    },
+    "BG28_Quest_500": {
+      "low": 8,
+      "medium": 12,
+      "high": 16,
+      "fact": "effective_spell_resolution"
+    }
+  },
+  "rewards": {
+    "BG24_Reward_109": {
+      "tier": "high"
+    },
+    "BG24_Reward_111": {
+      "tier": "medium"
+    },
+    "BG24_Reward_129": {
+      "tier": "high"
+    },
+    "BG24_Reward_130": {
+      "tier": "high"
+    },
+    "BG24_Reward_134": {
+      "tier": "high"
+    },
+    "BG24_Reward_138": {
+      "tier": "medium"
+    },
+    "BG24_Reward_306": {
+      "tier": "high"
+    },
+    "BG24_Reward_361": {
+      "tier": "high"
+    },
+    "BG27_Reward_802": {
+      "tier": "high"
+    },
+    "BG27_Reward_803": {
+      "tier": "high"
+    },
+    "BG27_Reward_811": {
+      "tier": "high"
+    },
+    "BG28_Reward_500": {
+      "tier": "medium"
+    },
+    "BG28_Reward_504": {
+      "tier": "medium"
+    },
+    "BG28_Reward_506": {
+      "tier": "high"
+    },
+    "BG28_Reward_510": {
+      "tier": "high"
+    },
+    "BG28_Reward_515": {
+      "tier": "high"
+    },
+    "BG33_Reward_012": {
+      "tier": "medium"
+    },
+    "BG33_Reward_013": {
+      "tier": "high"
+    },
+    "BG24_Reward_350": {
+      "tier": "high"
+    },
+    "BG24_Reward_363": {
+      "tier": "high"
+    },
+    "BG24_Reward_718": {
+      "tier": "medium"
+    },
+    "BG24_Reward_719": {
+      "tier": "medium"
+    },
+    "BG27_Reward_504": {
+      "tier": "medium"
+    },
+    "BG27_Reward_806": {
+      "tier": "high"
+    },
+    "BG27_Reward_812": {
+      "tier": "low"
+    },
+    "BG28_Reward_501": {
+      "tier": "high"
+    },
+    "BG28_Reward_509": {
+      "tier": "high"
+    },
+    "BG28_Reward_514": {
+      "tier": "high"
+    },
+    "BG33_Reward_011": {
+      "tier": "high"
+    },
+    "BG33_Reward_014": {
+      "tier": "medium"
+    },
+    "BG33_Reward_015": {
+      "tier": "high"
+    },
+    "BG33_Reward_020": {
+      "tier": "medium"
+    }
+  },
+  "bound_pools": {
+    "BG24_Reward_130": [
+      "BG34_500",
+      "BG36_764",
+      "BG32_821",
+      "BG35_123",
+      "BG31_920",
+      "BG35_142",
+      "BG32_837"
+    ],
+    "BG27_Reward_802": [
+      "BG32_340",
+      "BG34_865",
+      "BGS_116",
+      "BGS_123",
+      "BG26_525",
+      "BG26_162",
+      "BG32_111",
+      "BG35_152",
+      "BG28_550",
+      "BG33_821",
+      "BG32_820",
+      "BGS_020",
+      "BGS_121",
+      "BG36_343",
+      "BG23_017"
+    ],
+    "BG27_Reward_803": [
+      "BG32_880",
+      "BG34_690",
+      "BG32_842",
+      "BG27_080",
+      "BG36_731",
+      "BG34_682",
+      "BG36_760",
+      "BG26_162",
+      "BG32_111",
+      "BG33_821",
+      "BG31_925",
+      "BG32_820",
+      "BG31_809",
+      "BG35_604",
+      "BGS_018",
+      "BG25_009",
+      "BG31_835",
+      "BGS_121",
+      "BG36_209",
+      "BG23_017"
+    ]
+  },
+  "required_dependencies": {
+    "BG24_Reward_715": [
+      "BG24_Reward_715t",
+      "BG24_Reward_715t2",
+      "BG24_Reward_715t3",
+      "BG24_Reward_715t4"
+    ],
+    "BG33_Reward_006": [
+      "BG33_Reward_006t"
+    ],
+    "BG33_Reward_012": [
+      "BG33_Reward_012t"
+    ],
+    "BG27_016": [
+      "BG27_016_G"
+    ],
+    "BGS_018": [
+      "TB_BaconUps_085"
+    ],
+    "BG33_821": [
+      "BG33_821_G"
+    ],
+    "BG36_760": [
+      "BG36_760_G",
+      "BG28_518"
+    ],
+    "BG31_999": [
+      "BG31_999_G"
+    ],
+    "BG25_354": [
+      "BG25_354_G"
+    ],
+    "BG25_009": [
+      "BG25_009_G",
+      "BG25_008"
+    ],
+    "BG32_837": [
+      "BG32_837_G",
+      "BG28_845"
+    ],
+    "BG34_865": [
+      "BG34_865_G"
+    ],
+    "BG_LOE_077": [
+      "TB_BaconUps_045"
+    ],
+    "BG35_123": [
+      "BG35_123_G"
+    ],
+    "BG35_604": [
+      "BG35_604_G",
+      "BG19_010"
+    ],
+    "BG23_017": [
+      "BG23_017_G",
+      "BG20_GEM"
+    ],
+    "BG26_ICC_901": [
+      "BG26_ICC_901_G"
+    ],
+    "BGS_020": [
+      "TB_BaconUps_089"
+    ],
+    "BG36_333": [
+      "BG36_333_G"
+    ],
+    "BG34_950": [
+      "BG34_950_G"
+    ],
+    "BG32_821": [
+      "BG32_821_G"
+    ],
+    "BGS_121": [
+      "TB_BaconUps_165"
+    ],
+    "BG32_340": [
+      "BG32_340_G"
+    ],
+    "BG27_513": [
+      "BG27_513_G"
+    ],
+    "BG34_320": [
+      "BG34_320_G"
+    ],
+    "BG36_343": [
+      "BG36_343_G"
+    ],
+    "BG36_731": [
+      "BG36_731_G",
+      "BG36_880"
+    ],
+    "BG32_880": [
+      "BG32_880_G"
+    ],
+    "BG36_764": [
+      "BG36_764_G"
+    ],
+    "BG34_322": [
+      "BG34_322_G"
+    ],
+    "BG27_080": [
+      "BG27_080_G"
+    ],
+    "BG32_111": [
+      "BG32_111_G",
+      "BG28_888"
+    ],
+    "BG35_142": [
+      "BG35_142_G",
+      "BG35_140",
+      "BG35_141"
+    ],
+    "BG34_145": [
+      "BG34_145_G"
+    ],
+    "BG26_525": [
+      "BG26_525_G"
+    ],
+    "BG34_682": [
+      "BG34_682_G",
+      "BG34_689"
+    ],
+    "BG34_500": [
+      "BG34_500_G"
+    ],
+    "BG35_152": [
+      "BG35_152_G"
+    ],
+    "BG34_690": [
+      "BG34_690_G"
+    ],
+    "BG31_920": [
+      "BG31_920_G",
+      "BG31_920t",
+      "BG31_920t",
+      "BG31_920_Gt"
+    ],
+    "BG32_842": [
+      "BG32_842_G"
+    ],
+    "BG31_809": [
+      "BG31_809_G",
+      "BG28_603t"
+    ],
+    "BGS_123": [
+      "TB_BaconUps_162"
+    ],
+    "BGS_116": [
+      "TB_BaconUps_167"
+    ],
+    "BG31_835": [
+      "BG31_835_G"
+    ],
+    "BG34_319": [
+      "BG34_319_G"
+    ],
+    "BG27_514": [
+      "BG27_514_G",
+      "BG27_514t"
+    ],
+    "BG28_550": [
+      "BG28_550_G"
+    ],
+    "BG36_209": [
+      "BG36_209_G",
+      "BG28_603t"
+    ],
+    "BG26_162": [
+      "BG26_162_G"
+    ],
+    "BG25_034": [
+      "BG25_034_G"
+    ],
+    "BG31_925": [
+      "BG31_925_G"
+    ],
+    "BG32_820": [
+      "BG32_820_G",
+      "BG28_168"
+    ],
+    "BG36_760_G": [
+      "BG28_518"
+    ],
+    "BG25_009_G": [
+      "BG25_008_G"
+    ],
+    "BG25_008": [
+      "BG25_008_G"
+    ],
+    "BG35_604_G": [
+      "BG19_010_G"
+    ],
+    "BG19_010": [
+      "BG19_010_G",
+      "BG19_010t"
+    ],
+    "BG36_731_G": [
+      "BG36_880"
+    ],
+    "BG32_111_G": [
+      "BG28_888"
+    ],
+    "BG34_682_G": [
+      "BG34_689"
+    ],
+    "BG31_920_G": [
+      "BG31_920_Gt"
+    ],
+    "BG31_809_G": [
+      "BG28_603t"
+    ],
+    "BG28_603t": [
+      "BG28_603t_G"
+    ],
+    "BG27_514_G": [
+      "BG27_514t_G"
+    ],
+    "BG36_209_G": [
+      "BG28_603t"
+    ],
+    "BG32_820_G": [
+      "BG28_168"
+    ],
+    "BG19_010_G": [
+      "BG19_010_Gt"
+    ],
+    "BG19_010t": [
+      "BG19_010_Gt"
+    ],
+    "BG24_Reward_718": [
+      "BG24_Reward_718t"
+    ],
+    "BG24_Reward_719": [
+      "BG24_Reward_719t"
+    ],
+    "BG27_Reward_504": [
+      "BG27_Reward_504t"
+    ],
+    "BG33_Reward_011": [
+      "BG33_890t"
+    ]
+  },
+  "project_excluded_rewards": [
+    "BG24_Reward_107",
+    "BG24_Reward_113",
+    "BG24_Reward_115",
+    "BG24_Reward_123",
+    "BG24_Reward_125",
+    "BG24_Reward_128",
+    "BG24_Reward_131",
+    "BG24_Reward_135",
+    "BG24_Reward_136",
+    "BG24_Reward_305",
+    "BG24_Reward_308",
+    "BG24_Reward_309",
+    "BG24_Reward_311",
+    "BG24_Reward_312",
+    "BG24_Reward_313",
+    "BG24_Reward_321",
+    "BG24_Reward_321t",
+    "BG24_Reward_331",
+    "BG24_Reward_362",
+    "BG24_Reward_364",
+    "BG24_Reward_708",
+    "BG24_Reward_712",
+    "BG24_Reward_715",
+    "BG27_Reward_502",
+    "BG27_Reward_503",
+    "BG27_Reward_804",
+    "BG27_Reward_810",
+    "BG27_Reward_815",
+    "BG28_Reward_502",
+    "BG28_Reward_505",
+    "BG28_Reward_508",
+    "BG28_Reward_518",
+    "BG33_Reward_003",
+    "BG33_Reward_004",
+    "BG33_Reward_006",
+    "BG33_Reward_010",
+    "BG33_Reward_017",
+    "BG33_Reward_021"
+  ],
+  "stopped_reward_derivative_sources": [
+    {
+      "parent": "BG24_Reward_715",
+      "id": "BG24_Reward_715t",
+      "old": "enabled source",
+      "new": "disabled source only"
+    },
+    {
+      "parent": "BG24_Reward_715",
+      "id": "BG24_Reward_715t2",
+      "old": "enabled source",
+      "new": "disabled source only"
+    },
+    {
+      "parent": "BG24_Reward_715",
+      "id": "BG24_Reward_715t3",
+      "old": "enabled source",
+      "new": "disabled source only"
+    },
+    {
+      "parent": "BG24_Reward_715",
+      "id": "BG24_Reward_715t4",
+      "old": "enabled source",
+      "new": "disabled source only"
+    },
+    {
+      "parent": "BG33_Reward_006",
+      "id": "BG33_Reward_006t",
+      "old": "enabled source",
+      "new": "disabled source only"
+    }
+  ],
+  "ethereal_pool": [
+    "BG24_Reward_109",
+    "BG24_Reward_111",
+    "BG24_Reward_129",
+    "BG24_Reward_130",
+    "BG24_Reward_134",
+    "BG24_Reward_138",
+    "BG24_Reward_306",
+    "BG24_Reward_361",
+    "BG27_Reward_802",
+    "BG27_Reward_803",
+    "BG27_Reward_811",
+    "BG28_Reward_500",
+    "BG28_Reward_504",
+    "BG28_Reward_506",
+    "BG28_Reward_515",
+    "BG33_Reward_013",
+    "BG24_Reward_350",
+    "BG24_Reward_718",
+    "BG24_Reward_719",
+    "BG27_Reward_504",
+    "BG27_Reward_806",
+    "BG27_Reward_812",
+    "BG28_Reward_501",
+    "BG28_Reward_509",
+    "BG28_Reward_514",
+    "BG33_Reward_011"
+  ]
+}

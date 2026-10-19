@@ -1,0 +1,2396 @@
+{
+  "rows": [
+    {
+      "content_id": "BG20_HERO_101p",
+      "asset_key": "BG20_HERO_101p:icon:normal:neutral",
+      "hero_ids": [
+        "BG20_HERO_101"
+      ],
+      "root_skill_id": "BG20_HERO_101p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG20_HERO_202p",
+      "asset_key": "BG20_HERO_202p:icon:normal:neutral",
+      "hero_ids": [
+        "BG20_HERO_202"
+      ],
+      "root_skill_id": "BG20_HERO_202p",
+      "passive_hint_from_text": true,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG20_HERO_242p",
+      "asset_key": "BG20_HERO_242p:icon:normal:neutral",
+      "hero_ids": [
+        "BG20_HERO_242"
+      ],
+      "root_skill_id": "BG20_HERO_242p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG20_HERO_283p",
+      "asset_key": "BG20_HERO_283p:icon:normal:neutral",
+      "hero_ids": [
+        "BG20_HERO_283"
+      ],
+      "root_skill_id": "BG20_HERO_283p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG21_HERO_000p",
+      "asset_key": "BG21_HERO_000p:icon:normal:neutral",
+      "hero_ids": [
+        "BG21_HERO_000"
+      ],
+      "root_skill_id": "BG21_HERO_000p",
+      "passive_hint_from_text": true,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG21_HERO_010p",
+      "asset_key": "BG21_HERO_010p:icon:normal:neutral",
+      "hero_ids": [
+        "BG21_HERO_010"
+      ],
+      "root_skill_id": "BG21_HERO_010p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG21_HERO_020p",
+      "asset_key": "BG21_HERO_020p:icon:normal:neutral",
+      "hero_ids": [
+        "BG21_HERO_020"
+      ],
+      "root_skill_id": "BG21_HERO_020p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG21_HERO_030p",
+      "asset_key": "BG21_HERO_030p:icon:normal:neutral",
+      "hero_ids": [
+        "BG21_HERO_030"
+      ],
+      "root_skill_id": "BG21_HERO_030p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_000p_Alt",
+      "asset_key": "BG22_HERO_000p_Alt:icon:normal:neutral",
+      "hero_ids": [
+        "BG22_HERO_000"
+      ],
+      "root_skill_id": "BG22_HERO_000p_Alt",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_007p",
+      "asset_key": "BG22_HERO_007p:icon:normal:neutral",
+      "hero_ids": [
+        "BG22_HERO_007"
+      ],
+      "root_skill_id": "BG22_HERO_007p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_201p",
+      "asset_key": "BG22_HERO_201p:icon:normal:neutral",
+      "hero_ids": [
+        "BG22_HERO_201"
+      ],
+      "root_skill_id": "BG22_HERO_201p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_305p",
+      "asset_key": "BG22_HERO_305p:icon:normal:neutral",
+      "hero_ids": [
+        "BG22_HERO_305"
+      ],
+      "root_skill_id": "BG22_HERO_305p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG23_HERO_305p",
+      "asset_key": "BG23_HERO_305p:icon:normal:neutral",
+      "hero_ids": [
+        "BG23_HERO_305"
+      ],
+      "root_skill_id": "BG23_HERO_305p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG23_HERO_306p",
+      "asset_key": "BG23_HERO_306p:icon:normal:neutral",
+      "hero_ids": [
+        "BG23_HERO_306"
+      ],
+      "root_skill_id": "BG23_HERO_306p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG24_HERO_100p",
+      "asset_key": "BG24_HERO_100p:icon:normal:neutral",
+      "hero_ids": [
+        "BG24_HERO_100"
+      ],
+      "root_skill_id": "BG24_HERO_100p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG24_HERO_204p",
+      "asset_key": "BG24_HERO_204p:icon:normal:neutral",
+      "hero_ids": [
+        "BG24_HERO_204"
+      ],
+      "root_skill_id": "BG24_HERO_204p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG25_HERO_103p",
+      "asset_key": "BG25_HERO_103p:icon:normal:neutral",
+      "hero_ids": [
+        "BG25_HERO_103"
+      ],
+      "root_skill_id": "BG25_HERO_103p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG26_HERO_101p",
+      "asset_key": "BG26_HERO_101p:icon:normal:neutral",
+      "hero_ids": [
+        "BG26_HERO_101"
+      ],
+      "root_skill_id": "BG26_HERO_101p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG26_HERO_102p",
+      "asset_key": "BG26_HERO_102p:icon:normal:neutral",
+      "hero_ids": [
+        "BG26_HERO_102"
+      ],
+      "root_skill_id": "BG26_HERO_102p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG26_HERO_104p",
+      "asset_key": "BG26_HERO_104p:icon:normal:neutral",
+      "hero_ids": [
+        "BG26_HERO_104"
+      ],
+      "root_skill_id": "BG26_HERO_104p",
+      "passive_hint_from_text": true,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG27_HERO_801p2",
+      "asset_key": "BG27_HERO_801p2:icon:normal:neutral",
+      "hero_ids": [
+        "BG27_HERO_801"
+      ],
+      "root_skill_id": "BG27_HERO_801p2",
+      "passive_hint_from_text": true,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG28_HERO_400p",
+      "asset_key": "BG28_HERO_400p:icon:normal:neutral",
+      "hero_ids": [
+        "BG28_HERO_400"
+      ],
+      "root_skill_id": "BG28_HERO_400p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG28_HERO_800p",
+      "asset_key": "BG28_HERO_800p:icon:normal:neutral",
+      "hero_ids": [
+        "BG28_HERO_800"
+      ],
+      "root_skill_id": "BG28_HERO_800p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG28_HERO_801p",
+      "asset_key": "BG28_HERO_801p:icon:normal:neutral",
+      "hero_ids": [
+        "BG28_HERO_801"
+      ],
+      "root_skill_id": "BG28_HERO_801p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG30_HERO_304p",
+      "asset_key": "BG30_HERO_304p:icon:normal:neutral",
+      "hero_ids": [
+        "BG30_HERO_304"
+      ],
+      "root_skill_id": "BG30_HERO_304p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG31_HERO_005p",
+      "asset_key": "BG31_HERO_005p:icon:normal:neutral",
+      "hero_ids": [
+        "BG31_HERO_005"
+      ],
+      "root_skill_id": "BG31_HERO_005p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG31_HERO_006p",
+      "asset_key": "BG31_HERO_006p:icon:normal:neutral",
+      "hero_ids": [
+        "BG31_HERO_006"
+      ],
+      "root_skill_id": "BG31_HERO_006p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG32_HERO_001p",
+      "asset_key": "BG32_HERO_001p:icon:normal:neutral",
+      "hero_ids": [
+        "BG32_HERO_001"
+      ],
+      "root_skill_id": "BG32_HERO_001p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG32_HERO_002p",
+      "asset_key": "BG32_HERO_002p:icon:normal:neutral",
+      "hero_ids": [
+        "BG32_HERO_002"
+      ],
+      "root_skill_id": "BG32_HERO_002p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG34_HERO_001p",
+      "asset_key": "BG34_HERO_001p:icon:normal:neutral",
+      "hero_ids": [
+        "BG34_HERO_001"
+      ],
+      "root_skill_id": "BG34_HERO_001p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG35_HERO_001p",
+      "asset_key": "BG35_HERO_001p:icon:normal:neutral",
+      "hero_ids": [
+        "BG35_HERO_001"
+      ],
+      "root_skill_id": "BG35_HERO_001p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG36_HERO_101p",
+      "asset_key": "BG36_HERO_101p:icon:normal:neutral",
+      "hero_ids": [
+        "BG36_HERO_101"
+      ],
+      "root_skill_id": "BG36_HERO_101p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG36_HERO_105p",
+      "asset_key": "BG36_HERO_105p:icon:normal:neutral",
+      "hero_ids": [
+        "BG36_HERO_105"
+      ],
+      "root_skill_id": "BG36_HERO_105p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_069",
+      "asset_key": "TB_BaconShop_HP_069:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_08"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_069",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_008",
+      "asset_key": "TB_BaconShop_HP_008:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_10"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_008",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_041",
+      "asset_key": "TB_BaconShop_HP_041:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_12"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_041",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_044",
+      "asset_key": "TB_BaconShop_HP_044:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_16"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_044",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_020",
+      "asset_key": "TB_BaconShop_HP_020:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_21"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_020",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_024",
+      "asset_key": "TB_BaconShop_HP_024:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_22"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_024",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_028",
+      "asset_key": "TB_BaconShop_HP_028:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_28"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_028",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_033",
+      "asset_key": "TB_BaconShop_HP_033:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_33"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_033",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_035",
+      "asset_key": "TB_BaconShop_HP_035:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_34"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_035",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_039t",
+      "asset_key": "TB_BaconShop_HP_039t:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_35"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_039t",
+      "passive_hint_from_text": true,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        130,
+        117
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_036",
+      "asset_key": "TB_BaconShop_HP_036:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_37"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_036",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_038",
+      "asset_key": "TB_BaconShop_HP_038:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_38"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_038",
+      "passive_hint_from_text": true,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_057",
+      "asset_key": "TB_BaconShop_HP_057:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_40"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_057",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_046",
+      "asset_key": "TB_BaconShop_HP_046:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_41"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_046",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_048",
+      "asset_key": "TB_BaconShop_HP_048:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_43"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_048",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_053",
+      "asset_key": "TB_BaconShop_HP_053:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_45"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_053",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_077",
+      "asset_key": "TB_BaconShop_HP_077:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_50"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_077",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_056",
+      "asset_key": "TB_BaconShop_HP_056:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_55"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_056",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_064",
+      "asset_key": "TB_BaconShop_HP_064:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_56"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_064",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_052",
+      "asset_key": "TB_BaconShop_HP_052:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_58"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_052",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_068",
+      "asset_key": "TB_BaconShop_HP_068:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_62"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_068",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_074",
+      "asset_key": "TB_BaconShop_HP_074:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_64"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_074",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_075",
+      "asset_key": "TB_BaconShop_HP_075:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_67"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_075",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_076",
+      "asset_key": "TB_BaconShop_HP_076:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_68"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_076",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_080",
+      "asset_key": "TB_BaconShop_HP_080:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_70"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_080",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_084",
+      "asset_key": "TB_BaconShop_HP_084:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_71"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_084",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_082",
+      "asset_key": "TB_BaconShop_HP_082:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_74"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_082",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_086",
+      "asset_key": "TB_BaconShop_HP_086:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_76"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_086",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_088",
+      "asset_key": "TB_BaconShop_HP_088:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_78"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_088",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_101",
+      "asset_key": "TB_BaconShop_HP_101:icon:normal:neutral",
+      "hero_ids": [
+        "TB_BaconShop_HERO_90"
+      ],
+      "root_skill_id": "TB_BaconShop_HP_101",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG20_HERO_201p",
+      "asset_key": "BG20_HERO_201p:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG20_HERO_201p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG20_HERO_280p5",
+      "asset_key": "BG20_HERO_280p5:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG20_HERO_280p5",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG20_HERO_282p",
+      "asset_key": "BG20_HERO_282p:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG20_HERO_282p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG20_HERO_283p_t1",
+      "asset_key": "BG20_HERO_283p_t1:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG20_HERO_283p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG20_HERO_283p_t2",
+      "asset_key": "BG20_HERO_283p_t2:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG20_HERO_283p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG20_HERO_283p_t3",
+      "asset_key": "BG20_HERO_283p_t3:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG20_HERO_283p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG20_HERO_301p",
+      "asset_key": "BG20_HERO_301p:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG20_HERO_301p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_001p",
+      "asset_key": "BG22_HERO_001p:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG22_HERO_001p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_001p_t1",
+      "asset_key": "BG22_HERO_001p_t1:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG22_HERO_001p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_001p_t2",
+      "asset_key": "BG22_HERO_001p_t2:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG22_HERO_001p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_001p_t3",
+      "asset_key": "BG22_HERO_001p_t3:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG22_HERO_001p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_001p_t4",
+      "asset_key": "BG22_HERO_001p_t4:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG22_HERO_001p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_002p",
+      "asset_key": "BG22_HERO_002p:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG22_HERO_002p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_003p",
+      "asset_key": "BG22_HERO_003p:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG22_HERO_003p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_004p",
+      "asset_key": "BG22_HERO_004p:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG22_HERO_004p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_007p2",
+      "asset_key": "BG22_HERO_007p2:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG22_HERO_007p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG22_HERO_200p",
+      "asset_key": "BG22_HERO_200p:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG22_HERO_200p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG26_HERO_102p2",
+      "asset_key": "BG26_HERO_102p2:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG26_HERO_102p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG28_HERO_400p2",
+      "asset_key": "BG28_HERO_400p2:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG28_HERO_400p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "shared_reuse"
+    },
+    {
+      "content_id": "BG31_HERO_003p",
+      "asset_key": "BG31_HERO_003p:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG31_HERO_003p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "BG34_HERO_002p",
+      "asset_key": "BG34_HERO_002p:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "BG34_HERO_002p",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_010",
+      "asset_key": "TB_BaconShop_HP_010:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_010",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_014",
+      "asset_key": "TB_BaconShop_HP_014:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_014",
+      "passive_hint_from_text": true,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_015",
+      "asset_key": "TB_BaconShop_HP_015:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_015",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_022",
+      "asset_key": "TB_BaconShop_HP_022:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_022",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_036t",
+      "asset_key": "TB_BaconShop_HP_036t:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_036",
+      "passive_hint_from_text": true,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        130,
+        117
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_041a",
+      "asset_key": "TB_BaconShop_HP_041a:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_041",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_041b",
+      "asset_key": "TB_BaconShop_HP_041b:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_041",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_041c",
+      "asset_key": "TB_BaconShop_HP_041c:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_041",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_041d",
+      "asset_key": "TB_BaconShop_HP_041d:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_041",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_041f",
+      "asset_key": "TB_BaconShop_HP_041f:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_041",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_041g",
+      "asset_key": "TB_BaconShop_HP_041g:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_041",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_041h",
+      "asset_key": "TB_BaconShop_HP_041h:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_041",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_041i",
+      "asset_key": "TB_BaconShop_HP_041i:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_041",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_041j",
+      "asset_key": "TB_BaconShop_HP_041j:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_041",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_041k",
+      "asset_key": "TB_BaconShop_HP_041k:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_041",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_047",
+      "asset_key": "TB_BaconShop_HP_047:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_047",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_102",
+      "asset_key": "TB_BaconShop_HP_102:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_102",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_106",
+      "asset_key": "TB_BaconShop_HP_106:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_106",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    },
+    {
+      "content_id": "TB_BaconShop_HP_107",
+      "asset_key": "TB_BaconShop_HP_107:icon:normal:neutral",
+      "hero_ids": [],
+      "root_skill_id": "TB_BaconShop_HP_107",
+      "passive_hint_from_text": false,
+      "normal_frame": "ui:hero_power_frame:texture:normal:neutral",
+      "passive_frame": "ui:hero_power_passive_frame:texture:normal:neutral",
+      "available_layer": "ui:available_glow_circle:texture:normal:neutral",
+      "used_layer": "ui:hero_power_used_overlay:texture:normal:neutral",
+      "unavailable_layer": "ui:hero_power_unavailable_overlay:texture:normal:neutral",
+      "content_display_px": [
+        48,
+        64,
+        80
+      ],
+      "native_size": [
+        93,
+        93
+      ],
+      "file_status": "verified_file"
+    }
+  ]
+}

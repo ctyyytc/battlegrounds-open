@@ -1,0 +1,3265 @@
+{
+  "schema": "round143-ui-skin-v1",
+  "version": "14.3",
+  "revision": "r2",
+  "source_manifest_sha256": "0a1aa7b06da4cb41f57c307709e18ef190547b285718bf15a7f34c547cc8b61d",
+  "source_frozen_sha256": "2e2c11b4543fc6fe6fada41aa573e19dbd2aa3be484e2c093e2deb6a8ae66b43",
+  "records": [
+    {
+      "id": "skin.button_primary.normal",
+      "key": "button_primary",
+      "consumer_key": "button_primary",
+      "state": "normal",
+      "role": "button_primary",
+      "png": "png/button_primary__normal.png",
+      "svg": "svg/button_primary__normal.svg",
+      "source_size": [
+        256,
+        64
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        28,
+        16,
+        28,
+        16
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        160,
+        44
+      ],
+      "recommended_size": [
+        226,
+        60
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "a8039dd5f6ed9889884b6d395eb046a1f95cf2a8d79933bd7b230cdf98a42c5f",
+      "svg_sha256": "486faea2efe790d6cfcb7b5789eaa3ac0565f185c7c199dfb756fe42813928cc",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_primary.hover",
+      "key": "button_primary",
+      "consumer_key": "button_primary",
+      "state": "hover",
+      "role": "button_primary",
+      "png": "png/button_primary__hover.png",
+      "svg": "svg/button_primary__hover.svg",
+      "source_size": [
+        256,
+        64
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        28,
+        16,
+        28,
+        16
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        160,
+        44
+      ],
+      "recommended_size": [
+        226,
+        60
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "c062145f1e61296754b29be8d7d6445010900ea3908d09b3f32bbf7a91ddbc5e",
+      "svg_sha256": "ca24caff971b54a2f3d60143bc39f414a4ce72fdf93c84b01c1015eb8e3f3ceb",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_primary.pressed",
+      "key": "button_primary",
+      "consumer_key": "button_primary",
+      "state": "pressed",
+      "role": "button_primary",
+      "png": "png/button_primary__pressed.png",
+      "svg": "svg/button_primary__pressed.svg",
+      "source_size": [
+        256,
+        64
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        28,
+        16,
+        28,
+        16
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        160,
+        44
+      ],
+      "recommended_size": [
+        226,
+        60
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "7769d4e5f5fb504f1e1b94c82eb2e70a1a25d4997cb8249b1d0893ec5fc1af93",
+      "svg_sha256": "41616872afaacb1d937a54f56cd15303e7d0eb7442a125f1634ba0ecc0548c9b",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_primary.disabled",
+      "key": "button_primary",
+      "consumer_key": "button_primary",
+      "state": "disabled",
+      "role": "button_primary",
+      "png": "png/button_primary__disabled.png",
+      "svg": "svg/button_primary__disabled.svg",
+      "source_size": [
+        256,
+        64
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        28,
+        16,
+        28,
+        16
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        160,
+        44
+      ],
+      "recommended_size": [
+        226,
+        60
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "aa8c53b3a5362252594f1cf704cfe61a94eab129f90782a3295e8f553df6b7c4",
+      "svg_sha256": "cc3f5ad698d9f322a95f2bbd076b357e577e176d57aa862a44ef12f89b4df5ec",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_primary.selected",
+      "key": "button_primary",
+      "consumer_key": "button_primary",
+      "state": "selected",
+      "role": "button_primary",
+      "png": "png/button_primary__selected.png",
+      "svg": "svg/button_primary__selected.svg",
+      "source_size": [
+        256,
+        64
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        28,
+        16,
+        28,
+        16
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        160,
+        44
+      ],
+      "recommended_size": [
+        226,
+        60
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "812e0b56c5dd54bc426c9b913e35e27c8894489f3047c970493a5e3967b285da",
+      "svg_sha256": "a46a6273156040863008b7d284db939ad6a057361d8063b8fceb497b7c5bb743",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_secondary.normal",
+      "key": "button_secondary",
+      "consumer_key": "button_secondary",
+      "state": "normal",
+      "role": "button_secondary",
+      "png": "png/button_secondary__normal.png",
+      "svg": "svg/button_secondary__normal.svg",
+      "source_size": [
+        192,
+        56
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        25,
+        14,
+        25,
+        14
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        130,
+        44
+      ],
+      "recommended_size": [
+        170,
+        44
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "919379d636700e5c804b452462b9a60b9253a9bb3db69beec9415d36ff629c64",
+      "svg_sha256": "3dbac789ab8dfc2b0a5ebb70d42d8d7ca88bb9c46fd6a7d454154666f80dabb7",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_secondary.hover",
+      "key": "button_secondary",
+      "consumer_key": "button_secondary",
+      "state": "hover",
+      "role": "button_secondary",
+      "png": "png/button_secondary__hover.png",
+      "svg": "svg/button_secondary__hover.svg",
+      "source_size": [
+        192,
+        56
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        25,
+        14,
+        25,
+        14
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        130,
+        44
+      ],
+      "recommended_size": [
+        170,
+        44
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "d4e6ea9c396612469066d9a8e561adedbbf6505fbbcd88a5e7d5118518b9a086",
+      "svg_sha256": "8778d6d2349b1ae089c52365156e36ea7cec80525615dcb6f79b4bce8229870a",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_secondary.pressed",
+      "key": "button_secondary",
+      "consumer_key": "button_secondary",
+      "state": "pressed",
+      "role": "button_secondary",
+      "png": "png/button_secondary__pressed.png",
+      "svg": "svg/button_secondary__pressed.svg",
+      "source_size": [
+        192,
+        56
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        25,
+        14,
+        25,
+        14
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        130,
+        44
+      ],
+      "recommended_size": [
+        170,
+        44
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "e1c7d168521260e31818697531fe5574150f121bc1ec96dbd055e91a461bd90d",
+      "svg_sha256": "310feef634712fe0d4f169e8aec39033850ddd7456d890f4617913f0274449cb",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_secondary.disabled",
+      "key": "button_secondary",
+      "consumer_key": "button_secondary",
+      "state": "disabled",
+      "role": "button_secondary",
+      "png": "png/button_secondary__disabled.png",
+      "svg": "svg/button_secondary__disabled.svg",
+      "source_size": [
+        192,
+        56
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        25,
+        14,
+        25,
+        14
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        130,
+        44
+      ],
+      "recommended_size": [
+        170,
+        44
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "2f24e28d2f034f10f0b881ed61565bcb7d39111bc57097378824dacead18410f",
+      "svg_sha256": "b93c07f3ef0b5fde39ccbeba7381f40b9467928e1b8fd5ac51a1ed3d7a966947",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_secondary.selected",
+      "key": "button_secondary",
+      "consumer_key": "button_secondary",
+      "state": "selected",
+      "role": "button_secondary",
+      "png": "png/button_secondary__selected.png",
+      "svg": "svg/button_secondary__selected.svg",
+      "source_size": [
+        192,
+        56
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        25,
+        14,
+        25,
+        14
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        130,
+        44
+      ],
+      "recommended_size": [
+        170,
+        44
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "63212685779c5498ce3f6678829e7a5ae511f06aad88a9520339fc6d120c1c3c",
+      "svg_sha256": "a57d1db959610a414b7388b0f281eae2285f8e7921b8e8e6a889d55fc09a285a",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_compact.normal",
+      "key": "button_compact",
+      "consumer_key": "button_compact",
+      "state": "normal",
+      "role": "button_compact",
+      "png": "png/button_compact__normal.png",
+      "svg": "svg/button_compact__normal.svg",
+      "source_size": [
+        160,
+        48
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        25,
+        12,
+        25,
+        12
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        60,
+        40
+      ],
+      "recommended_size": [
+        160,
+        44
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "cfe046d25e37372c84ff6b7e929251427e4b46395f9d4fef00be587d5d3483d1",
+      "svg_sha256": "3c65ed7525cf7904dfecef5b0ec83ca5847f83335e6f4da59d8959b95dc8f844",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_compact.hover",
+      "key": "button_compact",
+      "consumer_key": "button_compact",
+      "state": "hover",
+      "role": "button_compact",
+      "png": "png/button_compact__hover.png",
+      "svg": "svg/button_compact__hover.svg",
+      "source_size": [
+        160,
+        48
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        25,
+        12,
+        25,
+        12
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        60,
+        40
+      ],
+      "recommended_size": [
+        160,
+        44
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "be584974fe30616b28716ecce2490641aa18572310c1a4ccaf3f0ecf8e8468d0",
+      "svg_sha256": "00bccfd40479465bfd99c221a3b4f33bb82a72d70668dcfd008f57ee978f3238",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_compact.pressed",
+      "key": "button_compact",
+      "consumer_key": "button_compact",
+      "state": "pressed",
+      "role": "button_compact",
+      "png": "png/button_compact__pressed.png",
+      "svg": "svg/button_compact__pressed.svg",
+      "source_size": [
+        160,
+        48
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        25,
+        12,
+        25,
+        12
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        60,
+        40
+      ],
+      "recommended_size": [
+        160,
+        44
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "07388d6037ca6e4665a846672280d0757831324a8e91c53441b7c76d140b7026",
+      "svg_sha256": "5044bcfc98de54c2428a1941f52fbdab89219c2eeabba507fbcb041d75a8abe5",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_compact.disabled",
+      "key": "button_compact",
+      "consumer_key": "button_compact",
+      "state": "disabled",
+      "role": "button_compact",
+      "png": "png/button_compact__disabled.png",
+      "svg": "svg/button_compact__disabled.svg",
+      "source_size": [
+        160,
+        48
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        25,
+        12,
+        25,
+        12
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        60,
+        40
+      ],
+      "recommended_size": [
+        160,
+        44
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "55abf11dc541df71324c98d31fe13044dc2cfc5c9180d5735e58cba6a71d63fb",
+      "svg_sha256": "5b818e19c16e9c3bcfcb118f729a6bb743e8adde0a52873d5780ff659e038abc",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.button_compact.selected",
+      "key": "button_compact",
+      "consumer_key": "button_compact",
+      "state": "selected",
+      "role": "button_compact",
+      "png": "png/button_compact__selected.png",
+      "svg": "svg/button_compact__selected.svg",
+      "source_size": [
+        160,
+        48
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        25,
+        12,
+        25,
+        12
+      ],
+      "content_margins": [
+        14,
+        4,
+        14,
+        4
+      ],
+      "minimum_size": [
+        60,
+        40
+      ],
+      "recommended_size": [
+        160,
+        44
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_text": "interior excluding fixed icon socket; keep long costs measured by producer"
+      },
+      "png_sha256": "16c208ab61ce3ac58f4840f67c8e5b206f90d8158b4aca75356d7ef3a768c5ce",
+      "svg_sha256": "dbd3b22c219533d629adb8a9a51fd1ff3c21380f3825200c7b3431d630c6c698",
+      "notes": "Circular seat is separate fixed-aspect component. Do not stretch a circle inside the nine-patch. Selected means actual existing toggle/selection, not new rules."
+    },
+    {
+      "id": "skin.icon_seat_gold.normal",
+      "key": "icon_seat_gold",
+      "consumer_key": "icon_seat_gold",
+      "state": "normal",
+      "role": "icon_seat_gold",
+      "png": "png/icon_seat_gold__normal.png",
+      "svg": "svg/icon_seat_gold__normal.svg",
+      "source_size": [
+        96,
+        96
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        36,
+        36
+      ],
+      "recommended_size": [
+        48,
+        48
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "icon_rect": [
+          22,
+          22,
+          52,
+          52
+        ]
+      },
+      "png_sha256": "cb442a0dfb165944bf07c202baa057db793477cf0097641d3b521fc322463f75",
+      "svg_sha256": "396b83158d2c2527ad8713446ab1bd48f0aeedc3b65053841b8422caac9ac910",
+      "notes": "Independent circular seat; action icon36 placed above seat48; keep icon semantics. Optional for compact actions at40, not forced on all buttons."
+    },
+    {
+      "id": "skin.icon_seat_gold.hover",
+      "key": "icon_seat_gold",
+      "consumer_key": "icon_seat_gold",
+      "state": "hover",
+      "role": "icon_seat_gold",
+      "png": "png/icon_seat_gold__hover.png",
+      "svg": "svg/icon_seat_gold__hover.svg",
+      "source_size": [
+        96,
+        96
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        36,
+        36
+      ],
+      "recommended_size": [
+        48,
+        48
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "icon_rect": [
+          22,
+          22,
+          52,
+          52
+        ]
+      },
+      "png_sha256": "e2b6b8df41065bf0e096594b16065026c8dc58f9ad9489a13c44413634251e43",
+      "svg_sha256": "ca95be5162c89e61c6d980fd04470b1b3677593e714c6e1d4bf8f6d1b558c177",
+      "notes": "Independent circular seat; action icon36 placed above seat48; keep icon semantics. Optional for compact actions at40, not forced on all buttons."
+    },
+    {
+      "id": "skin.icon_seat_gold.disabled",
+      "key": "icon_seat_gold",
+      "consumer_key": "icon_seat_gold",
+      "state": "disabled",
+      "role": "icon_seat_gold",
+      "png": "png/icon_seat_gold__disabled.png",
+      "svg": "svg/icon_seat_gold__disabled.svg",
+      "source_size": [
+        96,
+        96
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        36,
+        36
+      ],
+      "recommended_size": [
+        48,
+        48
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "icon_rect": [
+          22,
+          22,
+          52,
+          52
+        ]
+      },
+      "png_sha256": "3e8178c26fc32657652dba1a7f5b984a1a79c402e1831604776b88793034a3ff",
+      "svg_sha256": "085d5133e6fab87c726514aa75ff81e3978bb3ab77959bd7e479879a91fda1d4",
+      "notes": "Independent circular seat; action icon36 placed above seat48; keep icon semantics. Optional for compact actions at40, not forced on all buttons."
+    },
+    {
+      "id": "skin.icon_seat_teal.normal",
+      "key": "icon_seat_teal",
+      "consumer_key": "icon_seat_teal",
+      "state": "normal",
+      "role": "icon_seat_teal",
+      "png": "png/icon_seat_teal__normal.png",
+      "svg": "svg/icon_seat_teal__normal.svg",
+      "source_size": [
+        96,
+        96
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        36,
+        36
+      ],
+      "recommended_size": [
+        48,
+        48
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "icon_rect": [
+          22,
+          22,
+          52,
+          52
+        ]
+      },
+      "png_sha256": "13dd094ee78de04c439cf55972a948010d1d62c8ebe5a71e7bc9795414678c49",
+      "svg_sha256": "185015b703b5162a7c4b2c8fe54dd9846191a77afc64d43e17da5707d084de19",
+      "notes": "Independent circular seat; action icon36 placed above seat48; keep icon semantics. Optional for compact actions at40, not forced on all buttons."
+    },
+    {
+      "id": "skin.icon_seat_teal.hover",
+      "key": "icon_seat_teal",
+      "consumer_key": "icon_seat_teal",
+      "state": "hover",
+      "role": "icon_seat_teal",
+      "png": "png/icon_seat_teal__hover.png",
+      "svg": "svg/icon_seat_teal__hover.svg",
+      "source_size": [
+        96,
+        96
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        36,
+        36
+      ],
+      "recommended_size": [
+        48,
+        48
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "icon_rect": [
+          22,
+          22,
+          52,
+          52
+        ]
+      },
+      "png_sha256": "e0e6d6124a11dd6198e10801b36cc542b7dad114a2d13bd0bc8dbd7715b7b555",
+      "svg_sha256": "fafe3f8470ef40472c675c4e406479b735e05b8b777ec4f301671ad607c944d1",
+      "notes": "Independent circular seat; action icon36 placed above seat48; keep icon semantics. Optional for compact actions at40, not forced on all buttons."
+    },
+    {
+      "id": "skin.icon_seat_teal.disabled",
+      "key": "icon_seat_teal",
+      "consumer_key": "icon_seat_teal",
+      "state": "disabled",
+      "role": "icon_seat_teal",
+      "png": "png/icon_seat_teal__disabled.png",
+      "svg": "svg/icon_seat_teal__disabled.svg",
+      "source_size": [
+        96,
+        96
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        36,
+        36
+      ],
+      "recommended_size": [
+        48,
+        48
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "icon_rect": [
+          22,
+          22,
+          52,
+          52
+        ]
+      },
+      "png_sha256": "3e8178c26fc32657652dba1a7f5b984a1a79c402e1831604776b88793034a3ff",
+      "svg_sha256": "d6e8ab83a49b22df26d3097e5afda65b09abd50712d8ac9a149ed67b539be072",
+      "notes": "Independent circular seat; action icon36 placed above seat48; keep icon semantics. Optional for compact actions at40, not forced on all buttons."
+    },
+    {
+      "id": "skin.icon_seat_ice.normal",
+      "key": "icon_seat_ice",
+      "consumer_key": "icon_seat_ice",
+      "state": "normal",
+      "role": "icon_seat_ice",
+      "png": "png/icon_seat_ice__normal.png",
+      "svg": "svg/icon_seat_ice__normal.svg",
+      "source_size": [
+        96,
+        96
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        36,
+        36
+      ],
+      "recommended_size": [
+        48,
+        48
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "icon_rect": [
+          22,
+          22,
+          52,
+          52
+        ]
+      },
+      "png_sha256": "20f9cd5fd60f82fce4e373d22c29ceaa56148fd4b1a14950b7f60daa3622b7ed",
+      "svg_sha256": "320167bb3c7a232cb4505080dffb0e73b7c44673a892e389f08fc56afc0019df",
+      "notes": "Independent circular seat; action icon36 placed above seat48; keep icon semantics. Optional for compact actions at40, not forced on all buttons."
+    },
+    {
+      "id": "skin.icon_seat_ice.hover",
+      "key": "icon_seat_ice",
+      "consumer_key": "icon_seat_ice",
+      "state": "hover",
+      "role": "icon_seat_ice",
+      "png": "png/icon_seat_ice__hover.png",
+      "svg": "svg/icon_seat_ice__hover.svg",
+      "source_size": [
+        96,
+        96
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        36,
+        36
+      ],
+      "recommended_size": [
+        48,
+        48
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "icon_rect": [
+          22,
+          22,
+          52,
+          52
+        ]
+      },
+      "png_sha256": "371e73ce8ace7786961eecc30f780b13255d8eed24ca273d6476d783761aa37d",
+      "svg_sha256": "09a24cd3057a33a8a7133b363136f773320769e4d4e96fc0698a5e3a12bd59e3",
+      "notes": "Independent circular seat; action icon36 placed above seat48; keep icon semantics. Optional for compact actions at40, not forced on all buttons."
+    },
+    {
+      "id": "skin.icon_seat_ice.disabled",
+      "key": "icon_seat_ice",
+      "consumer_key": "icon_seat_ice",
+      "state": "disabled",
+      "role": "icon_seat_ice",
+      "png": "png/icon_seat_ice__disabled.png",
+      "svg": "svg/icon_seat_ice__disabled.svg",
+      "source_size": [
+        96,
+        96
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        36,
+        36
+      ],
+      "recommended_size": [
+        48,
+        48
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "icon_rect": [
+          22,
+          22,
+          52,
+          52
+        ]
+      },
+      "png_sha256": "3e8178c26fc32657652dba1a7f5b984a1a79c402e1831604776b88793034a3ff",
+      "svg_sha256": "b759c5d231928ed0f62c92c5c85a0a3fa478814daa7aeea5d556f6dd821f6b2b",
+      "notes": "Independent circular seat; action icon36 placed above seat48; keep icon semantics. Optional for compact actions at40, not forced on all buttons."
+    },
+    {
+      "id": "skin.portrait_main.normal",
+      "key": "portrait_main",
+      "consumer_key": "portrait_main",
+      "state": "normal",
+      "role": "portrait_main",
+      "png": "png/portrait_main__normal.png",
+      "svg": "svg/portrait_main__normal.svg",
+      "source_size": [
+        216,
+        232
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        88,
+        95
+      ],
+      "recommended_size": [
+        108,
+        116
+      ],
+      "opening_rect": [
+        27,
+        26,
+        162,
+        172
+      ],
+      "safe_areas": {},
+      "png_sha256": "d6791a30d14a46b25f4ad66df197e4e5d593ac2a2b021796a31a7b5b3e930479",
+      "svg_sha256": "a4040a077df3bc83099a70f2e9c0226bfe33f9949f56648f2313bf18fb587702",
+      "notes": "Transparent oval opening; existing portrait art sits behind frame. Crop art to this ellipse in producer or use opaque frame mask. No portrait pixels supplied."
+    },
+    {
+      "id": "skin.portrait_main.hover",
+      "key": "portrait_main",
+      "consumer_key": "portrait_main",
+      "state": "hover",
+      "role": "portrait_main",
+      "png": "png/portrait_main__hover.png",
+      "svg": "svg/portrait_main__hover.svg",
+      "source_size": [
+        216,
+        232
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        88,
+        95
+      ],
+      "recommended_size": [
+        108,
+        116
+      ],
+      "opening_rect": [
+        27,
+        26,
+        162,
+        172
+      ],
+      "safe_areas": {},
+      "png_sha256": "bb4814ce2f2806893b6133d35c816168736f8ab9a6b3e1a64b05a1da14133cfd",
+      "svg_sha256": "ea39b52da6da645b449ec0cac36cef01679ce103df171e072c8d68036591da78",
+      "notes": "Transparent oval opening; existing portrait art sits behind frame. Crop art to this ellipse in producer or use opaque frame mask. No portrait pixels supplied."
+    },
+    {
+      "id": "skin.portrait_main.selected",
+      "key": "portrait_main",
+      "consumer_key": "portrait_main",
+      "state": "selected",
+      "role": "portrait_main",
+      "png": "png/portrait_main__selected.png",
+      "svg": "svg/portrait_main__selected.svg",
+      "source_size": [
+        216,
+        232
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        88,
+        95
+      ],
+      "recommended_size": [
+        108,
+        116
+      ],
+      "opening_rect": [
+        27,
+        26,
+        162,
+        172
+      ],
+      "safe_areas": {},
+      "png_sha256": "ef3ef7ff56665689687ef9dce6bef421c075c205961c4be050dd738c930edfae",
+      "svg_sha256": "84d7b2f72b1a6c86e7401fb23831be82c22a27d9304769b8c2590c8ea4980f2f",
+      "notes": "Transparent oval opening; existing portrait art sits behind frame. Crop art to this ellipse in producer or use opaque frame mask. No portrait pixels supplied."
+    },
+    {
+      "id": "skin.portrait_side.normal",
+      "key": "portrait_side",
+      "consumer_key": "portrait_side",
+      "state": "normal",
+      "role": "portrait_side",
+      "png": "png/portrait_side__normal.png",
+      "svg": "svg/portrait_side__normal.svg",
+      "source_size": [
+        88,
+        104
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        44,
+        52
+      ],
+      "recommended_size": [
+        44,
+        52
+      ],
+      "opening_rect": [
+        11,
+        11.655172413793103,
+        66,
+        77.10344827586206
+      ],
+      "safe_areas": {},
+      "png_sha256": "c74838633be2219c4f928b05b10749a8a8ceaff7532ade69686e278e21fde7f8",
+      "svg_sha256": "6c6f6ff47d0a300478acddd930113ef1612167f597f31fab0db5e0ee16ac9d5a",
+      "notes": "Transparent oval opening; existing portrait art sits behind frame. Crop art to this ellipse in producer or use opaque frame mask. No portrait pixels supplied."
+    },
+    {
+      "id": "skin.portrait_side.hover",
+      "key": "portrait_side",
+      "consumer_key": "portrait_side",
+      "state": "hover",
+      "role": "portrait_side",
+      "png": "png/portrait_side__hover.png",
+      "svg": "svg/portrait_side__hover.svg",
+      "source_size": [
+        88,
+        104
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        44,
+        52
+      ],
+      "recommended_size": [
+        44,
+        52
+      ],
+      "opening_rect": [
+        11,
+        11.655172413793103,
+        66,
+        77.10344827586206
+      ],
+      "safe_areas": {},
+      "png_sha256": "b42c46fc5990eff8d0fdd65be9e72452b71b0e1f91b69cdf58c6497c8e4259a2",
+      "svg_sha256": "4d54263084fd27358c7f65f34e891333344b9ccd862ebc544dd305bd3b96671f",
+      "notes": "Transparent oval opening; existing portrait art sits behind frame. Crop art to this ellipse in producer or use opaque frame mask. No portrait pixels supplied."
+    },
+    {
+      "id": "skin.portrait_side.selected",
+      "key": "portrait_side",
+      "consumer_key": "portrait_side",
+      "state": "selected",
+      "role": "portrait_side",
+      "png": "png/portrait_side__selected.png",
+      "svg": "svg/portrait_side__selected.svg",
+      "source_size": [
+        88,
+        104
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        44,
+        52
+      ],
+      "recommended_size": [
+        44,
+        52
+      ],
+      "opening_rect": [
+        11,
+        11.655172413793103,
+        66,
+        77.10344827586206
+      ],
+      "safe_areas": {},
+      "png_sha256": "eb11cc55bb69f88eeded458759fb8fe3115e9d7892ea83077c99ee3baa1d93da",
+      "svg_sha256": "428fe9bdd40a80b1e2836b1404e1974a304d2db6e4271cb1d812397a74416779",
+      "notes": "Transparent oval opening; existing portrait art sits behind frame. Crop art to this ellipse in producer or use opaque frame mask. No portrait pixels supplied."
+    },
+    {
+      "id": "skin.portrait_alpha_mask.normal",
+      "key": "portrait_alpha_mask",
+      "consumer_key": "portrait_alpha_mask",
+      "state": "normal",
+      "role": "portrait_alpha_mask",
+      "png": "png/portrait_alpha_mask__normal.png",
+      "svg": "svg/portrait_alpha_mask__normal.svg",
+      "source_size": [
+        88,
+        92
+      ],
+      "fit": "alpha_mask",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        36,
+        42
+      ],
+      "recommended_size": [
+        88,
+        92
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "alpha_ellipse": [
+          44,
+          46,
+          40.5,
+          43
+        ]
+      },
+      "png_sha256": "1cdcc1320f9a71e0d4f88e751913c9d277e98d7b2d626ab987ce83091eaceb04",
+      "svg_sha256": "93429f776948e82e3e00a2462ba02572bc8ea065ebdfc42981fb297191ac5388",
+      "notes": "Not display art. Multiply original portrait alpha by this mask before drawing behind main frame at10,10 size88x92, scaled proportional for side frame. Preserve original content image unchanged; temporary rendered texture only."
+    },
+    {
+      "id": "skin.badge_health.normal",
+      "key": "badge_health",
+      "consumer_key": "badge_health",
+      "state": "normal",
+      "role": "badge_health",
+      "png": "png/badge_health__normal.png",
+      "svg": "svg/badge_health__normal.svg",
+      "source_size": [
+        96,
+        60
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        48,
+        30
+      ],
+      "recommended_size": [
+        48,
+        30
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_number_rect": [
+          17.28,
+          9.6,
+          61.44,
+          39
+        ]
+      },
+      "png_sha256": "9a35ffe757a42e7c8fee5e89374a057de26e2262fe467c7b8aeb1c2cb7c5a640",
+      "svg_sha256": "52ddffdda6c007bc7fb2e5fdf456c09c66fd79643f35a2d340b3b904a31ecfa8",
+      "notes": "Blank numeral mount. Dynamic numbers separate; no hardcoded values. Existing icon may overlay; avoid icon if it reduces exact number legibility."
+    },
+    {
+      "id": "skin.badge_armor.normal",
+      "key": "badge_armor",
+      "consumer_key": "badge_armor",
+      "state": "normal",
+      "role": "badge_armor",
+      "png": "png/badge_armor__normal.png",
+      "svg": "svg/badge_armor__normal.svg",
+      "source_size": [
+        76,
+        68
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        38,
+        34
+      ],
+      "recommended_size": [
+        38,
+        34
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_number_rect": [
+          13.68,
+          10.88,
+          48.64,
+          44.2
+        ]
+      },
+      "png_sha256": "fb15397ee972fb6efa15f80404c8c9cdaaeb0b83a2a85d8921f88c3833ceed82",
+      "svg_sha256": "2f097493e75488468a5f1984beb9423bb0bfee6a96094108ec41e0f6631f66a4",
+      "notes": "Blank numeral mount. Dynamic numbers separate; no hardcoded values. Existing icon may overlay; avoid icon if it reduces exact number legibility."
+    },
+    {
+      "id": "skin.badge_coin.normal",
+      "key": "badge_coin",
+      "consumer_key": "badge_coin",
+      "state": "normal",
+      "role": "badge_coin",
+      "png": "png/badge_coin__normal.png",
+      "svg": "svg/badge_coin__normal.svg",
+      "source_size": [
+        80,
+        80
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        40,
+        40
+      ],
+      "recommended_size": [
+        40,
+        40
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_number_rect": [
+          14.399999999999999,
+          12.8,
+          51.2,
+          52
+        ]
+      },
+      "png_sha256": "c4f3156517c930f8fa3dcce6c67b596d58f4da6f81203a5c9b32863fe1d4defa",
+      "svg_sha256": "0b0c2727d75619e11b1d75a4e587923d46c49707ca9d95c06ff8e3122d913d51",
+      "notes": "Blank numeral mount. Dynamic numbers separate; no hardcoded values. Existing icon may overlay; avoid icon if it reduces exact number legibility."
+    },
+    {
+      "id": "skin.badge_tier.normal",
+      "key": "badge_tier",
+      "consumer_key": "badge_tier",
+      "state": "normal",
+      "role": "badge_tier",
+      "png": "png/badge_tier__normal.png",
+      "svg": "svg/badge_tier__normal.svg",
+      "source_size": [
+        192,
+        56
+      ],
+      "fit": "three_slice",
+      "texture_margins": [
+        24,
+        10,
+        24,
+        10
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        96,
+        28
+      ],
+      "recommended_size": [
+        96,
+        28
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "dynamic_number_rect": [
+          38,
+          9,
+          135,
+          38
+        ]
+      },
+      "png_sha256": "f5341bda26a4f9acc5964c2d4f864d427fb274a56cf0f69ab6125bb29d908028",
+      "svg_sha256": "58f3d94bd6a8cea13367c87b6c9299e8122e79b33d07b5c7acd5449578225b0b",
+      "notes": "Blank numeral mount. Dynamic numbers separate; no hardcoded values. Existing icon may overlay; avoid icon if it reduces exact number legibility."
+    },
+    {
+      "id": "skin.item_seat.normal",
+      "key": "item_seat",
+      "consumer_key": "item_seat",
+      "state": "normal",
+      "role": "item_seat",
+      "png": "png/item_seat__normal.png",
+      "svg": "svg/item_seat__normal.svg",
+      "source_size": [
+        92,
+        94
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        22,
+        24,
+        22,
+        22
+      ],
+      "content_margins": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "minimum_size": [
+        92,
+        94
+      ],
+      "recommended_size": [
+        92,
+        94
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "art_rect": [
+          22,
+          2,
+          48,
+          48
+        ],
+        "caption_rect": [
+          12,
+          54,
+          68,
+          34
+        ]
+      },
+      "png_sha256": "910cb06a057ffc317a41c977e3f5763eb6f2000434196744c99127ec00d87cd7",
+      "svg_sha256": "71b1d1a22df02186059663148dcea6ab69ac537ca1c82a6d7bb7eaddd3035771",
+      "notes": "Geometry fixed at92x94; whole image in-place. Category icon only when unowned. Owned actual art48 is separate and takes priority. Lock/used status remains true game state."
+    },
+    {
+      "id": "skin.item_seat.hover",
+      "key": "item_seat",
+      "consumer_key": "item_seat",
+      "state": "hover",
+      "role": "item_seat",
+      "png": "png/item_seat__hover.png",
+      "svg": "svg/item_seat__hover.svg",
+      "source_size": [
+        92,
+        94
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        22,
+        24,
+        22,
+        22
+      ],
+      "content_margins": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "minimum_size": [
+        92,
+        94
+      ],
+      "recommended_size": [
+        92,
+        94
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "art_rect": [
+          22,
+          2,
+          48,
+          48
+        ],
+        "caption_rect": [
+          12,
+          54,
+          68,
+          34
+        ]
+      },
+      "png_sha256": "7410b5a289521111344ebf673c0146824fcf5d7d8bddec52984b04fa32be9561",
+      "svg_sha256": "b70ed2fe4aafbfd5c4c20192ee77d8b094347bdc5a32baa607834e761ea1affb",
+      "notes": "Geometry fixed at92x94; whole image in-place. Category icon only when unowned. Owned actual art48 is separate and takes priority. Lock/used status remains true game state."
+    },
+    {
+      "id": "skin.item_seat.pressed",
+      "key": "item_seat",
+      "consumer_key": "item_seat",
+      "state": "pressed",
+      "role": "item_seat",
+      "png": "png/item_seat__pressed.png",
+      "svg": "svg/item_seat__pressed.svg",
+      "source_size": [
+        92,
+        94
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        22,
+        24,
+        22,
+        22
+      ],
+      "content_margins": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "minimum_size": [
+        92,
+        94
+      ],
+      "recommended_size": [
+        92,
+        94
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "art_rect": [
+          22,
+          2,
+          48,
+          48
+        ],
+        "caption_rect": [
+          12,
+          54,
+          68,
+          34
+        ]
+      },
+      "png_sha256": "dd96d4cf2936ab227454e0cb2e6ae3b779f2fc8f9437efeddf87b9d0952c688b",
+      "svg_sha256": "186a6f7499989fba332a1e7156ecf03ec257aeb12e05f0de398811c6505c9a08",
+      "notes": "Geometry fixed at92x94; whole image in-place. Category icon only when unowned. Owned actual art48 is separate and takes priority. Lock/used status remains true game state."
+    },
+    {
+      "id": "skin.item_seat.disabled",
+      "key": "item_seat",
+      "consumer_key": "item_seat",
+      "state": "disabled",
+      "role": "item_seat",
+      "png": "png/item_seat__disabled.png",
+      "svg": "svg/item_seat__disabled.svg",
+      "source_size": [
+        92,
+        94
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        22,
+        24,
+        22,
+        22
+      ],
+      "content_margins": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "minimum_size": [
+        92,
+        94
+      ],
+      "recommended_size": [
+        92,
+        94
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "art_rect": [
+          22,
+          2,
+          48,
+          48
+        ],
+        "caption_rect": [
+          12,
+          54,
+          68,
+          34
+        ]
+      },
+      "png_sha256": "d362af99daea1ec7c41f703f93771c27b8ce0781f4687333e38a2f2ae6ab99f1",
+      "svg_sha256": "c8ba3ab0911bb07837b0f9a7471ae5dbcac901fcbe21dcdc3e92944cc4f78e9b",
+      "notes": "Geometry fixed at92x94; whole image in-place. Category icon only when unowned. Owned actual art48 is separate and takes priority. Lock/used status remains true game state."
+    },
+    {
+      "id": "skin.item_seat.selected",
+      "key": "item_seat",
+      "consumer_key": "item_seat",
+      "state": "selected",
+      "role": "item_seat",
+      "png": "png/item_seat__selected.png",
+      "svg": "svg/item_seat__selected.svg",
+      "source_size": [
+        92,
+        94
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        22,
+        24,
+        22,
+        22
+      ],
+      "content_margins": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "minimum_size": [
+        92,
+        94
+      ],
+      "recommended_size": [
+        92,
+        94
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "art_rect": [
+          22,
+          2,
+          48,
+          48
+        ],
+        "caption_rect": [
+          12,
+          54,
+          68,
+          34
+        ]
+      },
+      "png_sha256": "d1fe90bc684f8099c185886eee161a3ff732830532a85b4c7746af698293a471",
+      "svg_sha256": "d9efcb93b7fbbde29688d231e778e482d7996b7f9f82a7ad1eca2cac89983f61",
+      "notes": "Geometry fixed at92x94; whole image in-place. Category icon only when unowned. Owned actual art48 is separate and takes priority. Lock/used status remains true game state."
+    },
+    {
+      "id": "skin.item_seat.locked",
+      "key": "item_seat",
+      "consumer_key": "item_seat",
+      "state": "locked",
+      "role": "item_seat",
+      "png": "png/item_seat__locked.png",
+      "svg": "svg/item_seat__locked.svg",
+      "source_size": [
+        92,
+        94
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        22,
+        24,
+        22,
+        22
+      ],
+      "content_margins": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "minimum_size": [
+        92,
+        94
+      ],
+      "recommended_size": [
+        92,
+        94
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "art_rect": [
+          22,
+          2,
+          48,
+          48
+        ],
+        "caption_rect": [
+          12,
+          54,
+          68,
+          34
+        ]
+      },
+      "png_sha256": "a9a48eb094b691920f95da27f44e555eb2de6b699452995690cb0a6a34036be8",
+      "svg_sha256": "0f7d05d450f34b2eaf38f6eb0974ee3fd356330c30e07700e3f9a267d12b182f",
+      "notes": "Geometry fixed at92x94; whole image in-place. Category icon only when unowned. Owned actual art48 is separate and takes priority. Lock/used status remains true game state."
+    },
+    {
+      "id": "skin.skill_seat.normal",
+      "key": "skill_seat",
+      "consumer_key": "skill_seat",
+      "state": "normal",
+      "role": "skill_seat",
+      "png": "png/skill_seat__normal.png",
+      "svg": "svg/skill_seat__normal.svg",
+      "source_size": [
+        256,
+        80
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        72,
+        18,
+        28,
+        18
+      ],
+      "content_margins": [
+        12,
+        8,
+        12,
+        8
+      ],
+      "minimum_size": [
+        160,
+        80
+      ],
+      "recommended_size": [
+        210,
+        80
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "art_rect": [
+          12,
+          12,
+          42,
+          42
+        ],
+        "text_starts_x": 66
+      },
+      "png_sha256": "09e5a434f565fc5ab26f4bc33f7f38068df73a22a8259a38c5e4dac8856f42b4",
+      "svg_sha256": "10ed336ec24ff51b1680d35b3d082248b41ff71bf487de2890125923ea881495",
+      "notes": "Left seat protected by72px margin; keep height80, grow width only. Actual1/2 slots from game; art always supplied by game."
+    },
+    {
+      "id": "skin.skill_seat.hover",
+      "key": "skill_seat",
+      "consumer_key": "skill_seat",
+      "state": "hover",
+      "role": "skill_seat",
+      "png": "png/skill_seat__hover.png",
+      "svg": "svg/skill_seat__hover.svg",
+      "source_size": [
+        256,
+        80
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        72,
+        18,
+        28,
+        18
+      ],
+      "content_margins": [
+        12,
+        8,
+        12,
+        8
+      ],
+      "minimum_size": [
+        160,
+        80
+      ],
+      "recommended_size": [
+        210,
+        80
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "art_rect": [
+          12,
+          12,
+          42,
+          42
+        ],
+        "text_starts_x": 66
+      },
+      "png_sha256": "e9e8f30fb46de6a0b4a5cf28998ae768a5a010858ff1decd33ddb6f2630cd20e",
+      "svg_sha256": "10a029a2f8e488535cf208f468356fd722d20d6be6040c03b619078c3017562c",
+      "notes": "Left seat protected by72px margin; keep height80, grow width only. Actual1/2 slots from game; art always supplied by game."
+    },
+    {
+      "id": "skin.skill_seat.pressed",
+      "key": "skill_seat",
+      "consumer_key": "skill_seat",
+      "state": "pressed",
+      "role": "skill_seat",
+      "png": "png/skill_seat__pressed.png",
+      "svg": "svg/skill_seat__pressed.svg",
+      "source_size": [
+        256,
+        80
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        72,
+        18,
+        28,
+        18
+      ],
+      "content_margins": [
+        12,
+        8,
+        12,
+        8
+      ],
+      "minimum_size": [
+        160,
+        80
+      ],
+      "recommended_size": [
+        210,
+        80
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "art_rect": [
+          12,
+          12,
+          42,
+          42
+        ],
+        "text_starts_x": 66
+      },
+      "png_sha256": "79473dd519f35d377464744e9073ccfbf6b480e1c4c56255721233fca6e37d86",
+      "svg_sha256": "f15501b48a9ec066223dbc36d67d4d5d1a3cc64664140043d33fba2256cd1bf9",
+      "notes": "Left seat protected by72px margin; keep height80, grow width only. Actual1/2 slots from game; art always supplied by game."
+    },
+    {
+      "id": "skin.skill_seat.disabled",
+      "key": "skill_seat",
+      "consumer_key": "skill_seat",
+      "state": "disabled",
+      "role": "skill_seat",
+      "png": "png/skill_seat__disabled.png",
+      "svg": "svg/skill_seat__disabled.svg",
+      "source_size": [
+        256,
+        80
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        72,
+        18,
+        28,
+        18
+      ],
+      "content_margins": [
+        12,
+        8,
+        12,
+        8
+      ],
+      "minimum_size": [
+        160,
+        80
+      ],
+      "recommended_size": [
+        210,
+        80
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "art_rect": [
+          12,
+          12,
+          42,
+          42
+        ],
+        "text_starts_x": 66
+      },
+      "png_sha256": "7d82482e8f464e8474de55c08665d141478c42115cc7ce56e52362126a96a0ee",
+      "svg_sha256": "2b847e714090080efd0301f4a4b06857e8c1734f189d2bbc320807882ccad6ce",
+      "notes": "Left seat protected by72px margin; keep height80, grow width only. Actual1/2 slots from game; art always supplied by game."
+    },
+    {
+      "id": "skin.skill_seat.selected",
+      "key": "skill_seat",
+      "consumer_key": "skill_seat",
+      "state": "selected",
+      "role": "skill_seat",
+      "png": "png/skill_seat__selected.png",
+      "svg": "svg/skill_seat__selected.svg",
+      "source_size": [
+        256,
+        80
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        72,
+        18,
+        28,
+        18
+      ],
+      "content_margins": [
+        12,
+        8,
+        12,
+        8
+      ],
+      "minimum_size": [
+        160,
+        80
+      ],
+      "recommended_size": [
+        210,
+        80
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "art_rect": [
+          12,
+          12,
+          42,
+          42
+        ],
+        "text_starts_x": 66
+      },
+      "png_sha256": "3dd0e35acf987fbf0ea2a0052b1e86312229928a1fa332319adf28d2b79d85a9",
+      "svg_sha256": "602d14983d6ac31f58b993895b30a5ffadf44146bb8221ac0b7d2c8a8bf5995e",
+      "notes": "Left seat protected by72px margin; keep height80, grow width only. Actual1/2 slots from game; art always supplied by game."
+    },
+    {
+      "id": "skin.skill_seat.used",
+      "key": "skill_seat",
+      "consumer_key": "skill_seat",
+      "state": "used",
+      "role": "skill_seat",
+      "png": "png/skill_seat__used.png",
+      "svg": "svg/skill_seat__used.svg",
+      "source_size": [
+        256,
+        80
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        72,
+        18,
+        28,
+        18
+      ],
+      "content_margins": [
+        12,
+        8,
+        12,
+        8
+      ],
+      "minimum_size": [
+        160,
+        80
+      ],
+      "recommended_size": [
+        210,
+        80
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "art_rect": [
+          12,
+          12,
+          42,
+          42
+        ],
+        "text_starts_x": 66
+      },
+      "png_sha256": "831b382740f0e3feef98a9ef2220b8822ed98a9fe5fc56e94980589799fb26e0",
+      "svg_sha256": "8041c0b96c95f4c0365e8b2d7d2fb34cfb80209802ebbbafecd0474c50f89fa9",
+      "notes": "Left seat protected by72px margin; keep height80, grow width only. Actual1/2 slots from game; art always supplied by game."
+    },
+    {
+      "id": "skin.skill_seat.locked",
+      "key": "skill_seat",
+      "consumer_key": "skill_seat",
+      "state": "locked",
+      "role": "skill_seat",
+      "png": "png/skill_seat__locked.png",
+      "svg": "svg/skill_seat__locked.svg",
+      "source_size": [
+        256,
+        80
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        72,
+        18,
+        28,
+        18
+      ],
+      "content_margins": [
+        12,
+        8,
+        12,
+        8
+      ],
+      "minimum_size": [
+        160,
+        80
+      ],
+      "recommended_size": [
+        210,
+        80
+      ],
+      "opening_rect": null,
+      "safe_areas": {
+        "art_rect": [
+          12,
+          12,
+          42,
+          42
+        ],
+        "text_starts_x": 66
+      },
+      "png_sha256": "33ad0be616a5553462ee20329c3e4a55a1251956c2c932762ea1ddfd57925bd1",
+      "svg_sha256": "765ee93dcf0920bf1ecc33ae600a00a19f8802725a8d176d827660d1f9eb0322",
+      "notes": "Left seat protected by72px margin; keep height80, grow width only. Actual1/2 slots from game; art always supplied by game."
+    },
+    {
+      "id": "skin.panel_shop.normal",
+      "key": "panel_shop",
+      "consumer_key": "panel_shop",
+      "state": "normal",
+      "role": "panel_shop",
+      "png": "png/panel_shop__normal.png",
+      "svg": "svg/panel_shop__normal.svg",
+      "source_size": [
+        256,
+        256
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "content_margins": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "minimum_size": [
+        80,
+        64
+      ],
+      "recommended_size": [
+        932,
+        424
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "a5947282f4d6f49663d7f40d105ec749a56906cba602ce61f7f3e1f0d8cb9ca8",
+      "svg_sha256": "a626e3941639b9271dadf5c4f5decd29f97226d75607047354134189aedcd01d",
+      "notes": "Low contrast center with generated slate; fixed metal corner plates. Only straight strips/center stretch. Do not stretch gems/corners."
+    },
+    {
+      "id": "skin.panel_detail.normal",
+      "key": "panel_detail",
+      "consumer_key": "panel_detail",
+      "state": "normal",
+      "role": "panel_detail",
+      "png": "png/panel_detail__normal.png",
+      "svg": "svg/panel_detail__normal.svg",
+      "source_size": [
+        256,
+        256
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "content_margins": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "minimum_size": [
+        80,
+        64
+      ],
+      "recommended_size": [
+        324,
+        430
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "a5947282f4d6f49663d7f40d105ec749a56906cba602ce61f7f3e1f0d8cb9ca8",
+      "svg_sha256": "d86132597e011d7c0e7ef3433acb8e5d255bbafa9e6a838433bfa57b7cd2870a",
+      "notes": "Low contrast center with generated slate; fixed metal corner plates. Only straight strips/center stretch. Do not stretch gems/corners."
+    },
+    {
+      "id": "skin.panel_footer.normal",
+      "key": "panel_footer",
+      "consumer_key": "panel_footer",
+      "state": "normal",
+      "role": "panel_footer",
+      "png": "png/panel_footer__normal.png",
+      "svg": "svg/panel_footer__normal.svg",
+      "source_size": [
+        256,
+        192
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "content_margins": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "minimum_size": [
+        80,
+        64
+      ],
+      "recommended_size": [
+        932,
+        132
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "100afb3ace11511f697e930035658e5144b2216c471402f2ec06a762f5a45afd",
+      "svg_sha256": "93228c7c5f686f6ea1b3458c35e18380dcef38687921f1d8354224513a7d3100",
+      "notes": "Low contrast center with generated slate; fixed metal corner plates. Only straight strips/center stretch. Do not stretch gems/corners."
+    },
+    {
+      "id": "skin.window.normal",
+      "key": "window",
+      "consumer_key": "window",
+      "state": "normal",
+      "role": "window",
+      "png": "png/window__normal.png",
+      "svg": "svg/window__normal.svg",
+      "source_size": [
+        320,
+        320
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "content_margins": [
+        28,
+        28,
+        28,
+        28
+      ],
+      "minimum_size": [
+        500,
+        240
+      ],
+      "recommended_size": [
+        800,
+        500
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "a2f5ea67a6526c9a349c33b136ed222fbb74b86c3f2f9f723bd84c46a6cac5b6",
+      "svg_sha256": "819d2cd2adb9780d98984c82f3e72872b682a80e9562b41ddc780cba37e0a901",
+      "notes": "Low contrast center with generated slate; fixed metal corner plates. Only straight strips/center stretch. Do not stretch gems/corners."
+    },
+    {
+      "id": "skin.panel_inset.normal",
+      "key": "panel_inset",
+      "consumer_key": "panel_inset",
+      "state": "normal",
+      "role": "panel_inset",
+      "png": "png/panel_inset__normal.png",
+      "svg": "svg/panel_inset__normal.svg",
+      "source_size": [
+        128,
+        128
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "content_margins": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "minimum_size": [
+        50,
+        50
+      ],
+      "recommended_size": [
+        280,
+        200
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "3180242fa574906b03657c30576b65a780bd8befc6773b49da13384c6c6fed58",
+      "svg_sha256": "86d584d03429a8a2c9e80199402920d619b1e504bccc2f983fbae6a5363dfb95",
+      "notes": "Low contrast center with generated slate; fixed metal corner plates. Only straight strips/center stretch. Do not stretch gems/corners."
+    },
+    {
+      "id": "skin.panel_sell.normal",
+      "key": "panel_sell",
+      "consumer_key": "panel_sell",
+      "state": "normal",
+      "role": "panel_sell",
+      "png": "png/panel_sell__normal.png",
+      "svg": "svg/panel_sell__normal.svg",
+      "source_size": [
+        256,
+        128
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "content_margins": [
+        20,
+        14,
+        20,
+        14
+      ],
+      "minimum_size": [
+        200,
+        72
+      ],
+      "recommended_size": [
+        470,
+        92
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "261b7bedce8c036b0f9490d94afe5d7d51e31888219325631c583af97df48cdf",
+      "svg_sha256": "998df43d8b054d9e7bdafe10f0524fcb8628870bc764e390efa1a5ae8e9dc79c",
+      "notes": "Decoration only. Keep full actual470x92 drop region and original drag semantics. Symbol and label separate."
+    },
+    {
+      "id": "skin.panel_sell.hover",
+      "key": "panel_sell",
+      "consumer_key": "panel_sell",
+      "state": "hover",
+      "role": "panel_sell",
+      "png": "png/panel_sell__hover.png",
+      "svg": "svg/panel_sell__hover.svg",
+      "source_size": [
+        256,
+        128
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "content_margins": [
+        20,
+        14,
+        20,
+        14
+      ],
+      "minimum_size": [
+        200,
+        72
+      ],
+      "recommended_size": [
+        470,
+        92
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "fbd2b5592e232cd396faf2a2c078b1733b0ea6853386f5e469dabe5bfd3b7836",
+      "svg_sha256": "a394157a9359bdcd5d1847a7d4333c52064bc26233697c3bbfdc1c863575c4ec",
+      "notes": "Decoration only. Keep full actual470x92 drop region and original drag semantics. Symbol and label separate."
+    },
+    {
+      "id": "skin.panel_sell.disabled",
+      "key": "panel_sell",
+      "consumer_key": "panel_sell",
+      "state": "disabled",
+      "role": "panel_sell",
+      "png": "png/panel_sell__disabled.png",
+      "svg": "svg/panel_sell__disabled.svg",
+      "source_size": [
+        256,
+        128
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "content_margins": [
+        20,
+        14,
+        20,
+        14
+      ],
+      "minimum_size": [
+        200,
+        72
+      ],
+      "recommended_size": [
+        470,
+        92
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "57efb680d505c760d28f2162d4bd938dca97f2e3f9d962d42d938bb68167b3b6",
+      "svg_sha256": "0da4a91902e3f3972e50954f6bb79ae9bdd64bc507eae50049f67512f02498f1",
+      "notes": "Decoration only. Keep full actual470x92 drop region and original drag semantics. Symbol and label separate."
+    },
+    {
+      "id": "skin.option_card.normal",
+      "key": "option_card",
+      "consumer_key": "option_card",
+      "state": "normal",
+      "role": "option_card",
+      "png": "png/option_card__normal.png",
+      "svg": "svg/option_card__normal.svg",
+      "source_size": [
+        256,
+        256
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        26,
+        26,
+        26,
+        26
+      ],
+      "content_margins": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "minimum_size": [
+        150,
+        120
+      ],
+      "recommended_size": [
+        280,
+        245
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "a5947282f4d6f49663d7f40d105ec749a56906cba602ce61f7f3e1f0d8cb9ca8",
+      "svg_sha256": "31afed4c91c2484ddf1f955bdd3cc3bf456612ca5bf52b05d0fd0e11774714dd",
+      "notes": "Outer choice/hero tile skin; preserve original card/art/text and existing hit target."
+    },
+    {
+      "id": "skin.option_card.hover",
+      "key": "option_card",
+      "consumer_key": "option_card",
+      "state": "hover",
+      "role": "option_card",
+      "png": "png/option_card__hover.png",
+      "svg": "svg/option_card__hover.svg",
+      "source_size": [
+        256,
+        256
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        26,
+        26,
+        26,
+        26
+      ],
+      "content_margins": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "minimum_size": [
+        150,
+        120
+      ],
+      "recommended_size": [
+        280,
+        245
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "9ce9a0d29226d871f03941a933c105a5da80e3833fe9b45564a746f66ee4fa04",
+      "svg_sha256": "d49a06050ed55506d2d5599e66eeccab4d5add171428fb7acf0a693dc1a198cf",
+      "notes": "Outer choice/hero tile skin; preserve original card/art/text and existing hit target."
+    },
+    {
+      "id": "skin.option_card.pressed",
+      "key": "option_card",
+      "consumer_key": "option_card",
+      "state": "pressed",
+      "role": "option_card",
+      "png": "png/option_card__pressed.png",
+      "svg": "svg/option_card__pressed.svg",
+      "source_size": [
+        256,
+        256
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        26,
+        26,
+        26,
+        26
+      ],
+      "content_margins": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "minimum_size": [
+        150,
+        120
+      ],
+      "recommended_size": [
+        280,
+        245
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "38fa31b10c61bc1daa36cb6349155efb0fce04265fe32bd3589e642a49942b82",
+      "svg_sha256": "4ec37abb21fa8eb46144600dff411eca63978eea07860745886eda714d88dbbd",
+      "notes": "Outer choice/hero tile skin; preserve original card/art/text and existing hit target."
+    },
+    {
+      "id": "skin.option_card.disabled",
+      "key": "option_card",
+      "consumer_key": "option_card",
+      "state": "disabled",
+      "role": "option_card",
+      "png": "png/option_card__disabled.png",
+      "svg": "svg/option_card__disabled.svg",
+      "source_size": [
+        256,
+        256
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        26,
+        26,
+        26,
+        26
+      ],
+      "content_margins": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "minimum_size": [
+        150,
+        120
+      ],
+      "recommended_size": [
+        280,
+        245
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "54fcd778770c6b04d775fff6dd06dcb818f341d986eabc6e6a3163d7df37b340",
+      "svg_sha256": "1cf11e222e5bbf59683da6703e15ed542103d3a9e30b5461a7528f499b49fe68",
+      "notes": "Outer choice/hero tile skin; preserve original card/art/text and existing hit target."
+    },
+    {
+      "id": "skin.option_card.selected",
+      "key": "option_card",
+      "consumer_key": "option_card",
+      "state": "selected",
+      "role": "option_card",
+      "png": "png/option_card__selected.png",
+      "svg": "svg/option_card__selected.svg",
+      "source_size": [
+        256,
+        256
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        26,
+        26,
+        26,
+        26
+      ],
+      "content_margins": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "minimum_size": [
+        150,
+        120
+      ],
+      "recommended_size": [
+        280,
+        245
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "094bd87449959434dd06ea966e2b38c830b16694a0dd6ca5b0afedecd2058259",
+      "svg_sha256": "1e7bd7ea6f4b31f39a32f6d2df8d76b0776d3c704ce5a4fd27fbbf9dfa6880f4",
+      "notes": "Outer choice/hero tile skin; preserve original card/art/text and existing hit target."
+    },
+    {
+      "id": "skin.nameplate.normal",
+      "key": "nameplate",
+      "consumer_key": "nameplate",
+      "state": "normal",
+      "role": "nameplate",
+      "png": "png/nameplate__normal.png",
+      "svg": "svg/nameplate__normal.svg",
+      "source_size": [
+        256,
+        40
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        22,
+        10,
+        22,
+        10
+      ],
+      "content_margins": [
+        24,
+        3,
+        24,
+        3
+      ],
+      "minimum_size": [
+        80,
+        28
+      ],
+      "recommended_size": [
+        390,
+        32
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "4650c4f8e9bfc462314269de2a400b2314acdbbfeb475ccc2fc2e7ecae99372c",
+      "svg_sha256": "98086bb1bad14b1698fdfff86f28516a9702762d1106891c9e10984f816e6c62",
+      "notes": "Blank dynamic text rail; no baked labels. Information bars visually subdued compared to main actions."
+    },
+    {
+      "id": "skin.timer_bar.normal",
+      "key": "timer_bar",
+      "consumer_key": "timer_bar",
+      "state": "normal",
+      "role": "timer_bar",
+      "png": "png/timer_bar__normal.png",
+      "svg": "svg/timer_bar__normal.svg",
+      "source_size": [
+        256,
+        64
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        28,
+        16,
+        28,
+        16
+      ],
+      "content_margins": [
+        28,
+        6,
+        28,
+        6
+      ],
+      "minimum_size": [
+        80,
+        40
+      ],
+      "recommended_size": [
+        280,
+        48
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "63584f67a67237a858feb51ad0fbbc9165bcbb7b0467a4a359907daccd044842",
+      "svg_sha256": "0fb832405d41bfc40d3fbc58114fabd4a40c7f54855caf56449d09e776004f9f",
+      "notes": "Blank dynamic text rail; no baked labels. Information bars visually subdued compared to main actions."
+    },
+    {
+      "id": "skin.title_plaque.normal",
+      "key": "title_plaque",
+      "consumer_key": "title_plaque",
+      "state": "normal",
+      "role": "title_plaque",
+      "png": "png/title_plaque__normal.png",
+      "svg": "svg/title_plaque__normal.svg",
+      "source_size": [
+        256,
+        48
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        36,
+        12,
+        36,
+        12
+      ],
+      "content_margins": [
+        30,
+        5,
+        30,
+        5
+      ],
+      "minimum_size": [
+        80,
+        28
+      ],
+      "recommended_size": [
+        320,
+        40
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "df8563a6a60073b83d26b2da463019f044cd15fd16771b1d366c1f88f42798ea",
+      "svg_sha256": "47d0a693dd940cbde3379284b9286a8059553e4cee8f49e3a17bffc808a69db7",
+      "notes": "Blank dynamic text rail; no baked labels. Information bars visually subdued compared to main actions."
+    },
+    {
+      "id": "skin.divider.normal",
+      "key": "divider",
+      "consumer_key": "divider",
+      "state": "normal",
+      "role": "divider",
+      "png": "png/divider__normal.png",
+      "svg": "svg/divider__normal.svg",
+      "source_size": [
+        256,
+        16
+      ],
+      "fit": "three_slice",
+      "texture_margins": [
+        24,
+        0,
+        24,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        80,
+        12
+      ],
+      "recommended_size": [
+        300,
+        16
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "0f846d0607f726b8f4fdc99f8a57e56e660a84953712da9ff572b9df22b9fd61",
+      "svg_sha256": "020f999656687dadaf42e2e77544ff5d9ba3af3eff0aa39ebc7caff222336c71",
+      "notes": ""
+    },
+    {
+      "id": "skin.title_crest.normal",
+      "key": "title_crest",
+      "consumer_key": "title_crest",
+      "state": "normal",
+      "role": "title_crest",
+      "png": "png/title_crest__normal.png",
+      "svg": "svg/title_crest__normal.svg",
+      "source_size": [
+        64,
+        28
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        32,
+        14
+      ],
+      "recommended_size": [
+        64,
+        28
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "05c7241dffc1b01293bf28ec2530f8fe74affb35f3b534e1b3502ef5495732ed",
+      "svg_sha256": "b5b71bdcf74fa2ad1790cab235ce5cd76e9fc53e1225800743bb0380b1ad5946",
+      "notes": "Optional separate centered window crest; fixed aspect. Never bake into stretched center strip."
+    },
+    {
+      "id": "skin.corner_ornament.normal",
+      "key": "corner_ornament",
+      "consumer_key": "corner_ornament",
+      "state": "normal",
+      "role": "corner_ornament",
+      "png": "png/corner_ornament__normal.png",
+      "svg": "svg/corner_ornament__normal.svg",
+      "source_size": [
+        64,
+        64
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        20,
+        20
+      ],
+      "recommended_size": [
+        32,
+        32
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "1b4719ecee0c275af5c0d535cfac485cb25e201b1173b0ea92d84b61bbf0190e",
+      "svg_sha256": "1eaf6ca0334b89de807a0a60558f243b43440a46065ebd753fec2aeaf57d82e4",
+      "notes": "Optional fixed corner; do not add over cards or text. Mirroring allowed."
+    },
+    {
+      "id": "skin.scroll_track.normal",
+      "key": "scroll_track",
+      "consumer_key": "scroll_track",
+      "state": "normal",
+      "role": "scroll_track",
+      "png": "png/scroll_track__normal.png",
+      "svg": "svg/scroll_track__normal.svg",
+      "source_size": [
+        14,
+        64
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        4,
+        12,
+        4,
+        12
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        14,
+        36
+      ],
+      "recommended_size": [
+        14,
+        200
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "80d0d0f2e0521847c7a43491d084582daa710de01ff5b829d76859e3972bc59c",
+      "svg_sha256": "fb4b24af2894dbc37e2576fce6102bb1c13900c589b0047b48f0b03b39c7a72b",
+      "notes": ""
+    },
+    {
+      "id": "skin.scroll_thumb.normal",
+      "key": "scroll_thumb",
+      "consumer_key": "scroll_thumb",
+      "state": "normal",
+      "role": "scroll_thumb",
+      "png": "png/scroll_thumb__normal.png",
+      "svg": "svg/scroll_thumb__normal.svg",
+      "source_size": [
+        14,
+        64
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        4,
+        12,
+        4,
+        12
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        14,
+        30
+      ],
+      "recommended_size": [
+        14,
+        64
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "8fcbc46836da1b527cbfe11251b1df95204b1ce0d8ecf82a9cbc70ac014cf0a3",
+      "svg_sha256": "d01bee178b2e4b2d3f6f44925a97917a3df50bb70f6e8ead80040930814c0deb",
+      "notes": ""
+    },
+    {
+      "id": "skin.scroll_thumb.hover",
+      "key": "scroll_thumb",
+      "consumer_key": "scroll_thumb",
+      "state": "hover",
+      "role": "scroll_thumb",
+      "png": "png/scroll_thumb__hover.png",
+      "svg": "svg/scroll_thumb__hover.svg",
+      "source_size": [
+        14,
+        64
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        4,
+        12,
+        4,
+        12
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        14,
+        30
+      ],
+      "recommended_size": [
+        14,
+        64
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "5ffc8545693c90299217a3a828f393b571c8a96fd6eebb44e9ce0bba739541c6",
+      "svg_sha256": "9ea1135d33be5b6302b36fa8e75ee950305bc7ec95fb62e41f1ad6d3762f0418",
+      "notes": ""
+    },
+    {
+      "id": "skin.scroll_thumb.pressed",
+      "key": "scroll_thumb",
+      "consumer_key": "scroll_thumb",
+      "state": "pressed",
+      "role": "scroll_thumb",
+      "png": "png/scroll_thumb__pressed.png",
+      "svg": "svg/scroll_thumb__pressed.svg",
+      "source_size": [
+        14,
+        64
+      ],
+      "fit": "nine_patch",
+      "texture_margins": [
+        4,
+        12,
+        4,
+        12
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        14,
+        30
+      ],
+      "recommended_size": [
+        14,
+        64
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "926730e71eca73b17f35d6a52d2c913559b5b4f4aa7b17549382b257588f8314",
+      "svg_sha256": "0c8dc1a80af8f9e1c0f5d7ef99f13d74ffda8a0511c3c9f3eb2309917c591322",
+      "notes": ""
+    },
+    {
+      "id": "skin.state_available.normal",
+      "key": "state_available",
+      "consumer_key": "state_available",
+      "state": "normal",
+      "role": "state_available",
+      "png": "png/state_available__normal.png",
+      "svg": "svg/state_available__normal.svg",
+      "source_size": [
+        96,
+        96
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        40,
+        40
+      ],
+      "recommended_size": [
+        64,
+        64
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "ebb0f45f0276b8d7f73e65702dc8929edab2c675494e3c3d4780308d67d1c3c0",
+      "svg_sha256": "46b4e413641aaa68379a183b5fba7fe26ed4d4cc5a1edb0f84893723e32bfb88",
+      "notes": "Separate unobtrusive true-state overlay; never cover owned art/name. If existing icon state already includes lock do not double-lock."
+    },
+    {
+      "id": "skin.state_locked.normal",
+      "key": "state_locked",
+      "consumer_key": "state_locked",
+      "state": "normal",
+      "role": "state_locked",
+      "png": "png/state_locked__normal.png",
+      "svg": "svg/state_locked__normal.svg",
+      "source_size": [
+        96,
+        96
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        40,
+        40
+      ],
+      "recommended_size": [
+        64,
+        64
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "03f6db5164bce43edf175eeca62b2e5745e7f5cb5c1f9e3d5bffb2c1cad0a0c0",
+      "svg_sha256": "a438634f64393c3067ce7f6fb6907ff2698aee5628a3fa47ba066b20af04cfda",
+      "notes": "Separate unobtrusive true-state overlay; never cover owned art/name. If existing icon state already includes lock do not double-lock."
+    },
+    {
+      "id": "skin.state_used.normal",
+      "key": "state_used",
+      "consumer_key": "state_used",
+      "state": "normal",
+      "role": "state_used",
+      "png": "png/state_used__normal.png",
+      "svg": "svg/state_used__normal.svg",
+      "source_size": [
+        96,
+        96
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        40,
+        40
+      ],
+      "recommended_size": [
+        64,
+        64
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "2f00a8ab27b6dc37f2ad0255ff7fbc4b9051123ce75c72163a68a1e3821b50f1",
+      "svg_sha256": "76c3ee54fcd88bc5f1cc043a9b59e8c815ccbf709115e5d69ac0798dc16026d8",
+      "notes": "Separate unobtrusive true-state overlay; never cover owned art/name. If existing icon state already includes lock do not double-lock."
+    },
+    {
+      "id": "skin.state_frozen.normal",
+      "key": "state_frozen",
+      "consumer_key": "state_frozen",
+      "state": "normal",
+      "role": "state_frozen",
+      "png": "png/state_frozen__normal.png",
+      "svg": "svg/state_frozen__normal.svg",
+      "source_size": [
+        96,
+        96
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        40,
+        40
+      ],
+      "recommended_size": [
+        64,
+        64
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "a96c985692b8169cb37a640bed08e4a3a47c3ff14b9a0f77304f2efe8f325a60",
+      "svg_sha256": "1696e10c76c29a0568a47f1c4c82af9028ded31d7aca998e15058e01aa64bf75",
+      "notes": "Separate unobtrusive true-state overlay; never cover owned art/name. If existing icon state already includes lock do not double-lock."
+    },
+    {
+      "id": "skin.window_close_socket.normal",
+      "key": "window_close_socket",
+      "consumer_key": "window_close_socket",
+      "state": "normal",
+      "role": "window_close_socket",
+      "png": "png/window_close_socket__normal.png",
+      "svg": "svg/window_close_socket__normal.svg",
+      "source_size": [
+        64,
+        64
+      ],
+      "fit": "keep_aspect",
+      "texture_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "content_margins": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "minimum_size": [
+        32,
+        32
+      ],
+      "recommended_size": [
+        40,
+        40
+      ],
+      "opening_rect": null,
+      "safe_areas": {},
+      "png_sha256": "9ba0dfd2f7513a4a43061f601336765bfc02688101fe7f175e4eb6aa0ab71b58",
+      "svg_sha256": "28431293a3baf824addb70c74536ad307f9e311919070cb8bbd1264472ae0bab",
+      "notes": "For existing close control only; supply existing X separately. Does not create a close action in mandatory choices."
+    }
+  ]
+}

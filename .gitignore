@@ -1,0 +1,14 @@
+.godot/
+.godot_ai*
+addons/
+local_resources/
+resource_packs/
+examples/
+builds/
+*.exe
+*.pck
+*.zip
+*.log
+__pycache__/
+open_save*
+open_preferences.json

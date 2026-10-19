@@ -1,0 +1,70 @@
+{
+  "results": [
+    {
+      "id": "TB_BaconShop_HERO_35_Buddy_t2",
+      "weight": 19,
+      "start_deg": -90,
+      "end_deg": -21.6,
+      "center_deg": -55.8,
+      "asset_key": "TB_BaconShop_HERO_35_Buddy_t2:result_tile:normal:neutral",
+      "sigil_key": "ui:r134_sigil_t2:vector:normal:neutral",
+      "name": "TB_BaconShop_HERO_35_Buddy_t2",
+      "effect": "说明待补充"
+    },
+    {
+      "id": "TB_BaconShop_HERO_35_Buddy_t3",
+      "weight": 19,
+      "start_deg": -21.6,
+      "end_deg": 46.8,
+      "center_deg": 12.6,
+      "asset_key": "TB_BaconShop_HERO_35_Buddy_t3:result_tile:normal:neutral",
+      "sigil_key": "ui:r134_sigil_t3:vector:normal:neutral",
+      "name": "TB_BaconShop_HERO_35_Buddy_t3",
+      "effect": "说明待补充"
+    },
+    {
+      "id": "TB_BaconShop_HERO_35_Buddy_t5",
+      "weight": 19,
+      "start_deg": 46.8,
+      "end_deg": 115.2,
+      "center_deg": 81.0,
+      "asset_key": "TB_BaconShop_HERO_35_Buddy_t5:result_tile:normal:neutral",
+      "sigil_key": "ui:r134_sigil_t5:vector:normal:neutral",
+      "name": "TB_BaconShop_HERO_35_Buddy_t5",
+      "effect": "说明待补充"
+    },
+    {
+      "id": "TB_BaconShop_HERO_35_Buddy_t6",
+      "weight": 5,
+      "start_deg": 115.2,
+      "end_deg": 133.2,
+      "center_deg": 124.2,
+      "asset_key": "TB_BaconShop_HERO_35_Buddy_t6:result_tile:normal:neutral",
+      "sigil_key": "ui:r134_sigil_t6:vector:normal:neutral",
+      "name": "TB_BaconShop_HERO_35_Buddy_t6",
+      "effect": "说明待补充"
+    },
+    {
+      "id": "TB_BaconShop_HERO_35_Buddy_t7",
+      "weight": 19,
+      "start_deg": 133.2,
+      "end_deg": 201.6,
+      "center_deg": 167.4,
+      "asset_key": "TB_BaconShop_HERO_35_Buddy_t7:result_tile:normal:neutral",
+      "sigil_key": "ui:r134_sigil_t7:vector:normal:neutral",
+      "name": "TB_BaconShop_HERO_35_Buddy_t7",
+      "effect": "说明待补充"
+    },
+    {
+      "id": "TB_BaconShop_HERO_35_Buddy_t8",
+      "weight": 19,
+      "start_deg": 201.6,
+      "end_deg": 270.0,
+      "center_deg": 235.8,
+      "asset_key": "TB_BaconShop_HERO_35_Buddy_t8:result_tile:normal:neutral",
+      "sigil_key": "ui:r134_sigil_t8:vector:normal:neutral",
+      "name": "TB_BaconShop_HERO_35_Buddy_t8",
+      "effect": "说明待补充"
+    }
+  ]
+}

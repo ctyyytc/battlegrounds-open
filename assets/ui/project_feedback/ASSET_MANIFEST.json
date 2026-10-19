@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "identity": "Existing project-authored deterministic primitives; byte-identical migration from private A, no original game illustration or composite",
+  "records": [
+    {
+      "path": "r133_route_frame.png",
+      "asset_keys": [
+        "ui:r133_route_frame:texture:normal:neutral"
+      ],
+      "sha256": "9a24b891bb5b62cffa4d66b84bf5ca460232ec9539977f43f7bd19cec6850d6b",
+      "bytes": 1139,
+      "authoring_batch": "round133",
+      "construction": "Pillow geometric primitives",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r133_secret_mount.png",
+      "asset_keys": [
+        "ui:r133_secret_mount:texture:normal:neutral"
+      ],
+      "sha256": "7f95f8ed3e23297581d7d603627336e3b0eea996a1160e9e49b47dcdd6bbce64",
+      "bytes": 1937,
+      "authoring_batch": "round133",
+      "construction": "Pillow geometric primitives",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r133_collect_ring.png",
+      "asset_keys": [
+        "ui:r133_collect_ring:texture:normal:neutral"
+      ],
+      "sha256": "7cbe7ed57c34eae717eba4c97a2ad70b38a2588a95959c1da618b86b7ab56735",
+      "bytes": 7729,
+      "authoring_batch": "round133",
+      "construction": "Pillow geometric primitives",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r133_collect_spark.png",
+      "asset_keys": [
+        "ui:r133_collect_spark:texture:normal:neutral"
+      ],
+      "sha256": "a467c6fba9ba1008eb6f98921bf12dc9067c0716be988e4daf4ee3c6da64422b",
+      "bytes": 1186,
+      "authoring_batch": "round133",
+      "construction": "Pillow geometric primitives",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r133_exception_mark.png",
+      "asset_keys": [
+        "ui:r133_exception_mark:texture:normal:neutral"
+      ],
+      "sha256": "ba5f76a5cf4a4b14f97fafa83e6a9c3820cf26a921d289c15c232a0c28224ecc",
+      "bytes": 2034,
+      "authoring_batch": "round133",
+      "construction": "Pillow geometric primitives",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r133_progress_track.png",
+      "asset_keys": [
+        "ui:r133_progress_track:texture:normal:neutral"
+      ],
+      "sha256": "75c7db30efadd82186ce0ba8dcad3a82134cac9a6bd3bffb9428bc2dfbad8e50",
+      "bytes": 1645,
+      "authoring_batch": "round133",
+      "construction": "Pillow geometric primitives",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r133_ticket_badge.png",
+      "asset_keys": [
+        "ui:r133_ticket_badge:texture:normal:neutral"
+      ],
+      "sha256": "c59577142ffed9ad2b6556610ae00059108bda61e6ad218f5d6911f3c8a49104",
+      "bytes": 3386,
+      "authoring_batch": "round133",
+      "construction": "Pillow geometric primitives",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r134_selected_t2.png",
+      "asset_keys": [
+        "ui:r134_selected_t2:texture:normal:neutral"
+      ],
+      "sha256": "929aae878ec60d62379198c12020a566f4e7be88777dad7c254df2153c8823fe",
+      "bytes": 8772,
+      "authoring_batch": "round134",
+      "construction": "Deterministic geometric SVG raster export",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r134_selected_t3.png",
+      "asset_keys": [
+        "ui:r134_selected_t3:texture:normal:neutral"
+      ],
+      "sha256": "6d6959307dada90fcade400df3a03298f52fe8a909f3e288bed55e0fe255c975",
+      "bytes": 12001,
+      "authoring_batch": "round134",
+      "construction": "Deterministic geometric SVG raster export",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r134_selected_t5.png",
+      "asset_keys": [
+        "ui:r134_selected_t5:texture:normal:neutral"
+      ],
+      "sha256": "236e411831d9416d93dc1fd86c5e118e9909cf5f119b380b223abc09caf3bff7",
+      "bytes": 11953,
+      "authoring_batch": "round134",
+      "construction": "Deterministic geometric SVG raster export",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r134_selected_t6.png",
+      "asset_keys": [
+        "ui:r134_selected_t6:texture:normal:neutral"
+      ],
+      "sha256": "b986aade0c60fa4d109382e8607f39ff647d35ca3dd54a5b57f7b3621e462187",
+      "bytes": 9236,
+      "authoring_batch": "round134",
+      "construction": "Deterministic geometric SVG raster export",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r134_selected_t7.png",
+      "asset_keys": [
+        "ui:r134_selected_t7:texture:normal:neutral"
+      ],
+      "sha256": "f197acba4750fe196efc56f5b0c77c0952b98249ce3d1b2f9ff0faff51e732a8",
+      "bytes": 12002,
+      "authoring_batch": "round134",
+      "construction": "Deterministic geometric SVG raster export",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r134_selected_t8.png",
+      "asset_keys": [
+        "ui:r134_selected_t8:texture:normal:neutral"
+      ],
+      "sha256": "f0f0b9cda4a4650147e3413e6017f3109e55297169c5ac4507c66a37f577828d",
+      "bytes": 8561,
+      "authoring_batch": "round134",
+      "construction": "Deterministic geometric SVG raster export",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r134_wheel_disk.png",
+      "asset_keys": [
+        "ui:r134_wheel_disk:texture:normal:neutral"
+      ],
+      "sha256": "0de84088dbf3e6c0ddbfae647f699a27ef958e98069b3259b1553f4ff2c80ec3",
+      "bytes": 45882,
+      "authoring_batch": "round134",
+      "construction": "Deterministic geometric SVG raster export",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r134_wheel_hub.png",
+      "asset_keys": [
+        "ui:r134_wheel_hub:texture:normal:neutral"
+      ],
+      "sha256": "06767fd13de0315ab2b65b0755ba0389a06312b383a223ea2e43dff77f885ac0",
+      "bytes": 9591,
+      "authoring_batch": "round134",
+      "construction": "Deterministic geometric SVG raster export",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    },
+    {
+      "path": "r134_wheel_pointer.png",
+      "asset_keys": [
+        "ui:r134_wheel_pointer:texture:normal:neutral"
+      ],
+      "sha256": "c9c11b787759ff0879dfeec0aca40744d9ab560ef15b14aff79c5aafdae61582",
+      "bytes": 2347,
+      "authoring_batch": "round134",
+      "construction": "Deterministic geometric SVG raster export",
+      "external_override": "Same assets key; omitted uses this image, null disables, external file takes priority"
+    }
+  ]
+}
