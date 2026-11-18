@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="battlegrounds-open"
-config/version="14.5.0"
+config/version="15.0.0"
 run/main_scene="res://app/main.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="battlegrounds-open"

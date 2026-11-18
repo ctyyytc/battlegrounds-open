@@ -1534,6 +1534,12 @@
       "offer_mode": "requires_in",
       "sample_weight": 2,
       "classification_source": "Project conservative adaptation: explicit catalog affinity; typed synergy requires membership unless audited pivot exception. Not an official complete hidden tag table."
+    },
+    "PROJECT_R15_POCKET_FACTORY_6": {
+      "types": [],
+      "offer_mode": "neutral",
+      "sample_weight": 2,
+      "classification_source": "Project six-tier factory variant"
     }
   }
 }

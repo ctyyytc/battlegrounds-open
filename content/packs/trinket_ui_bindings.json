@@ -1553,6 +1553,22 @@
       ]
     },
     {
+      "content_id": "PROJECT_R15_POCKET_FACTORY_6",
+      "asset_key": "PROJECT_R15_POCKET_FACTORY_6:icon:normal:neutral",
+      "category": "greater_trinket",
+      "native_size": [
+        93,
+        93
+      ],
+      "purchased_slot": "ui:trinket_slot_greater:texture:normal:neutral",
+      "hover_frame": "ui:trinket_hover_frame:texture:normal:neutral",
+      "display_content_px": [
+        40,
+        48,
+        64
+      ]
+    },
+    {
       "content_id": "BG32_MagicItem_362t",
       "asset_key": "BG32_MagicItem_362t:icon:normal:neutral",
       "category": "greater_trinket",

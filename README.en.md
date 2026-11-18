@@ -1,4 +1,4 @@
-# Battlegrounds Open · 14.5.0
+# Battlegrounds Open · 15.0.0
 
 [简体中文](README.md) | **English**
 
@@ -8,13 +8,11 @@ The maintainer shares this project free of charge. It is not affiliated with, pa
 
 ## Download for Windows
 
-Download the [v14.5.0-r2 Windows x64 release](https://github.com/ctyyytc/battlegrounds-open/releases/tag/v14.5.0-r2), extract the entire ZIP, and run `battlegrounds-open.exe`. Keep the adjacent `.pck` file. No Godot installation is required. Resource packs are not included; install or uninstall a separately obtained pack from the in-game resource-pack menu.
+Download the [v15.0.0 Windows x64 release](https://github.com/ctyyytc/battlegrounds-open/releases/tag/v15.0.0), extract the entire ZIP, and run `battlegrounds-open.exe`. Keep the adjacent `.pck` file. No Godot installation is required. Resource packs are not included; install or uninstall a separately obtained pack from the in-game resource-pack menu.
 
-The actual Windows release has been checked for resource-pack installation and persistence across restarts, buying and playing minions, manual saving, loading and continuing in a new process, uninstalling without deleting the source pack or saves, and restoring an existing save after reinstalling its matching pack. The final ZIP was also extracted and tested for starting and saving/loading without a pack. Rejecting a save whose numeric profile does not match is intentional compatibility protection. Other hardware, full natural matches, and all content combinations have not been validated.
+After combat replay ends or is skipped, return to recruitment immediately or wait for the five-second countdown. Pausing stops the countdown. Post-combat choices and start-of-round cards resolve in the order their sources were acquired.
 
-r2 is a packaging revision of 14.5.0. It fixes built-in texture loading in exported builds, restoring keyword effects and the Yogg fate wheel, and adds 53 editable SVG sources for the current UI. The game version remains 14.5.0.
-
-r2 additionally checks all 205 consumed effect frames, nine wheel images, trinket reminder pulsing on turns 6/9, removal after purchase, and static reduced-motion reminders. The actual executable extracted from the final ZIP was checked for representative keyword visuals, the wheel, manual saving, and loading in a new process. Production APIs in the exported PCK were also checked for installing/uninstalling/reinstalling pack A and saving/loading across processes; all 922 images matched their source hashes and decoded successfully. These checks use isolated constructed saves; full natural matches and all combinations were not rerun.
+Manually casting a Tavern spell updates spell memory. Hover over a related minion or trinket to see the remembered spell. The targeted transformation spell requires a manual cast. This version also adds a greater trinket that discovers a Tier 6 minion and adjusts several spells, minions, and regular Dark Gift offerings from turn 7.
 
 ## Run from source
 
@@ -38,7 +36,7 @@ Opening settings does not pause the match automatically: recruitment timers and 
 
 A Windows export preset is provided. Building requires matching Godot export templates installed separately. The source tree does not contain the engine, export templates, executables, old Git history, or test artifacts. Development plugins, private packs, real player saves, and internal development records are excluded.
 
-The source copy and Windows release have passed smoke checks for import, startup, basic actions, saves, and resource-pack installation/uninstallation within the scope affected by this preparation. The entire historical suite, full natural matches, and all combinations were not rerun. Implementation status is available in the in-game encyclopedia.
+Implementation status is available in the in-game encyclopedia.
 
 See [LICENSE](LICENSE) for the code license, [ASSET_LICENSES.md](ASSET_LICENSES.md) for built-in image licensing, and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for external-tool and third-party boundaries. `PUBLIC_FILES.json` lists the size and SHA-256 of every repository file except the manifest itself.
 

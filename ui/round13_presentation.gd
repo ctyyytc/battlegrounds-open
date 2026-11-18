@@ -13,7 +13,7 @@ static func summary(d: Dictionary,c: Dictionary,round_number: int) -> String:
 		"BG32_MagicItem_428":
 			if c.get("map_done",false):return ExternalText.phrase("ui_round13_presentation.summary.80897fd1c8a4", "说明待补充")
 		"BG35_MagicItem_814":return ExternalText.phrase("ui_round13_presentation.summary.be7a95c8bb97", "说明待补充") if c.get("wallet_done",false) else ExternalText.phrase("ui_round13_presentation.summary.d254a1530208", "说明待补充")
-		"BG32_MagicItem_361","BG32_MagicItem_361t":return ExternalText.phrase("ui_round13_presentation.summary.c1e5fb0479c7", "说明待补充")+str(c.get("factory_id",ExternalText.phrase("ui_round13_presentation.summary.8c7f2dc9417c", "说明待补充")))
+		"BG32_MagicItem_361","BG32_MagicItem_361t","PROJECT_R15_POCKET_FACTORY_6":return ExternalText.phrase("ui_round13_presentation.summary.c1e5fb0479c7", "说明待补充")+str(c.get("factory_id",ExternalText.phrase("ui_round13_presentation.summary.8c7f2dc9417c", "说明待补充")))
 	if c.has("next_round"):return ExternalText.phrase("ui_round13_presentation.summary.7bd736c78358", "说明待补充 · %d") % maxi(0,int(c.next_round)-round_number)
 	return ""
 static func item(d: Dictionary,c: Dictionary,p: Dictionary,round_number: int) -> String:
@@ -23,7 +23,8 @@ static func minion(engine,d: Dictionary,c: Dictionary,p: Dictionary,rich: bool=f
 		"BG34_320":
 			var a=int(p.get("elemental_bonus_attack",0));var h=int(p.get("elemental_bonus_health",0))
 			var text=preload("res://ui/spell_presentation.gd")
-			return ExternalText.phrase("round13_presentation.13d192e0ddba", "说明待补充 · %s / %s / %s") % [text.number(15,a,rich),text.number(15,h,rich),ExternalText.phrase("ui_round13_presentation.minion.b080bfcb0d4e", "说明待补充") if d.golden else ""]
+			var base=preload("res://domain/rules/round13_minions.gd").next_last_buff(c)
+			return ExternalText.phrase("round13_presentation.13d192e0ddba", "进击：下次使每种类型各一个己方随从永久获得 %s/%s。每次进击后，下一档基础加成提高 +8/+8。%s") % [text.number(base,a,rich),text.number(base,h,rich),ExternalText.phrase("ui_round13_presentation.minion.b080bfcb0d4e", "使用同一数值结算两遍。") if d.golden else ""]
 		"BG34_322":return ExternalText.phrase("round13_presentation.610ee3b1697d", "说明待补充 · %s / %d") % [ExternalText.phrase("ui_round13_presentation.minion.ae0e48c82139", "说明待补充") if d.golden else "",maxi(0,3-int(c.get("kodo_uses",0)))]
 		"BG34_950":return str(d.text)+(ExternalText.phrase("ui_round13_presentation.minion.3ab6d1e7df40", "\n说明待补充") if engine!=null and int(c.get("stone_round",-1))==int(engine.state.round) else ExternalText.phrase("ui_round13_presentation.minion.35db9fd7b9e3", "\n说明待补充"))
 	return str(d.text)

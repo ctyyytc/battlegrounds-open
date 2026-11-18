@@ -137,7 +137,7 @@ static func use(engine,p: Dictionary,args: Dictionary) -> String:
 			engine.state["devour_tail"]={"owner":int(p.id),"source_instance":int(target.instance_id),"consumed_snapshot":target.duplicate(true),"attack":v.x,"health":v.y,"slot_id":s.slot_id,"epoch":s.epoch,"root_action_id":engine.state.get("active_root",engine.cause)}
 			if not engine.sell_card(p,target):return "CARD_NOT_ON_BOARD"
 		"BG21_HERO_000p":
-			var v=entry.get("conviction",{"targets":1,"attack":1,"health":1});var pool=p.board.duplicate()
+			var v=s.progress.get("conviction",{"targets":1,"attack":1,"health":1});var pool=p.board.duplicate()
 			for unused in mini(pool.size(),int(v.targets)):engine.buff(pool.pop_at(engine.RNG.next(engine.state.streams,"effects",pool.size())),int(v.attack),int(v.health))
 		"BG21_HERO_010p":copy_discover(engine,p,next_board(engine,p),"spy",true)
 		"BG21_HERO_020p":
@@ -224,17 +224,20 @@ static func cookie_options(engine,p: Dictionary,inputs: Array) -> Array:
 		inputs[i]["offered_id"]=chosen.get(i,"");inputs[i]["option_index"]=options.size() if chosen.has(i) else -1
 		if chosen.has(i):options.append(engine.make_card(chosen[i],int(p.id)))
 	return options
-static func copy_discover(engine,p: Dictionary,cards: Array,source: String,base: bool) -> bool:
+static func copy_discover(engine,p: Dictionary,cards: Array,source: String,base: bool,provenance: Dictionary={}) -> bool:
 	if cards.is_empty():return false
 	var pool=cards.duplicate();var options=[]
 	while not pool.is_empty() and options.size()<3:
 		var c=pool.pop_at(engine.RNG.next(engine.state.streams,"choice",pool.size()))
 		options.append(original(engine,p,c) if base else full_copy(engine,p,c))
-	engine.enqueue_choice(p,{"kind":"r132_copy","options":options,"copy_source":source});return true
+	var choice={"kind":"r132_copy","options":options,"copy_source":source}
+	choice.merge(provenance)
+	engine.enqueue_choice(p,choice);return true
 static func cat_copy(choice: Dictionary) -> bool:
 	return choice.get("kind","")=="r132_copy" and str(choice.get("copy_source","")).begins_with("eliminated:")
 static func cat_reward_error(engine,p: Dictionary,choice: Dictionary) -> String:
 	if not cat_copy(choice):return "NOT_CAT_REWARD"
+	if choice.has("battle_round") and not engine.StartRewards.valid_battle(engine,p,choice):return "STALE_CAT_REWARD_SOURCE"
 	var source=str(choice.copy_source).trim_prefix("eliminated:")
 	if not source.is_valid_int():return "INVALID_CAT_REWARD_SOURCE"
 	var pid=int(source)
@@ -270,14 +273,18 @@ static func resolve(engine,p: Dictionary,choice: Dictionary,index: int) -> Strin
 			if source=="genn" and int(s.slot_id)==0:
 				p.power_slots.append(engine.Powers.slot("BG35_HERO_001p",1))
 				var second=engine.Powers.selected(engine,p,1)
+				second["acquired_order"]=engine.StartRewards.stamp(engine)
 				second.progress["genn_due"]={"source":"genn","slot_id":1,"epoch":second.epoch,"first_power_id":id}
 				retry_genn(engine,p,second)
 		"r132_element":s.progress["element_id"]=selected.def_id;p.choices.pop_front()
 		"r132_conviction":
-			var entry=data(engine,p,s)
-			if not entry.has("conviction"):entry["conviction"]={"targets":1,"attack":1,"health":1}
+			if not engine.StartRewards.valid_battle(engine,p,choice) or s.active_power_id!="BG21_HERO_000p":return "STALE_COMBAT_CHOICE"
+			if selected.def_id not in ["BG21_HERO_000p_t1","BG21_HERO_000_Buddyt","BG21_HERO_000_Buddyt2"]:return "INVALID_OPTION"
+			var receipt="%d:%d:conviction:%d" % [int(s.slot_id),int(s.epoch),int(choice.battle_round)]
+			if not p.power_event_receipts.has(receipt):return "STALE_COMBAT_CHOICE"
+			if not s.progress.has("conviction"):s.progress["conviction"]={"targets":1,"attack":1,"health":1}
 			var key="targets" if selected.def_id=="BG21_HERO_000p_t1" else "attack" if selected.def_id=="BG21_HERO_000_Buddyt" else "health"
-			entry.conviction[key]+=1;p.choices.pop_front()
+			s.progress.conviction[key]+=1;p.choices.pop_front()
 		"r132_target":
 			var error=target_error(engine,p,choice,int(selected.instance_id))
 			if error!="":return error
@@ -350,10 +357,7 @@ static func retry_genn(engine,p: Dictionary,s: Dictionary) -> void:
 	if s.active_power_id!="BG35_HERO_001p" or int(due.epoch)!=int(s.epoch) or int(due.slot_id)!=int(s.slot_id):s.progress.erase("genn_due");return
 	if p.choices.any(func(choice):return choice.kind=="r132_power" and choice.get("source","")=="genn" and int(choice.get("slot_id",-1))==int(s.slot_id) and int(choice.get("epoch",0))==int(s.epoch)):return
 	if not discover_power(engine,p,"genn",int(s.slot_id)):engine.emit("HeroPowerDiscoveryPending",int(p.id),due)
-static func turn_start(engine,p: Dictionary,discover_nguyen_now: bool=true) -> void:
-	var waiting=p.get("hero_start_due",[]).duplicate(true);p["hero_start_due"]=[]
-	for request in waiting:
-		if not start_discovery(engine,p,int(request.slot_id),str(request.power_id),int(request.tier),request.remaining,request.lock):p.hero_start_due.append(request)
+static func turn_start(engine,p: Dictionary,discover_nguyen_now: bool=true,include_card_rewards: bool=true) -> void:
 	for slot_id in p.power_slots.map(func(slot):return int(slot.slot_id)):
 		p=engine.state.players[int(p.id)]
 		var s=engine.Powers.selected(engine,p,slot_id)
@@ -366,23 +370,49 @@ static func turn_start(engine,p: Dictionary,discover_nguyen_now: bool=true) -> v
 		if id=="BG35_HERO_001p" and int(engine.state.round)>=4 and not entry.get("genn_started",false):
 			if discover_power(engine,p,"genn",int(s.slot_id)):entry["genn_started"]=true
 		if id in ["BG23_HERO_305p","BG31_HERO_003p"]:entry["price_discount"]=int(entry.get("price_discount",0))+1
-		if id=="TB_BaconShop_HP_038":
-			for receiver in engine.state.players:
-				if not receiver.alive:continue
-				for unused in (2 if int(receiver.id)==int(p.id) else 1):
-					var roll=engine.RNG.next(engine.state.streams,"effects",100);var banana="BG_TB_006" if roll<33 else "BG_EX1_014t"
-					engine.receive_card(receiver,engine.make_card(banana,int(receiver.id)),{"def_id":id});engine.emit("BananaIssued",int(receiver.id),{"roll":roll,"id":banana,"power_owner":p.id})
 		if id=="TB_BaconShop_HP_039t" and int(engine.state.round)>=3:engine.Yogg.trigger(engine,p)
-		if id=="BG36_HERO_105p" and int(engine.state.round)%4==0:
-			var key="xavius:"+str(engine.state.round)
-			if not entry.has("xavius_periods"):entry["xavius_periods"]={}
-			if not entry.xavius_periods.has(key):
-				entry.xavius_periods[key]="pending" if not entry.has("xavius_pending") else "pending_already_held"
-				if not entry.has("xavius_pending"):entry["xavius_pending"]={"round":int(engine.state.round),"slot_id":s.slot_id,"epoch":s.epoch}
-	if p.get("afk_due",false) and int(engine.state.round)>=3:
-		if start_discovery(engine,p,0,"TB_BaconShop_HP_044",3,[4],{}):p.afk_due=false
-	retry_hero_gift(engine,p)
-	retry_xavius(engine,p)
+		if include_card_rewards:
+			if id==engine.StartRewards.MUKLA:
+				for receiver in engine.state.players:
+					if receiver.alive:card_start(engine,receiver,p,s)
+			elif is_card_start(engine,p,s):
+				card_start(engine,p,p,s)
+
+static func matches_start_source(request: Dictionary,s: Dictionary) -> bool:
+	return int(request.get("slot_id",-1))==int(s.slot_id) and request.get("power_id","")==s.active_power_id and int(request.get("epoch",s.epoch))==int(s.epoch)
+
+static func is_card_start(engine,p: Dictionary,s: Dictionary) -> bool:
+	var id=str(s.active_power_id)
+	return id in ["BG36_HERO_105p","TB_BaconShop_HP_044",engine.R134.POWER,engine.R133.FLIGHT] or matches_start_source(p.get("hero_gift_due",{}),s) or p.get("hero_start_due",[]).any(func(request):return matches_start_source(request,s))
+
+static func card_start(engine,p: Dictionary,owner: Dictionary,s: Dictionary) -> void:
+	var id=str(s.active_power_id)
+	for request in p.get("hero_start_due",[]).duplicate():
+		if matches_start_source(request,s) and start_discovery(engine,p,int(s.slot_id),id,int(request.tier),request.remaining,request.lock):
+			p.hero_start_due.erase(request)
+	if matches_start_source(p.get("hero_gift_due",{}),s):retry_hero_gift(engine,p)
+	match id:
+		engine.StartRewards.MUKLA:
+			for unused in (2 if int(p.id)==int(owner.id) else 1):
+				var roll=engine.RNG.next(engine.state.streams,"effects",100)
+				var banana="BG_TB_006" if roll<33 else "BG_EX1_014t"
+				engine.receive_card(p,engine.make_card(banana,int(p.id)),{"def_id":id})
+				engine.emit("BananaIssued",int(p.id),{"roll":roll,"id":banana,"power_owner":owner.id})
+		"TB_BaconShop_HP_044":
+			if p.get("afk_due",false) and int(engine.state.round)>=3 and start_discovery(engine,p,int(s.slot_id),id,3,[4],{}):
+				p.afk_due=false
+		"BG36_HERO_105p":
+			var entry=data(engine,p,s)
+			if int(engine.state.round)%4==0:
+				var key="xavius:"+str(engine.state.round)
+				if not entry.has("xavius_periods"):entry["xavius_periods"]={}
+				if not entry.xavius_periods.has(key):
+					entry.xavius_periods[key]="pending" if not entry.has("xavius_pending") else "pending_already_held"
+					if not entry.has("xavius_pending"):entry["xavius_pending"]={"round":int(engine.state.round),"slot_id":s.slot_id,"epoch":s.epoch}
+			retry_xavius(engine,p)
+		engine.R134.POWER:engine.R134.start_power_reward(engine,p)
+		engine.R133.FLIGHT:engine.R133.flight_start(engine,p,s,true)
+
 static func retry_hero_gift(engine,p: Dictionary) -> void:
 	if not p.has("hero_gift_due"):return
 	var due=p.hero_gift_due
@@ -400,6 +430,10 @@ static func retry_xavius(engine,p: Dictionary) -> void:
 	var entry=p.power_ledger.get("BG36_HERO_105p",{})
 	if not entry.has("xavius_pending"):return
 	var due=entry.xavius_pending
+	var active=engine.Powers.selected(engine,p,int(due.slot_id))
+	if active.get("active_power_id","")!="BG36_HERO_105p" or int(active.get("epoch",-1))!=int(due.epoch):
+		entry.erase("xavius_pending")
+		return
 	var source_slot={"active_power_id":"BG36_HERO_105p","slot_id":due.slot_id,"epoch":due.epoch}
 	if gift_discovery(engine,p,source_slot,0,0,"BG36_HERO_105p",int(due.round)):
 		entry.xavius_periods["xavius:"+str(due.round)]="offered"
@@ -472,7 +506,7 @@ static func event(engine,event: Dictionary) -> void:
 			if not player.alive:continue
 			for s in player.power_slots:
 				if s.active_power_id=="BG21_HERO_000p" and engine.Powers.receipt(engine,player,s,"conviction:"+str(engine.state.round)):
-					engine.enqueue_choice(player,{"kind":"r132_conviction","slot_id":s.slot_id,"epoch":s.epoch,"combat_round":int(engine.state.round),"options":["BG21_HERO_000p_t1","BG21_HERO_000_Buddyt","BG21_HERO_000_Buddyt2"].map(func(id):return {"def_id":id,"instance_id":-1,"modifiers":[],"extra_keywords":[],"gifts":[]})})
+					engine.enqueue_choice(player,{"kind":"r132_conviction","slot_id":s.slot_id,"epoch":s.epoch,"battle_round":int(engine.state.round),"power_owner":engine.StartRewards.power_receipt(s),"source_order":int(s.get("acquired_order",0)),"options":["BG21_HERO_000p_t1","BG21_HERO_000_Buddyt","BG21_HERO_000_Buddyt2"].map(func(id):return {"def_id":id,"instance_id":-1,"modifiers":[],"extra_keywords":[],"gifts":[]})})
 	if event.kind=="ShopRefreshed":frost_shop(engine,p)
 static func frost_shop(engine,p: Dictionary) -> void:
 	if not engine.has_power(p,"BG22_HERO_004p") or p.shop.size()>=7:return
@@ -499,7 +533,7 @@ static func _computed_slot_description(engine,p: Dictionary,slot_id: int) -> Str
 	if engine.hero_handler(p)=="eudora":text=engine.Pirates.hero_description(engine,p)
 	if engine.hero_handler(p) in ["snake","teron","sylvanas"]:text=preload("res://ui/beast_presentation.gd").hero(engine,p)
 	if s.active_power_id=="BG21_HERO_000p":
-		var v=entry.get("conviction",{"targets":1,"attack":1,"health":1});text=ExternalText.phrase("domain_rules_round132_powers.slot_description.ba641bb3b266", "说明待补充 · %d / %d / %d") % [int(v.targets),int(v.attack),int(v.health)]
+		var v=s.progress.get("conviction",{"targets":1,"attack":1,"health":1});text=ExternalText.phrase("domain_rules_round132_powers.slot_description.ba641bb3b266", "说明待补充 · %d / %d / %d") % [int(v.targets),int(v.attack),int(v.health)]
 	if s.active_power_id=="BG20_HERO_280p5":text=progress_text(text,ExternalText.phrase("domain_rules_round132_powers.slot_description.4e48b2a54fc6", "说明待补充") if int(entry.get("blade_reward_round",-1))==int(engine.state.round) else ExternalText.phrase("domain_rules_round132_powers.slot_description.e71cf0b58dc2", "说明待补充 · %d") % maxi(0,3-s.progress.get("blade_buys",[]).size()))
 	if s.active_power_id=="BG21_HERO_020p":text=progress_text(text,ExternalText.phrase("domain_rules_round132_powers.slot_description.e71cf0b58dc2", "说明待补充 · %d") % maxi(0,3-s.progress.get("cookie_inputs",[]).size()))
 	if s.active_power_id=="TB_BaconShop_HP_102":text=progress_text(text,ExternalText.phrase("domain_rules_round132_powers.slot_description.89f1110ecbb0", "说明待补充 · %d") % maxi(0,3-int(entry.get("game_used",0))))

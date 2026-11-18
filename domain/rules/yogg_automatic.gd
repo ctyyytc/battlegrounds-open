@@ -34,7 +34,7 @@ static func targets(engine,p: Dictionary,d: Dictionary) -> Array:
 static func pool(engine,p: Dictionary) -> Array:
 	return engine.Naga.spell_pool(engine,p).filter(func(id):
 		var d=engine.content.get_def(id)
-		return d.get("is_tavern_spell",false) and not destructive(d,engine.content.definitions) and not targets(engine,p,d).is_empty())
+		return id!=engine.Naga.MANUAL_TARGET_SPELL and d.get("is_tavern_spell",false) and not destructive(d,engine.content.definitions) and not targets(engine,p,d).is_empty())
 static func trigger(engine,p: Dictionary,source_id: String=POWER,token_prefix: String="yogg") -> bool:
 	var ids=pool(engine,p)
 	if ids.is_empty():

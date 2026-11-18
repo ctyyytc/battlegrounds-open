@@ -14,8 +14,12 @@ static func enqueue(engine,p: Dictionary,choice: Dictionary) -> void:
 	if int(automatic.get("player_id",-1))==int(p.id):
 		choice["automatic_source"]=automatic.duplicate(true)
 		choice["input_origin"]="yogg_automatic";choice["auto_policy"]="random_legal_effect_option"
-	p.choices.append(choice)
-	engine.emit("SelectionEnqueued",int(p.id),{"kind":choice.kind,"session_id":choice.session_id,"root_action_id":choice.root_action_id,"semantics":choice.selection_semantics})
+	var pending=choice.has("battle_round") and engine.state.phase=="combat"
+	if pending:p.post_battle_rewards.append(choice)
+	else:p.choices.append(choice)
+	var payload={"kind":choice.kind,"session_id":choice.session_id,"root_action_id":choice.root_action_id,"semantics":choice.selection_semantics}
+	if pending:payload["post_battle"]=true
+	engine.emit("SelectionEnqueued",int(p.id),payload)
 static func refresh(choice: Dictionary) -> void:
 	choice["selection_semantics"]="entity_target" if choice.kind in ["choose_target","round13_gold_target","r132_target"] else "effect_option" if choice.kind in EFFECT_KINDS else "unknown"
 	if choice.kind=="quest_offer":choice.selection_semantics="quest_offer";choice.auto_policy="manual"

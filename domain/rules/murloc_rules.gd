@@ -144,6 +144,9 @@ static func learn_cast(engine,p: Dictionary,c: Dictionary,spec: Dictionary={}) -
 	if not c.has("learned_spell"):return
 	var spell=engine.content.get_def(c.learned_spell).duplicate(true)
 	var target=engine.effect_target
+	if spell.id==engine.Naga.MANUAL_TARGET_SPELL:
+		if not spec.get("manual_battlecry_target",false) or target.is_empty() or not engine.Naga.valid_target(engine,p,spell,target):return
+		spell["manual_cast_target"]=true
 	# The whole battlecry batch owns this identity, including saved effect tails.
 	if learned_sale(engine,c) and spec.has("learned_sale_target"):
 		target=learned_sale_card(engine,p,int(spec.learned_sale_target))

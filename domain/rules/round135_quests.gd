@@ -216,6 +216,7 @@ static func grant(engine,p: Dictionary,q: Dictionary) -> void:
 	if not q.grant_parts.has("ability"):
 		r["next_buff"]=2;r["next_coins"]=1;q.grant_parts["ability"]={"committed":true}
 	q.status="reward_active";q["granted_round"]=int(engine.state.round)
+	if not q.has("acquired_order"):q["acquired_order"]=engine.StartRewards.stamp(engine)
 	engine.R136.grant(engine,p,q)
 	engine.emit("QuestCompleted",int(p.id),{"quest_instance":q.instance,"reward_id":id,"completion_seq":q.get("completed_seq",0)})
 static func bought(engine,p: Dictionary,c: Dictionary,d: Dictionary) -> void:

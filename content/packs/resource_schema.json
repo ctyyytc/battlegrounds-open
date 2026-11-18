@@ -21685,6 +21685,28 @@
         }
       }
     },
+    "PROJECT_R15_POCKET_FACTORY_6": {
+      "kind": "trinket",
+      "fields": {
+        "name": {
+          "type": "string",
+          "default": "PROJECT_R15_POCKET_FACTORY_6"
+        },
+        "text": {
+          "type": "string",
+          "default": "说明待补充 · PROJECT_R15_POCKET_FACTORY_6",
+          "nullable": true
+        },
+        "cost": {
+          "type": "integer",
+          "bounds": [
+            0,
+            100
+          ],
+          "default": 2
+        }
+      }
+    },
     "BG32_MagicItem_362t": {
       "kind": "trinket",
       "fields": {
@@ -30040,6 +30062,7 @@
     "BG30_MagicItem_993:icon:normal:neutral",
     "BG30_MagicItem_996:icon:normal:neutral",
     "BG32_MagicItem_361t:icon:normal:neutral",
+    "PROJECT_R15_POCKET_FACTORY_6:icon:normal:neutral",
     "BG32_MagicItem_362t:icon:normal:neutral",
     "BG32_MagicItem_366:icon:normal:neutral",
     "BG32_MagicItem_367:icon:normal:neutral",
@@ -36310,6 +36333,10 @@
     "content.BG32_MagicItem_361t.compact": "content",
     "content.BG32_MagicItem_361t.status": "content",
     "content.BG32_MagicItem_361t.condition": "content",
+    "content.PROJECT_R15_POCKET_FACTORY_6.body": "content",
+    "content.PROJECT_R15_POCKET_FACTORY_6.compact": "content",
+    "content.PROJECT_R15_POCKET_FACTORY_6.status": "content",
+    "content.PROJECT_R15_POCKET_FACTORY_6.condition": "content",
     "content.BG32_MagicItem_362t.body": "content",
     "content.BG32_MagicItem_362t.compact": "content",
     "content.BG32_MagicItem_362t.status": "content",

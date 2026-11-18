@@ -3,8 +3,10 @@ const ExternalText = preload("res://domain/resources/external_content.gd")
 const RNG=preload("res://domain/rules/deterministic_rng.gd")
 const Special=preload("res://domain/rules/special_rules.gd")
 const Undead=preload("res://domain/rules/undead_rules.gd")
-static func unit(engine,card: Dictionary) -> Dictionary:
+static func unit(engine,card: Dictionary,recruit_original: bool=false) -> Dictionary:
 	var result=card.duplicate(true)
+	result.erase("last_rally_original")
+	if recruit_original and engine.content.get_def(card.def_id).get("base_id","")=="BG34_320":result["last_rally_original"]=true
 	result.erase("fatal_damage_group")
 	result.erase("rafaam_reserved_slots")
 	engine.R133.strip(result)
@@ -230,7 +232,7 @@ static func fight(engine,a: Dictionary,b: Dictionary) -> Dictionary:
 			item["combat_uses"]=0;item["combat_used"]=false
 			for e in engine.content.get_def(item.id).effects:
 				if e.get("trigger","")=="avenge":item["avenge_"+str(e.handler)]=0
-		for card in players[side].board:boards[side].append(unit(engine,card))
+		for card in players[side].board:boards[side].append(unit(engine,card,true))
 	var opening_feedback=preload("res://domain/rules/combat_opening.gd").run(engine)
 	var frames=[frame(boards,ExternalText.phrase("domain_rules_combat_service.fight.e52d47819a7b", "说明待补充 · %d / %d") % capacities,players,engine)]
 	if not opening_feedback.is_empty():

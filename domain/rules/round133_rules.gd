@@ -171,18 +171,21 @@ static func token_play(engine,p: Dictionary,c: Dictionary) -> void:
 	engine.resolve_discovery(p,candidates(engine,p,{"kind":"minion","tier":tier}),"r133_ticket_discovery",1,{"origin_kind":"r133_ticket_discovery","producer_id":TOKEN,"reward_receipt":receipt},false,tier,false)
 static func turn_start(engine,p: Dictionary) -> void:
 	ensure(p)
-	for s in p.power_slots:
-		if s.active_power_id!=FLIGHT or not s.progress.has("flight"):continue
-		var f=s.progress.flight
-		if int(f.advanced_round)>=int(engine.state.round):continue
-		f.advanced_round=int(engine.state.round);f.remaining-=1
-		if int(f.remaining)>0:continue
-		s.progress.erase("flight")
-		if str(f.id).ends_with("2"):
-			if not p.r133_rewards.has(f.receipt):engine.gain_coins(p,2);p.r133_rewards[f.receipt]="coins"
-		else:p.r133_tasks.append({"receipt":f.receipt,"kind":"spell" if str(f.id).ends_with("1") else "minion","tier":int(p.tier)})
-		engine.emit("FlightArrived",int(p.id),{"receipt":f.receipt,"tier":p.tier,"route":f.id})
+	for s in p.power_slots:flight_start(engine,p,s,false)
 	changed(engine,p)
+static func flight_start(engine,p: Dictionary,s: Dictionary,card_rewards: bool) -> void:
+	if s.active_power_id!=FLIGHT or not s.progress.has("flight"):return
+	var f=s.progress.flight
+	var coins=str(f.id).ends_with("2")
+	if int(f.advanced_round)>=int(engine.state.round) or coins==card_rewards:return
+	f.advanced_round=int(engine.state.round);f.remaining-=1
+	if int(f.remaining)>0:return
+	s.progress.erase("flight")
+	if coins:
+		if not p.r133_rewards.has(f.receipt):engine.gain_coins(p,2);p.r133_rewards[f.receipt]="coins"
+	else:p.r133_tasks.append({"receipt":f.receipt,"kind":"spell" if str(f.id).ends_with("1") else "minion","tier":int(p.tier)})
+	engine.emit("FlightArrived",int(p.id),{"receipt":f.receipt,"tier":p.tier,"route":f.id})
+	if card_rewards:changed(engine,p)
 static func changed(engine,p: Dictionary) -> void:
 	ensure(p);shop_sync(engine,p)
 	for c in p.hand+p.board:strip(c)

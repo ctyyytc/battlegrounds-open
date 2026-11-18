@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "project_version": "14.5.0",
+  "project_version": "15.0.0",
   "scope": "Runnable MIT source project; resources packs supplied separately; no private history or development cache",
   "self": "PUBLIC_FILES.json",
   "self_excluded_to_avoid_recursive_hash": true,
@@ -27,13 +27,13 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 6086,
-      "sha256": "a6234d43666652c78e2fbef88ffd8c4ad5c373bc7b8cfac6f80b533ef3395c26"
+      "bytes": 4853,
+      "sha256": "f75c5903f66195f092484b577f125d1af46440af9366c7a32f5f264294382062"
     },
     {
       "path": "README.md",
-      "bytes": 4641,
-      "sha256": "f5fe439d9fd85905927559a6138b1c8925293d4f268b75a3e07c29f51c61c67e"
+      "bytes": 3908,
+      "sha256": "0c73117e1e3a57e466cffc50dc8536560dd5b06aa04b02d22d5e799dc14797f2"
     },
     {
       "path": "RESOURCE_PACKS.md",
@@ -5627,13 +5627,13 @@
     },
     {
       "path": "content/packs/assets.json",
-      "bytes": 299218,
-      "sha256": "11f9c36a66664096b0e54c45a876a61bf2ad1e42a6022b899ffebde71aaf63f7"
+      "bytes": 299476,
+      "sha256": "98be9b4b17545612a6d805c2c8a165e5de0c95f18952cb52399d8b309cacb9c0"
     },
     {
       "path": "content/packs/catalog.json",
-      "bytes": 880491,
-      "sha256": "fd773f33f0df67ffec6d64d8bb5ab75ca330e9a74856828aa8a3d5540aff02ce"
+      "bytes": 881216,
+      "sha256": "11e4ce17092c310ac81a17f7a0554cca0b70c084c4e08f8205b0bb6e568b0b88"
     },
     {
       "path": "content/packs/hero_power_ui_bindings.json",
@@ -5642,8 +5642,8 @@
     },
     {
       "path": "content/packs/resource_schema.json",
-      "bytes": 1109704,
-      "sha256": "bfa3066bee744a56b7654dce9e8d0e4c5ffd374868f3f19c3de24d7da495eaeb"
+      "bytes": 1110544,
+      "sha256": "0859f3a6e3f10477986c657f6ff90a4f08b1cfc8089c149cd48e530e63fb6fbd"
     },
     {
       "path": "content/packs/round132_sources.json",
@@ -5662,13 +5662,13 @@
     },
     {
       "path": "content/packs/trinket_offering_policy.json",
-      "bytes": 70445,
-      "sha256": "107361ecc3200abe0897968f937409e2e26aa9fd097a4f4d9e306063b2c33cb5"
+      "bytes": 70638,
+      "sha256": "413068029db617c79d3ea8930ab615ea901c727d69325481a6d44dd3db53a43c"
     },
     {
       "path": "content/packs/trinket_ui_bindings.json",
-      "bytes": 86775,
-      "sha256": "b45c9b7a3f3d8eb8cfe2ed3691e916dc53162a5374e3b7082b336c56404484ae"
+      "bytes": 87236,
+      "sha256": "bd18b72a961b0051fb91cc3ba7dddacd8130549d2b49eff52d4e9a2630163c2f"
     },
     {
       "path": "content/packs/ui_assets.json",
@@ -5757,8 +5757,8 @@
     },
     {
       "path": "domain/rules/choice_automation.gd",
-      "bytes": 5446,
-      "sha256": "f068de2f33009e3b7dc3c81337692c15ed57590a904abd076f96234b673ae387"
+      "bytes": 5638,
+      "sha256": "41465c8743a84545fac08d1fefbc674fa42b7c9ede62cd9008e903cde9d25dbf"
     },
     {
       "path": "domain/rules/choice_automation.gd.uid",
@@ -5767,8 +5767,8 @@
     },
     {
       "path": "domain/rules/choice_service.gd",
-      "bytes": 2966,
-      "sha256": "71eb5f26a9f67dd9f402b24ce5eb5d70b58546b415ca2abc607430864286c568"
+      "bytes": 3096,
+      "sha256": "3c6022a2f55208861b11185a5f665458f5a7c9d59eda49e1b2d2adaceaf8c080"
     },
     {
       "path": "domain/rules/choice_service.gd.uid",
@@ -5787,8 +5787,8 @@
     },
     {
       "path": "domain/rules/combat_service.gd",
-      "bytes": 23836,
-      "sha256": "569bf2a8be65e0d90b1c2e70fedf597c75480055e58b5e4bd50a999f749a0e65"
+      "bytes": 24035,
+      "sha256": "66a3f4b0b32964c0ffe626b5e3eece07abb58845b1f96de2cc2cd744e78526fc"
     },
     {
       "path": "domain/rules/combat_service.gd.uid",
@@ -5887,8 +5887,8 @@
     },
     {
       "path": "domain/rules/fast_action_policy.gd",
-      "bytes": 2387,
-      "sha256": "283672b9367d7dcfa1bcbc694b996e817e7de1e316fdb8d0996d4ae24bf170bf"
+      "bytes": 2464,
+      "sha256": "b3f9bb90297af41ff6eccd83318b7034a917439581f57205722d90d445b48986"
     },
     {
       "path": "domain/rules/fast_action_policy.gd.uid",
@@ -5897,8 +5897,8 @@
     },
     {
       "path": "domain/rules/match_engine.gd",
-      "bytes": 130609,
-      "sha256": "58b8971232e0fd9f913e67148bfbb3ca2b8131d224add29daf82987436165d1e"
+      "bytes": 131184,
+      "sha256": "e2168087f4bd71eb24e4985afe86174cd152870917e2e854660b9afdacede678"
     },
     {
       "path": "domain/rules/match_engine.gd.uid",
@@ -5907,8 +5907,8 @@
     },
     {
       "path": "domain/rules/murloc_rules.gd",
-      "bytes": 25381,
-      "sha256": "9a2dc3e84e0dbab3881a2800728b29fe7c669427c586905696c4002740b273cb"
+      "bytes": 25600,
+      "sha256": "74ad6cb9cd985c694f556ddcad4c2346d83680b44ac2abe483a805f85f9ec3d1"
     },
     {
       "path": "domain/rules/murloc_rules.gd.uid",
@@ -5917,8 +5917,8 @@
     },
     {
       "path": "domain/rules/naga_rules.gd",
-      "bytes": 21649,
-      "sha256": "36492b52f310a4c7bb9766b9a4fbeda06468227ab8fdcf6d1fde3a2bec892919"
+      "bytes": 21929,
+      "sha256": "903f6c86b457592817a4016d0fd62fe15a971aa70d1acdff3c7628cc1fa83269"
     },
     {
       "path": "domain/rules/naga_rules.gd.uid",
@@ -5927,8 +5927,8 @@
     },
     {
       "path": "domain/rules/pirate_rules.gd",
-      "bytes": 20154,
-      "sha256": "ef3ff79e1298af85418e2fdbb42a3a8a11396dd9618c2d80ad51c805b53e81ee"
+      "bytes": 20124,
+      "sha256": "71d957715010ea23b02e7cb5df4d84e9e086f53de5e69e8f5b206291399d7aed"
     },
     {
       "path": "domain/rules/pirate_rules.gd.uid",
@@ -5937,8 +5937,8 @@
     },
     {
       "path": "domain/rules/power_slots.gd",
-      "bytes": 9055,
-      "sha256": "0e454c8ba236989072022f82c823858c7a30a642be1b6b91a95334ddd913f7fd"
+      "bytes": 9318,
+      "sha256": "c522368ed17e5001c9357a06334d322b2dab1b6d2a546bf4b92aacb02bec5dd6"
     },
     {
       "path": "domain/rules/power_slots.gd.uid",
@@ -5977,8 +5977,8 @@
     },
     {
       "path": "domain/rules/round132_powers.gd",
-      "bytes": 51135,
-      "sha256": "a1773851480fb1de1e470684fe07aa253b59d7e2175782eac80373bb0c03fc94"
+      "bytes": 53202,
+      "sha256": "5968f2b1a7e2d95474e9ea5514fa5af63a0121fa57fed84cc1a905eec9a2e67f"
     },
     {
       "path": "domain/rules/round132_powers.gd.uid",
@@ -5997,8 +5997,8 @@
     },
     {
       "path": "domain/rules/round133_rules.gd",
-      "bytes": 12248,
-      "sha256": "1da42533d9a17c871fc939d394ea91b5792210e6a47b03e96e71189376fb353b"
+      "bytes": 12429,
+      "sha256": "c423e79f95df6bf6db1e81f217a130e2f52a5a20d5ecd0e2ffabde454e3599d3"
     },
     {
       "path": "domain/rules/round133_rules.gd.uid",
@@ -6017,8 +6017,8 @@
     },
     {
       "path": "domain/rules/round134_prizes.gd",
-      "bytes": 22246,
-      "sha256": "b646e59c451f078c6388cd510d1f6a26da46258c4bd21befe054eca220ef16c8"
+      "bytes": 22624,
+      "sha256": "71fa6d293baf3c5723a073ff37610e1457d8aff458671c540eca867336941ced"
     },
     {
       "path": "domain/rules/round134_prizes.gd.uid",
@@ -6027,8 +6027,8 @@
     },
     {
       "path": "domain/rules/round135_quests.gd",
-      "bytes": 24088,
-      "sha256": "bd768cb0ebb40ac87728da3dd23e435fe0b5067519033c45720e9630500a8bf5"
+      "bytes": 24175,
+      "sha256": "3605b2e9266b1fa02af2d4cedf1fe26b5f5df90d64be79baad013ae6f964f3bf"
     },
     {
       "path": "domain/rules/round135_quests.gd.uid",
@@ -6037,8 +6037,8 @@
     },
     {
       "path": "domain/rules/round136_rewards.gd",
-      "bytes": 14765,
-      "sha256": "d5bcc9533c9cdf07c6948d06c1a8a030137197abcee645060d8f8f6de3f43066"
+      "bytes": 15245,
+      "sha256": "136dffd10805f0300bb45a75d5aabddc5855ddc8c43bd1e320397e5a4d804b35"
     },
     {
       "path": "domain/rules/round136_rewards.gd.uid",
@@ -6057,8 +6057,8 @@
     },
     {
       "path": "domain/rules/round13_minions.gd",
-      "bytes": 5870,
-      "sha256": "1eff99bee4c4636b015426df8d5014a1c62aa9e78ed7be9c8301282c1cd271fe"
+      "bytes": 6309,
+      "sha256": "c23f6afaedd9fa35f20690e4ed7efe7661a053a30f7bb0480b24b9f454ca923b"
     },
     {
       "path": "domain/rules/round13_minions.gd.uid",
@@ -6067,8 +6067,8 @@
     },
     {
       "path": "domain/rules/round13_trinkets.gd",
-      "bytes": 23973,
-      "sha256": "0ee2730bf1ca29ef74ae59dada0bf21a102b5fa3ba1a40723919a189ab9c6624"
+      "bytes": 24018,
+      "sha256": "efce878041abb2b216883f3fa3c6e5ccc3dfff75942a23336001bcc651b4d139"
     },
     {
       "path": "domain/rules/round13_trinkets.gd.uid",
@@ -6094,6 +6094,16 @@
       "path": "domain/rules/round7_heroes.gd.uid",
       "bytes": 20,
       "sha256": "f41151fe65c48c19029ef19eeb830aa68d8d34c39e67f4f951676fde65bde8f0"
+    },
+    {
+      "path": "domain/rules/round_start_rewards.gd",
+      "bytes": 5972,
+      "sha256": "8d7d3f833110c0f6def10474f5a6d5a6e74499bb8ebd6477327a1cfd4cc472b8"
+    },
+    {
+      "path": "domain/rules/round_start_rewards.gd.uid",
+      "bytes": 20,
+      "sha256": "9238ad7dc99b8a2a80287366a1ccfb71d4a5bf9cd6583dbdaabc58fead1b6e72"
     },
     {
       "path": "domain/rules/save_journal.gd",
@@ -6197,8 +6207,8 @@
     },
     {
       "path": "domain/rules/yogg_automatic.gd",
-      "bytes": 6225,
-      "sha256": "5e7d44199e6572b7259041083fd8f01fc3dfd8b8a08fb81e604e9182b030e31f"
+      "bytes": 6265,
+      "sha256": "7ee39b39968450d9d9b189456da316a86f0b8dd59e4600a2336a7c47e2295848"
     },
     {
       "path": "domain/rules/yogg_automatic.gd.uid",
@@ -6213,17 +6223,17 @@
     {
       "path": "project.godot",
       "bytes": 917,
-      "sha256": "2379cf26a467b96221c141608b4ef91935b9e977642be83263bd037ce4e2dd51"
+      "sha256": "eb146c9fc461f0bb0f9ea02889e486e6c8a46230ff256c28bf491dc2fce224c8"
     },
     {
       "path": "resource_contract/fields.json",
-      "bytes": 846639,
-      "sha256": "c65774c5fee7eb9316637fe7bd6bf8cd6016cd2ba13c858aefbb43a6ecd456b2"
+      "bytes": 847168,
+      "sha256": "baec14c381c9661cb044cad3f70b3411acdf693de7d28216d84d7fd60e78aa48"
     },
     {
       "path": "resource_contract/images.json",
-      "bytes": 488273,
-      "sha256": "d356238eed808894b64da39404f742af5062e30537fa7fade405d6641e0cef4a"
+      "bytes": 488592,
+      "sha256": "d512b105995fcd629aadb649ad0bd21c0a5027a6fd6d67dc4d936ba480fe7670"
     },
     {
       "path": "resource_contract/phrases.json",
@@ -6232,8 +6242,8 @@
     },
     {
       "path": "resource_contract/texts.json",
-      "bytes": 201839,
-      "sha256": "87a3ba1d2ad210f7f7c270e152cd5023b783ff3e318540057cfbca69cf362aeb"
+      "bytes": 202011,
+      "sha256": "4b99b93a28860802d159caaa007bc7c847d71c82cb448dd2ab04d55fb6cbeae7"
     },
     {
       "path": "tools/public_copy.py",
@@ -6397,8 +6407,8 @@
     },
     {
       "path": "ui/murloc_presentation.gd",
-      "bytes": 3526,
-      "sha256": "91486c7e93c6b3ba320c69790368bf8e223583a27875eea4d72cf4b6a75ab689"
+      "bytes": 3403,
+      "sha256": "8345912008ebd67f7eff833f81057046e5aac14ebda8f2467534c0b27af12deb"
     },
     {
       "path": "ui/murloc_presentation.gd.uid",
@@ -6407,8 +6417,8 @@
     },
     {
       "path": "ui/naga_presentation.gd",
-      "bytes": 5650,
-      "sha256": "17f4ca8a6d05a85e7430e68c234cee4e6868555c9cb40a4cd7c7e4a9c662e339"
+      "bytes": 5877,
+      "sha256": "e44e31bf6ec2640c6a64e4fb38bc90ce7995cc83822d40f71d4edf5059a119a7"
     },
     {
       "path": "ui/naga_presentation.gd.uid",
@@ -6477,8 +6487,8 @@
     },
     {
       "path": "ui/round13_presentation.gd",
-      "bytes": 3663,
-      "sha256": "f23e2e2959251e5132d9c56a451a2917976c10f1575345d5da695887c5ad6d58"
+      "bytes": 3893,
+      "sha256": "126f402bea98d20bd0775feb0c99d4a2560041afb31bd6b2b342db326ecc9d81"
     },
     {
       "path": "ui/round13_presentation.gd.uid",
@@ -6567,8 +6577,8 @@
     },
     {
       "path": "ui/tavern_screen.gd",
-      "bytes": 97798,
-      "sha256": "e963b39244dc5ae60891daae6a52a115e79fb367585fa43be0e32ccf97fe82e5"
+      "bytes": 99869,
+      "sha256": "70ffeefa9f573fc626fd310948909056024242a8d38617bcf8fd0b8ad3ce1c33"
     },
     {
       "path": "ui/tavern_screen.gd.uid",
@@ -6577,8 +6587,8 @@
     },
     {
       "path": "ui/tavern_table.gd",
-      "bytes": 78877,
-      "sha256": "0769f3d74b5d9efd2893cfa34560227fb910cf921be10a43a0979523018c1b81"
+      "bytes": 80394,
+      "sha256": "a6f2a771dcf180f4761815be00e8f4cc0e791fa34a5457f4d54e07ac26db9971"
     },
     {
       "path": "ui/tavern_table.gd.uid",

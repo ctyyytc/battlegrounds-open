@@ -170,7 +170,7 @@ static func execute(engine,p: Dictionary,e: Dictionary,c: Dictionary) -> bool:
    if not t.is_empty():
     for unused in int(e.repeat):engine.buff(t,0,1+int(p.get("coins_spent_round",0)))
   "discovered_buff":
-   var scaled=e.duplicate(true);scaled["tribe"]="海盗";scaled["exclude_source"]=true;scaled.attack=int(e.attack)*(1+int(p.get("golden_played",0)));scaled.health=int(e.health)*(1+int(p.get("golden_played",0)));buff_board(engine,p,scaled,source)
+   var scaled=e.duplicate(true);scaled["tribe"]="海盗";scaled.attack=int(e.attack)*(1+int(p.get("golden_played",0)));scaled.health=int(e.health)*(1+int(p.get("golden_played",0)));buff_board(engine,p,scaled,source)
   "wine":
    var spec=e.duplicate(true);spec["tribe"]="海盗";buff_board(engine,p,spec,item)
   "crowbar":

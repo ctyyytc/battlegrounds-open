@@ -53,6 +53,8 @@ var frame_accumulator: float=0.0
 var frame_index: int=0
 var combat_presentation: Dictionary={}
 var playback_skipped: bool=false
+const BATTLE_RETURN_SECONDS=5.0
+var battle_return_remaining: float=-1.0
 var battle_speed: float=1.0
 var in_match: bool=false
 var active_choice: String=""
@@ -313,7 +315,7 @@ func start_match(hero: String) -> void:
 	var error=game.start(seed_value,hero)
 	if error!="":status_message=ExternalText.ui("ui_tavern_screen.start_match.b33b0325e62d", "此英雄不符合本局种族：")+error;menu();return
 	selected_board=-1; selected_spell=-1; power_target=false; active_choice=""; status_message=ExternalText.ui("ui_tavern_screen.start_match.cb73e9b902a1", "点击酒馆卡牌购买，点击手牌打出。")
-	in_match=true;frame_index=0;frame_accumulator=0;tick_accumulator=0;combat_presentation={};playback_skipped=false
+	in_match=true;frame_index=0;frame_accumulator=0;tick_accumulator=0;combat_presentation={};playback_skipped=false;battle_return_remaining=-1.0
 	render_match();maybe_round_start_autosave()
 func load_game() -> void:
 	autosave_enabled=true
@@ -321,7 +323,7 @@ func load_game() -> void:
 	var error=game.load_from("user://open_save.json")
 	if error=="NUMERIC_PROFILE_MISMATCH":status_message=ExternalText.ui("resource_packs.save_mismatch","此存档的资源包数值不同。请安装对应资源包后继续，或重新开局。");menu();return
 	if error!="": status_message=ExternalText.ui("ui_tavern_screen.load_game.afe99b8dbae6", "无法继续：")+error; menu(); return
-	in_match=true; frame_index=0;frame_accumulator=0;tick_accumulator=0; selected_spell=-1; selected_board=-1; power_target=false
+	in_match=true; frame_index=0;frame_accumulator=0;tick_accumulator=0;playback_skipped=false;battle_return_remaining=-1.0; selected_spell=-1; selected_board=-1; power_target=false
 	status_message=ExternalText.ui("ui_tavern_screen.load_game.f6e558521d73", "已恢复存档，随机状态与候选保持。"); render_match()
 func save_game(show_message: bool=true) -> void:
 	if game==null:return
@@ -480,6 +482,18 @@ func gift_readiness_text(readiness: Dictionary) -> String:
 	var status=ExternalText.phrase("ui_tavern_screen.gift_readiness_text.7cb3f7a15ef9", "说明待补充") if readiness.openable else ExternalText.phrase("ui_tavern_screen.gift_readiness_text.6efd6f428db0", "说明待补充")
 	if readiness.allowed_tiers.is_empty(): status=ExternalText.phrase("ui_tavern_screen.gift_readiness_text.fbc78eba83e9", "说明待补充")
 	return progress+ExternalText.phrase("ui_tavern_screen.gift_readiness_text.d3a871bd1dee", "说明待补充 · %d / %s / %d / %s / %s") % [int(readiness.turn),"、".join(tiers) if not tiers.is_empty() else ExternalText.phrase("ui_tavern_screen.gift_readiness_text.4872d213aefe", "说明待补充"),int(readiness.candidate_count),"；".join(by_tier),status]
+func remembered_spell_preview(source: Dictionary,p: Dictionary) -> Dictionary:
+	if not source.get("effects",[]).any(func(e):return e.get("op","") in ["last_spell","memory"]):return {}
+	var remembered=registry.get_def(str(p.get("last_tavern_spell","")))
+	if remembered.is_empty():return {"text":"施法记忆为空"}
+	var spell=remembered.duplicate(true)
+	var aura=game.spell_aura(p)
+	spell["aura_attack"]=aura.x
+	spell["aura_health"]=aura.y
+	var summary=ExternalText.describe(spell,{},p,SpellText.body(spell,p),"compact")
+	var icon=texture_for_path(registry.art_path(spell.id))
+	if not icon:icon=load("res://assets/placeholder.svg")
+	return {"id":spell.id,"text":"已记住 · %s  ·  %d 本\n%s" % [spell.name,int(spell.tier),summary],"icon":icon}
 func trinket_tooltip(item: Dictionary,p: Dictionary) -> String:
 	var d=registry.get_def(str(item.id))
 	var details=[preload("res://ui/dynamic_state_presentation.gd").trinket_body(d,item,p,int(game.state.round))]
@@ -529,13 +543,23 @@ func _process(delta: float) -> void:
 			if int(game.state.remaining_ms)<=0:
 				if game.state.players[0].choices.is_empty(): command("end")
 	elif game.state.phase=="combat" and not game.state.paused:
-		frame_accumulator+=delta
-		var table=screen.get_node_or_null("TavernTable")
-		var window=table.playback_window if table else maxf(0.55,1.15/battle_speed)
-		if frame_accumulator>window:
-			frame_accumulator=0
-			if frame_index<game.state.get("combat_frames",[]).size()-1:
-				frame_index+=1; render_match()
+		if battle_return_remaining>=0.0:
+			battle_return_remaining=maxf(0.0,battle_return_remaining-delta)
+			if battle_return_remaining<=0.0:
+				command("continue")
+			else:
+				var label_node=screen.find_child("BattleReturnCountdown",true,false)
+				if label_node:label_node.text=battle_return_text()
+		else:
+			frame_accumulator+=delta
+			var table=screen.get_node_or_null("TavernTable")
+			var window=table.playback_window if table else maxf(0.55,1.15/battle_speed)
+			var frames=game.state.get("combat_frames",[])
+			if frames.is_empty() or frame_accumulator>=window:
+				frame_accumulator=0
+				if frame_index<frames.size()-1:frame_index+=1
+				else:begin_battle_return()
+				render_match()
 	maybe_round_start_autosave()
 func _input(event: InputEvent) -> void:
 	if ui_blocked():return
@@ -569,6 +593,7 @@ func undo_last_operation() -> void:
 		if feedback:remove_child(feedback);feedback.queue_free()
 	status_message="已撤销上一项招募操作 · 还可回退%d步" % int(game.undo_info().depth);render_match()
 func command(kind: String,payload: Dictionary={}) -> void:
+	if kind=="continue" and (game==null or game.state.phase!="combat"):return
 	if kind=="undo":undo_last_operation();return
 	if kind not in ["play","fast_play","pause","tick"]:right_spell_intent=-1
 	if not pending_play.is_empty() and kind not in ["play","pause","tick"]: clear_pending_play()
@@ -601,7 +626,7 @@ func command(kind: String,payload: Dictionary={}) -> void:
 		if kind in ["resolve_choice","defer_choice","end","continue"]: active_choice=""
 		if kind=="open_choice": active_choice=game.R136Slots.normalize(game,game.state.players[0],str(payload.category))
 		if kind=="power":active_choice=game.R136Slots.power_op(game,game.state.players[0],int(payload.get("slot_id",0)))
-		if kind=="end": playback_skipped=false; frame_accumulator=0; frame_index=0; status_message=ExternalText.ui("ui_tavern_screen.command.cfa14dd6ab7a", "自动战斗 · 可加速或跳过")
+		if kind=="end": playback_skipped=false; battle_return_remaining=-1.0; frame_accumulator=0; frame_index=0; status_message=ExternalText.ui("ui_tavern_screen.command.cfa14dd6ab7a", "自动战斗 · 可加速或跳过")
 		if kind in ["play","sell","continue"]: selected_board=-1
 		maybe_round_start_autosave()
 	started=Time.get_ticks_usec(); render_match(); record_stage("render:"+kind,started)
@@ -620,7 +645,15 @@ func toggle_playback_speed() -> void:
 	
 	var speed_button=screen.find_child("Speed",true,false)
 	if speed_button: speed_button.text=playback_label()
+func battle_return_text() -> String:
+	var seconds=ceili(battle_return_remaining)
+	if game.state.paused:return "已暂停 · %d 秒" % seconds
+	return ("自动查看结算 · %d 秒" if game.state.get("match_over",false) else "自动返回招募 · %d 秒") % seconds
+func begin_battle_return() -> void:
+	if battle_return_remaining<0.0:battle_return_remaining=BATTLE_RETURN_SECONDS
 func skip_combat() -> void:
+	if game==null or game.state.phase!="combat" or battle_return_remaining>=0.0:return
+	begin_battle_return()
 	playback_skipped=true; frame_accumulator=0
 	frame_index=maxi(0,game.state.get("combat_frames",[]).size()-1)
 	render_match()
@@ -653,9 +686,9 @@ func render_match() -> void:
 		table.restore_hover(pointer_position,hover_id,hover_time)
 		if game.state.phase=="recruit":
 			var wheel_view=R134Wheel.new();wheel_view.host=self;add_child(wheel_view)
-		if game.state.has("confirmation"):render_confirmation()
-		elif not game.state.players[0].choices.is_empty(): render_choice(game.state.players[0])
-		elif active_choice!="" and game.state.players[0].sessions.has(active_choice) and not game.state.players[0].sessions[active_choice].resolved: render_selection(game.state.players[0])
+			if game.state.has("confirmation"):render_confirmation()
+			elif not game.state.players[0].choices.is_empty():render_choice(game.state.players[0])
+			elif active_choice!="" and game.state.players[0].sessions.has(active_choice) and not game.state.players[0].sessions[active_choice].resolved:render_selection(game.state.players[0])
 		if history_open:render_spell_history()
 		return
 	var root=VBoxContainer.new(); root.add_theme_constant_override("separation",10); screen.add_child(root)
@@ -1045,6 +1078,8 @@ func render_selection(p: Dictionary) -> void:
 		column.add_child(image_for(option.id,Vector2(160,90)))
 		var heading=label(d.name,20,GOLD);heading.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART;column.add_child(heading)
 		var detail=str(d.get("text",""))
+		if d.effects.any(func(e):return e.get("op","")=="factory"):
+			column.add_child(label("发现 %d 本有类型随从" % int(d.effects[0].tier),14,MUTED))
 		if active_choice=="gift":
 			for gd in registry.definitions.values():
 				if gd.kind=="dark_gift" and int(gd.numeric_id)==int(option.gift_id):detail=gd.name+"\n"+gd.text

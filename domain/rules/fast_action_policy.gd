@@ -2,6 +2,7 @@ extends RefCounted
 const ExternalText = preload("res://domain/resources/external_content.gd")
 
 static func exception(e: Dictionary) -> String:
+	if e.get("op","")=="perfect":return "完美形象需要手动指定目标"
 	if e.get("op","") in ["avalanche","invoke"]:return ExternalText.phrase("domain_rules_fast_action_policy.exception.f46a0ad83f84", "说明待补充")
 	if e.get("op","") in ["hamul","special_shop","shark"]:return ExternalText.phrase("domain_rules_fast_action_policy.exception.7edf732c4cbe", "说明待补充")
 	if e.get("handler","")=="round10" and e.get("op","")=="damage_discover":return ExternalText.phrase("domain_rules_fast_action_policy.exception.71f9b125dff7", "说明待补充")

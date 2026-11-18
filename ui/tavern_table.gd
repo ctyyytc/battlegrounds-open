@@ -60,35 +60,49 @@ func build_inspection() -> void:
 	overlay=PaintLayer.new();overlay.table=self;overlay.mouse_filter=Control.MOUSE_FILTER_IGNORE;add_child(overlay);overlay.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	var event_canvas=KeywordFX.EventCanvas.new();event_canvas.painter=KeywordFX.draw;event_canvas.texture_reader=KeywordFX.image;event_canvas.host=host;event_canvas.name="KeywordEventCanvas";event_canvas.mouse_filter=Control.MOUSE_FILTER_IGNORE;add_child(event_canvas);event_canvas.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	refresh_inspection()
-func show_detail(value: String,art: Texture2D=null) -> void:
+func show_detail(value: String,art: Texture2D=null,preview: Dictionary={},preview_first: bool=false) -> void:
 	if not is_instance_valid(inspection):return
 	var info=inspection.get_node("Info")
-	var key=value+"|"+str(art.get_instance_id() if art else 0)
+	var key=value+"|"+str(art.get_instance_id() if art else 0)+"|"+str(preview.get("text",""))+"|"+str(preview.get("id",""))+"|"+str(preview_first)
 	if detail_key!=key:
 		detail_key=key;info.clear()
+		if preview_first and not preview.is_empty():
+			append_spell_preview(info,preview)
+			info.add_text("\n\n")
 		if art:
 			var factor=minf(130.0/art.get_width(),140.0/art.get_height())
 			info.push_paragraph(HORIZONTAL_ALIGNMENT_CENTER)
 			info.add_image(art,roundi(art.get_width()*factor),roundi(art.get_height()*factor))
 			info.pop();info.append_text("\n")
 		info.append_text(value)
+		if not preview_first and not preview.is_empty():
+			info.add_text("\n\n")
+			append_spell_preview(info,preview)
 		info.scroll_to_line(0)
 	inspection.visible=true
+func append_spell_preview(info: RichTextLabel,preview: Dictionary) -> void:
+	var icon=preview.get("icon")
+	if icon:
+		info.add_image(icon,38,38)
+		info.add_text("  ")
+	info.add_text(str(preview.text))
 
 # Native controls cannot receive mouse_entered through the choice input shield.
 # Read their descriptions without forwarding input or changing action locks.
-func inspection_text_at(point: Vector2,node: Node=null) -> String:
+func inspection_text_at(point: Vector2) -> String:
+	return str(inspection_entry_at(point).get("text",""))
+func inspection_entry_at(point: Vector2,node: Node=null) -> Dictionary:
 	if node==null:node=self
-	if retired or node==inspection or node==pending_preview:return ""
-	if node is Control and not node.is_visible_in_tree():return ""
+	if retired or node==inspection or node==pending_preview:return {}
+	if node is Control and not node.is_visible_in_tree():return {}
 	var children=node.get_children()
 	for i in range(children.size()-1,-1,-1):
-		var found=inspection_text_at(point,children[i])
+		var found=inspection_entry_at(point,children[i])
 		if not found.is_empty():return found
 	if node is Control and Rect2(Vector2.ZERO,node.size).has_point(node.get_global_transform_with_canvas().affine_inverse()*point):
-		if node.has_meta("inspection_reader"):return str(node.get_meta("inspection_reader").call())
-		if node.mouse_filter!=Control.MOUSE_FILTER_IGNORE:return node.tooltip_text
-	return ""
+		if node.has_meta("inspection_reader"):return {"text":str(node.get_meta("inspection_reader").call()),"preview":node.get_meta("inspection_preview",{})}
+		if node.mouse_filter!=Control.MOUSE_FILTER_IGNORE and node.tooltip_text!="":return {"text":node.tooltip_text}
+	return {}
 func clear_hidden_inspection() -> void:
 	inspecting_trinket=false
 	if hidden_inspection_active:
@@ -200,7 +214,9 @@ func bind_trinket_inspection(control: Control,item: Dictionary,p: Dictionary,_po
 	if item.has("power_owner"):description="所属技能位 %d\n" % (int(item.power_owner.slot_id)+1)+description
 	control.tooltip_text=description;control.mouse_default_cursor_shape=Control.CURSOR_HELP
 	control.set_meta("inspection_reader",func():return description)
-	control.mouse_entered.connect(func():inspecting_trinket=true;show_detail(description))
+	var preview=host.remembered_spell_preview(host.registry.get_def(item.id),p)
+	if not preview.is_empty():control.set_meta("inspection_preview",preview)
+	control.mouse_entered.connect(func():inspecting_trinket=true;show_detail(description,null,preview))
 	control.mouse_exited.connect(func():inspecting_trinket=false)
 
 func decorate_power_button(button: Button,p: Dictionary,power_state: Dictionary) -> void:
@@ -767,9 +783,9 @@ func refresh_inspection() -> void:
 	if host.choice_view_is_hidden():
 		inspecting_trinket=false
 		if inspection.get_rect().has_point(pointer):return
-		var native_text=inspection_text_at(get_global_transform_with_canvas()*pointer)
-		if not native_text.is_empty():
-			hidden_inspection_active=true;show_detail(native_text);return
+		var entry=inspection_entry_at(get_global_transform_with_canvas()*pointer)
+		if not entry.is_empty():
+			hidden_inspection_active=true;show_detail(entry.text,null,entry.get("preview",{}));return
 		if hovered.is_empty():clear_hidden_inspection()
 		else:hidden_inspection_active=true
 	var player=host.game.state.players[0]
@@ -784,8 +800,10 @@ func refresh_inspection() -> void:
 		if sale_coins>0:detail+="\n[color=#ffe09a]高价出售已生效：上场战斗失利，本轮出售共获得%d币（含基础出售1币）。[/color]" % sale_coins
 		var notice=host.payment_view("buy",hovered.card) if hovered.zone=="shop" else host.risk_view(hovered.card) if hovered.zone=="hand" else {}
 		if notice.get("tooltip","")!="":detail+="\n[color=#f7ae96]"+host.SpellText.escape(notice.tooltip)+"[/color]"
-		var art=hovered.node.texture(host.registry.art_path(hovered.card.def_id)) if host.registry.get_def(hovered.card.def_id).kind=="minion" else null
-		show_detail(detail,art)
+		var definition=host.registry.get_def(hovered.card.def_id)
+		var art=hovered.node.texture(host.registry.art_path(hovered.card.def_id)) if definition.kind=="minion" else null
+		var preview=host.remembered_spell_preview(definition,host.presentation_player(hovered.node.card))
+		show_detail(detail,art,preview,definition.get("base_id","")=="BG35_123")
 
 func restore_hover(position_value: Vector2,instance_id: int,seconds: float) -> void:
 	pointer=position_value; update_hover()
@@ -894,14 +912,19 @@ func build_combat() -> void:
 		main_hero_badges(state.players[0],BTheme.TEXT)
 		var caption=text(frame.message,rect(160,396,890,40),18)
 		caption.name="CombatCaption"; caption.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART; caption.size=Vector2(890,40)
-		if frame.has("presentation") and not host.playback_skipped: call_deferred("animate_combat",frame)
+		if frame.has("presentation") and not host.playback_skipped and host.battle_return_remaining<0.0:call_deferred("animate_combat",frame)
 	else:
 		text(ExternalText.ui("ui_tavern_table.build_combat.c4772943f65b", "你已淘汰 · 观看本轮结果"),rect(399,345,650,40),28)
 		build_hand_counts([],[])
 	action(ExternalText.ui("ui_tavern_table.build_combat.8735770c2979", "下一回合") if not state.get("match_over",false) else ExternalText.ui("ui_tavern_table.build_combat.9351b5bd3d24", "查看结算"),rect(1100,654,284,64),func():host.command("continue"),"Continue")
-	action(ExternalText.ui("ui_tavern_table.build_combat.36035edbb6e7", "跳过战斗"),rect(1100,738,284,44),host.skip_combat,"Skip")
-	action(host.playback_label(),rect(1100,596,284,48),host.toggle_playback_speed,"Speed")
-	text("%d / %d" % [host.frame_index+1,frames.size()],rect(1100,548,284,32),22)
+	var returning=host.battle_return_remaining>=0.0
+	action(ExternalText.ui("ui_tavern_table.build_combat.36035edbb6e7", "跳过战斗"),rect(1100,738,284,44),host.skip_combat,"Skip",returning)
+	action(host.playback_label(),rect(1100,596,138,48),host.toggle_playback_speed,"Speed",returning)
+	action("继续计时" if state.paused else "暂停",rect(1246,596,138,48),func():host.command("pause"),"Pause")
+	if returning:
+		var countdown=text(host.battle_return_text(),rect(1100,548,284,32),22)
+		countdown.name="BattleReturnCountdown"
+	else:text("%d / %d" % [mini(host.frame_index+1,frames.size()),frames.size()],rect(1100,548,284,32),22)
 	build_combat_keyword_hosts()
 	var y=636
 	for result in state.results:

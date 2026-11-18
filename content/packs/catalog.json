@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "pack_id": "battlegrounds-o",
-  "rules_version": "round13.6.1-v75-direct1361-20261017",
+  "rules_version": "round15.0.0-v76",
   "mode": "validation_pool",
   "definitions": {
     "BG25_001": {
@@ -20912,7 +20912,7 @@
           "op": "nature",
           "trigger": "",
           "attack": 2,
-          "health": 1,
+          "health": 2,
           "target": "minion"
         }
       ],
@@ -20937,8 +20937,8 @@
         {
           "handler": "menagerie",
           "trigger": "",
-          "attack": 4,
-          "health": 4
+          "attack": 3,
+          "health": 3
         }
       ],
       "implemented": true,
@@ -21503,7 +21503,7 @@
           "op": "golden_buff",
           "trigger": "",
           "attack": 3,
-          "health": 2
+          "health": 3
         }
       ],
       "implemented": true,
@@ -27624,6 +27624,35 @@
           "op": "factory",
           "trigger": "turn_start",
           "tier": 5
+        }
+      ],
+      "implemented": true,
+      "card_types": [],
+      "shop_pool": true,
+      "encyclopedia_visible": false,
+      "acquisition_policy": "trinket_selection"
+    },
+    "PROJECT_R15_POCKET_FACTORY_6": {
+      "id": "PROJECT_R15_POCKET_FACTORY_6",
+      "name": "PROJECT_R15_POCKET_FACTORY_6",
+      "kind": "trinket",
+      "size": "greater",
+      "cost": 2,
+      "text": "",
+      "associated_pool_tribes": [],
+      "bind_tribe": false,
+      "effects": [
+        {
+          "handler": "round13_item",
+          "op": "factory",
+          "trigger": "obtain",
+          "tier": 6
+        },
+        {
+          "handler": "round13_item",
+          "op": "factory",
+          "trigger": "turn_start",
+          "tier": 6
         }
       ],
       "implemented": true,
@@ -37820,9 +37849,9 @@
     ],
     "enabled_tribes_per_match": 5
   },
-  "rule_revision": 75,
-  "implementation_revision": "round13.6.1-v75-direct1361",
-  "content_version": "13.6.1",
-  "build_version": "13.6.1",
-  "version": "round13.6.1-v75-direct1361-20261017"
+  "rule_revision": 76,
+  "implementation_revision": "round15.0.0-v76",
+  "content_version": "15.0.0",
+  "build_version": "15.0.0",
+  "version": "round15.0.0-v76"
 }

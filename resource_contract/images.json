@@ -11889,6 +11889,20 @@
       "required_to_launch": false
     },
     {
+      "asset_key": "PROJECT_R15_POCKET_FACTORY_6:icon:normal:neutral",
+      "content_id": "PROJECT_R15_POCKET_FACTORY_6",
+      "role": "icon",
+      "width": 93,
+      "height": 93,
+      "formats": [
+        "png",
+        "jpg",
+        "webp",
+        "svg"
+      ],
+      "required_to_launch": false
+    },
+    {
       "asset_key": "BG32_MagicItem_362t:icon:normal:neutral",
       "content_id": "BG32_MagicItem_362t",
       "role": "icon",

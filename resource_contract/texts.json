@@ -7850,6 +7850,15 @@
       ]
     },
     {
+      "content_id": "PROJECT_R15_POCKET_FACTORY_6",
+      "kind": "trinket",
+      "fields": [
+        "name",
+        "text",
+        "cost"
+      ]
+    },
+    {
       "content_id": "BG32_MagicItem_362t",
       "kind": "trinket",
       "fields": [

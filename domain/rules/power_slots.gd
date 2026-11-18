@@ -108,7 +108,7 @@ static func replace(engine,p: Dictionary,index: int,id: String,temporary: bool=f
 	if temporary:
 		engine.R136Slots.suspend(engine,p,s)
 		if old in [engine.R133.FLIGHT,engine.R133.TICKETS]:engine.R133.loss(engine,p,s,old)
-		s["temporary_restore"]={"power_id":s.active_power_id,"progress":s.progress.duplicate(true),"epoch":s.epoch}
+		s["temporary_restore"]={"power_id":s.active_power_id,"progress":s.progress.duplicate(true),"epoch":s.epoch,"acquired_order":int(s.get("acquired_order",0))}
 	else:
 		loss(engine,p,s,old)
 		if s.has("temporary_restore"):
@@ -116,6 +116,7 @@ static func replace(engine,p: Dictionary,index: int,id: String,temporary: bool=f
 			loss(engine,p,prior,str(s.persistent_power_id))
 		s.erase("temporary_restore");s.persistent_power_id=id
 	s.active_power_id=id;s.epoch+=1;s.progress={}
+	s["acquired_order"]=engine.StartRewards.stamp(engine)
 	engine.emit("HeroPowerBound",int(p.id),{"power_id":id,"previous":old,"slot_id":index,"epoch":s.epoch,"temporary":temporary})
 	engine.R132.bound(engine,p,s)
 	engine.R136Slots.sync(engine,p)
@@ -126,9 +127,11 @@ static func restore_temporary(engine,p: Dictionary,boundary: String="all") -> vo
 		if not s.has("temporary_restore"):continue
 		if boundary=="recruit_end" and str(s.active_power_id) in COMBAT_BORROWS:continue
 		if p.alive and boundary in ["recruit_end","before_start"] and has_start_work(engine,s):continue
+		if p.alive and boundary=="before_start" and engine.StartRewards.holds_power(p,s):continue
 		var restore=s.temporary_restore.duplicate(true)
 		loss(engine,p,s,str(s.active_power_id))
 		s.active_power_id=str(restore.power_id);s.progress=restore.progress;s.epoch+=1;s.erase("temporary_restore")
+		s["acquired_order"]=int(restore.get("acquired_order",0))
 		engine.R136Slots.restore(engine,p,s,int(restore.epoch))
 		engine.emit("HeroPowerRestored",int(p.id),{"power_id":s.active_power_id,"slot_id":s.slot_id,"epoch":s.epoch})
 static func receipt(engine,p: Dictionary,s: Dictionary,event_id: String) -> bool:

@@ -29,8 +29,10 @@ static func gift_options(minions: Array,gifts: Array,turn: int,enabled: Array,ex
 		
 		
 		if preferred.is_empty():return []
-		var guaranteed=preferred[RNG.next(streams,"choice",preferred.size())]
-		chosen.append(guaranteed);legal.erase(guaranteed)
+		var seats=2 if turn>=7 and not policy.get("special_free",false) else 1
+		for unused in mini(seats,preferred.size()):
+			var guaranteed=preferred.pop_at(RNG.next(streams,"choice",preferred.size()))
+			chosen.append(guaranteed);legal.erase(guaranteed)
 	for i in range(mini(3-chosen.size(),legal.size())):
 		
 		var index=RNG.next(streams,"choice",legal.size())

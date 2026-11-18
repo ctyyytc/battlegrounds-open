@@ -21685,6 +21685,28 @@
         }
       }
     },
+    "PROJECT_R15_POCKET_FACTORY_6": {
+      "kind": "trinket",
+      "fields": {
+        "name": {
+          "type": "string",
+          "default": "PROJECT_R15_POCKET_FACTORY_6"
+        },
+        "text": {
+          "type": "string",
+          "default": "说明待补充 · PROJECT_R15_POCKET_FACTORY_6",
+          "nullable": true
+        },
+        "cost": {
+          "type": "integer",
+          "bounds": [
+            0,
+            100
+          ],
+          "default": 2
+        }
+      }
+    },
     "BG32_MagicItem_362t": {
       "kind": "trinket",
       "fields": {

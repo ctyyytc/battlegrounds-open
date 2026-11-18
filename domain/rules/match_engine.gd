@@ -1,6 +1,7 @@
 extends RefCounted
 const Pairing=preload("res://domain/rules/round143_pairing.gd")
 const ExternalText = preload("res://domain/resources/external_content.gd")
+const StartRewards=preload("res://domain/rules/round_start_rewards.gd")
 const R136=preload("res://domain/rules/round136_rewards.gd")
 const R136Slots=preload("res://domain/rules/round136_slots.gd")
 const R135=preload("res://domain/rules/round135_quests.gd")
@@ -200,11 +201,14 @@ func start(seed_value: int,hero_id: String="BG32_HERO_001") -> String:
 			"hand":[],"board":[],"shop":[],"pending_rewards":[],"frozen":false,"alive":true,"rank":0,
 			"free_refresh":0,"next_coins":0,"elementals_played":0,"elemental_bonus_attack":0,"elemental_bonus_health":0,"ball_sold_count":0,
 			"undead_attack":0,"undead_health":0,"spell_count":0,"tavern_spell_count":0,"power_used":false,"power_used_game":false,
-			"choices":[],"sessions":{},"trinkets":[],"voucher_sources":[],"trinket_refreshes":0,"gift_refreshes":0,"gifts_bought":0,"gift_round":0})
+			"choices":[],"post_battle_rewards":[],"sessions":{},"trinkets":[],"voucher_sources":[],"trinket_refreshes":0,"gift_refreshes":0,"gifts_bought":0,"gift_round":0})
 	for id in content.pool("minion",state.enabled_tribes):
 		state.pool[id]=int(content.rules.pool_copies[int(content.get_def(id).tier)-1])
 	events=[]; spell_history=[]; receipts={}; command_log=[]
-	for p in state.players: Powers.ensure(self,p);Fish.initialize(self,p);Demons.turn_start(self,p);refill_shop(p,false,true,false,"initial_setup")
+	for p in state.players:
+		Powers.ensure(self,p)
+		for slot in p.power_slots:slot["acquired_order"]=StartRewards.stamp(self)
+		Fish.initialize(self,p);Demons.turn_start(self,p);refill_shop(p,false,true,false,"initial_setup")
 	R132.pairings(self)
 	for p in state.players: R132.initialize(self,p);R136Slots.sync(self,p);R132.turn_start(self,p);turn_start_judgment(p)
 	emit("MatchStarted",0,{"seed":seed_value,"mode":"validation_pool"})
@@ -232,6 +236,7 @@ func make_card(id: String,owner: int,copies: int=0) -> Dictionary:
 	var card={"instance_id":int(state.next_instance),"def_id":id,"owner":owner,"pool_base":d.get("pool_stock_id",d.get("base_id",id)),
 		"pool_copies":copies,"modifiers":[],"extra_keywords":[],"gold_route":"","enhanced_reborn_available":false,"triple_receipt":false,"gifts":[]}
 	state.next_instance+=1
+	if d.get("base_id","")=="BG34_320":card["last_rally_count"]=0
 	Fish.generated(self,state.players[owner],card)
 	Quilboar.quota(self,card)
 	qualify_gold(card,"created")
@@ -455,7 +460,7 @@ func submit(command: Dictionary) -> Dictionary:
 	var kind=str(command.get("kind",""))
 	if kind=="undo":return undo_last() if pid==0 else {"accepted":false,"error_code":"NOT_HOST"}
 	var clock_command=str(command.get("kind","")) in ["tick","pause","wheel_advance"]
-	if clock_command and (pid!=0 or state.phase!="recruit"):return {"accepted":false,"error_code":"NOT_HOST" if pid!=0 else "WRONG_PHASE"}
+	if clock_command and (pid!=0 or (state.phase!="recruit" and not (kind=="pause" and state.phase=="combat"))):return {"accepted":false,"error_code":"NOT_HOST" if pid!=0 else "WRONG_PHASE"}
 	var before={} if clock_command else action_state()
 	var event_start=events.size()
 	# History entries are immutable; only append/pop_front changes this array.
@@ -470,7 +475,7 @@ func submit(command: Dictionary) -> Dictionary:
 	settlement_depth+=1
 	var error=apply_command(state.players[pid],str(command.get("kind","")),command.get("payload",{}))
 	settlement_depth-=1
-	if error.is_empty() and state.phase=="recruit" and state.players[pid].alive and not clock_command:
+	if error.is_empty() and state.phase=="recruit" and state.players[pid].alive and not clock_command and not state.has("round_start_cursor"):
 		R132.changed(self,state.players[pid])
 		R133.changed(self,state.players[pid])
 		if str(command.get("kind","")) not in ["wheel_skip","wheel_present"]:R134.advance(self,state.players[pid])
@@ -529,16 +534,6 @@ func apply_command(p: Dictionary,kind: String,args: Dictionary) -> String:
 		var choice=p.choices[0]
 		if choice.get("from_hand",false) and Choices.eligible(self,p,choice).is_empty():return "NO_LEGAL_TARGET"
 	return error
-func resolve_combat_power_choice(p: Dictionary,args: Dictionary) -> String:
-	var choice=p.choices[0]
-	if args.has("session_id") and str(args.session_id)!=str(choice.get("session_id","")):return "STALE_CHOICE"
-	if int(choice.get("combat_round",state.round))!=int(state.round):return "STALE_COMBAT_CHOICE"
-	var slot=Powers.selected(self,p,int(choice.slot_id))
-	if slot.is_empty() or slot.active_power_id!="BG21_HERO_000p" or int(slot.epoch)!=int(choice.epoch):return "STALE_POWER_EPOCH"
-	var index=int(args.get("index",-1))
-	if index<0 or index>=choice.options.size():return "INVALID_OPTION"
-	if choice.options[index].def_id not in ["BG21_HERO_000p_t1","BG21_HERO_000_Buddyt","BG21_HERO_000_Buddyt2"]:return "INVALID_OPTION"
-	return R132.resolve(self,p,choice,index)
 func resolve_acquisition_choice(p: Dictionary,choice: Dictionary,index: int) -> String:
 	if R132.cat_copy(choice):
 		var error=R132.cat_reward_error(self,p,choice)
@@ -569,20 +564,13 @@ func resolve_acquisition_choice(p: Dictionary,choice: Dictionary,index: int) -> 
 	R135.discovered(self,p,discovery_snapshot,str(choice.kind),str(choice.get("session_id","")))
 	Fish.discovered(self,p,choice.options[index]);check_triples(p);emit("ChoiceResolved",int(p.id));Pirates.discovered(self,p)
 	return ""
-func resolve_combat_cat_choice(p: Dictionary,args: Dictionary) -> String:
-	var choice=p.choices[0]
-	if args.has("session_id") and str(args.session_id)!=str(choice.get("session_id","")):return "STALE_CHOICE"
-	var error=R132.cat_reward_error(self,p,choice)
-	if error!="":return error
-	var index=int(args.get("index",-1))
-	if index<0 or index>=choice.options.size():return "INVALID_OPTION"
-	return resolve_acquisition_choice(p,choice,index)
 func _apply_command(p: Dictionary,kind: String,args: Dictionary) -> String:
 	if kind=="fast_play":
 		if int(p.id)!=0 or state.phase!="recruit":return "WRONG_PHASE"
 		if int(state.get("fast_mode_level",0))!=2:return "FAST_MODE_DISABLED"
 		var i=find_index(p.hand,int(args.get("instance_id",-1)))
 		if i<0:return "CARD_NOT_IN_HAND"
+		if p.hand[i].def_id==Naga.MANUAL_TARGET_SPELL or p.hand[i].get("learned_spell","")==Naga.MANUAL_TARGET_SPELL:return "FAST_EFFECT_REQUIRES_MANUAL"
 		if args.get("right_click",false):
 			var classification=Fast.classify(self,p,p.hand[i])
 			if not classification.reasons.is_empty() or classification.unknown_dynamic:return "FAST_EFFECT_REQUIRES_MANUAL"
@@ -618,13 +606,11 @@ func _apply_command(p: Dictionary,kind: String,args: Dictionary) -> String:
 						if spec.handler in ["slaughter","destroy_generate"]:destructive=true
 		if destructive and Continuation.request(self,p,target,action,{"kind":"command","command":kind,"payload":args}):return ""
 	if kind=="continue":
-		if int(p.id)!=0 or state.phase!="combat": return "WRONG_PHASE"
-		if not p.choices.is_empty() and (p.choices[0].kind=="r132_conviction" or R132.cat_copy(p.choices[0])):return "MANDATORY_CHOICE"
-		next_round(); return ""
-	if kind=="choose" and state.phase=="combat" and p.alive and not state.results.is_empty() and not p.choices.is_empty() and R132.cat_copy(p.choices[0]):
-		return resolve_combat_cat_choice(p,args)
-	if kind=="choose" and state.phase=="combat" and p.alive and not state.results.is_empty() and not p.choices.is_empty() and p.choices[0].kind=="r132_conviction":
-		return resolve_combat_power_choice(p,args)
+		if int(p.id)!=0 or state.phase!="combat":return "WRONG_PHASE"
+		next_round();return ""
+	if kind=="pause" and state.phase=="combat":
+		if int(p.id)!=0:return "NOT_HOST"
+		state.paused=not state.paused;return ""
 	if state.phase!="recruit" or (not p.alive and kind not in ["end","tick","pause"]): return "WRONG_PHASE"
 	if kind=="reward_anomaly":R133.anomaly_command(p,bool(args.get("closed",true)));return ""
 	if kind=="pause":
@@ -848,7 +834,7 @@ func _apply_command(p: Dictionary,kind: String,args: Dictionary) -> String:
 			trigger(p,"minion_played",card)
 			trinket_effects(p,"minion_played",card)
 			gift_card_played(p,card,play_listeners)
-			run_effects(p,card,"battlecry")
+			run_effects(p,card,"battlecry",{},true,-1,int(p.id)==0 and not effect_target.is_empty())
 			if state.has("confirmation"):
 				state["play_tail"]={"owner":p.id,"instance_id":card.instance_id,"card":card,"choice_play":true};return ""
 			if not empty_beetle:run_effects(p,card,"choice_play",{},true,1)
@@ -872,6 +858,7 @@ func _apply_command(p: Dictionary,kind: String,args: Dictionary) -> String:
 			gift_card_played(p,card,play_listeners)
 			var spell=d.duplicate(true)
 			spell["played_from_hand"]=true
+			if spell.id==Naga.MANUAL_TARGET_SPELL:spell["manual_cast_target"]=true
 			spell["r134_card"]=card
 			if card.get("permanent_spellcraft",false): spell["permanent_spellcraft"]=true
 			for key in ["spellcraft_source","spellcraft_source_snapshot","spellcraft_generated_phase","spellcraft_expires_round","strategic_tier","reward_tier","reward_source","reward_key","r133_reward"]:
@@ -1032,7 +1019,7 @@ func trigger(p: Dictionary,trigger_name: String,subject: Dictionary) -> void:
 	
 	for card in p.board.duplicate(): run_effects(p,card,trigger_name,subject,false)
 	drain_effects()
-func run_effects(p: Dictionary,card: Dictionary,trigger_name: String,subject: Dictionary={},drain: bool=true,override_times: int=-1) -> void:
+func run_effects(p: Dictionary,card: Dictionary,trigger_name: String,subject: Dictionary={},drain: bool=true,override_times: int=-1,manual_battlecry_target: bool=false) -> void:
 	var selected=Triggers.deathrattle_effects(self,card) if trigger_name=="deathrattle" else Triggers.effects(self,card).filter(func(e):return e.get("trigger","")==trigger_name)
 	if trigger_name=="battlecry":
 		var choices=selected.filter(func(e):return e.get("op","")=="choice")
@@ -1052,6 +1039,9 @@ func run_effects(p: Dictionary,card: Dictionary,trigger_name: String,subject: Di
 			var types=card_types(subject)
 			if e.tribe not in types and "全部种族" not in types: continue
 		var selected_target=effect_target
+		if e.get("op","")=="learned" and card.get("learned_spell","")==Naga.MANUAL_TARGET_SPELL:
+			if not manual_battlecry_target:continue
+			e["manual_battlecry_target"]=true
 		if sale_target!=-2:
 			e["learned_sale_target"]=sale_target;selected_target=Fish.learned_sale_card(self,p,sale_target)
 		if sale_target==-2 and trigger_name=="battlecry" and selected_target.is_empty() and e.get("target","") in ["minion","friendly_minion","friendly_undead"]:
@@ -1139,6 +1129,7 @@ func effect(p: Dictionary,e: Dictionary,target: Dictionary,source: Dictionary={}
 		emit("RulesCapabilityRejected",int(p.id),{"handler":str(e.get("handler","")),"trigger":str(e.get("trigger",""))})
 	effect_source=previous_source
 func cast(p: Dictionary,spell: Dictionary,target: Dictionary,start_repeat: int=0,start_effect: int=0,resumed: bool=false,frozen_times: int=-1) -> void:
+	if spell.id==Naga.MANUAL_TARGET_SPELL and (not spell.get("manual_cast_target",false) or target.is_empty()):return
 	spell=spell.duplicate(true)
 	if not resumed and not Naga.valid_target(self,p,spell,target):return
 	var previous_target=effect_target
@@ -1184,7 +1175,7 @@ func cast(p: Dictionary,spell: Dictionary,target: Dictionary,start_repeat: int=0
 		current_spell=previous_spell
 		if player_cast:trinket_effects(p,"spell_cast",target)
 		if spell.get("is_tavern_spell",false):
-			if player_cast:p["last_tavern_spell"]=spell.id
+			if player_cast and spell.get("played_from_hand",false) and not spell.get("automatic",false):p["last_tavern_spell"]=spell.id
 			if player_cast:
 				trinket_effects(p,"tavern_spell_cast",target)
 				trigger(p,"tavern_spell_cast",target)
@@ -1269,6 +1260,7 @@ func _check_triples(p: Dictionary) -> void:
 			# The copy's own reward exclusion does not belong to the new gold card.
 			if c.has("gold_reward_excluded") and c.gold_reward_excluded!="hero_copy":exclude_gold_reward(merged,str(c.gold_reward_excluded))
 			Quilboar.inherited(c,merged)
+			if c.has("last_rally_count"):merged["last_rally_count"]=int(merged.get("last_rally_count",0))+int(c.last_rally_count)
 			merged["behemoth_count"]=int(merged.get("behemoth_count",0))+int(c.get("behemoth_count",0))
 			for key in ["parrot_damage","pirate_spent","pirate_obtained"]:
 				if c.has(key):merged[key]=maxi(int(merged.get(key,0)),int(c[key]))
@@ -1502,8 +1494,19 @@ func eliminate_player(p: Dictionary,rank: int,origin: String) -> void:
 	if p.alive:
 		for receiver in state.players:
 			if receiver.alive and int(receiver.id)!=int(p.id) and has_power(receiver,"TB_BaconShop_HP_080"):
-				if eliminated.is_empty():receive_card(receiver,make_card("TB_BaconShop_HP_080t",int(receiver.id)),{"def_id":"TB_BaconShop_HP_080"})
-				else:R132.copy_discover(self,receiver,eliminated,"eliminated:"+str(p.id),false)
+				var provenance={}
+				if state.phase=="combat":
+					var slots=receiver.power_slots.filter(func(slot):return slot.active_power_id==StartRewards.CAT)
+					slots.sort_custom(func(a,b):return int(a.get("acquired_order",0))<int(b.get("acquired_order",0)))
+					var owner=StartRewards.power_receipt(slots[0])
+					provenance={"battle_round":int(state.round),"power_owner":owner,"source_order":owner.order}
+				if eliminated.is_empty():
+					if provenance.is_empty():receive_card(receiver,make_card("TB_BaconShop_HP_080t",int(receiver.id)),{"def_id":StartRewards.CAT})
+					else:
+						provenance["kind"]="cat_consolation"
+						provenance["eliminated_id"]=int(p.id)
+						receiver.post_battle_rewards.append(provenance)
+				else:R132.copy_discover(self,receiver,eliminated,"eliminated:"+str(p.id),false,provenance)
 	Combat132.after_battle(self,p)
 	Powers.restore_temporary(self,p)
 	p.alive=false;p.rank=rank
@@ -1512,7 +1515,7 @@ func eliminate_player(p: Dictionary,rank: int,origin: String) -> void:
 		for c in zone:return_pool(c);c.pool_copies=0
 	for choice in p.choices:
 		for c in choice.options:return_pool(c)
-	p.shop=[];p.choices=[]
+	p.shop=[];p.choices=[];p["post_battle_rewards"]=[]
 	emit("PlayerEliminated",int(p.id),{"rank":rank,"origin":origin})
 func settle_recruit_deaths() -> void:
 	if state.phase!="recruit":return
@@ -1626,11 +1629,10 @@ func resolve_round() -> void:
 	emit("CombatEnded",0,{"results":results})
 func next_round() -> void:
 	undo_history.clear()
-	# Resolve AI battle rewards against the still-live borrowed epoch first.
-	for player in state.players:
-		if int(player.id)>0 and player.alive and not settle_start_choices(player):return
 	for player in state.players:Powers.restore_temporary(self,player,"all" if state.get("match_over",false) else "before_start")
-	if state.get("match_over",false):state.phase="finished";return
+	if state.get("match_over",false):
+		for player in state.players:player["post_battle_rewards"]=[]
+		state.phase="finished";return
 	state.round+=1;state.phase="recruit";state.remaining_ms=150000
 	state["round_start_autosave"]={"round":int(state.round),"status":"pending"}
 	# Freeze before start effects/forced discoveries can query or reveal the rival.
@@ -1642,7 +1644,10 @@ func advance_round_start() -> void:
 	var cursor=state.round_start_cursor
 	while int(cursor.player)<state.players.size():
 		var p=state.players[int(cursor.player)]
-		if not p.alive:cursor.player+=1;cursor.stage=0;continue
+		if not p.alive:
+			cursor.player+=1;cursor.stage=0
+			for key in ["reward_jobs","reward_index","rewards_settled","start_finalize_pending"]:cursor.erase(key)
+			continue
 		if int(cursor.stage)==0:
 			cursor.stage=1
 			R136.revert(self,p)
@@ -1657,9 +1662,10 @@ func advance_round_start() -> void:
 			# already resolved it through ShopRefreshed, so never do both.
 			if not refill_shop(p,p.frozen,true,true,"turn_start"):R132.frost_shop(self,p)
 			check_triples(p);drain_rewards(p);trigger(p,"turn_start",{});trigger(p,"spellcraft",{})
-			trinket_effects(p,"turn_start");Heroes7.start(self,p);Demons.turn_start(self,p);R136Slots.start(self,p)
+			trinket_effects(p,"turn_start",{},{},"other_start");Heroes7.start(self,p);Demons.turn_start(self,p);R136Slots.start(self,p)
 		if int(cursor.stage)==1:
 			if not settle_start_choices(p):return
+			if not cursor.get("rewards_settled",false) and not StartRewards.advance(self,p,cursor):return
 			if not R135.turn_start(self,p):
 				if int(p.id)>0 and not p.choices.is_empty() and settle_start_choices(p):continue
 				return
@@ -1667,7 +1673,7 @@ func advance_round_start() -> void:
 		if int(cursor.stage)==2:
 			cursor.stage=3
 			cursor["start_finalize_pending"] = true
-			CardLock.update(self,p);R132.changed(self,p);R132.turn_start(self,p,false);R133.turn_start(self,p);R134.start(self,p)
+			CardLock.update(self,p);R132.changed(self,p);R132.turn_start(self,p,false,false);R133.turn_start(self,p);R134.start(self,p,false)
 			for c in p.board+p.hand:
 				if c.has("locked_until_round") and int(c.locked_until_round)<=int(state.round):c.erase("locked_until_round");emit("CardUnlocked",int(p.id),{"instance_id":c.instance_id})
 			turn_start_judgment(p);Gifts.boundary(self,p,"turn_start");R135.safe(self,p,true)
@@ -1684,7 +1690,7 @@ func advance_round_start() -> void:
 				Powers.restore_temporary(self,p)
 				R132.nguyen_start(self,p)
 		if not settle_start_choices(p):return
-		cursor.player+=1;cursor.stage=0;cursor.erase("start_finalize_pending")
+		cursor.player+=1;cursor.stage=0;cursor.erase("start_finalize_pending");cursor.erase("rewards_settled")
 	state.erase("round_start_cursor");emit("TurnStarted",0,{"round":state.round});R132.pairings(self)
 func settle_start_choices(p: Dictionary) -> bool:
 	if state.has("confirmation"):return false
@@ -1711,6 +1717,7 @@ func restore(data: Dictionary) -> String:
 	if data.state.has("round_start_cursor"):
 		var cursor=data.state.round_start_cursor
 		if not cursor is Dictionary or int(cursor.get("player",-1)) not in range(0,8) or int(cursor.get("stage",-1)) not in range(0,6):return "INVALID_START_CURSOR"
+		if not StartRewards.valid_cursor(cursor):return "INVALID_START_REWARDS"
 	var live_instances={}
 	for player in data.state.players:
 		var power_error=Powers.validate(self,player,data.state.get("enabled_tribes",[]))
@@ -1852,7 +1859,7 @@ static func normalize_numbers(value):
 		return result
 	return value
 
-func trinket_effects(p: Dictionary,trigger_name: String,subject: Dictionary={},only: Dictionary={}) -> void:
+func trinket_effects(p: Dictionary,trigger_name: String,subject: Dictionary={},only: Dictionary={},start_mode: String="all") -> void:
 	var items=[only] if not only.is_empty() else p.trinkets.duplicate()
 	if trigger_name=="turn_end":
 		var originals=items.duplicate()
@@ -1864,6 +1871,7 @@ func trinket_effects(p: Dictionary,trigger_name: String,subject: Dictionary={},o
 		for raw in content.get_def(item.id).effects:
 			var matches=raw.get("trigger","")==trigger_name or (raw.get("trigger","")=="obtain_and_start" and trigger_name in ["obtain","turn_start"])
 			if not matches: continue
+			if start_mode!="all" and StartRewards.item_effect(raw)!=(start_mode=="card_rewards"):continue
 			
 			if raw.get("handler","")=="buff" and subject.is_empty(): continue
 			if raw.has("tribe") and trigger_name=="minion_played":
@@ -1949,6 +1957,7 @@ func validate_hand_play(p: Dictionary,args: Dictionary,placement_only: bool=fals
 	if d.id=="EBG_Spell_037" and R132.source_pool(self,p,"identity").is_empty():return "NO_LEGAL_CANDIDATE"
 	if d.id=="BG28_512" and Quilboar.steal_targets(self,p).is_empty():return "NO_LEGAL_TARGET"
 	if d.get("unplayable",false):return "CARD_UNPLAYABLE"
+	if d.id==Naga.MANUAL_TARGET_SPELL and int(p.id)!=0:return "TARGET_REQUIRED"
 	if d.id=="BG28_830" and Pirates.touch_targets(self,p).is_empty():return "NO_TOUCH_TARGET"
 	if d.kind=="spell" and not Demons.valid_target(self,p,d,find_target(p,int(args.get("target_id",-1)))):return "INVALID_SPELL_TARGET"
 	if d.kind=="spell" and not Pirates.valid_target(self,p,d,find_target(p,int(args.get("target_id",-1)))):return "INVALID_SPELL_TARGET"

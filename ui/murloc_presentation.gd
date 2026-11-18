@@ -24,7 +24,7 @@ static func trinket(engine,p: Dictionary,c: Dictionary) -> String:
 			"warcry_free":text=ExternalText.phrase("murloc_presentation.cc017a3c9662", "说明待补充 · %d") % engine.Fish.quota(engine,c,"warcry",2)
 			"stir":text=ExternalText.phrase("murloc_presentation.930bb93ecda0", "说明待补充 · %d") % (5-int(c.get("stir_progress",0)))
 			"conch_portrait":text=ExternalText.phrase("murloc_presentation.d7246e947490", "说明待补充 · %d") % maxi(0,int(c.get("conch_due",int(engine.state.round)+2))-int(engine.state.round))
-			"memory":text=ExternalText.phrase("murloc_presentation.426bbcf16c64", "说明待补充")+engine.content.get_def(p.get("last_tavern_spell","")).get("name",ExternalText.phrase("ui_murloc_presentation.trinket.d54d06d12eb4", "说明待补充"))
+			"memory":text="回合结束时，获得 %d 张最近从手牌主动施放的酒馆法术的复制。" % int(e.amount)
 	return text
 static func hero(_engine,p: Dictionary) -> String:
 	match str(p.hero_id):

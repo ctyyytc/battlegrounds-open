@@ -4,6 +4,8 @@ const Gain=preload("res://domain/rules/elemental_gain.gd")
 const OPS=["reclaimer","reclaim_summon","stone","last","sargeras","rai","sanders","kodo","jail","future","sea_copy"]
 static func supports(_d: Dictionary,e: Dictionary) -> bool:
 	return e.get("handler","")=="round13" and e.get("op","") in OPS
+static func next_last_buff(c: Dictionary) -> int:
+	return 8*(1+int(c.get("last_rally_count",0)))
 static func specs(engine,c: Dictionary,op: String) -> Array:
 	return engine.Triggers.effects(engine,c).filter(func(e):return e.get("handler","")=="round13" and e.get("op","")==op)
 static func bought(engine,p: Dictionary,c: Dictionary) -> void:
@@ -59,6 +61,8 @@ static func execute(engine,p: Dictionary,e: Dictionary,c: Dictionary) -> bool:
 				var copy=saved.duplicate(true);copy["r13_keep_route"]=true
 				engine.Beasts.summon(engine,p,copy.def_id,int(e.get("summon_index",-1))+offset,false,copy);offset+=1
 		"last":
+			var base=next_last_buff(c)
+			var gain=Vector2i(base,base)+Gain.extra(p)
 			for unused in int(e.amount):
 				var chosen=[]
 				for tribe in engine.state.enabled_tribes:
@@ -66,8 +70,12 @@ static func execute(engine,p: Dictionary,e: Dictionary,c: Dictionary) -> bool:
 					var candidates=board.filter(func(v):return int(v.get("health",1))>0 and int(v.instance_id) not in chosen and U.tribe(engine,v,tribe))
 					var picked=engine.Naga.pick(engine,candidates)
 					if picked==null:continue
-					chosen.append(int(picked.instance_id));var gain=Vector2i(15,15)+Gain.extra(p)
+					chosen.append(int(picked.instance_id))
 					U.local_buff(engine,picked,gain.x,gain.y,true)
+			c["last_rally_count"]=int(c.get("last_rally_count",0))+1
+			if U.is_combat(engine) and not p.get("is_ghost",false) and c.get("last_rally_original",false):
+				var original=engine.find_index(p.board,int(c.instance_id))
+				if original>=0:p.board[original]["last_rally_count"]=c.last_rally_count
 		"sargeras":
 			p["shop_growth_attack"]=int(p.get("shop_growth_attack",0))+int(e.attack);p["shop_growth_health"]=int(p.get("shop_growth_health",0))+int(e.health)
 			for v in p.shop:

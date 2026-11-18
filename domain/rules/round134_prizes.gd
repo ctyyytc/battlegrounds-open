@@ -212,18 +212,27 @@ static func spare_shop(engine,p: Dictionary,limit: int=7) -> void:
 		var c=engine.Demons.draw_minion(engine,p)
 		if c.is_empty():break
 		c["r134_extra"]=true;engine.buff(c,2,2,"permanent","darkmoon_extra");p.shop.append(c)
-static func start(engine,p: Dictionary) -> void:
+static func start_power_reward(engine,p: Dictionary) -> void:
+	ensure(p)
+	var r=int(engine.state.round)
+	if r%4==0 and engine.has_power(p,POWER) and not p.r134.periods.has(str(r)):
+		p.r134.periods[str(r)]=true;earn(engine,p,POWER,[tier(r)],"hp106:%d:%d" % [int(p.id),r])
+static func start_prize_item(engine,p: Dictionary,item: Dictionary) -> void:
+	var r=int(engine.state.round)
+	if item.id==TAG and r>=int(item.get("r134_due",r+1)):
+		item.r134_due=r+3
+		earn(engine,p,TAG,[3],"tag:%d:%d" % [int(item.instance_id),r])
+static func start(engine,p: Dictionary,include_card_rewards: bool=true) -> void:
 	ensure(p);var r=int(engine.state.round)
 	if int(p.r134.get("advanced_round",-1))==r:return
 	p.r134["advanced_round"]=r;p.r134["discount"]=0;p.r134["battlecry"]=0
 	p.free_refresh+=int(p.r134.get("rolls",0))
-	if r%4==0 and engine.has_power(p,POWER) and not p.r134.periods.has(str(r)):
-		p.r134.periods[str(r)]=true;earn(engine,p,POWER,[tier(r)],"hp106:%d:%d" % [int(p.id),r])
+	if include_card_rewards:start_power_reward(engine,p)
 	for item in p.trinkets:
-		if item.id not in [TAG,CAKE] or r<int(item.get("r134_due",r+1)):continue
-		item.r134_due=r+(3 if item.id==TAG else 1)
-		if item.id==TAG:earn(engine,p,TAG,[3],"tag:%d:%d" % [int(item.instance_id),r])
-		else:wheel(engine,p,item)
+		if include_card_rewards:start_prize_item(engine,p,item)
+		if item.id==CAKE and r>=int(item.get("r134_due",r+1)):
+			item.r134_due=r+1
+			wheel(engine,p,item)
 	advance(engine,p)
 static func end(engine,p: Dictionary) -> void:
 	ensure(p)

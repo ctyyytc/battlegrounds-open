@@ -151,7 +151,7 @@ static func after_spell(engine,p: Dictionary,spell: Dictionary,target: Dictionar
 	if not spell.get("counts_player_cast",true) or target.is_empty() or engine.content.get_def(target.def_id).kind!="minion":return
 	for c in p.trinkets.duplicate():
 		if c.id=="BG36_MagicItem_371":c["honey_growth"]=int(c.get("honey_growth",0))+1
-		if c.id!="BG36_MagicItem_211" or not friendly_cast:continue
+		if c.id!="BG36_MagicItem_211" or not friendly_cast or spell.id==engine.Naga.MANUAL_TARGET_SPELL:continue
 		var targets=U.board(engine,p).filter(func(v):return int(v.instance_id)!=int(target.instance_id) and engine.Naga.valid_target(engine,p,spell,v))
 		var forwarded=engine.Naga.pick(engine,targets)
 		if forwarded==null:continue

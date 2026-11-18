@@ -4,6 +4,7 @@ const U=preload("res://domain/rules/undead_rules.gd")
 const Attributes=preload("res://domain/rules/spell_attributes.gd")
 const RANDOM_CRAFTS=["BG23_000t","BG31_924t","BG23_004t","BG23_007t","BG33_319t","BG23_008t","BG31_920t","BG32_835t"]
 const CONJURER_EXCLUDED_SPELLS=["BG33_899","EBG_Spell_032","EBG_Spell_037","EBG_Spell_038","BG28_849","BG28_604"]
+const MANUAL_TARGET_SPELL="BG28_838"
 const FROST_EXCLUDED_SPELLS=["BG28_604"]
 const OPS=["craft","tier_growth","shaker","shatter","discount","rider","whisper","recruiter","bruiser","conjurer","tidal","target_health","craft_buff","wave","strategic","strength","frost","board_spell","target_buff","armor","chef","random_craft","tide","queen","choice","seedling","nature","rider_portrait","sand","sushi","spellbook","forest","juggler_portrait","shakers","mortar","crown","ribbon","shatter_portrait","rune","wand","label","rider_health","target_trinket"]
 static func supports(_d: Dictionary,e: Dictionary) -> bool:
@@ -106,7 +107,7 @@ static func conjurer_targets(engine,p: Dictionary,d: Dictionary,source: Dictiona
  if not source.is_empty() and candidates.any(func(v):return int(v.instance_id)==int(source.get("instance_id",-1))):return [source]
  return candidates
 static func conjurer_pool(engine,p: Dictionary,source: Dictionary) -> Array:
- return spell_pool(engine,p).filter(func(id):return id not in CONJURER_EXCLUDED_SPELLS and engine.content.get_def(id).get("is_tavern_spell",false) and not conjurer_targets(engine,p,engine.content.get_def(id),source).is_empty())
+ return spell_pool(engine,p).filter(func(id):return id!=MANUAL_TARGET_SPELL and id not in CONJURER_EXCLUDED_SPELLS and engine.content.get_def(id).get("is_tavern_spell",false) and not conjurer_targets(engine,p,engine.content.get_def(id),source).is_empty())
 static func frost_pool(engine,p: Dictionary) -> Array:
  return spell_pool(engine,p,true).filter(func(id):return id not in FROST_EXCLUDED_SPELLS)
 static func rune_candidates(engine,p: Dictionary,item: Dictionary) -> Array:
@@ -115,6 +116,7 @@ static func rune_candidates(engine,p: Dictionary,item: Dictionary) -> Array:
   var d=engine.content.get_def(id)
   return d.size=="greater" and id not in owned and engine.R13Items.allowed(engine,p,d) and ("纳迦" in d.get("associated_pool_tribes",[]) or (d.get("bind_tribe",false) and d.get("associated_pool_tribes",[]).is_empty() and "纳迦" in engine.state.enabled_tribes)))
 static func auto_cast(engine,p: Dictionary,id: String,target: Dictionary={},permanent: bool=false,conjurer: Dictionary={}) -> void:
+ if id==MANUAL_TARGET_SPELL:return
  var d=engine.content.get_def(id).duplicate(true)
  if engine.Quilboar.choice(d):d["automatic"]=true
  if not conjurer.is_empty():d["conjurer_instance"]=int(conjurer.instance_id)
@@ -164,7 +166,9 @@ static func execute(engine,p: Dictionary,e: Dictionary,c: Dictionary) -> bool:
    if op in ["board_spell","queen"]:targets=U.board(engine,p)
    if op=="nature":
     var selected=types(engine,c)
-    targets=U.board(engine,p).filter(func(v):return types(engine,v).any(func(t):return t in selected))
+    var candidates=U.board(engine,p).duplicate()
+    if not U.is_combat(engine):candidates.append_array(p.shop.filter(func(v):return engine.content.get_def(v.def_id).kind=="minion"))
+    targets=candidates.filter(func(v):return types(engine,v).any(func(t):return t in selected))
     if engine.Fish.has(engine,p,"blessing"):targets.append_array(engine.Fish.hand(engine,p).filter(func(v):return types(engine,v).any(func(t):return t in selected)))
    var repetitions=int(e.get("repeat",1))+(int(e.get("repeat",1)) if op=="tide" and U.tribe(engine,c,"纳迦") else 0)
    for unused in repetitions:

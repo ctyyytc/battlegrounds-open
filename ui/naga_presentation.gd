@@ -13,6 +13,7 @@ static func body(d: Dictionary,c: Dictionary,p: Dictionary,rich: bool=false) -> 
  var n=3-int(p.get("spell_count",0))%3
  var m=2 if d.get("golden",false) else 1
  match op:
+  "conjurer":return "发动（%d 金）：随机施放 %d 个酒馆法术，尽可能以本随从为目标。" % [int(d.effects[0].cost),int(d.effects[0].amount)]
   "chef":
    if c.get("recruiter_neutral_coin",false):return ExternalText.phrase("naga_presentation.00f249bed105", "说明待补充")
   "craft":
@@ -29,7 +30,7 @@ static func body(d: Dictionary,c: Dictionary,p: Dictionary,rich: bool=false) -> 
    if e.get("scaling",false):return ExternalText.phrase("naga_presentation.8d31f638db2e", "说明待补充 · %s / %s / %d") % [number(int(e.attack),int(e.attack)*(factor-1),rich),number(int(e.health),int(e.health)*(factor-1),rich),n]
   "target_buff","board_spell","tide","queen","nature":
    var gains=gains(d,d.effects[0],p,rich)
-   var prefix={"target_buff":ExternalText.phrase("ui_naga_presentation.body.60bb67facf9e", "说明待补充"),"board_spell":ExternalText.phrase("ui_naga_presentation.body.685f1f483a55", "说明待补充"),"tide":ExternalText.phrase("ui_naga_presentation.body.60bb67facf9e", "说明待补充"),"queen":ExternalText.phrase("ui_naga_presentation.body.685f1f483a55", "说明待补充"),"nature":ExternalText.phrase("naga_presentation.76fbe68311a6", "说明待补充")}[op]
+   var prefix={"target_buff":ExternalText.phrase("ui_naga_presentation.body.60bb67facf9e", "说明待补充"),"board_spell":ExternalText.phrase("ui_naga_presentation.body.685f1f483a55", "说明待补充"),"tide":ExternalText.phrase("ui_naga_presentation.body.60bb67facf9e", "说明待补充"),"queen":ExternalText.phrase("ui_naga_presentation.body.685f1f483a55", "说明待补充"),"nature":ExternalText.phrase("naga_presentation.76fbe68311a6", "选择一个随从。己方战团及酒馆内与它共享种族的随从获得")}[op]
    return prefix+gains+(ExternalText.phrase("ui_naga_presentation.body.5637a054a1ec", "说明待补充") if d.effects[0].get("keyword","")=="TAUNT" else "")+"。"+(ExternalText.phrase("ui_naga_presentation.body.adbfc7d23573", "说明待补充") if int(d.effects[0].get("repeat",1))==2 else "")+(ExternalText.phrase("naga_presentation.ab64869dedfd", "说明待补充") if op=="tide" else "")+(ExternalText.phrase("naga_presentation.716d558ef8ad", "说明待补充") if op=="queen" else "")
  return str(d.get("text",""))
 static func item(d: Dictionary,c: Dictionary,p: Dictionary,round_number: int) -> String:

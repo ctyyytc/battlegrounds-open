@@ -123,7 +123,7 @@ static func resolve(engine,p: Dictionary,c: Dictionary,index: int) -> String:
 		if o.reward_id not in evidence_pool(engine,p,q) or o.bound not in engine.R135.bindings(engine,p,o.reward_id):return "INVALID_ETHEREAL_REWARD"
 		if q.has("child"):
 			q.child.status="removed";p.r135.removed.append(q.child.duplicate(true))
-		var child={"instance":q.instance+":child:"+str(engine.state.round),"slot_id":q.slot_id,"epoch":q.epoch,"status":"reward_active","reward_id":o.reward_id,"bound":o.bound,"reward_state":{"next_buff":2,"next_coins":1,"smelting_level":1},"grant_parts":{},"granted_round":int(engine.state.round)}
+		var child={"instance":q.instance+":child:"+str(engine.state.round),"slot_id":q.slot_id,"epoch":q.epoch,"status":"reward_active","reward_id":o.reward_id,"bound":o.bound,"reward_state":{"next_buff":2,"next_coins":1,"smelting_level":1},"grant_parts":{},"granted_round":int(engine.state.round),"acquired_order":engine.StartRewards.stamp(engine)}
 		q["child"]=child;q["previous_selected_family"]=o.reward_id;q.reward_state.phase="new_start";p.choices.pop_front()
 		engine.R135.initial_gift(engine,p,child);grant(engine,p,child)
 		engine.emit("EtherealRewardSelected",int(p.id),{"reward_id":o.reward_id,"quest_instance":q.instance})
@@ -136,8 +136,11 @@ static func resolve(engine,p: Dictionary,c: Dictionary,index: int) -> String:
 			q.grant_parts[part]={"card":card,"committed":false}
 		engine.R135.deliver(engine,p,q,"BG33_890t",part);q.reward_state.erase("teaching_due");p.choices.pop_front()
 	else:
-		if int(c.battle_round)!=int(engine.state.round):return "STALE_LOCKET_BATTLE"
-		var source=c.options[index];var copy=engine.R132.full_copy(engine,p,source)
+		var part="locket:"+str(c.battle_round)
+		if not engine.StartRewards.valid_battle(engine,p,c) or q.grant_parts.get(part,{}).get("session_id","")!=c.session_id:return "STALE_LOCKET_BATTLE"
+		var source=c.options[index]
+		if c.options.size()>3 or not p.get("previous_recruit_board",[]).has(source) or engine.content.get_def(source.def_id).get("golden",false):return "INVALID_LOCKET_SNAPSHOT"
+		var copy=engine.R132.full_copy(engine,p,source)
 		engine.receive_card(p,copy,engine.R135.origin(engine,q));p.choices.pop_front()
 		engine.R135.discovered(engine,p,copy,"r136_locket",c.session_id)
 	return ""
@@ -149,7 +152,9 @@ static func after_battle(engine,p: Dictionary) -> void:
 		if q.grant_parts.has(part):continue
 		q.grant_parts[part]={"committed":true}
 		if snapshot.is_empty():continue
-		engine.enqueue_choice(p,{"kind":"r136_locket","quest_instance":q.instance,"epoch":q.epoch,"battle_round":int(engine.state.round),"options":engine.RNG.shuffle(snapshot,engine.state.streams,"choice").slice(0,3).duplicate(true)})
+		var choice={"kind":"r136_locket","quest_instance":q.instance,"slot_id":q.slot_id,"epoch":q.epoch,"source_order":int(q.get("acquired_order",0)),"battle_round":int(engine.state.round),"options":engine.RNG.shuffle(snapshot,engine.state.streams,"choice").slice(0,3).duplicate(true)}
+		engine.enqueue_choice(p,choice)
+		q.grant_parts[part]["session_id"]=choice.session_id
 static func gold_target(engine,p: Dictionary,c: Dictionary) -> bool:
 	if c.is_empty() or c not in p.board:return false
 	var d=engine.content.get_def(c.def_id);var g=engine.content.get_def(str(d.get("golden_id","")))
